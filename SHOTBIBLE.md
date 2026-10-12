@@ -37,9 +37,9 @@ Größenstufen (an den Elephant-Block anhängen):
 
 > A man in his mid-50s, short grey-brown hair, kind calm face, white doctor's coat over a light blue shirt, holding a tablet. Same person as in the reference image.
 
-**PATIENT_BLOCK**
+**PATIENT_BLOCK** (Patientin, geändert am 12.10.2026)
 
-> A young man in his mid-20s, short dark hair, oversized dark grey long-sleeve knit sweater with sleeves pulled over his hands, tired but composed expression, very subtle redness at the neck, never dramatic. Same person and same clothes as in the reference image.
+> A young woman in her mid-20s, shoulder-length dark brown hair loosely tied back, natural everyday look with little makeup, slightly oversized dark grey long-sleeve knit sweater with sleeves pulled over her hands, upright posture, alert and composed expression with a hint of everyday annoyance, not sad, not exhausted, very subtle redness at the neck, never dramatic. Same person and same clothes as in the reference image.
 
 **Licht-Token**
 
@@ -66,7 +66,7 @@ Feste Standpunkte, damit der Raum über alle Bilder stimmt. Im Zweifel gilt: Die
 Zuerst entstehen diese Referenzbilder. Sie werden bei jeder weiteren Generierung als Referenzbilder angehängt (die Bildmodelle akzeptieren bis zu 14).
 
 - **R1 Arzt:** neutral beleuchtetes Halbfigur-Porträt frontal und eines im Dreiviertelprofil.
-- **R2 Patient:** dasselbe zwei Mal, mit Ärmeln über den Händen, plus eine Detailaufnahme Hand und Unterarm mit sehr dezenter Rötung.
+- **R2 Patientin:** dasselbe zwei Mal, mit Ärmeln über den Händen, plus eine Detailaufnahme Hand und Unterarm mit sehr dezenter Rötung.
 - **R3 Elefant:** Seitenansicht und Dreiviertelansicht im Raum, Größenstufe E1.
 - **R4 Set:** je ein Bild von CAM-A, CAM-C und CAM-D, ohne Figuren und ohne Elefant, damit die Raumgeometrie fixiert ist.
 
@@ -115,7 +115,7 @@ Insgesamt 26 Standbilder (ohne 00, 08c als Endbild gezählt) und 2 Clips.
 ## 6. Varianten und Konsistenz
 
 - **Varianten entstehen aus einem Master-Bild**, nicht aus neuen Prompts: Das Master einer Komposition (zum Beispiel 03a) wird per Bildbearbeitung mit klaren Änderungsanweisungen abgewandelt („same room, same camera, same framing, only change the season outside the windows and make the worn path in the floor wider“). So bleiben Perspektive und Raum identisch. Das gilt für 03a bis 03e, 05a bis 05c und 08c aus 06b.
-- **Kleiderordnung:** Arzt immer weißer Kittel über hellblauem Hemd. Patient immer dunkelgrauer Pullover, Ärmel über den Händen. Sitzplatz des Patienten immer Stuhl 1 links.
+- **Kleiderordnung:** Arzt immer weißer Kittel über hellblauem Hemd. Patientin immer dunkelgrauer Pullover, Ärmel über den Händen. Sitzplatz des Patienten immer Stuhl 1 links.
 - **Größenstufen** des Elefanten laut Shotliste einhalten. Keine Stufe darf von Einstellung zu Einstellung kleiner werden.
 - **Uhren:** Bildmodelle zeichnen keine exakten Uhrzeiten. Wanduhr nur zeigen, wenn die Zeiger plausibel stehen (ungefähr 9 Uhr, ungefähr 17:40). Die Zeit wird hauptsächlich über Licht erzählt, die Uhr ist nicht kritisch.
 - **Keine Schrift aus dem Bildmodell.** Poster, Türschild und Monitor bleiben leer oder abstrakt. Jede Schrift im Film entsteht in Code.

@@ -51,7 +51,7 @@ BBC-Naturdoku, trockener Sprecher, kein Augenzwinkern bis zum Kippmoment. Gesamt
 **Figuren.**
 
 - **Der Arzt:** eine Person, Mitte 50, weißer Kittel, Tablet oder Akte in der Hand. Ruhig, freundlich, kompetent, nie lächerlich, das Publikum soll ihn mögen. Er hört dem Elefanten beiläufig zu und nickt manchmal dem Geflüster zu, ohne es zu merken.
-- **Der Patient:** junger Mann Mitte 20, langärmeliger Pullover trotz der Wärme, zieht die Ärmel über die Hände, kratzt unter dem Stuhl und später am Unterarm. Hautveränderungen höchstens dezent an Hals oder Handrücken, nie ausgestellt. Er spricht nie und trägt in allen Szenen dieselbe Kleidung.
+- **Die Patientin** (geändert am 12.10.2026, vorher junger Mann): junge Frau Mitte 20, langärmeliger Pullover trotz der Wärme, zieht die Ärmel über die Hände, kratzt unter dem Stuhl und später am Unterarm. Hautveränderungen höchstens dezent an Hals oder Handrücken, nie ausgestellt. Sie wirkt wach, gefasst und alltäglich: Das Leiden nervt sie sichtbar, aber sie ist nicht erschöpft, nicht antriebslos und nicht verzweifelt. Sie spricht nie und trägt in allen Szenen dieselbe Kleidung. Wo in den Szenenbeschreibungen „der Patient“ steht, ist die Patientin gemeint.
 - **Statisterie:** 4 bis 6 Personen (MFA, andere Patient:innen). Sie behandeln den Elefanten wie ein Möbelstück: Sie weichen ohne Blick aus, gehen um ihn herum, stellen im Vorbeigehen eine Tasse ab. Niemand schaut, niemand kommentiert.
 
 **Der Elefant.**
@@ -153,4 +153,5 @@ Med-Legal gehört bei Schritt 2 und 3 von Anfang an dazu: Antworten zur Sicherhe
 - **Zweite Endcard-Zeile:** „Welcher Elefant bestimmt Ihre Entscheidung?“
 - **Tonwechsel in Szene 6:** bleibt zunächst hart, wie im Script.
 - **Szene 8:** Nur ein Blick, kein Text.
+- **Patientin statt Patient:** Die Figur ist eine junge Frau, nicht leidend und nicht antriebslos, sondern genervt von ihrem Leiden (Entscheidung 12.10.2026).
 - **Umsetzungsweg:** generierter Film mit Claude Code (Remotion). Sprecher: ElevenLabs. Musik und Raumton: später, vermutlich mit Suno.

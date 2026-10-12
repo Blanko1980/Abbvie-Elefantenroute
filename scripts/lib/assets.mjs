@@ -12,8 +12,14 @@ const writeJson = (p, v) => writeFileSync(p, JSON.stringify(v, null, 2) + "\n");
 export const loadManifest = () => readJson(MANIFEST, { version: 1, assets: [] });
 export const saveManifest = (m) => writeJson(MANIFEST, m);
 
+// Versuchsnummer läuft je ID fort. Das Limit gilt je Runde: Eine neue Runde beginnt nur,
+// wenn sich die Vorgabe nach Feedback ändert (Feld "round" in der Shot-Definition).
 export function attemptsFor(id) {
   return loadManifest().assets.filter((a) => a.id === id).length;
+}
+
+export function attemptsInRound(id, round = 1) {
+  return loadManifest().assets.filter((a) => a.id === id && (a.round ?? 1) === round).length;
 }
 
 export function addManifestEntry(entry) {

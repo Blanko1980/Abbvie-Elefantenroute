@@ -5,7 +5,7 @@
 import { GoogleGenAI } from "@google/genai";
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import sharp from "sharp";
-import { addManifestEntry, attemptsFor, logApiCall, MAX_ATTEMPTS } from "./lib/assets.mjs";
+import { addManifestEntry, attemptsFor, attemptsInRound, logApiCall, MAX_ATTEMPTS } from "./lib/assets.mjs";
 
 const args = process.argv.slice(2);
 const dry = args.includes("--dry");
@@ -47,7 +47,8 @@ async function generate(id) {
   const shot = shots[id];
   if (!shot) throw new Error(`Unbekannte ID ${id}`);
   const attempt = attemptsFor(id) + 1;
-  if (attempt > MAX_ATTEMPTS) return { id, error: `Maximal ${MAX_ATTEMPTS} Versuche erreicht` };
+  const round = shot.round ?? 1;
+  if (attemptsInRound(id, round) >= MAX_ATTEMPTS) return { id, error: `Maximal ${MAX_ATTEMPTS} Versuche in Runde ${round} erreicht` };
   const prompt = buildPrompt(shot);
   const refParts = (shot.refs ?? []).map((r) => ({
     inlineData: { mimeType: "image/jpeg", data: readFileSync(assetPath(r.id)).toString("base64") },
@@ -86,7 +87,7 @@ async function generate(id) {
   const meta = await sharp(raw).jpeg({ quality: 92, mozjpeg: true }).toFile(out);
   logApiCall({ phase: shot.phase, type: "image", model: shot.model, id, attempt, ok: true, note: `${meta.width}x${meta.height}` });
   addManifestEntry({
-    id, type: "image", attempt, timestamp: new Date().toISOString(), model: shot.model,
+    id, type: "image", attempt, round, timestamp: new Date().toISOString(), model: shot.model,
     refs: (shot.refs ?? []).map((r) => r.id), aspectRatio: shot.aspectRatio, imageSize: shot.imageSize,
     prompt, status: "zu prüfen", file: null, width: meta.width, height: meta.height,
   });

@@ -2,12 +2,12 @@
 
 Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen (Modell- und Stimmenlisten) sind nicht mitgezählt. Erzeugt aus `data/api-calls.json`.
 
-**Summe:** 16 Bild, 0 Clip, 1 Sprache
+**Summe:** 23 Bild, 0 Clip, 1 Sprache
 
 | Phase | Bild | Clip | Sprache |
 | --- | ---: | ---: | ---: |
 | 0 | 1 | 0 | 1 |
-| 1 | 15 | 0 | 0 |
+| 1 | 22 | 0 | 0 |
 
 ## Einzelaufrufe
 
@@ -30,3 +30,10 @@ Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen
 | 2026-10-12 17:20 | 1 | Bild | gemini-3.1-flash-image | R3a | 2 | ok | 2752x1536 |
 | 2026-10-12 17:20 | 1 | Bild | gemini-3.1-flash-image | R4d | 2 | ok | 2752x1536 |
 | 2026-10-12 17:21 | 1 | Bild | gemini-3.1-flash-image | R3b | 1 | ok | 2752x1536 |
+| 2026-10-12 17:42 | 1 | Bild | gemini-3.1-flash-image | R2a | 2 | ok | 1856x2304 |
+| 2026-10-12 17:42 | 1 | Bild | gemini-3-pro-image | R3a | 3 | ok | 2752x1536 |
+| 2026-10-12 17:43 | 1 | Bild | gemini-3.1-flash-image | R2b | 3 | ok | 1856x2304 |
+| 2026-10-12 17:43 | 1 | Bild | gemini-3.1-flash-image | R2c | 2 | ok | 2400x1792 |
+| 2026-10-12 17:43 | 1 | Bild | gemini-3-pro-image | R3a | 4 | ok | 2752x1536 |
+| 2026-10-12 17:44 | 1 | Bild | gemini-3-pro-image | R3b | 2 | ok | 2752x1536 |
+| 2026-10-12 17:45 | 1 | Bild | gemini-3-pro-image | R3b | 3 | ok | 2752x1536 |

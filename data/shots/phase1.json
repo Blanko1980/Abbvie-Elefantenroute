@@ -77,7 +77,8 @@
     "aspectRatio": "4:5",
     "imageSize": "2K",
     "patient": true,
-    "content": "Character reference photograph of one single person: half-length portrait, body and face turned directly toward the camera, quiet neutral look into the lens, arms hanging relaxed, both sleeves pulled over his hands so only the fingertips show. Neutral even soft lighting, plain softly blurred warm light-grey background."
+    "content": "Character reference photograph of one single person: half-length portrait, body and face turned toward the camera, looking into the lens. She stands relaxed and upright, like someone waiting for an appointment that is running late: calm, self-assured, a little impatient, a faint tightness at the corner of her mouth. Both sleeves pulled over her hands, the fingers of one hand absent-mindedly rubbing the other wrist through the sleeve. Soft natural window light, softly blurred bright clinic waiting area in the background with light oak wood and green plants.",
+    "round": 2
   },
   "R2b": {
     "phase": "1",
@@ -91,7 +92,8 @@
         "role": "the patient, identical face, hair, age and clothes"
       }
     ],
-    "content": "Character reference photograph of one single person: half-length portrait in three-quarter profile, body and face turned about 45 degrees to the right of the camera, eyes lowered slightly, both sleeves pulled over his hands. Neutral even soft lighting, plain softly blurred warm light-grey background. The redness at the neck is barely visible. Both sleeve cuffs are complete and intact, covering the hands down to the fingertips."
+    "content": "Character reference photograph of one single person: half-length portrait in three-quarter profile, body and face turned about 45 degrees to the right of the camera, glancing sideways with mild irritation, as if checking how much longer the wait will be. Both sleeves pulled over her hands. Soft natural window light, softly blurred bright clinic waiting area in the background with light oak wood and green plants.",
+    "round": 2
   },
   "R2c": {
     "phase": "1",
@@ -105,11 +107,12 @@
         "role": "the patient, identical skin tone and the same dark grey knit sweater"
       }
     ],
-    "content": "Detail reference photograph, close-up of his left hand and forearm resting on his knee, no face visible. The dark grey knit sleeve is pulled down over the back of the hand; at the wrist the sleeve has slid back a little and shows a small patch of very subtle, faint pinkish redness with slightly dry skin on the inner forearm. Realistic and understated, not dramatic, no wounds, no blood. The fingertips of his right hand rest lightly on the sleeve. Neutral even soft lighting, plain softly blurred warm light-grey background."
+    "content": "Detail reference photograph, close-up of a young woman's left hand and forearm resting on her knee, no face visible. Slender hand, short natural nails, no jewelry. The dark grey knit sleeve has slid back a little at the wrist and shows a small patch of very subtle, faint pinkish redness with slightly dry skin on the inner forearm. The fingertips of her right hand scratch lightly at that spot, a small impatient everyday gesture. Realistic and understated, not dramatic, no wounds, no blood. Soft natural window light, softly blurred light background.",
+    "round": 2
   },
   "R3a": {
     "phase": "1",
-    "model": "gemini-3.1-flash-image",
+    "model": "gemini-3-pro-image",
     "aspectRatio": "16:9",
     "imageSize": "2K",
     "set": true,
@@ -118,14 +121,15 @@
     "refs": [
       {
         "id": "R4a",
-        "role": "the reception hall, keep the room, camera position and furniture identical"
+        "role": "room layout reference only: keep walls, windows, chairs, counter and clock in the same places, but the lighting is different"
       }
     ],
-    "content": "Elephant reference in the reception hall, same camera position and framing as the reference image (CAM-A). No people. The room stays exactly as in the reference image: the same five chairs in one row along the glass front and no chairs along the left wall, the reception counter on the right, the round wall clock behind the counter. No poster, no monitor, no screen anywhere in this view. The elephant stands calmly in the middle of the hall between the reception counter and the waiting area, seen in a full side view, its body parallel to the glass front, head facing left. The whole animal is visible from trunk tip to tail and from feet to the top of its back."
+    "content": "Elephant reference in the reception hall, same camera position and framing as the reference image (CAM-A). No people. Same room layout as the reference image: five chairs in one row along the glass front, no chairs along the left wall, the reception counter on the right, the round wall clock behind the counter. No poster, no monitor, no screen anywhere in this view. Lighting is different from the reference image: a real, naturally exposed interior, noticeably dimmer than the bright summer day outside. The only light source is the glass front at the back: it throws a broad soft pool of daylight across the middle of the floor, while the right side with the counter and the front of the room fall into soft grey shade. The elephant stands calmly in that pool of light in the middle of the hall, seen in a full side view, its body parallel to the glass front, head facing left, the whole animal visible. It is backlit by the glass front: a soft bright rim of light along its back, ears and trunk, the side facing the camera in soft shade. Its long soft shadow falls across the wooden floor toward the camera, with dark contact shadows under the feet. Its grey skin is matte and dusty, with dried reddish-brown mud on the lower legs. Dust particles glow faintly in the backlight. A real photograph taken on location, not a composite, not a 3D rendering.",
+    "round": 2
   },
   "R3b": {
     "phase": "1",
-    "model": "gemini-3.1-flash-image",
+    "model": "gemini-3-pro-image",
     "aspectRatio": "16:9",
     "imageSize": "2K",
     "set": true,
@@ -134,13 +138,14 @@
     "refs": [
       {
         "id": "R4a",
-        "role": "the reception hall, keep the room and furniture identical"
+        "role": "room layout reference only: keep walls, windows, chairs, counter and clock in the same places"
       },
       {
         "id": "R3a",
-        "role": "the elephant, identical animal: same size, skin, ears and tusks"
+        "role": "the same elephant and the same lighting: identical animal, skin, mud, tusks, and the same backlit pool of daylight and shade"
       }
     ],
-    "content": "Elephant reference in the reception hall, same camera position and framing as the first reference image (CAM-A). No people. The room stays exactly as in the first reference image: the same five chairs in one row along the glass front, the reception counter on the right, the round wall clock behind the counter. No poster, no monitor, no screen anywhere in this view. The same elephant as in the second reference image stands calmly in the middle of the hall, now seen in a three-quarter front view, its body turned about 45 degrees toward the camera, head turned slightly toward the camera, both tusks clearly visible, ears relaxed, trunk hanging loosely. The whole animal is visible."
+    "content": "Elephant reference in the reception hall, same camera position and framing as the first reference image (CAM-A). No people. Same room layout and materials: light oak wooden plank floor exactly as in both reference images (no linoleum, no grey floor in the hall), five chairs in one row along the glass front, no chairs along the left wall, the reception counter on the right, the round wall clock behind the counter. No poster, no monitor, no screen anywhere in this view. Same lighting as the second reference image: a naturally exposed interior, dimmer than the bright summer day outside, a broad soft pool of daylight from the glass front across the middle of the floor, the counter side in soft grey shade. The same elephant as in the second reference image now stands in a full side view in that pool of light, its body parallel to the glass front, head facing left, the whole animal visible from trunk tip to tail. Backlit with a soft bright rim of light along its back and ears, the side facing the camera in soft shade, its shadow falling across the floor toward the camera, dark contact shadows under the feet. A real photograph taken on location, not a composite, not a 3D rendering.",
+    "round": 2
   }
 }
