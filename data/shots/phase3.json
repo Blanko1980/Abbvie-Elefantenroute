@@ -122,167 +122,115 @@
   },
   "03a": {
     "phase": "3",
+    "round": 2,
     "model": "gemini-3-pro-image",
     "aspectRatio": "16:9",
     "imageSize": "2K",
-    "set": true,
-    "elephant": "E1",
-    "doctor": true,
-    "patient": true,
     "refs": [
       {
-        "id": "R4c",
-        "role": "room layout reference only: keep walls, windows, doors and furniture in the same places, but follow the lighting described in the text"
-      },
-      {
-        "id": "R1a",
-        "role": "the doctor, identical face, hair, age and clothes"
-      },
-      {
-        "id": "R3a",
-        "role": "the elephant: identical animal, skin, mud on the legs and tusks, and how it sits in the room light"
-      },
-      {
-        "id": "R3b",
-        "role": "the same elephant in side view"
-      },
-      {
-        "id": "R2a",
-        "role": "the patient, identical face, hair, age and the same dark grey sweater"
+        "id": "work/raw/r2/03a.jpg",
+        "role": "the master image to be edited"
       }
     ],
-    "content": "Shot 03a, the corridor seen from its far end looking back toward the reception hall (camera position CAM-C), locked-off. Light grey linoleum floor; the consulting room door on the right wall of the frame; on the left wall of the frame the framed poster with abstract shapes, the wall monitor with an abstract line, and tall windows; summer: green trees outside. Seen from behind, the doctor walks away from the camera toward the reception hall, the elephant at natural size walking beside and slightly behind him. On the linoleum a thin, faint, slightly lighter worn track runs along the middle of the corridor. Far in the background, through the wide opening into the hall, the waiting area at the glass front: the patient sits small on chair 1 at the left end of the chair row. Bright summer daylight from the windows, the elephant lit by the same light, dark contact shadows. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere; posters and screens show only abstract shapes and lines, no text, no numbers, no logos."
+    "edit": "Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with a first, faint trace: a few scattered, barely visible shoe prints and scuff marks along the middle of the corridor, the linoleum's gloss very slightly dulled in a narrow, irregular band. It must look like a real, naturally worn floor: no painted stripe, no straight line, no rally stripe, no hard edges; organic, irregular, built up from countless individual footprints. Nothing else changes."
   },
   "03b": {
     "phase": "3",
+    "round": 2,
     "model": "gemini-3-pro-image",
     "aspectRatio": "16:9",
     "imageSize": "2K",
     "refs": [
       {
-        "id": "03a",
+        "id": "work/raw/r2/03b.jpg",
         "role": "the master image to be edited"
-      },
-      {
-        "id": "R3a",
-        "role": "the elephant: identical animal, skin, mud on the legs and tusks, and how it sits in the room light"
       }
     ],
-    "edit": "Same corridor, same camera, same framing as image 1 (time-lapse: some months later). Change only: the season outside the windows is now autumn, orange and brown leaves on the trees; the light matches the season; the worn track in the linoleum is now clearly visible, darker and wider, worn into the floor; the elephant now appears somewhat larger in relation to the corridor, between natural size and half the corridor width; the doctor and the elephant now walk toward the camera, the doctor looking at his tablet, the elephant beside him. The patient still sits small on chair 1 in the far background, exactly the same, same clothes. Everything else stays identical."
+    "edit": "Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with more shoe prints and the first faint round elephant footprints, overlapping, the dull band of worn linoleum a little wider and more irregular, its edges soft and frayed. It must look like a real, naturally worn floor: no painted stripe, no straight line, no rally stripe, no hard edges; organic, irregular, built up from countless individual footprints. Nothing else changes."
   },
   "03c": {
     "phase": "3",
+    "round": 2,
     "model": "gemini-3-pro-image",
     "aspectRatio": "16:9",
     "imageSize": "2K",
     "refs": [
       {
-        "id": "03a",
+        "id": "work/raw/r2/03c.jpg",
         "role": "the master image to be edited"
-      },
-      {
-        "id": "R3a",
-        "role": "the elephant: identical animal, skin, mud on the legs and tusks, and how it sits in the room light"
       }
     ],
-    "edit": "Same corridor, same camera, same framing as image 1 (time-lapse: some months later). Change only: the season outside the windows is now winter, snow on the branches and the ground, cold white light; the light matches the season; the worn track in the linoleum is now broad and dark, clearly worn into the linoleum; the elephant now appears larger in relation to the room: its flank takes up about half of the corridor width, its back almost touching the ceiling; the doctor and the elephant walk away from the camera toward the reception. The patient still sits small on chair 1 in the far background, exactly the same, same clothes. Everything else stays identical."
+    "edit": "Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with many overlapping shoe prints and round elephant footprints, pressed very slightly into the linoleum, some grey-brown grit from winter shoes, the worn band clearly wider with irregular, frayed edges. It must look like a real, naturally worn floor: no painted stripe, no straight line, no rally stripe, no hard edges; organic, irregular, built up from countless individual footprints. Nothing else changes."
   },
   "03d": {
     "phase": "3",
+    "round": 2,
     "model": "gemini-3-pro-image",
     "aspectRatio": "16:9",
     "imageSize": "2K",
     "refs": [
       {
-        "id": "03a",
+        "id": "work/raw/r2/03d.jpg",
         "role": "the master image to be edited"
-      },
-      {
-        "id": "R3a",
-        "role": "the elephant: identical animal, skin, mud on the legs and tusks, and how it sits in the room light"
       }
     ],
-    "edit": "Same corridor, same camera, same framing as image 1 (time-lapse: some months later). Change only: the season outside the windows is now spring, fresh light-green leaves and blossoms; the light matches the season; the worn track in the linoleum is now very broad, a deep dark worn lane across most of the floor; the elephant now appears very large: its body takes up most of the corridor width, back touching the ceiling; the doctor walks toward the camera in the narrow space next to the elephant. The patient still sits small on chair 1 in the far background, exactly the same, same clothes. Everything else stays identical."
+    "edit": "Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with a broad worn path: the linoleum rubbed matte and scuffed, dense overlapping prints, the round elephant footprints visible as shallow depressions, the edges irregular and organic. It must look like a real, naturally worn floor: no painted stripe, no straight line, no rally stripe, no hard edges; organic, irregular, built up from countless individual footprints. Nothing else changes."
   },
   "03e": {
     "phase": "3",
+    "round": 2,
     "model": "gemini-3-pro-image",
     "aspectRatio": "16:9",
     "imageSize": "2K",
     "refs": [
       {
-        "id": "03a",
+        "id": "work/raw/r2/03e.jpg",
         "role": "the master image to be edited"
-      },
-      {
-        "id": "R3a",
-        "role": "the elephant: identical animal, skin, mud on the legs and tusks, and how it sits in the room light"
       }
     ],
-    "edit": "Same corridor, same camera, same framing as image 1 (time-lapse: some months later). Change only: the season outside the windows is now summer again, years later, lush dark-green trees; the light matches the season; the worn track in the linoleum is now a deep, dark lane worn across the whole floor width; the elephant now looks enormous: its body fills the corridor from wall to wall and nearly to the ceiling, only a narrow gap left; the doctor walks away from the camera, squeezed into the narrow gap next to the elephant, unbothered. The patient still sits small on chair 1 in the far background, exactly the same, same clothes. Everything else stays identical."
+    "edit": "Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with a worn-out path across most of the corridor width: the linoleum rubbed matte and thin, in places worn through to a slightly darker under-layer, shallow depressions from the elephant's feet, countless overlapping prints, organic edges. It must look like a real, naturally worn floor: no painted stripe, no straight line, no rally stripe, no hard edges; organic, irregular, built up from countless individual footprints. Nothing else changes."
   },
   "03f": {
     "phase": "3",
+    "round": 2,
     "model": "gemini-3-pro-image",
     "aspectRatio": "16:9",
     "imageSize": "2K",
-    "set": true,
-    "elephant": "E2",
-    "light": "EARLY_AFTERNOON",
     "refs": [
       {
-        "id": "work/candidates/03f_a2.jpg",
+        "id": "work/raw/r2/03f.jpg",
         "role": "the master image to be edited"
       }
     ],
-    "content": "Shot 03f, close shot in the corridor (camera position CAM-C, close): the floor is light grey linoleum (not wood), with a dark worn track. The elephant's large grey body slowly pushes in front of the framed guideline-style poster on the white wall; the poster is half covered by its flank and ear. The poster shows only abstract colored shapes and lines, no text. The elephant appears large in relation to the corridor. Soft daylight from the windows, matte dusty skin with deep wrinkles, its shadow falls on the wall. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere; posters and screens show only abstract shapes and lines, no text, no numbers, no logos.",
-    "edit": "Same corridor, same camera, same framing, same light, same elephant. Only change: the elephant has moved a little to the left, so that its flank and ear now cover the left half of the framed poster on the wall; the poster is half hidden behind the elephant's body. Nothing else changes."
+    "edit": "Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with many overlapping shoe prints and round elephant footprints, the worn band clearly visible, matte and slightly greyish, with irregular edges. It must look like a real, naturally worn floor: no painted stripe, no straight line, no rally stripe, no hard edges; organic, irregular, built up from countless individual footprints. Nothing else changes."
   },
   "03g": {
     "phase": "3",
+    "round": 2,
     "model": "gemini-3-pro-image",
     "aspectRatio": "16:9",
     "imageSize": "2K",
-    "set": true,
-    "elephant": "E2",
-    "light": "EARLY_AFTERNOON",
     "refs": [
       {
-        "id": "work/candidates/03g_a2.jpg",
+        "id": "work/raw/r2/03g.jpg",
         "role": "the master image to be edited"
       }
     ],
-    "content": "Shot 03g, close shot in the corridor (camera position CAM-C, close): on the white wall hangs a wall monitor showing a simple abstract rising line on a light background, no numbers, no text. The elephant stands in the corridor in front of this wall, its head out of frame to the right; its huge grey flank and belly fill most of the frame and cover about two thirds of the monitor, only the left edge of the screen with the start of the line is still visible. Nothing passes through the wall; the elephant is clearly in front of it. Light grey linoleum floor. Soft daylight, matte dusty wrinkled skin, the screen's light reflected faintly on the skin. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere; posters and screens show only abstract shapes and lines, no text, no numbers, no logos.",
-    "edit": "Same corridor, same camera, same framing, same light, same elephant. Only change: the elephant has moved to the left, so that its huge flank now covers about two thirds of the wall monitor; only the left edge of the screen with the beginning of the rising line is still visible. The elephant is clearly in front of the wall. Nothing else changes."
+    "edit": "Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with many overlapping shoe prints and round elephant footprints, a clearly worn, matte band with irregular edges. It must look like a real, naturally worn floor: no painted stripe, no straight line, no rally stripe, no hard edges; organic, irregular, built up from countless individual footprints. Nothing else changes."
   },
   "03h": {
     "phase": "3",
+    "round": 2,
     "model": "gemini-3-pro-image",
     "aspectRatio": "16:9",
     "imageSize": "2K",
-    "set": true,
-    "elephant": "E3",
-    "doctor": true,
-    "light": "EARLY_AFTERNOON",
     "refs": [
       {
-        "id": "R4d",
-        "role": "room layout reference only: keep walls, windows, doors and furniture in the same places, but follow the lighting described in the text"
-      },
-      {
-        "id": "R1a",
-        "role": "the doctor, identical face, hair, age and clothes"
-      },
-      {
-        "id": "R3a",
-        "role": "the elephant: identical animal, skin, mud on the legs and tusks, and how it sits in the room light"
-      },
-      {
-        "id": "R3b",
-        "role": "the same elephant in side view"
+        "id": "work/raw/r2/03h.jpg",
+        "role": "the master image to be edited"
       }
     ],
-    "content": "Shot 03h, close shot at the far end of the corridor (camera position CAM-C, close). This is the dead end of the corridor: only white walls, grey linoleum with a dark worn track, and the plain white second door in the end wall, its small sign blank. No counter, no reception, no chairs, no monitor here. The elephant's enormous body fills the whole right half of the frame from floor nearly to the ceiling, much larger than the door; its shadow covers half of the door. The doctor walks past the door from right to left without looking at it, tablet in hand, unhurried. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere; posters and screens show only abstract shapes and lines, no text, no numbers, no logos."
+    "edit": "Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with a broad worn path: the linoleum rubbed matte and scuffed, dense overlapping prints, round elephant footprints as shallow depressions. It must look like a real, naturally worn floor: no painted stripe, no straight line, no rally stripe, no hard edges; organic, irregular, built up from countless individual footprints. Nothing else changes."
   },
   "04b": {
     "phase": "3",
@@ -355,7 +303,7 @@
         "role": "the master image to be edited"
       },
       {
-        "id": "06b",
+        "id": "07a",
         "role": "the evening light of this day"
       }
     ],
@@ -363,26 +311,21 @@
   },
   "06a": {
     "phase": "3",
-    "model": "gemini-3.1-flash-image",
+    "round": 2,
+    "model": "gemini-3-pro-image",
     "aspectRatio": "16:9",
     "imageSize": "2K",
-    "patient": true,
-    "light": "EVENING_COOL",
     "refs": [
       {
-        "id": "R2a",
-        "role": "the patient, identical face, hair, age and the same dark grey sweater"
+        "id": "work/raw/r2/06a.jpg",
+        "role": "the master image to be edited"
       },
       {
-        "id": "R2b",
-        "role": "the patient in three-quarter profile"
-      },
-      {
-        "id": "06b",
-        "role": "the look of the evening scene: light, colors, the lived-in waiting area with plants, floor lamp and the jacket on the chair, the people and the elephant"
+        "id": "07a",
+        "role": "the same waiting area: where the chairs stand and the evening light"
       }
     ],
-    "content": "Shot 06a, medium shot of the patient in the evening waiting area (camera position CAM-D, close): she is just standing up from her upholstered chair, one hand on the armrest, the chair pushed back slightly at an angle; her jacket hangs over the chair next to her. Determined but calm, not dramatic. Behind her large leafy plants and the warm floor lamp, blue dusk in the windows, cold fluorescent light from above. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere; posters and screens show only abstract shapes and lines, no text, no numbers, no logos."
+    "edit": "Same patient, same pose, same camera, same light. Only change the chairs: remove the extra chair standing in the middle of the room. The chair she is just getting up from stands at the end of the row of chairs along the wall behind her, slightly pushed back at an angle; she stands directly in front of it, one hand still on its armrest. The chair with the jacket stays. Nothing else changes."
   },
   "06c": {
     "phase": "3",
@@ -402,7 +345,7 @@
         "role": "the doctor in three-quarter profile"
       },
       {
-        "id": "06b",
+        "id": "07a",
         "role": "the look of the evening scene: light, colors, the lived-in waiting area with plants, floor lamp and the jacket on the chair, the people and the elephant"
       },
       {
@@ -434,13 +377,18 @@
   },
   "08a": {
     "phase": "3",
+    "round": 2,
     "model": "gemini-3-pro-image",
     "aspectRatio": "16:9",
     "imageSize": "2K",
     "doctor": true,
     "elephant": "E3",
-    "light": "EVENING_COOL",
+    "light": "GOLDEN_LAST_SUN",
     "refs": [
+      {
+        "id": "08c",
+        "role": "the room, the warm golden light, and where the elephant stands (behind the doctor, on the left, in the depth of the room)"
+      },
       {
         "id": "R1a",
         "role": "the doctor, identical face, hair, age and clothes"
@@ -450,15 +398,11 @@
         "role": "the doctor in three-quarter profile"
       },
       {
-        "id": "08c",
-        "role": "the room and light of this moment"
-      },
-      {
         "id": "R3a",
-        "role": "the elephant: identical animal, skin, mud on the legs and tusks, and how it sits in the room light"
+        "role": "the elephant"
       }
     ],
-    "content": "Shot 08a, close-up of the doctor's face (camera position CAM-E, close): he looks steadily at the elephant, calm, without a word, a quiet decision in his eyes. At the right edge of the frame, very close and slightly out of focus, a part of the elephant's head with its large ear. Cool evening light, first warm sunlight touching the side of his face. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere; posters and screens show only abstract shapes and lines, no text, no numbers, no logos."
+    "content": "Shot 08a, close shot of the doctor from behind his right shoulder (camera position CAM-E, close): he has deliberately turned away from the camera and from the patient and looks back into the depth of the room, directly at the elephant. We see the back of his head, his ear and the side of his face in lost profile, calm, without a word. In the depth of the room, softly out of focus, the elephant's head faces him, its large ear slightly moving, the head lowered as if in the faintest nod. The last warm, low golden sunlight falls through the windows, a warm rim light on the doctor's hair and cheek; the same warm evening light as in the reference image. A real photograph taken on location, not a composite, not a 3D rendering. No text anywhere."
   },
   "08d": {
     "phase": "3",
@@ -491,5 +435,27 @@
       }
     ],
     "content": "Shot 08d, medium two-shot (camera position CAM-E, closer): the doctor on the left and the patient on the right stand about three meters apart and look at each other freely; nothing between them. The patient has just raised her eyes and holds his look, calm, with a hint of relief, no smile; the doctor looks at her attentively. Behind the patient the last warm, low sunlight falls through the windows, a golden rim light on her hair and shoulders. In the background softly out of focus the plants and the warm floor lamp. No elephant visible. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere; posters and screens show only abstract shapes and lines, no text, no numbers, no logos."
+  },
+  "06b": {
+    "phase": "3",
+    "round": 2,
+    "model": "gemini-3-pro-image",
+    "aspectRatio": "16:9",
+    "imageSize": "4K",
+    "refs": [
+      {
+        "id": "work/raw/r2/07a.jpg",
+        "role": "the master image to be edited"
+      },
+      {
+        "id": "R1a",
+        "role": "the doctor"
+      },
+      {
+        "id": "R3a",
+        "role": "the elephant"
+      }
+    ],
+    "edit": "Same room, same camera, same framing, same evening light, same plants, lamp, jacket, cup; the patient stands in exactly the same place at the right and looks toward the left. Show an earlier moment: the doctor is just entering the frame from the left edge in the foreground, mid-stride, walking into the room, tablet in hand, looking ahead; the elephant is not yet in the middle of the room: it is just coming around the corner at the back left of the room, from a wide opening in the back wall, its head, trunk and front legs already in the room, the rest of its body still hidden behind the corner. The middle of the room between the doctor and the patient is empty for now. The woman in the trench coat in the background stays. Nothing else changes."
   }
 }

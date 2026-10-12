@@ -99,18 +99,22 @@ Technik-Kürzel: **Push** = sehr langsame Skalierung, **Pan** = Schwenk über ei
 | 05a | 5 · 1:04 bis 1:09 | Blick vom Wartebereich in den Flur, Elefant am Flurende vor Tür 2, Patient im Anschnitt vorn links, 3 andere Patienten im Raum | Stand | CAM-D, EARLY_AFTERNOON, E3 |
 | 05b | 5 · 1:09 bis 1:14 | Gleiche Komposition, wärmeres Licht, 1 anderer Patient, Patient etwas zusammengesackt | Stand | CAM-D, LATE_AFTERNOON, E3 |
 | 05c | 5 · 1:14 bis 1:20 | Gleiche Komposition, Abendlicht, Wartebereich leer bis auf den Patienten, Uhr ungefähr 17:40 | Stand | CAM-D, LATE_AFTERNOON bis EVENING_COOL, E3 |
+| V3 | 5 · 1:04 bis 1:12 | Clip (Zeitraffer): Licht wandert, Wartende gehen, der Elefant bewegt sich leicht (Ohren, Rüssel, Gewicht). Startbild 05a, Endbild 05b | Clip, 8 Sekunden | CAM-D |
+| V4 | 5 · 1:12 bis 1:20 | Clip (Zeitraffer): Abend, der letzte Wartende geht, der Elefant bewegt sich leicht. Startbild 05b, Endbild 05c | Clip, 8 Sekunden | CAM-D |
 | 06a | 6 · 1:20 bis 1:22 | Halbnah auf den Patienten, er steht gerade auf, Stuhl leicht verrückt | Stand | CAM-D nah, EVENING_COOL |
-| 06b | 6 · 1:22 bis 1:25 und 7 · 1:30 bis 1:43 | Dreier-Totale: Arzt links, Elefant Mitte, Patientin rechts, ca. 3 m Abstand Arzt zu Patientin; lebendiges Set (Pflanzen, Jacke, Tasche, Becher, Stehleuchte, MFA macht im Hintergrund Feierabend), natürliche Haltung, unscharfes Blatt im Vordergrund | Stand (Szene 6), Push 1.00 auf 1.15 (Szene 7) | CAM-E, EVENING_COOL, E3 |
+| 06b | 6 · 1:22 bis 1:25 | Startbild von V5: Arzt kommt von vorn links ins Bild, der Elefant biegt hinten links um die Ecke in den Raum, die Patientin steht rechts | Startbild | CAM-E, EVENING_COOL, E3 |
+| V5 | 6 · 1:22 bis 1:25 | Clip: Arzt und Elefant kommen gleichzeitig herein, der Elefant tritt zwischen Arzt und Patientin. Startbild 06b, Endbild 07a | Clip, 8 Sekunden erzeugt, ca. 3 Sekunden genutzt | CAM-E |
+| 07a | 7 · 1:30 bis 1:43 | Dreier-Totale: Arzt links, Elefant Mitte, Patientin rechts, ca. 3 m Abstand; lebendiges Set (Pflanzen, Jacke, Tasche, Becher, Stehleuchte, MFA in Straßenkleidung macht Feierabend) | Push 1.00 auf 1.15 | CAM-E, EVENING_COOL, E3 |
 | 06c | 6 · 1:25 bis 1:27 | Nahe auf den Arzt, er will zum Patienten schauen, die Flanke des Elefanten schiebt sich ins Bild | Stand | CAM-E nah, EVENING_COOL |
 | 06d | 6 · 1:27 bis 1:30 | Nahe auf den Patienten, Ärmel über der Hand, er kratzt am Unterarm, ruhiger Blick, kein Flehen | Stand | CAM-E nah, EVENING_COOL |
 | 08a | 8 · 1:43 bis 1:47 | Nahe auf das Gesicht des Arztes, er sieht den Elefanten an. Am Bildrand ein Stück Elefant mit Ohr | Stand | CAM-E nah, EVENING_COOL |
-| V1 | 8 · 1:47 bis 1:50 | Clip: Elefant hebt einen Vorderfuß und tritt ca. 1,5 m nach links aus der Sichtachse, ohne Eile. Startbild 06b, Endbild 08c | Clip, 4 Sekunden, auf ca. 3 Sekunden kürzen | CAM-E |
-| 08c | (Endbild von V1) | Wie 06b, Elefant jetzt am linken Bildrand, leicht unscharf, Arzt und Patient stehen sich frei gegenüber | Stand | CAM-E, Übergang zu GOLDEN_LAST_SUN |
+| V1 | 8 · 1:47 bis 1:50 | Clip: Elefant hebt einen Vorderfuß und tritt ca. 1,5 m nach links aus der Sichtachse, ohne Eile. Startbild 07a, Endbild 08c | Clip, 8 Sekunden erzeugt, ca. 3 Sekunden genutzt | CAM-E |
+| 08c | (Endbild von V1) | Wie 07a, Elefant jetzt am linken Bildrand, leicht unscharf, Arzt und Patient stehen sich frei gegenüber | Stand | CAM-E, Übergang zu GOLDEN_LAST_SUN |
 | 08d | 8 · 1:50 bis 1:55 | Halbnah: Arzt und Patient sehen sich an, hinter dem Patienten fällt warmes Sonnenlicht durch die Fenster, der Patient hebt den Blick | Stand | CAM-E nah, GOLDEN_LAST_SUN |
 | End | 1:55 bis 2:07 | Endcard, reines Weiß, Typografie | Code | – |
 | Coda | 2:07 bis ca. 2:22 | Textkarten, weiß auf Schwarz | Code | – |
 
-Insgesamt 26 Standbilder (ohne 00, 08c als Endbild gezählt) und 2 Clips.
+Insgesamt 27 Standbilder (ohne 00, 08c als Endbild gezählt; 07a kam am 12.10.2026 hinzu) und 5 Clips (V3, V4, V5 freigegeben am 12.10.2026).
 
 ## 6. Varianten und Konsistenz
 

@@ -1,29 +1,29 @@
 # Status
 
-Stand: 12.10.2026, Ende Phase 3 (alle Standbilder). **Wartet auf Freigabe.**
+Stand: 12.10.2026, Phase 3, Runde 2. **Blockiert: Gemini-Guthaben aufgebraucht (Fehler 402).**
 
 ## Fertig
 
-- **Phase 0 Preflight**, siehe `PREFLIGHT.md`.
-- **Phase 1 Referenzblätter** R1 bis R4 in `refs/`, freigegeben.
-- **Phase 2 Drei-Shot-Test**, abgeschlossen (`review/phase2-notiz.md`). Clips V1 und V2 liegen in `public/clips/`. Der Sprecher ist Thomas Schendel.
-- **Phase 3 alle 26 Standbilder** in `public/stills/`, Notiz `review/phase3/notiz.md`, Kontaktbögen je Szene in `review/phase3/`.
+- Phase 0 bis 2 abgeschlossen, siehe frühere Notizen. Sprecher: Thomas Schendel.
+- Phase 3, Runde 1: alle Standbilder in `public/stills/`, Kontaktbögen in `review/phase3/`.
+- Phase 3, Runde 2 (Feedback vom 12.10.2026), bisher umgesetzt:
+  - **Neue Bild-ID 07a:** Das bisherige 06b (Elefant zwischen Arzt und Patientin) heißt jetzt 07a (Szene 7, Endbild von V5, Startbild von V1). Script, Shot-Bible, Manifest und Shot-Definitionen sind angepasst.
+  - Script und Shot-Bible enthalten alle neuen Entscheidungen: Trampelpfad, Elefant in Szene 5 lebendig, Hereinkommen in Szene 6, 08a mit Blick zum Elefanten, Licht konsistent je Szene, neue Clips V3, V4, V5.
+  - **Lichtangleichung lokal:** 01c an 01a, 06d an 07a (`scripts/color-balance.mjs`, nur Farbbalance).
 
-## Offen, braucht Entscheidung
+## Blockiert
 
-1. Freigabe der Standbilder.
-2. 03f und 03g: Der Elefant steht neben Poster bzw. Monitor statt davor (3 Versuche ausgeschöpft). So lassen oder eine Zusatzrunde (bis 3 weitere Versuche je Bild)?
+Die Gemini-API antwortet mit „Your prepayment credits are depleted“. Alle 11 Anfragen der Runde wurden abgelehnt (nicht berechnet, im API-Log als Fehler vermerkt). **Du musst im AI Studio unter Projekte → Billing Guthaben aufladen.** Danach kann ich sofort weitermachen.
 
-## Als Nächstes: Phase 4 (Sprecher)
+## Bereit zum Start, sobald Guthaben da ist
 
-Sprechertext satzweise mit Thomas Schendel erzeugen (Einstellungen wie in der Probe), Dauer messen, Pausen laut Script setzen, daraus `data/timeline.json`. Abweichungen über 10 Prozent je Szene melde ich.
-
-## Schnittnotizen für Phase 5 (aus Phase 2 und 3)
-
-- **V2:** von 0,5 bis 5,2 s nutzen (0:50 bis etwa 0:54,7), danach direkt 04b (Neuaufbau des Bilds bei 5,15 s), Push bis auf Hand und Schulter.
-- **V1:** von 3,0 bis 6,0 s nutzen (1:47 bis 1:50).
-- **01b1, 01b2:** als Halbtotale per Ausschnitt; **08d:** als Halbnah per Ausschnitt.
-- **03d:** Fenster eventuell leicht anheben, damit der Frühling erkennbar wird.
+Die Vorgaben sind fertig in `data/shots/phase3.json` (Runde 2) und `data/shots/phase3-clips.json`:
+1. **Szene 3, Trampelpfad:** Bildbearbeitung von 03a bis 03h. Natürliche Schuh- und Elefantenabdrücke, die von Bild zu Bild zunehmen, breiter und minimal tiefer werden, bis ein ausgetretener Weg entsteht.
+2. **06a:** Der überzählige Stuhl verschwindet, ihr Stuhl steht in der Reihe.
+3. **06b neu (Startbild V5):** Der Arzt kommt von vorn links, der Elefant biegt hinten links um die Ecke (Bearbeitung aus 07a).
+4. **08a neu:** Der Arzt dreht sich weg und schaut in die Raumtiefe auf den Elefanten, im warmen Licht von Szene 8.
+5. **Clips** (freigegeben): V3 (05a nach 05b) und V4 (05b nach 05c) für den Zeitraffer in Szene 5 mit lebendigem Elefanten, V5 (06b nach 07a) für das Hereinkommen.
+6. **Danach Lichtangleichung:** 06a und 08a; V1 wird in Phase 5 warm gegradet, damit Szene 8 nicht zwischen Blau und Gold springt. Vorschlag: **06c neu im Abendlicht**, weil der Hintergrund trotz Farbangleichung nach Tag aussieht.
 
 ## Freigegebene Set- und Figuren-Entscheidungen
 

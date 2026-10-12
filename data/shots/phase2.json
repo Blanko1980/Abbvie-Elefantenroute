@@ -74,7 +74,21 @@
     ],
     "content": "Shot 04b, medium close-up of the same moment as the first reference image, a few seconds later, same camera direction but closer. In the lower right the doctor's right hand rests on the door handle of the plain white door, not pressing it. His right shoulder and the side of his face in profile; he looks at the door, calm and serious, breathing out. The elephant's trunk now rests gently across his right shoulder, the trunk tip hanging softly down in front of his chest, a caring and calm gesture, not threatening. Behind him the large, slightly out-of-focus grey head and ear of the elephant fill the left part of the frame. Soft early afternoon daylight, the elephant's skin matte and dusty, natural shadows where the trunk lies on the white coat. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere."
   },
-  "06b": {
+  "08c": {
+    "phase": "2",
+    "model": "gemini-3-pro-image",
+    "aspectRatio": "16:9",
+    "imageSize": "2K",
+    "refs": [
+      {
+        "id": "06b",
+        "role": "the master image to be edited"
+      }
+    ],
+    "edit": "Same room, same camera, same framing, same furniture, plants, lamp, jacket, cup and background details; the doctor and the patient stay in exactly the same places with the same clothes. Only change three things: 1) the elephant has taken one calm step to the left and slightly back, out of the line of sight between the doctor and the patient: it now stands on the left side of the frame behind the doctor, partly cut off by the left frame edge, softly out of focus, calm; the doctor stands in front of it and remains fully visible; 2) nothing stands between the doctor and the patient any more: the doctor has turned toward the patient and looks directly at her; the patient has stopped scratching, lowers her arm and raises her eyes to look back at him, calm, no smile; 3) the light turns warmer: the last warm, low golden sunlight falls through the windows across the floor and onto the patient, a gentle golden rim light on her hair and shoulders, while the rest of the room keeps the soft evening light. The medical assistant in the background has left.",
+    "round": 2
+  },
+  "07a": {
     "phase": "2",
     "round": 3,
     "model": "gemini-3-pro-image",
@@ -93,19 +107,5 @@
     ],
     "content": "Shot 06b, wide observational shot in the waiting area of the reception hall at the end of the day (camera position CAM-E), filmed from a distance with a telephoto lens, the camera at a slight angle to the room, not perfectly square. Background: the left wall of the hall with its row of tall, narrow floor-to-ceiling windows, blue dusk outside; light oak plank floor. The room feels lived in: large leafy potted plants (a fiddle-leaf fig and a monstera) stand by the windows; a warm floor lamp glows in a corner; a few upholstered chairs along the wall, a light jacket hangs over the back of one chair and the patient's bag sits on the seat next to it; a forgotten coffee cup stands on the windowsill. Far in the background, small and softly out of focus, a medical assistant at the end of her shift puts on her coat. In the extreme left foreground, a large out-of-focus plant leaf cuts slightly into the frame. No counter, no poster, no monitor, no screen in this view. The doctor stands at the left third of the frame, turned three-quarters toward the patient, relaxed and natural, his weight on one leg, the tablet lowered at his side. The patient stands at the right third of the frame, about three meters away from him, turned three-quarters toward the doctor, one hand on the strap of her bag on her shoulder, the other hand absent-mindedly scratching her forearm through the sweater sleeve, sleeves pulled over her hands. They are not posed; it looks like a real, unplanned moment. Exactly between them stands the enormous elephant: its head and front face the camera at a slight angle, its body extends away from the camera into the depth of the room, its back nearly touching the ceiling. Its massive head blocks the line of sight between the doctor and the patient: they cannot see each other. Cool evening: blue dusk in the windows, cold fluorescent ceiling light from above gives the elephant's head and back a cold top light and casts short dark shadows; the warm floor lamp adds a small warm counterpoint in the corner. The elephant's skin is matte and dusty, dark contact shadows under its feet. Lower contrast. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere.",
     "edit": "Same room, same camera, same framing, same light, same people, same elephant, everything unchanged except one thing: the medical assistant in the background wears ordinary street clothes instead of medical clothing: a casual beige trench coat over a dark sweater, dark trousers, a handbag over her shoulder; she is just putting on the coat at the end of her shift. No white coat, no scrubs. She stays small and softly out of focus in the background."
-  },
-  "08c": {
-    "phase": "2",
-    "model": "gemini-3-pro-image",
-    "aspectRatio": "16:9",
-    "imageSize": "2K",
-    "refs": [
-      {
-        "id": "06b",
-        "role": "the master image to be edited"
-      }
-    ],
-    "edit": "Same room, same camera, same framing, same furniture, plants, lamp, jacket, cup and background details; the doctor and the patient stay in exactly the same places with the same clothes. Only change three things: 1) the elephant has taken one calm step to the left and slightly back, out of the line of sight between the doctor and the patient: it now stands on the left side of the frame behind the doctor, partly cut off by the left frame edge, softly out of focus, calm; the doctor stands in front of it and remains fully visible; 2) nothing stands between the doctor and the patient any more: the doctor has turned toward the patient and looks directly at her; the patient has stopped scratching, lowers her arm and raises her eyes to look back at him, calm, no smile; 3) the light turns warmer: the last warm, low golden sunlight falls through the windows across the floor and onto the patient, a gentle golden rim light on her hair and shoulders, while the rest of the room keeps the soft evening light. The medical assistant in the background has left.",
-    "round": 2
   }
 }

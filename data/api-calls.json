@@ -948,5 +948,115 @@
     "attempt": 2,
     "ok": true,
     "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-12T19:15:25.679Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "03f",
+    "attempt": 4,
+    "ok": false,
+    "note": "{\"error\":{\"code\":402,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projec"
+  },
+  {
+    "timestamp": "2026-10-12T19:15:25.691Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "03c",
+    "attempt": 2,
+    "ok": false,
+    "note": "{\"error\":{\"code\":402,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projec"
+  },
+  {
+    "timestamp": "2026-10-12T19:15:25.724Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "03a",
+    "attempt": 2,
+    "ok": false,
+    "note": "{\"error\":{\"code\":402,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projec"
+  },
+  {
+    "timestamp": "2026-10-12T19:15:25.728Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "03e",
+    "attempt": 2,
+    "ok": false,
+    "note": "{\"error\":{\"code\":402,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projec"
+  },
+  {
+    "timestamp": "2026-10-12T19:15:25.730Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "03g",
+    "attempt": 4,
+    "ok": false,
+    "note": "{\"error\":{\"code\":402,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projec"
+  },
+  {
+    "timestamp": "2026-10-12T19:15:25.766Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "03d",
+    "attempt": 2,
+    "ok": false,
+    "note": "{\"error\":{\"code\":402,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projec"
+  },
+  {
+    "timestamp": "2026-10-12T19:15:25.798Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "03h",
+    "attempt": 3,
+    "ok": false,
+    "note": "{\"error\":{\"code\":402,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projec"
+  },
+  {
+    "timestamp": "2026-10-12T19:15:25.818Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "03b",
+    "attempt": 2,
+    "ok": false,
+    "note": "{\"error\":{\"code\":402,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projec"
+  },
+  {
+    "timestamp": "2026-10-12T19:15:25.902Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "08a",
+    "attempt": 2,
+    "ok": false,
+    "note": "{\"error\":{\"code\":402,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projec"
+  },
+  {
+    "timestamp": "2026-10-12T19:15:25.906Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "06a",
+    "attempt": 2,
+    "ok": false,
+    "note": "{\"error\":{\"code\":402,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projec"
+  },
+  {
+    "timestamp": "2026-10-12T19:15:26.001Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "06b",
+    "attempt": 1,
+    "ok": false,
+    "note": "{\"error\":{\"code\":402,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projec"
   }
 ]

@@ -507,7 +507,7 @@
       "note": "Qualitätscheck ok; Uhr 10:10 (unkritisch); MFA blickt in Gehrichtung (ersetzt)"
     },
     {
-      "id": "06b",
+      "id": "07a",
       "type": "image",
       "attempt": 1,
       "round": 1,
@@ -530,7 +530,7 @@
       "file": null,
       "width": 5504,
       "height": 3072,
-      "note": "Raum weicht stark vom Set ab (Rasterdecke, grauer Boden in der Halle, Poster mit Gesicht und Text, anderer Tresen)"
+      "note": "Raum weicht stark vom Set ab (Rasterdecke, grauer Boden in der Halle, Poster mit Gesicht und Text, anderer Tresen) | Umbenannt von 06b in 07a (Szene 7, Endbild V5), Entscheidung 12.10.2026."
     },
     {
       "id": "04a",
@@ -556,7 +556,7 @@
       "note": "Qualitätscheck ok; Abweichungen: Holzleisten an der Wand, helle klinische Lichtstimmung, Blick in den Hallenbereich (ersetzt)"
     },
     {
-      "id": "06b",
+      "id": "07a",
       "type": "image",
       "attempt": 2,
       "round": 1,
@@ -578,7 +578,7 @@
       "file": null,
       "width": 5504,
       "height": 3072,
-      "note": "Qualitätscheck ok; Eichenboden, Fensterwand, Elefant frontal blockiert die Sichtachse (ersetzt)"
+      "note": "Qualitätscheck ok; Eichenboden, Fensterwand, Elefant frontal blockiert die Sichtachse (ersetzt) | Umbenannt von 06b in 07a (Szene 7, Endbild V5), Entscheidung 12.10.2026."
     },
     {
       "id": "08c",
@@ -680,7 +680,7 @@
       "note": "Runde 2: Arzt zu nah an der Tür für einen Gehvorgang im Clip; ersetzt (ersetzt)"
     },
     {
-      "id": "06b",
+      "id": "07a",
       "type": "image",
       "attempt": 3,
       "round": 2,
@@ -702,7 +702,7 @@
       "file": null,
       "width": 5504,
       "height": 3072,
-      "note": "Runde 2 (mehr Leben): Qualitätscheck ok; Abweichungen: Patientin in Jeans, Ärmel hochgeschoben, MFA im weißen Kittel, kein Vordergrundblatt (ersetzt)"
+      "note": "Runde 2 (mehr Leben): Qualitätscheck ok; Abweichungen: Patientin in Jeans, Ärmel hochgeschoben, MFA im weißen Kittel, kein Vordergrundblatt (ersetzt) | Umbenannt von 06b in 07a (Szene 7, Endbild V5), Entscheidung 12.10.2026."
     },
     {
       "id": "08c",
@@ -783,7 +783,7 @@
       "note": "Runde 2: Qualitätscheck ok; Arzt geht ca. 3 s, Griff zur Klinke ca. 3,0 s, Rüssel landet ca. 4,5 s; nutzbar 0,5 bis 6,5 s; Stuhlreihe verschwindet hinter dem Arzt"
     },
     {
-      "id": "06b",
+      "id": "07a",
       "type": "image",
       "attempt": 4,
       "round": 3,
@@ -796,10 +796,10 @@
       "imageSize": "4K",
       "prompt": "Reference images, in order: image 1 = the master image to be edited.\n\nEdit image 1. Same room, same camera, same framing, same light, same people, same elephant, everything unchanged except one thing: the medical assistant in the background wears ordinary street clothes instead of medical clothing: a casual beige trench coat over a dark sweater, dark trousers, a handbag over her shoulder; she is just putting on the coat at the end of her shift. No white coat, no scrubs. She stays small and softly out of focus in the background.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
       "status": "freigegeben",
-      "file": "public/stills/06b.jpg",
+      "file": "public/stills/07a.jpg",
       "width": 5504,
       "height": 3072,
-      "note": "Runde 3: MFA in Straßenkleidung (Trenchcoat, Handtasche); sonst unverändert"
+      "note": "Runde 3: MFA in Straßenkleidung (Trenchcoat, Handtasche); sonst unverändert | Umbenannt von 06b in 07a (Szene 7, Endbild V5), Entscheidung 12.10.2026."
     },
     {
       "id": "V1",
@@ -1211,7 +1211,8 @@
       "file": "public/stills/01c.jpg",
       "width": 2752,
       "height": 1536,
-      "note": "Qualitätscheck ok; Ausschnitt kaum weiter als 01a, Elefant etwas kleiner"
+      "note": "Qualitätscheck ok; Ausschnitt kaum weiter als 01a, Elefant etwas kleiner",
+      "retouch": "Lichtangleichung an 01a (scripts/color-balance.mjs)."
     },
     {
       "id": "05a",
@@ -1276,7 +1277,8 @@
       "file": "public/stills/06d.jpg",
       "width": 2752,
       "height": 1536,
-      "note": "Qualitätscheck ok; Elefantenhaut im Vordergrund"
+      "note": "Qualitätscheck ok; Elefantenhaut im Vordergrund",
+      "retouch": "Lichtangleichung an 07a (scripts/color-balance.mjs)."
     },
     {
       "id": "01b2",

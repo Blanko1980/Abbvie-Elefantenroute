@@ -1,0 +1,20 @@
+{
+  "V3": {
+    "phase": "3", "model": "veo-3.1-generate-preview", "start": "05a", "end": "05b",
+    "durationSeconds": 8, "resolution": "720p", "aspectRatio": "16:9",
+    "prompt": "Locked-off tripod shot, no camera movement, slow observational time-lapse in a clinic waiting area. The afternoon light slowly becomes warmer and lower, long soft shadows grow across the floor. One by one, the waiting patients are called, stand up and walk out of the frame; only the older man with the newspaper stays. In the left foreground the young woman stays seated, sinking a little lower in her chair, sleeves pulled over her hands. At the far end of the corridor the huge, calm elephant stays in its place but is alive: it slowly flaps its ears, sways its trunk, shifts its weight from one foot to the other. Natural, realistic movement, real animal behaviour, the elephant keeps its size and position.",
+    "negativePrompt": "text, captions, subtitles, letters, logos, watermark, cartoon, camera shake, zoom, morphing, distorted anatomy, elephant walking away, elephant changing size"
+  },
+  "V4": {
+    "phase": "3", "model": "veo-3.1-generate-preview", "start": "05b", "end": "05c",
+    "durationSeconds": 8, "resolution": "720p", "aspectRatio": "16:9",
+    "prompt": "Locked-off tripod shot, no camera movement, slow observational time-lapse in a clinic waiting area. The low warm sun fades into blue dusk outside, the ceiling lights switch on, the floor lamp glows warm. The older man with the newspaper folds it, stands up and leaves the frame. In the left foreground the young woman stays seated alone, slightly slumped, sleeves pulled over her hands. At the far end of the corridor the huge, calm elephant stays in its place but is alive: it slowly flaps its ears, sways its trunk, shifts its weight. Natural, realistic movement, real animal behaviour, the elephant keeps its size and position.",
+    "negativePrompt": "text, captions, subtitles, letters, logos, watermark, cartoon, camera shake, zoom, morphing, distorted anatomy, elephant walking away, elephant changing size, clock"
+  },
+  "V5": {
+    "phase": "3", "model": "veo-3.1-generate-preview", "start": "06b", "end": "07a",
+    "durationSeconds": 8, "resolution": "720p", "aspectRatio": "16:9",
+    "prompt": "Locked-off tripod shot, no camera movement, calm nature documentary style, cool evening light in a lived-in clinic waiting area. A young woman stands on the right and looks toward the left. At the same time a doctor in a white coat walks in from the left edge of the frame in the foreground and stops at his place, and a huge, calm African elephant comes around the corner at the back left of the room and walks slowly forward until it stands in the middle, between the doctor and the woman, blocking their view of each other. In the background a woman in a trench coat puts on her coat. Slow, natural, realistic movement, real animal behaviour, the elephant keeps its size.",
+    "negativePrompt": "text, captions, subtitles, letters, logos, watermark, extra people, extra animals, cartoon, camera shake, zoom, morphing, distorted anatomy, fast motion"
+  }
+}

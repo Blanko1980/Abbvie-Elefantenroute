@@ -105,6 +105,7 @@ BBC-Naturdoku, trockener Sprecher, kein Augenzwinkern bis zum Kippmoment. Gesamt
 **Szene 5 · 1:04 bis 1:20**
 
 - **Eine einzige lange Einstellung (16 Sekunden):** statische Totale vom Wartebereich aus in den Flur. Im Anschnitt vorn links der Patient auf seinem Stuhl, im Mittelgrund der Flur. Der Elefant steht am Flurende und verdeckt die zweite Tür vollständig.
+- **Der Elefant** im Hintergrund bewegt sich leicht und natürlich (Ohren, Rüssel, Gewicht), er steht nie starr (Entscheidung 12.10.2026).
 - **Zeitraffer im Bild:** Das Fensterlicht wandert vom Nachmittag in den Abend, die Wanduhr dreht sich bis 17:40. Andere Patient:innen kommen, werden aufgerufen und gehen. Der Arzt geht zweimal ins Sprechzimmer und wieder heraus, ohne die Tür am Flurende zu beachten. Der Patient bleibt sitzen, sackt langsam etwas zusammen, zieht die Ärmel über die Hände.
 - **Sprecher:** erster Block ab 1:05, Pause, „Bis dahin wartet jemand anderes mit ihm.“ ab 1:15, danach bleibt das Bild noch 2 Sekunden stehen.
 - **Musik:** am dichtesten Punkt des Films.
@@ -113,7 +114,7 @@ BBC-Naturdoku, trockener Sprecher, kein Augenzwinkern bis zum Kippmoment. Gesamt
 
 - **Ton:** Die Musik fällt abrupt weg. Es bleiben Raumton, das Summen der Leuchtstoffröhren und das Kratzen. Kühles Abendlicht.
 - **Einstellung 1 (2 Sekunden):** Halbnah auf den Patienten, er steht auf, der Stuhl schabt über den Boden.
-- **Einstellung 2 (3 Sekunden):** Totale, er geht in den Flur und bleibt ca. 3 Meter vor dem Arzt stehen. Der Arzt steht links, der Elefant rechts neben ihm, sodass er beim Blick zum Patienten gerade durch ihn verdeckt wird.
+- **Einstellung 2 (3 Sekunden):** Totale. Die Patientin steht. Arzt und Elefant kommen gleichzeitig in den Raum: der Arzt von vorn (von links außerhalb des Bildes), der Elefant biegt hinten links um die Ecke. Der Elefant tritt zwischen die beiden, sodass der Arzt die Patientin ca. 3 Meter vor sich nicht sehen kann. (Geändert am 12.10.2026.)
 - **Einstellung 3 (2 Sekunden):** Nahe auf den Arzt. Er will zum Patienten schauen, die Flanke des Elefanten schiebt sich ins Bild.
 - **Einstellung 4 (3 Sekunden):** Nahe auf den Patienten, Ärmel über der Hand, er kratzt am Unterarm, sein Blick ruhig und ohne Flehen. Hier endet der Humor.
 - **Kein Sprecher.**
@@ -127,7 +128,7 @@ BBC-Naturdoku, trockener Sprecher, kein Augenzwinkern bis zum Kippmoment. Gesamt
 
 **Szene 8 · 1:43 bis 1:55**
 
-- **Einstellung 1 (1:43 bis 1:47):** Nahe auf das Gesicht des Arztes. Er sieht den Elefanten an, ruhig, ohne ein Wort. Am Bildrand ein Stück Elefant: Das Ohr bewegt sich minimal, der Kopf nickt kaum merklich.
+- **Einstellung 1 (1:43 bis 1:47):** Nahe auf den Arzt. Er dreht sich bewusst von Kamera und Patientin weg und schaut nach hinten in den Raum direkt auf den Elefanten, ruhig, ohne ein Wort. (Geändert am 12.10.2026.) Am Bildrand ein Stück Elefant: Das Ohr bewegt sich minimal, der Kopf nickt kaum merklich.
 - **Einstellung 2 (1:47 bis 1:50):** Totale wie in Szene 7. Der Elefant hebt einen Vorderfuß und tritt ca. 1,5 Meter nach links aus der Sichtachse, ohne Eile, weich auftretend. Kein Effekt, keine Musik. Er verschwindet nicht, er steht danach am linken Bildrand, leicht unscharf.
 - **Einstellung 3 (1:50 bis 1:55):** Halbnah. Arzt und Patient sehen sich frei an, hinter dem Patienten fällt das letzte warme Sonnenlicht durch die Fenster. Der Arzt sieht den Patienten an, der Patient hebt den Blick und hält ihn ca. 3 Sekunden.
 - **Ton:** Stille. Nach 2 Sekunden erklingt ein einzelner warmer Ton ohne Auflösung, der in die Endcard ausklingt.
@@ -157,6 +158,8 @@ Med-Legal gehört bei Schritt 2 und 3 von Anfang an dazu: Antworten zur Sicherhe
 - **Einblendung Szene 2:** „Dafür ist die Patientin noch nicht schwer genug.“ (Entscheidung 12.10.2026).
 - **Sprecher:** männlich, Naturdoku-Stil; Stimme Thomas Schendel bei ElevenLabs (Entscheidung 12.10.2026).
 - **Szene 4:** Der Arzt geht auf die Tür zu, der Rüssel bremst ihn (Entscheidung 12.10.2026).
+- **Trampelpfad (Szene 3):** natürliche, von Bild zu Bild zunehmende Abdrücke von Schuhen und Elefantenfüßen, langsam breiter und minimal tiefer, bis ein ausgetretener Weg entsteht; kein aufgemalter Streifen.
+- **Lichtstimmung:** innerhalb einer Szene konsistent; Szenen 6 und 7 kühl, Szene 8 warm (Ausnahme: Zeit vergeht in der Szene).
 - **Kleidung der Patientin:** dunkelgrauer Pullover, Jeans, weiße Sneaker. **MFA am Abend:** Straßenkleidung (Entscheidung 12.10.2026).
 - **Patientin statt Patient:** Die Figur ist eine junge Frau, nicht leidend und nicht antriebslos, sondern genervt von ihrem Leiden (Entscheidung 12.10.2026).
 - **Umsetzungsweg:** generierter Film mit Claude Code (Remotion). Sprecher: ElevenLabs. Musik und Raumton: später, vermutlich mit Suno.
