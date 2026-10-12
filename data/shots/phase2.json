@@ -1,0 +1,143 @@
+{
+  "01a": {
+    "phase": "2",
+    "model": "gemini-3-pro-image",
+    "aspectRatio": "16:9",
+    "imageSize": "4K",
+    "set": true,
+    "elephant": "E1",
+    "patient": true,
+    "light": "MORNING",
+    "refs": [
+      {
+        "id": "R4a",
+        "role": "room layout reference only: keep walls, windows, chairs, counter and clock in the same places"
+      },
+      {
+        "id": "R3a",
+        "role": "the elephant: identical animal, skin, mud on the legs and tusks; also the look of the lighting, how the elephant sits in the room light"
+      },
+      {
+        "id": "R3b",
+        "role": "the same elephant in side view"
+      },
+      {
+        "id": "R2a",
+        "role": "the patient, identical face, hair, age and the same dark grey sweater"
+      }
+    ],
+    "content": "Shot 01a, wide establishing shot of the reception hall from camera position CAM-A, same framing as the first reference image. Same room layout and materials: light oak plank floor, five chairs in one row along the glass front, the reception counter on the right, the round wall clock without numerals behind the counter. No poster, no monitor, no screen in this view. The elephant stands calmly in the middle of the hall between the counter and the waiting area, in a three-quarter side view, ears relaxed, trunk hanging loosely, simply breathing. The hall is almost empty. Far in the background, small and easy to overlook: the patient sits on chair 1 at the far left end of the chair row, sleeves pulled over her hands; one medical assistant in light clinic clothes walks past near the waiting area without looking at the elephant. Nobody looks at the elephant. Lighting as in the elephant reference: a naturally exposed interior, dimmer than the bright summer morning outside, a broad soft pool of daylight from the glass front across the floor; the elephant is backlit with a soft bright rim along its back and ears, the side facing the camera in soft shade, its shadow falls across the floor toward the camera, dark contact shadows under its feet. Dust particles glow faintly in the backlight. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere."
+  },
+  "04a": {
+    "phase": "2",
+    "model": "gemini-3-pro-image",
+    "aspectRatio": "16:9",
+    "imageSize": "2K",
+    "set": true,
+    "elephant": "E3",
+    "doctor": true,
+    "light": "EARLY_AFTERNOON",
+    "refs": [
+      {
+        "id": "R4d",
+        "role": "the corridor end and the plain white second door: keep materials and door design"
+      },
+      {
+        "id": "R1a",
+        "role": "the doctor, identical face, hair, age and clothes"
+      },
+      {
+        "id": "R1b",
+        "role": "the doctor in three-quarter profile"
+      },
+      {
+        "id": "R3a",
+        "role": "the elephant: identical animal, skin, mud on the legs and tusks; also the look of the lighting, how the elephant sits in the room light"
+      },
+      {
+        "id": "R3b",
+        "role": "the same elephant in side view"
+      }
+    ],
+    "content": "Shot 04a, medium-wide shot at the far end of the corridor (camera position CAM-F). The plain white second door in the end wall is in the right third of the frame, its small sign blank. Plain white walls and grey linoleum floor; no poster, no monitor, no screen in this view. The doctor stands in profile right in front of the door, facing frame-right toward it, so that we see his right side; his right hand rests on the door handle without pressing it, the tablet hangs in his left hand. His face is calm and thoughtful. Behind him, on the left side of the frame, stands the enormous elephant: its huge head, ear and tusks are behind the doctor's back (further from the door than he is), its body fills the corridor from wall to wall and nearly to the ceiling and extends beyond the left frame edge. Its trunk hangs loosely down behind the doctor, the tip close to his back, not touching him. Nothing is between the doctor and the door. Soft early afternoon daylight falls from tall windows on the side; the elephant's head is in soft shade with a bright edge of window light along the top of its head and ear; its grey skin is matte and dusty; its shadow falls on the floor and partly over the doctor's back; dark contact shadows under its feet. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere."
+  },
+  "04b": {
+    "phase": "2",
+    "model": "gemini-3-pro-image",
+    "aspectRatio": "16:9",
+    "imageSize": "4K",
+    "doctor": true,
+    "elephant": "E3",
+    "light": "EARLY_AFTERNOON",
+    "refs": [
+      {
+        "id": "04a",
+        "role": "the previous shot of the same scene: same place, same people, same light, same camera direction"
+      },
+      {
+        "id": "R1a",
+        "role": "the doctor, identical face, hair, age and clothes"
+      },
+      {
+        "id": "R3a",
+        "role": "the elephant: identical animal, skin, mud on the legs and tusks; also the look of the lighting, how the elephant sits in the room light"
+      }
+    ],
+    "content": "Shot 04b, medium close-up of the same moment as the first reference image, a few seconds later, same camera direction but closer. In the lower right the doctor's right hand rests on the door handle of the plain white door, not pressing it. His right shoulder and the side of his face in profile; he looks at the door, calm and serious, breathing out. The elephant's trunk now rests gently across his right shoulder, the trunk tip hanging softly down in front of his chest, a caring and calm gesture, not threatening. Behind him the large, slightly out-of-focus grey head and ear of the elephant fill the left part of the frame. Soft early afternoon daylight, the elephant's skin matte and dusty, natural shadows where the trunk lies on the white coat. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere."
+  },
+  "06b": {
+    "phase": "2",
+    "model": "gemini-3-pro-image",
+    "aspectRatio": "16:9",
+    "imageSize": "4K",
+    "set": true,
+    "elephant": "E3",
+    "doctor": true,
+    "patient": true,
+    "light": "EVENING_COOL",
+    "refs": [
+      {
+        "id": "R4a",
+        "role": "the reception hall: same materials (light oak plank floor, white walls, tall narrow windows on the left wall), same furniture style"
+      },
+      {
+        "id": "R1a",
+        "role": "the doctor, identical face, hair, age and clothes"
+      },
+      {
+        "id": "R1b",
+        "role": "the doctor in three-quarter profile"
+      },
+      {
+        "id": "R2a",
+        "role": "the patient, identical face, hair, age and the same dark grey sweater"
+      },
+      {
+        "id": "R2b",
+        "role": "the patient in three-quarter profile"
+      },
+      {
+        "id": "R3a",
+        "role": "the elephant: identical animal, skin, mud on the legs and tusks; also the look of the lighting, how the elephant sits in the room light"
+      },
+      {
+        "id": "R3b",
+        "role": "the same elephant in side view"
+      }
+    ],
+    "content": "Shot 06b, wide side shot in the reception hall near the entrance of the corridor (camera position CAM-E), the camera looking across the hall at a right angle toward its left wall. Background: the left wall of the reception hall with its row of tall, narrow floor-to-ceiling windows exactly as in the first reference image, blue dusk outside; plain white walls; light oak plank floor. No counter, no poster, no monitor, no screen, no plants in this view. The doctor stands at the left third of the frame, facing frame-right toward the patient. The patient stands at the right third of the frame, about three meters away from him, facing frame-left toward the doctor, sleeves pulled over her hands, calm and composed. Exactly between them stands the enormous elephant, NOT in side view: its head and front face the camera at a slight angle, its body extends straight away from the camera into the depth of the room, its back nearly touching the ceiling. Its massive head and front block the line of sight between the doctor and the patient: they cannot see each other. Everyone stands still. Cool evening: blue dusk in the windows, cold fluorescent ceiling light from above gives the elephant's head and back a cold top light and casts short dark shadows under it and under the people; the elephant's skin is matte and dusty, dark contact shadows under its feet. Lower contrast, slightly cool colors. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere."
+  },
+  "08c": {
+    "phase": "2",
+    "model": "gemini-3-pro-image",
+    "aspectRatio": "16:9",
+    "imageSize": "2K",
+    "refs": [
+      {
+        "id": "06b",
+        "role": "the master image to be edited"
+      }
+    ],
+    "edit": "Same room, same camera, same framing; the doctor and the patient stay in exactly the same places with the same clothes. Only change three things: 1) the elephant has taken one calm step to the left and slightly back, out of the line of sight between the doctor and the patient: it now stands on the left side of the frame behind the doctor, partly cut off by the left frame edge, softly out of focus, calm; the doctor stands in front of it and remains fully visible; 2) nothing stands between the doctor and the patient any more: the doctor looks directly at the patient, and the patient raises her eyes and looks back at him, calm, no smile; 3) the light turns warmer: the last warm, low golden sunlight falls through the windows behind the patient, a gentle golden rim light on her hair and shoulders, while the rest of the room keeps the soft evening light."
+  }
+}

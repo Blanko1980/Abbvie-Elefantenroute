@@ -238,5 +238,295 @@
     "attempt": 3,
     "ok": true,
     "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-12T17:55:33.551Z",
+    "phase": "2",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "voice:alexander-tv-narrator:s2-1",
+    "ok": false,
+    "note": "HTTP 403"
+  },
+  {
+    "timestamp": "2026-10-12T17:55:36.352Z",
+    "phase": "2",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "voice:alexander-tv-narrator:s2-1",
+    "ok": false,
+    "note": "HTTP 403"
+  },
+  {
+    "timestamp": "2026-10-12T17:55:41.580Z",
+    "phase": "2",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "voice:alexander-tv-narrator:s2-1",
+    "ok": true,
+    "note": "27 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-12T17:55:43.708Z",
+    "phase": "2",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "voice:alexander-tv-narrator:s2-2",
+    "ok": true,
+    "note": "76 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-12T17:55:45.202Z",
+    "phase": "2",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "voice:alexander-tv-narrator:s2-3",
+    "ok": true,
+    "note": "20 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-12T17:55:46.961Z",
+    "phase": "2",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "voice:alexander-tv-narrator:s4-1",
+    "ok": true,
+    "note": "39 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-12T17:55:48.468Z",
+    "phase": "2",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "voice:alexander-tv-narrator:s4-2",
+    "ok": true,
+    "note": "66 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-12T17:55:50.865Z",
+    "phase": "2",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "voice:christian-plasa-warm:s2-1",
+    "ok": true,
+    "note": "27 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-12T17:55:52.886Z",
+    "phase": "2",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "voice:christian-plasa-warm:s2-2",
+    "ok": true,
+    "note": "76 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-12T17:55:54.200Z",
+    "phase": "2",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "voice:christian-plasa-warm:s2-3",
+    "ok": true,
+    "note": "20 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-12T17:55:55.599Z",
+    "phase": "2",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "voice:christian-plasa-warm:s4-1",
+    "ok": true,
+    "note": "39 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-12T17:55:57.270Z",
+    "phase": "2",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "voice:christian-plasa-warm:s4-2",
+    "ok": true,
+    "note": "66 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-12T17:56:01.879Z",
+    "phase": "2",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "voice:thomas-schendel-calm:s2-1",
+    "ok": true,
+    "note": "27 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-12T17:56:03.958Z",
+    "phase": "2",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "voice:thomas-schendel-calm:s2-2",
+    "ok": true,
+    "note": "76 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-12T17:56:05.600Z",
+    "phase": "2",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "voice:thomas-schendel-calm:s2-3",
+    "ok": true,
+    "note": "20 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-12T17:56:07.448Z",
+    "phase": "2",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "voice:thomas-schendel-calm:s4-1",
+    "ok": true,
+    "note": "39 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-12T17:56:09.006Z",
+    "phase": "2",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "voice:thomas-schendel-calm:s4-2",
+    "ok": true,
+    "note": "66 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-12T17:56:49.843Z",
+    "phase": "2",
+    "type": "text",
+    "model": "gemini-3-flash-preview",
+    "id": "check:review/voice/alexander-tv-narrator.mp3",
+    "ok": true,
+    "note": "Sprecherprobe prüfen"
+  },
+  {
+    "timestamp": "2026-10-12T17:56:56.850Z",
+    "phase": "2",
+    "type": "text",
+    "model": "gemini-3-flash-preview",
+    "id": "check:review/voice/christian-plasa-warm.mp3",
+    "ok": true,
+    "note": "Sprecherprobe prüfen"
+  },
+  {
+    "timestamp": "2026-10-12T17:57:04.095Z",
+    "phase": "2",
+    "type": "text",
+    "model": "gemini-3-flash-preview",
+    "id": "check:review/voice/thomas-schendel-calm.mp3",
+    "ok": true,
+    "note": "Sprecherprobe prüfen"
+  },
+  {
+    "timestamp": "2026-10-12T17:58:36.108Z",
+    "phase": "2",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "04a",
+    "attempt": 1,
+    "ok": true,
+    "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-12T17:58:41.012Z",
+    "phase": "2",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "01a",
+    "attempt": 1,
+    "ok": true,
+    "note": "5504x3072"
+  },
+  {
+    "timestamp": "2026-10-12T17:58:43.578Z",
+    "phase": "2",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "06b",
+    "attempt": 1,
+    "ok": true,
+    "note": "5504x3072"
+  },
+  {
+    "timestamp": "2026-10-12T17:59:54.106Z",
+    "phase": "2",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "04a",
+    "attempt": 2,
+    "ok": true,
+    "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-12T18:00:04.258Z",
+    "phase": "2",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "06b",
+    "attempt": 2,
+    "ok": true,
+    "note": "5504x3072"
+  },
+  {
+    "timestamp": "2026-10-12T18:01:00.747Z",
+    "phase": "2",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "08c",
+    "attempt": 1,
+    "ok": true,
+    "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-12T18:01:13.691Z",
+    "phase": "2",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "04b",
+    "attempt": 1,
+    "ok": true,
+    "note": "5504x3072"
+  },
+  {
+    "timestamp": "2026-10-12T18:02:00.000Z",
+    "phase": "2",
+    "type": "clip",
+    "model": "veo-3.1-generate-preview",
+    "id": "V2",
+    "attempt": 1,
+    "ok": false,
+    "note": "{\"error\":{\"code\":400,\"message\":\"Your use case is currently not supported.  Please refer to Gemini API documentation for current model offering.\",\"stat"
+  },
+  {
+    "timestamp": "2026-10-12T18:02:15.327Z",
+    "phase": "2",
+    "type": "clip",
+    "model": "veo-3.1-generate-preview",
+    "id": "V2",
+    "attempt": 1,
+    "ok": false,
+    "note": "{\"error\":{\"code\":400,\"message\":\"Your use case is currently not supported.  Please refer to Gemini API documentation for current model offering.\",\"stat"
+  },
+  {
+    "timestamp": "2026-10-12T18:03:24.581Z",
+    "phase": "2",
+    "type": "clip",
+    "model": "veo-3.1-generate-preview",
+    "id": "V2",
+    "attempt": 1,
+    "ok": true,
+    "note": "8s 720p"
+  },
+  {
+    "timestamp": "2026-10-12T18:05:00.084Z",
+    "phase": "2",
+    "type": "clip",
+    "model": "veo-3.1-generate-preview",
+    "id": "V1",
+    "attempt": 1,
+    "ok": true,
+    "note": "8s 720p"
   }
 ]

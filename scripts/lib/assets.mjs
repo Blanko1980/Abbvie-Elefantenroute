@@ -46,14 +46,14 @@ export function logApiCall(call) {
   renderApiLog(calls);
 }
 
-const TYPE_LABEL = { image: "Bild", clip: "Clip", speech: "Sprache" };
+const TYPE_LABEL = { image: "Bild", clip: "Clip", speech: "Sprache", text: "Text (Prüfung)" };
 
 export function renderApiLog(calls = readJson(API_CALLS, [])) {
-  const sum = { image: 0, clip: 0, speech: 0 };
+  const sum = { image: 0, clip: 0, speech: 0, text: 0 };
   const byPhase = {};
   for (const c of calls) {
     sum[c.type]++;
-    byPhase[c.phase] ??= { image: 0, clip: 0, speech: 0 };
+    byPhase[c.phase] ??= { image: 0, clip: 0, speech: 0, text: 0 };
     byPhase[c.phase][c.type]++;
   }
   const lines = [
@@ -61,11 +61,11 @@ export function renderApiLog(calls = readJson(API_CALLS, [])) {
     "",
     "Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen (Modell- und Stimmenlisten) sind nicht mitgezählt. Erzeugt aus `data/api-calls.json`.",
     "",
-    `**Summe:** ${sum.image} Bild, ${sum.clip} Clip, ${sum.speech} Sprache`,
+    `**Summe:** ${sum.image} Bild, ${sum.clip} Clip, ${sum.speech} Sprache, ${sum.text} Text (Prüfaufrufe)`,
     "",
-    "| Phase | Bild | Clip | Sprache |",
-    "| --- | ---: | ---: | ---: |",
-    ...Object.entries(byPhase).map(([p, s]) => `| ${p} | ${s.image} | ${s.clip} | ${s.speech} |`),
+    "| Phase | Bild | Clip | Sprache | Text |",
+    "| --- | ---: | ---: | ---: | ---: |",
+    ...Object.entries(byPhase).map(([p, s]) => `| ${p} | ${s.image} | ${s.clip} | ${s.speech} | ${s.text} |`),
     "",
     "## Einzelaufrufe",
     "",

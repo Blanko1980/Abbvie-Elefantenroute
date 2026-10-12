@@ -1,0 +1,52 @@
+# Phase 2: Drei-Shot-Test
+
+Stand: 12.10.2026
+
+## Was zu prüfen ist
+
+| Datei | Inhalt |
+| --- | --- |
+| `review/contact-sheet-phase2.jpg` | Alle fünf Bilder und die nutzbaren Ausschnitte beider Clips |
+| `review/clips-schnittvorschlag.mp4` | V2 (3,5 bis 7,5 s) und V1 (3,0 bis 6,0 s) hintereinander, ohne Ton, so wie ich sie im Film einsetzen würde |
+| `public/clips/V1.mp4`, `public/clips/V2.mp4` | Die vollständigen 8-Sekunden-Clips, mit Veo-Ton (wird im Film stumm geschaltet) |
+| `review/voice/christian-plasa-warm.mp3` | **Empfohlene Stimme** |
+| `review/voice/alexander-tv-narrator.mp3`, `review/voice/thomas-schendel-calm.mp3` | Alternativen, ebenfalls männlich |
+
+## Was gut war
+
+- **Integration des Elefanten:** Mit Pro-Modell, Gegenlicht und Kontaktschatten sitzt er in 01a, 06b und 08c glaubhaft im Raum.
+- **Figuren:** Arzt und Patientin sind über alle Bilder hinweg klar dieselben Personen, auch mit dem Pro-Modell und bis zu 8 Referenzbildern.
+- **Szene 4 (Rüssel auf der Schulter):** Der Moment wirkt ruhig und fürsorglich, nicht bedrohlich. Clip V2 setzt die Geste weich und glaubhaft um.
+- **Szene 8 (V1):** Der Elefant tritt ohne Eile zur Seite, das Licht wechselt von kühl zu golden, Arzt und Patientin bleiben stehen.
+- **Sprecher:** Alle drei Proben sind textgenau, ohne Aussprachefehler, ruhig, Satzenden gehen nach unten (geprüft per Transkription mit Gemini, siehe API-Log).
+
+## Was schwierig war
+
+- **Veo und 4-Sekunden-Clips:** Mit Start- und Endbild akzeptiert die API nur 8 Sekunden. Die 4-Sekunden-Anfragen lehnt sie mit „use case not supported“ ab; diese beiden Fehlversuche wurden nicht berechnet. Beide Clips sind daher 8 Sekunden lang, das kostet etwa das Doppelte. Im Film nutze ich je einen Ausschnitt.
+- **Veo füllt 8 Sekunden mit mehr Bewegung als gewünscht:**
+  - In V2 läuft der Elefant in den ersten 3 Sekunden nach vorn und wird kurz kleiner.
+  - In V1 geht er erst auf die Kamera zu, bevor er nach links tritt, und dreht sich am Ende weg.
+  - Die nutzbaren Ausschnitte (V2 3,5 bis 7,5 s, V1 3,0 bis 6,0 s) sind sauber.
+- **Übergang 04a zu V2:** Im Clip ist der Elefant etwas kleiner als im Standbild 04a. Ein harter Schnitt vom Standbild in den Clip würde springen. **Vorschlag:** Für 0:50 bis 0:52 nehme ich statt 04a das Clip-Bild bei 3,5 Sekunden als Standbild. Dann läuft die Einstellung ohne Sprung in die Bewegung. Nachteil: Dieses Bild hat nur 720p statt 2K.
+- **04b:** Das Modell hat den Bildausschnitt nicht verengt (gleicher Ausschnitt wie 04a). Den Push bis auf Hand und Schulter, den das Script verlangt, mache ich in Remotion über das 4K-Bild.
+- **04a:** Der Raum weicht leicht vom Set ab: Holzleisten an den Wänden, Rasterdecke, helle klinische Lichtstimmung.
+- **06b:** Erst im zweiten Versuch stimmte der Raum. Im ersten hatte das Modell eine andere Klinik mit Poster und Text erfunden. Hilfreich war, den Hintergrund genau zu benennen und nur eine Raumreferenz mitzugeben.
+- **08c:** Der Elefant steht nach dem Schritt links hinter dem Arzt statt im Vordergrund am Bildrand. Der Arzt steht schon ganz links; ein Elefant im Vordergrund hätte ihn verdeckt. Der Elefant ist nur leicht unscharf.
+- **Wanduhr:** Sie zeigt in 01a weiterhin 10:10 (laut Shot-Bible unkritisch).
+
+## Sprecher
+
+Empfehlung: **Christian Plasa (Warm Voice)**.
+
+- **Tempo:** Er spricht am ruhigsten, rund 2,1 Wörter pro Sekunde. Das Script rechnet mit 2.
+- **Stimmlage:** Er hat die tiefste und gleichmäßigste Stimmlage aller drei Proben (Grundton im Mittel etwa 83 Hz, wenig Melodiebewegung). Das passt zu „trocken, nie ironisch“.
+- **Verfügbarkeit:** Die Stimme liegt fest im Konto. Die beiden Alternativen stammen aus der öffentlichen Stimmbibliothek und könnten dort zurückgezogen werden.
+
+Einstellungen der Probe: `eleven_multilingual_v2`, Stabilität 0,55, Ähnlichkeit 0,8, Stil 0, Tempo 0,92. Erzeugt wurde satzweise mit Übergangskontext, die Pausen sind gesetzt. Das Format ist MP3 mit 128 kbit/s, mehr erlaubt das aktuelle ElevenLabs-Abo nicht. Für Sprache reicht das.
+
+## Kosten Phase 2
+
+- **Bilder:** 7 Aufrufe (5 angenommen, 2 abgelehnt), alle mit `gemini-3-pro-image`.
+- **Clips:** 2 erzeugt, je 8 s in 720p; dazu 2 abgelehnte Anfragen, die nicht berechnet wurden.
+- **Sprache:** 15 Satzaufrufe (3 Stimmen × 5 Sätze); dazu 2 Fehlversuche wegen des Formats, die nicht berechnet wurden.
+- **Prüfung:** 3 Textaufrufe zur Prüfung der Sprecherproben.

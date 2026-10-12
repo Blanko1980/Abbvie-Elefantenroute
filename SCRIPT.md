@@ -20,7 +20,7 @@ BBC-Naturdoku, trockener Sprecher, kein Augenzwinkern bis zum Kippmoment. Gesamt
 | Szene | Bild | Ton / Sprecher |
 | --- | --- | --- |
 | 1 · 0:00 · Der Elefant | Schwarz, dann helles, modernes Dermatologiezentrum. Mitten im Raum steht ein afrikanischer Elefant, ruhig. Ärzt:innen, MFA und Patient:innen gehen vorbei, niemand schaut hin. Ganz hinten im Wartebereich sitzt ein junger Patient, Ärmel über die Hände gezogen, kratzt unter dem Stuhl. Wanduhr: 9:10. | Naturdoku-Score setzt ein. Sprecher: „Das hier ist ein Elefant.“ Pause. „Er lebt seit vielen Jahren in diesem Gebäude. Niemand erinnert sich, wann er gekommen ist.“ |
-| 2 · 0:14 · Gedächtnis | Der Elefant folgt dem Arzt durch den Flur, Rüssel nah am Ohr. Er flüstert, nicht böse, fast fürsorglich. Einblendungen im Doku-Untertitelstil: „Das hat sich bewährt.“ „Damit kenne ich mich aus.“ „Dafür ist der Patient noch nicht schwer genug.“ „Ich hebe mir das für später auf.“ | Sprecher: „Elefanten vergessen nichts. Sie erinnern sich an jeden Weg, der sie einmal sicher ans Ziel gebracht hat.“ Pause. „Das ist ihre Stärke.“ |
+| 2 · 0:14 · Gedächtnis | Der Elefant folgt dem Arzt durch den Flur, Rüssel nah am Ohr. Er flüstert, nicht böse, fast fürsorglich. Einblendungen im Doku-Untertitelstil: „Das hat sich bewährt.“ „Damit kenne ich mich aus.“ „Dafür ist die Patientin noch nicht schwer genug.“ „Ich hebe mir das für später auf.“ | Sprecher: „Elefanten vergessen nichts. Sie erinnern sich an jeden Weg, der sie einmal sicher ans Ziel gebracht hat.“ Pause. „Das ist ihre Stärke.“ |
 | 3 · 0:32 · Trampelpfad | Zeitraffer: derselbe Weg des Arztes zwischen Büro, Behandlungsraum und Büro, der Elefant immer daneben. Im Boden entsteht ein Trampelpfad, tiefer und breiter. Der Elefant wächst, bis er den Flur füllt. Er schiebt sich vor das Leitlinien-Poster, vor einen Bildschirm voller Daten, vor eine Tür mit unlesbarem Schild. Nie aggressiv, immer automatisch. Der Arzt bemerkt es nicht, der Zuschauer schon. | Sprecher: „Mit den Jahren wird aus Erinnerung Gewohnheit. Und aus Gewohnheit wird Platz.“ |
 | 4 · 0:50 · Respekt | Der Arzt bleibt vor der Tür stehen, Hand am Griff. Der Elefant legt den Rüssel auf seine Schulter. Einblendung: „Da habe ich Respekt vor.“ Der Moment ist ruhig und ernst, kein Gag. | Sprecher: „Manchmal ist seine Vorsicht berechtigt.“ Pause. „Und manchmal ist es nur Gewohnheit, die sich als Vorsicht ausgibt.“ |
 | 5 · 1:04 · Warten | Der Elefant steht zwischen Arzt und Tür. Draußen wandert das Licht von Vormittag zu Abend, die Wanduhr dreht sich. Im Hintergrund sitzt der Patient an derselben Stelle wie in Szene 1. | Sprecher, vollkommen sachlich: „Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten. Er wartet. Meist auf das Zeichen, dass der alte Weg nicht mehr trägt.“ Pause. „Bis dahin wartet jemand anderes mit ihm.“ |
@@ -79,7 +79,7 @@ BBC-Naturdoku, trockener Sprecher, kein Augenzwinkern bis zum Kippmoment. Gesamt
 **Szene 2 · 0:14 bis 0:32**
 
 - **Einstellung 1 (0:14 bis 0:28):** Kamera fährt langsam seitlich mit dem Arzt mit, der durch den Flur Richtung Sprechzimmer geht. Der Elefant folgt dicht hinter ihm, der Rüssel nah an seinem Ohr. Der Elefant flüstert als tiefes, weiches Brummen ohne verständliche Worte.
-- **Einblendungen:** bei 0:16 „Das hat sich bewährt.“, bei 0:19 „Damit kenne ich mich aus.“, bei 0:22 „Dafür ist der Patient noch nicht schwer genug.“, bei 0:25 „Ich hebe mir das für später auf.“ (bleibt bis 0:28). Der Arzt nickt bei der zweiten Einblendung leicht, ohne zum Elefanten zu schauen.
+- **Einblendungen:** bei 0:16 „Das hat sich bewährt.“, bei 0:19 „Damit kenne ich mich aus.“, bei 0:22 „Dafür ist die Patientin noch nicht schwer genug.“, bei 0:25 „Ich hebe mir das für später auf.“ (bleibt bis 0:28). Der Arzt nickt bei der zweiten Einblendung leicht, ohne zum Elefanten zu schauen.
 - **Sprecher:** erster Satz 0:15 bis 0:23, Pause, „Das ist ihre Stärke.“ ab 0:25.
 - **Einstellung 2 (0:28 bis 0:32):** Der Arzt betritt sein Sprechzimmer (linke Tür), der Elefant bleibt davor stehen, der Rüssel streicht kurz an der Tür entlang.
 - **Übergang:** Hartschnitt.
@@ -153,5 +153,7 @@ Med-Legal gehört bei Schritt 2 und 3 von Anfang an dazu: Antworten zur Sicherhe
 - **Zweite Endcard-Zeile:** „Welcher Elefant bestimmt Ihre Entscheidung?“
 - **Tonwechsel in Szene 6:** bleibt zunächst hart, wie im Script.
 - **Szene 8:** Nur ein Blick, kein Text.
+- **Einblendung Szene 2:** „Dafür ist die Patientin noch nicht schwer genug.“ (Entscheidung 12.10.2026).
+- **Sprecher:** männlich, Naturdoku-Stil (Entscheidung 12.10.2026).
 - **Patientin statt Patient:** Die Figur ist eine junge Frau, nicht leidend und nicht antriebslos, sondern genervt von ihrem Leiden (Entscheidung 12.10.2026).
 - **Umsetzungsweg:** generierter Film mit Claude Code (Remotion). Sprecher: ElevenLabs. Musik und Raumton: später, vermutlich mit Suno.

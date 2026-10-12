@@ -1,0 +1,41 @@
+{
+  "title": "Phase 2 · Drei-Shot-Test · zur Prüfung",
+  "rows": [
+    [
+      {
+        "file": "public/stills/01a.jpg",
+        "label": "01a · Totale Empfang, E1, MORNING (4K)"
+      },
+      {
+        "file": "public/stills/04a.jpg",
+        "label": "04a · Arzt vor Tür 2, E3 (2K)"
+      },
+      {
+        "file": "public/stills/04b.jpg",
+        "label": "04b · Rüssel auf der Schulter (4K)"
+      }
+    ],
+    [
+      {
+        "file": "public/stills/06b.jpg",
+        "label": "06b · Dreier-Totale, EVENING_COOL (4K)"
+      },
+      {
+        "file": "public/stills/08c.jpg",
+        "label": "08c · Elefant tritt zur Seite, goldenes Licht (2K)"
+      }
+    ],
+    [
+      {
+        "file": "work/preview/V2_use.jpg",
+        "label": "V2 · nutzbarer Ausschnitt 3,5–7,5 s (Startbild 04a, Endbild 04b)"
+      }
+    ],
+    [
+      {
+        "file": "work/preview/V1_use.jpg",
+        "label": "V1 · nutzbarer Ausschnitt 3,0–6,0 s (Startbild 06b, Endbild 08c)"
+      }
+    ]
+  ]
+}

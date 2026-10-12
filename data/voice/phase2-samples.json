@@ -1,0 +1,17 @@
+{
+  "_note": "Sprecherprobe Phase 2: Szene 2 und Szene 4. offset = gewünschter Startpunkt relativ zum Blockbeginn laut SCRIPT.md (Sekunden); minGap = Mindestpause nach dem Vorsatz.",
+  "model": "eleven_multilingual_v2",
+  "settings": { "stability": 0.55, "similarity_boost": 0.8, "style": 0.0, "use_speaker_boost": true, "speed": 0.92 },
+  "voices": [
+    { "key": "christian-plasa-warm", "voice_id": "NBqeXKdZHweef6y0B67V", "name": "Christian Plasa - Warm Voice" },
+    { "key": "alexander-tv-narrator", "voice_id": "kkJxCnlRCckmfFvzDW5Q", "name": "Alexander - Deep TV Narrator" },
+    { "key": "thomas-schendel-calm", "voice_id": "Fghah4fztZORbiKfIGAs", "name": "Thomas Schendel - Authoritative and Calm" }
+  ],
+  "lines": [
+    { "id": "s2-1", "text": "Elefanten vergessen nichts.", "offset": 0, "minGap": 0 },
+    { "id": "s2-2", "text": "Sie erinnern sich an jeden Weg, der sie einmal sicher ans Ziel gebracht hat.", "offset": null, "minGap": 0.6 },
+    { "id": "s2-3", "text": "Das ist ihre Stärke.", "offset": 10, "minGap": 1.2 },
+    { "id": "s4-1", "text": "Manchmal ist seine Vorsicht berechtigt.", "offset": null, "minGap": 3.0 },
+    { "id": "s4-2", "text": "Und manchmal ist es nur Gewohnheit, die sich als Vorsicht ausgibt.", "offset": null, "minGap": 1.4 }
+  ]
+}
