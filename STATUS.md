@@ -1,26 +1,25 @@
 # Status
 
-Stand: 12.10.2026, Ende Phase 2 (Drei-Shot-Test). **Wartet auf Rückmeldung.**
+Stand: 12.10.2026, Phase 2, Runde 2. **Wartet auf Rückmeldung.**
 
 ## Fertig
 
 - **Phase 0 Preflight**, siehe `PREFLIGHT.md`.
-- **Phase 1 Referenzblätter** R1 bis R4 in `refs/`, alle **freigegeben** (Runde 2 mit Patientin und neuem Elefantenlicht).
-- **Phase 2 Drei-Shot-Test**, Notiz in `review/phase2-notiz.md`, Kontaktbogen `review/contact-sheet-phase2.jpg`.
-  - Bilder in `public/stills/`: 01a (4K), 04a (2K), 04b (4K), 06b (4K), 08c (2K), alle mit `gemini-3-pro-image`.
-  - Clips in `public/clips/`: V2 (04a nach 04b) und V1 (06b nach 08c), je 8 s in 720p.
-  - Sprecherproben in `review/voice/`: drei männliche Stimmen, empfohlen ist Christian Plasa (Warm Voice).
-  - Schnittvorschlag der Clips: `review/clips-schnittvorschlag.mp4`.
+- **Phase 1 Referenzblätter** R1 bis R4 in `refs/`, alle freigegeben.
+- **Phase 2 Drei-Shot-Test** mit Notiz `review/phase2-notiz.md` (Runden 1 und 2) und Kontaktbogen `review/contact-sheet-phase2.jpg`.
+  - Bilder in `public/stills/`: 01a, 04a (neu), 04b, 06b (neu), 08c (neu).
+  - Clip V2 (neu, Arzt geht, Rüssel bremst) in `public/clips/`. Nutzbar ist der Ausschnitt 0,5 bis 6,5 s, siehe `review/clips-schnittvorschlag.mp4`.
+  - Sprecher entschieden: **Thomas Schendel** (`review/voice/thomas-schendel-calm.mp3`).
 
 ## Offen, braucht Entscheidung
 
-1. **Stimme:** Christian Plasa (Empfehlung) oder eine der Alternativen?
-2. **Clips:** Die Ausschnitte (V2 3,5 bis 7,5 s, V1 3,0 bis 6,0 s) und der Vorschlag, für 0:50 bis 0:52 das Clip-Bild bei 3,5 s statt 04a zu nehmen (siehe Notiz).
-3. **Bildstil:** Freigabe der fünf Testbilder als Maßstab für Phase 3.
+1. **06b und 08c (mehr Leben):** Freigabe des Looks, danach erzeuge ich **Clip V1 neu** (06b nach 08c). Der alte V1 ist nicht mehr im Repo.
+2. **Neuer Clip V2:** Freigabe von Bewegung und Timing.
+3. **Kleidung der Patientin:** In 06b trägt sie Jeans, in 01a eine dunkle Hose. Welche Variante soll ab Phase 3 gelten? Mein Vorschlag sind Jeans, das wirkt alltäglicher.
 
 ## Als Nächstes
 
-Phase 3: alle 26 Standbilder. Die Varianten (03a bis 03e, 05a bis 05c) entstehen per Bildbearbeitung aus dem jeweiligen Master. Elefantenbilder mit dem Pro-Modell. Ein Kontaktbogen je Szene.
+Nach Freigabe: Clip V1, dann Phase 3 (alle 26 Standbilder). Bei den Abendbildern übernehme ich die lebendigen Details aus 06b.
 
 ## Freigegebene Set- und Figuren-Entscheidungen
 
@@ -29,7 +28,9 @@ Phase 3: alle 26 Standbilder. Die Varianten (03a bis 03e, 05a bis 05c) entstehen
 3. **Jahreszeit:** Sommergrün vor den Fenstern, außer im Zeitraffer in Szene 3.
 4. **Wanduhr:** rund, ohne Ziffern, hinter dem Tresen.
 5. **Patientin statt Patient:** junge Frau, wach und genervt, nicht erschöpft. Die Einblendung in Szene 2 lautet „Dafür ist die Patientin noch nicht schwer genug.“
-6. **Sprecher:** männlich, Naturdoku-Stil.
+6. **Sprecher:** männlich, Naturdoku-Stil, Stimme Thomas Schendel (ElevenLabs, Voice-ID `Fghah4fztZORbiKfIGAs`, Stimmbibliothek).
+7. **Szene 4:** Der Arzt geht auf Tür 2 zu, der Rüssel bremst ihn; V2 läuft von 0:50 bis 0:56.
+8. **Lebendiges Set:** Pflanzen, Alltagsspuren, am Abend macht eine MFA Feierabend; natürliche Haltungen statt steifem Profil.
 
 ## Bekannte Abweichungen
 
@@ -37,6 +38,8 @@ Phase 3: alle 26 Standbilder. Die Varianten (03a bis 03e, 05a bis 05c) entstehen
 - **04a:** Holzleisten an den Wänden, Rasterdecke, helle klinische Lichtstimmung.
 - **04b:** gleicher Bildausschnitt wie 04a; der Push auf Hand und Schulter entsteht in Remotion.
 - **08c:** Der Elefant steht nach dem Schritt links hinter dem Arzt, nicht im Vordergrund. Er ist kaum unscharf.
+- **V2:** Die Stuhlreihe im Flur verschwindet, während der Arzt daran vorbeigeht (das Endbild 04b hat keine Stühle).
+- **06b:** Die Patientin trägt Jeans, die Ärmel sind hochgeschoben, die MFA trägt einen weißen Kittel, das Vordergrundblatt fehlt.
 - **Clips:** 8 statt 4 Sekunden, weil die API 4 Sekunden mit Endbild ablehnt. Im Film werden Ausschnitte genutzt.
 
 ## Entscheidungen bisher

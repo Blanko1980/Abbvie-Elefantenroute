@@ -2,13 +2,13 @@
 
 Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen (Modell- und Stimmenlisten) sind nicht mitgezählt. Erzeugt aus `data/api-calls.json`.
 
-**Summe:** 30 Bild, 4 Clip, 18 Sprache, 3 Text (Prüfaufrufe)
+**Summe:** 34 Bild, 6 Clip, 18 Sprache, 3 Text (Prüfaufrufe)
 
 | Phase | Bild | Clip | Sprache | Text |
 | --- | ---: | ---: | ---: | ---: |
 | 0 | 1 | 0 | 1 | 0 |
 | 1 | 22 | 0 | 0 | 0 |
-| 2 | 7 | 4 | 17 | 3 |
+| 2 | 11 | 6 | 17 | 3 |
 
 ## Einzelaufrufe
 
@@ -69,3 +69,9 @@ Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen
 | 2026-10-12 18:02 | 2 | Clip | veo-3.1-generate-preview | V2 | 1 | Fehler | {"error":{"code":400,"message":"Your use case is currently not supported.  Please refer to Gemini API documentation for current model offering.","stat |
 | 2026-10-12 18:03 | 2 | Clip | veo-3.1-generate-preview | V2 | 1 | ok | 8s 720p |
 | 2026-10-12 18:05 | 2 | Clip | veo-3.1-generate-preview | V1 | 1 | ok | 8s 720p |
+| 2026-10-12 18:25 | 2 | Bild | gemini-3-pro-image | 04a | 3 | ok | 2752x1536 |
+| 2026-10-12 18:25 | 2 | Bild | gemini-3-pro-image | 06b | 3 | ok | 5504x3072 |
+| 2026-10-12 18:26 | 2 | Bild | gemini-3-pro-image | 08c | 2 | ok | 2752x1536 |
+| 2026-10-12 18:26 | 2 | Clip | veo-3.1-generate-preview | V2 | 2 | ok | 8s 720p |
+| 2026-10-12 18:27 | 2 | Bild | gemini-3-pro-image | 04a | 4 | ok | 2752x1536 |
+| 2026-10-12 18:29 | 2 | Clip | veo-3.1-generate-preview | V2 | 3 | ok | 8s 720p |

@@ -93,14 +93,14 @@ Technik-Kürzel: **Push** = sehr langsame Skalierung, **Pan** = Schwenk über ei
 | 03d | 3 · 0:43 bis 0:46 | Gleiche Komposition, Frühling, Spur sehr breit | Stand | CAM-C, SPRING, E2 bis E3 |
 | 03h | 3 · 0:46 bis 0:48 | Tür 2 am Flurende liegt halb im Schatten des Körpers, Arzt geht daran vorbei | Stand | CAM-C Nahaufnahme, E3 |
 | 03e | 3 · 0:48 bis 0:50 | Gleiche Komposition, Sommer Jahre später, Elefant füllt den Flur von Wand zu Wand | Stand | CAM-C, SUMMER, E3 |
-| 04a | 4 · 0:50 bis 0:52 | Arzt steht vor Tür 2, Hand auf der Klinke, Elefant hinter ihm, Rüssel hängt locker | Stand | CAM-F, EARLY_AFTERNOON, E3 |
-| V2 | 4 · 0:52 bis 0:56 | Clip: Rüssel hebt sich und legt sich sanft auf die rechte Schulter des Arztes. Startbild 04a, Endbild 04b | Clip, 4 Sekunden | CAM-F |
+| 04a | (Startbild von V2) | Arzt geht im Schritt auf Tür 2 zu, zwei Schritte davor, Hand geht zur Klinke, Elefant folgt dicht hinter ihm, Rüssel hängt locker | Startbild | CAM-F, EARLY_AFTERNOON, E3 |
+| V2 | 4 · 0:50 bis 0:56 | Clip: Arzt geht zur Tür und greift nach der Klinke, in diesem Moment legt sich der Rüssel auf seine rechte Schulter und bremst ihn. Startbild 04a, Endbild 04b | Clip, 8 Sekunden erzeugt, ca. 6 Sekunden genutzt | CAM-F |
 | 04b | 4 · 0:56 bis 1:04 | Halbnah auf Hand an der Klinke, Schulter und Rüssel, Arzt schaut zur Tür | Push 1.00 auf 1.10 | CAM-F nah, EARLY_AFTERNOON, E3 |
 | 05a | 5 · 1:04 bis 1:09 | Blick vom Wartebereich in den Flur, Elefant am Flurende vor Tür 2, Patient im Anschnitt vorn links, 3 andere Patienten im Raum | Stand | CAM-D, EARLY_AFTERNOON, E3 |
 | 05b | 5 · 1:09 bis 1:14 | Gleiche Komposition, wärmeres Licht, 1 anderer Patient, Patient etwas zusammengesackt | Stand | CAM-D, LATE_AFTERNOON, E3 |
 | 05c | 5 · 1:14 bis 1:20 | Gleiche Komposition, Abendlicht, Wartebereich leer bis auf den Patienten, Uhr ungefähr 17:40 | Stand | CAM-D, LATE_AFTERNOON bis EVENING_COOL, E3 |
 | 06a | 6 · 1:20 bis 1:22 | Halbnah auf den Patienten, er steht gerade auf, Stuhl leicht verrückt | Stand | CAM-D nah, EVENING_COOL |
-| 06b | 6 · 1:22 bis 1:25 und 7 · 1:30 bis 1:43 | Dreier-Totale: Arzt links, Elefant Mitte, Patient rechts, ca. 3 m Abstand Arzt zu Patient | Stand (Szene 6), Push 1.00 auf 1.15 (Szene 7) | CAM-E, EVENING_COOL, E3 |
+| 06b | 6 · 1:22 bis 1:25 und 7 · 1:30 bis 1:43 | Dreier-Totale: Arzt links, Elefant Mitte, Patientin rechts, ca. 3 m Abstand Arzt zu Patientin; lebendiges Set (Pflanzen, Jacke, Tasche, Becher, Stehleuchte, MFA macht im Hintergrund Feierabend), natürliche Haltung, unscharfes Blatt im Vordergrund | Stand (Szene 6), Push 1.00 auf 1.15 (Szene 7) | CAM-E, EVENING_COOL, E3 |
 | 06c | 6 · 1:25 bis 1:27 | Nahe auf den Arzt, er will zum Patienten schauen, die Flanke des Elefanten schiebt sich ins Bild | Stand | CAM-E nah, EVENING_COOL |
 | 06d | 6 · 1:27 bis 1:30 | Nahe auf den Patienten, Ärmel über der Hand, er kratzt am Unterarm, ruhiger Blick, kein Flehen | Stand | CAM-E nah, EVENING_COOL |
 | 08a | 8 · 1:43 bis 1:47 | Nahe auf das Gesicht des Arztes, er sieht den Elefanten an. Am Bildrand ein Stück Elefant mit Ohr | Stand | CAM-E nah, EVENING_COOL |

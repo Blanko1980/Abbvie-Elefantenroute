@@ -7,8 +7,9 @@
     "durationSeconds": 8,
     "resolution": "720p",
     "aspectRatio": "16:9",
-    "prompt": "Calm nature documentary shot, locked-off camera on a tripod, no camera movement. In a bright clinic corridor a doctor in a white coat stands still in front of a white door, his hand resting on the door handle. Behind him a huge, calm African elephant slowly lifts its trunk and gently lays it across the doctor's shoulder, a careful, caring gesture. The doctor does not move, he only breathes out quietly. Slow, natural, realistic movement, real animal behaviour, nothing else changes in the scene.",
-    "negativePrompt": "text, captions, subtitles, letters, logos, watermark, extra people, extra animals, cartoon, fast motion, camera shake, zoom, morphing, distorted anatomy"
+    "prompt": "Calm nature documentary shot, locked-off camera on a tripod, no camera movement. In a bright clinic corridor a doctor in a white coat walks briskly and purposefully toward a white door on the right, head up, followed closely by a huge, calm African elephant. For the first four seconds he keeps walking steadily, three steps, without slowing down. With his last step he reaches out for the door handle, and at the very moment his hand touches the handle, the elephant lifts its trunk and gently lays it across the doctor's right shoulder, softly holding him back mid-movement. The doctor stops, stands still with his hand on the handle, breathes out and does not open the door. The elephant stops too. Slow, natural, realistic movement, real animal behaviour, the elephant keeps its size, nothing else changes in the scene.",
+    "negativePrompt": "text, captions, subtitles, letters, logos, watermark, extra people, extra animals, cartoon, fast motion, camera shake, zoom, morphing, distorted anatomy",
+    "round": 2
   },
   "V1": {
     "phase": "2",

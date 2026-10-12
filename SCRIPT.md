@@ -52,6 +52,7 @@ BBC-Naturdoku, trockener Sprecher, kein Augenzwinkern bis zum Kippmoment. Gesamt
 
 - **Der Arzt:** eine Person, Mitte 50, weißer Kittel, Tablet oder Akte in der Hand. Ruhig, freundlich, kompetent, nie lächerlich, das Publikum soll ihn mögen. Er hört dem Elefanten beiläufig zu und nickt manchmal dem Geflüster zu, ohne es zu merken.
 - **Die Patientin** (geändert am 12.10.2026, vorher junger Mann): junge Frau Mitte 20, langärmeliger Pullover trotz der Wärme, zieht die Ärmel über die Hände, kratzt unter dem Stuhl und später am Unterarm. Hautveränderungen höchstens dezent an Hals oder Handrücken, nie ausgestellt. Sie wirkt wach, gefasst und alltäglich: Das Leiden nervt sie sichtbar, aber sie ist nicht erschöpft, nicht antriebslos und nicht verzweifelt. Sie spricht nie und trägt in allen Szenen dieselbe Kleidung. Wo in den Szenenbeschreibungen „der Patient“ steht, ist die Patientin gemeint.
+- **Lebendige Details im Set** (Entscheidung 12.10.2026): große Grünpflanzen an den Fenstern, Spuren des Alltags (Jacke über einer Stuhllehne, Tasche der Patientin, vergessener Kaffeebecher, warme Stehleuchte). Am Abend (Szenen 6 bis 8) macht im Hintergrund eine MFA Feierabend. Arzt und Patientin stehen nicht steif im Profil, sondern in natürlicher Haltung.
 - **Statisterie:** 4 bis 6 Personen (MFA, andere Patient:innen). Sie behandeln den Elefanten wie ein Möbelstück: Sie weichen ohne Blick aus, gehen um ihn herum, stellen im Vorbeigehen eine Tasse ab. Niemand schaut, niemand kommentiert.
 
 **Der Elefant.**
@@ -95,8 +96,8 @@ BBC-Naturdoku, trockener Sprecher, kein Augenzwinkern bis zum Kippmoment. Gesamt
 
 **Szene 4 · 0:50 bis 1:04**
 
-- **Einstellung 1 (0:50 bis 1:04):** Halbtotale am Flurende, früher Nachmittag. Der Arzt steht vor der zweiten Tür, die Hand auf der Klinke. Er drückt sie nicht. Der Elefant steht hinter ihm. Die Kamera fährt langsam bis auf Hand und Schulter heran.
-- **Der Rüssel** legt sich bei 0:54 sanft auf die rechte Schulter des Arztes. In diesem Moment erscheint die Einblendung „Da habe ich Respekt vor.“ Der Arzt atmet aus, nimmt die Hand nicht weg und öffnet nicht.
+- **Einstellung 1 (0:50 bis 1:04):** Halbtotale am Flurende, früher Nachmittag. Der Arzt geht entschlossen auf die zweite Tür zu, der Elefant folgt dicht hinter ihm. Er greift nach der Klinke. Die Kamera fährt danach langsam bis auf Hand und Schulter heran. (Geändert am 12.10.2026: vorher stand der Arzt von Anfang an still vor der Tür.)
+- **Der Rüssel** legt sich bei 0:54, genau als die Hand die Klinke erreicht, sanft auf die rechte Schulter des Arztes und bremst ihn. In diesem Moment erscheint die Einblendung „Da habe ich Respekt vor.“ Der Arzt hält inne, atmet aus, nimmt die Hand nicht weg und öffnet nicht.
 - **Spielweise:** ernst und ruhig, kein Gag. Der Elefant wirkt fürsorglich, nicht drohend.
 - **Sprecher:** erster Satz bei 0:56, zweiter bei 1:00.
 - **Ende:** Der Arzt wendet sich ab und geht. Hartschnitt.
@@ -154,6 +155,7 @@ Med-Legal gehört bei Schritt 2 und 3 von Anfang an dazu: Antworten zur Sicherhe
 - **Tonwechsel in Szene 6:** bleibt zunächst hart, wie im Script.
 - **Szene 8:** Nur ein Blick, kein Text.
 - **Einblendung Szene 2:** „Dafür ist die Patientin noch nicht schwer genug.“ (Entscheidung 12.10.2026).
-- **Sprecher:** männlich, Naturdoku-Stil (Entscheidung 12.10.2026).
+- **Sprecher:** männlich, Naturdoku-Stil; Stimme Thomas Schendel bei ElevenLabs (Entscheidung 12.10.2026).
+- **Szene 4:** Der Arzt geht auf die Tür zu, der Rüssel bremst ihn (Entscheidung 12.10.2026).
 - **Patientin statt Patient:** Die Figur ist eine junge Frau, nicht leidend und nicht antriebslos, sondern genervt von ihrem Leiden (Entscheidung 12.10.2026).
 - **Umsetzungsweg:** generierter Film mit Claude Code (Remotion). Sprecher: ElevenLabs. Musik und Raumton: später, vermutlich mit Suno.
