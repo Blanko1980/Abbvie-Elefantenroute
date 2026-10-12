@@ -1,0 +1,21 @@
+{
+  "title": "Referenzblätter R1–R4 · Phase 1 · zur Freigabe",
+  "rows": [
+    [
+      { "file": "refs/R1a.jpg", "label": "R1a · Arzt frontal" },
+      { "file": "refs/R1b.jpg", "label": "R1b · Arzt Dreiviertelprofil" },
+      { "file": "refs/R2a.jpg", "label": "R2a · Patient frontal" },
+      { "file": "refs/R2b.jpg", "label": "R2b · Patient Dreiviertelprofil" }
+    ],
+    [
+      { "file": "refs/R2c.jpg", "label": "R2c · Patient Hand/Unterarm" },
+      { "file": "refs/R3a.jpg", "label": "R3a · Elefant seitlich, E1" },
+      { "file": "refs/R3b.jpg", "label": "R3b · Elefant Dreiviertel, E1" }
+    ],
+    [
+      { "file": "refs/R4a.jpg", "label": "R4a · Set CAM-A Empfang" },
+      { "file": "refs/R4c.jpg", "label": "R4c · Set CAM-C Flurende" },
+      { "file": "refs/R4d.jpg", "label": "R4d · Set CAM-D Wartebereich" }
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "_note": "Wörtlich aus SHOTBIBLE.md, Abschnitt 2. Nicht umformulieren. scripts/check-blocks.mjs prüft das.",
+  "STYLE_LOCK": "Photorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+  "SET_BLOCK": "Interior of a modern dermatology clinic: a bright reception hall with a long white reception counter with light oak details; a waiting area along a floor-to-ceiling glass front with a row of six simple upholstered chairs; a long corridor with light grey linoleum flooring; on the left wall of the corridor the door to the doctor's consulting room; at the far end of the corridor on the right a second plain white door with a small unreadable sign; on the corridor wall a generic framed guideline-style poster (unreadable, no logo, no text) and a wall monitor showing an abstract line chart (no numbers, no text).",
+  "ELEPHANT_BLOCK": "One adult African savanna elephant, realistic wrinkled grey skin, large ears, both tusks, calm and healthy, anatomically correct with four legs, standing indoors on the floor, casting a soft shadow. Not a cartoon, no human expression.",
+  "E1": "natural size, shoulder height about 3 meters, fits the room with space to walk around it.",
+  "E2": "appears larger in relation to the room, its flank takes up about half of the corridor width, back almost touching the ceiling.",
+  "E3": "looks enormous, its body fills the corridor from wall to wall and nearly to the ceiling, only a narrow gap left.",
+  "DOCTOR_BLOCK": "A man in his mid-50s, short grey-brown hair, kind calm face, white doctor's coat over a light blue shirt, holding a tablet. Same person as in the reference image.",
+  "PATIENT_BLOCK": "A young man in his mid-20s, short dark hair, oversized dark grey long-sleeve knit sweater with sleeves pulled over his hands, tired but composed expression, very subtle redness at the neck, never dramatic. Same person and same clothes as in the reference image.",
+  "MORNING": "soft bright morning light through the glass front, clean and warm.",
+  "EARLY_AFTERNOON": "neutral bright daylight, slightly flatter.",
+  "LATE_AFTERNOON": "lower warmer sun, long soft shadows.",
+  "EVENING_COOL": "dusk outside, cool blue light mixed with cold fluorescent ceiling lights inside, lower contrast.",
+  "GOLDEN_LAST_SUN": "the last warm sunlight low through the windows, golden rim light, warm and gentle."
+}

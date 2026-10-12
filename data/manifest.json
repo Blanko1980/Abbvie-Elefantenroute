@@ -1,5 +1,271 @@
 {
   "version": 1,
   "note": "Ein Eintrag je erzeugtem Asset (Bild, Clip, Sprache). Felder: id, prompt, model, refs, attempt, timestamp, status (freigegeben | abgelehnt).",
-  "assets": []
+  "assets": [
+    {
+      "id": "R1a",
+      "type": "image",
+      "attempt": 1,
+      "timestamp": "2026-10-12T17:16:16.498Z",
+      "model": "gemini-3.1-flash-image",
+      "refs": [],
+      "aspectRatio": "4:5",
+      "imageSize": "2K",
+      "prompt": "Photorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nA man in his mid-50s, short grey-brown hair, kind calm face, white doctor's coat over a light blue shirt, holding a tablet. Same person as in the reference image.\n\nShot: Character reference photograph of one single person: half-length portrait, body and face turned directly toward the camera, looking into the lens, relaxed upright posture, holding the tablet at waist height with both hands. Neutral even soft lighting, plain softly blurred warm light-grey background.",
+      "status": "zur Freigabe",
+      "file": "refs/R1a.jpg",
+      "width": 1856,
+      "height": 2304,
+      "note": "Qualitätscheck ok; Hintergrund unscharfer Klinikflur statt neutral grau, unkritisch"
+    },
+    {
+      "id": "R2a",
+      "type": "image",
+      "attempt": 1,
+      "timestamp": "2026-10-12T17:16:16.919Z",
+      "model": "gemini-3.1-flash-image",
+      "refs": [],
+      "aspectRatio": "4:5",
+      "imageSize": "2K",
+      "prompt": "Photorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nA young man in his mid-20s, short dark hair, oversized dark grey long-sleeve knit sweater with sleeves pulled over his hands, tired but composed expression, very subtle redness at the neck, never dramatic. Same person and same clothes as in the reference image.\n\nShot: Character reference photograph of one single person: half-length portrait, body and face turned directly toward the camera, quiet neutral look into the lens, arms hanging relaxed, both sleeves pulled over his hands so only the fingertips show. Neutral even soft lighting, plain softly blurred warm light-grey background.",
+      "status": "zur Freigabe",
+      "file": "refs/R2a.jpg",
+      "width": 1856,
+      "height": 2304,
+      "note": "Qualitätscheck ok"
+    },
+    {
+      "id": "R4a",
+      "type": "image",
+      "attempt": 1,
+      "timestamp": "2026-10-12T17:16:17.885Z",
+      "model": "gemini-3.1-flash-image",
+      "refs": [],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Photorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nInterior of a modern dermatology clinic: a bright reception hall with a long white reception counter with light oak details; a waiting area along a floor-to-ceiling glass front with a row of six simple upholstered chairs; a long corridor with light grey linoleum flooring; on the left wall of the corridor the door to the doctor's consulting room; at the far end of the corridor on the right a second plain white door with a small unreadable sign; on the corridor wall a generic framed guideline-style poster (unreadable, no logo, no text) and a wall monitor showing an abstract line chart (no numbers, no text).\n\nShot: Set reference, camera position CAM-A. The room is completely empty: no people, no animals. Wide view from the entrance of the corridor into the reception hall, looking toward the waiting area and the floor-to-ceiling glass front at the back of the hall. The long white reception counter with light oak details stands on the right side of the frame. The row of six upholstered chairs runs along the glass front at the back; chair 1 is at the far left end of the row. A large open floor area in the middle of the hall between the counter and the waiting area. High ceiling of about 4.5 meters. On the wall above and behind the reception counter hangs a simple round analog wall clock with plain bar markers and no numerals, its hands at about ten past nine.\n\nLight: soft bright morning light through the glass front, clean and warm.",
+      "status": "abgelehnt",
+      "file": null,
+      "width": 2752,
+      "height": 1536,
+      "note": "Poster mit Pseudo-Schrift im Kopf; Uhr 10:10; Flur links im Bild widerspricht CAM-A (Flur liegt hinter der Kamera); Winterbäume vor dem Fenster"
+    },
+    {
+      "id": "R4a",
+      "type": "image",
+      "attempt": 2,
+      "timestamp": "2026-10-12T17:17:16.711Z",
+      "model": "gemini-3.1-flash-image",
+      "refs": [],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Photorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nInterior of a modern dermatology clinic: a bright reception hall with a long white reception counter with light oak details; a waiting area along a floor-to-ceiling glass front with a row of six simple upholstered chairs; a long corridor with light grey linoleum flooring; on the left wall of the corridor the door to the doctor's consulting room; at the far end of the corridor on the right a second plain white door with a small unreadable sign; on the corridor wall a generic framed guideline-style poster (unreadable, no logo, no text) and a wall monitor showing an abstract line chart (no numbers, no text).\n\nShot: Set reference, camera position CAM-A. The room is completely empty: no people, no animals. The camera stands in the opening where the corridor enters the reception hall; the corridor is behind the camera and not visible. Wide view into the reception hall toward the waiting area and the floor-to-ceiling glass front at the back of the hall, green summer trees outside. The long white reception counter with light oak details stands on the right side of the frame. The row of six upholstered chairs runs along the glass front at the back; chair 1 is at the far left end of the row. A large open floor area in the middle of the hall between the counter and the waiting area, wide enough for a large animal to stand there. High ceiling of about 4.5 meters. On the wall behind the reception counter hangs a simple round analog wall clock with plain bar markers and no numerals; the short hour hand points just past the 9, the long minute hand points at the 2. No posters, no screens in this room.\n\nLight: soft bright morning light through the glass front, clean and warm.",
+      "status": "abgelehnt",
+      "file": null,
+      "width": 2752,
+      "height": 1536,
+      "note": "10 statt 6 Stühle (zusätzliche Reihe an der linken Wand); Uhr 10:10; sonst gut -> Master für Bearbeitung"
+    },
+    {
+      "id": "R2c",
+      "type": "image",
+      "attempt": 1,
+      "timestamp": "2026-10-12T17:17:17.491Z",
+      "model": "gemini-3.1-flash-image",
+      "refs": [
+        "R2a"
+      ],
+      "aspectRatio": "4:3",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the patient, identical skin tone and the same dark grey knit sweater.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nA young man in his mid-20s, short dark hair, oversized dark grey long-sleeve knit sweater with sleeves pulled over his hands, tired but composed expression, very subtle redness at the neck, never dramatic. Same person and same clothes as in the reference image.\n\nShot: Detail reference photograph, close-up of his left hand and forearm resting on his knee, no face visible. The dark grey knit sleeve is pulled down over the back of the hand; at the wrist the sleeve has slid back a little and shows a small patch of very subtle, faint pinkish redness with slightly dry skin on the inner forearm. Realistic and understated, not dramatic, no wounds, no blood. The fingertips of his right hand rest lightly on the sleeve. Neutral even soft lighting, plain softly blurred warm light-grey background.",
+      "status": "zur Freigabe",
+      "file": "refs/R2c.jpg",
+      "width": 2400,
+      "height": 1792,
+      "note": "Qualitätscheck ok; Ärmel liegt am Handgelenk statt über dem Handrücken, Rötung dezent"
+    },
+    {
+      "id": "R1b",
+      "type": "image",
+      "attempt": 1,
+      "timestamp": "2026-10-12T17:17:17.890Z",
+      "model": "gemini-3.1-flash-image",
+      "refs": [
+        "R1a"
+      ],
+      "aspectRatio": "4:5",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the doctor, identical face, hair, age and clothes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nA man in his mid-50s, short grey-brown hair, kind calm face, white doctor's coat over a light blue shirt, holding a tablet. Same person as in the reference image.\n\nShot: Character reference photograph of one single person: half-length portrait in three-quarter profile, body and face turned about 45 degrees to the left of the camera, looking past the camera, holding the tablet at waist height. Neutral even soft lighting, plain softly blurred warm light-grey background.",
+      "status": "zur Freigabe",
+      "file": "refs/R1b.jpg",
+      "width": 1856,
+      "height": 2304,
+      "note": "Qualitätscheck ok, dieselbe Person wie R1a"
+    },
+    {
+      "id": "R2b",
+      "type": "image",
+      "attempt": 1,
+      "timestamp": "2026-10-12T17:17:19.425Z",
+      "model": "gemini-3.1-flash-image",
+      "refs": [
+        "R2a"
+      ],
+      "aspectRatio": "4:5",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the patient, identical face, hair, age and clothes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nA young man in his mid-20s, short dark hair, oversized dark grey long-sleeve knit sweater with sleeves pulled over his hands, tired but composed expression, very subtle redness at the neck, never dramatic. Same person and same clothes as in the reference image.\n\nShot: Character reference photograph of one single person: half-length portrait in three-quarter profile, body and face turned about 45 degrees to the right of the camera, eyes lowered slightly, both sleeves pulled over his hands. Neutral even soft lighting, plain softly blurred warm light-grey background.",
+      "status": "abgelehnt",
+      "file": null,
+      "width": 1856,
+      "height": 2304,
+      "note": "Bildfehler an beiden Ärmelbündchen; Halsrötung deutlicher als gewünscht"
+    },
+    {
+      "id": "R2b",
+      "type": "image",
+      "attempt": 2,
+      "timestamp": "2026-10-12T17:18:13.634Z",
+      "model": "gemini-3.1-flash-image",
+      "refs": [
+        "R2a"
+      ],
+      "aspectRatio": "4:5",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the patient, identical face, hair, age and clothes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nA young man in his mid-20s, short dark hair, oversized dark grey long-sleeve knit sweater with sleeves pulled over his hands, tired but composed expression, very subtle redness at the neck, never dramatic. Same person and same clothes as in the reference image.\n\nShot: Character reference photograph of one single person: half-length portrait in three-quarter profile, body and face turned about 45 degrees to the right of the camera, eyes lowered slightly, both sleeves pulled over his hands. Neutral even soft lighting, plain softly blurred warm light-grey background. The redness at the neck is barely visible. Both sleeve cuffs are complete and intact, covering the hands down to the fingertips.",
+      "status": "zur Freigabe",
+      "file": "refs/R2b.jpg",
+      "width": 1856,
+      "height": 2304,
+      "note": "Qualitätscheck ok, dieselbe Person wie R2a"
+    },
+    {
+      "id": "R4a",
+      "type": "image",
+      "attempt": 3,
+      "timestamp": "2026-10-12T17:18:16.309Z",
+      "model": "gemini-3.1-flash-image",
+      "refs": [
+        "work/candidates/R4a_a2.jpg"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image of the reception hall to be edited.\n\nEdit image 1. Same room, same camera, same framing, same light, same materials. Only change two things: 1) remove the chairs standing along the left wall, so that the waiting area has exactly six chairs in one single row along the glass front at the back, with chair 1 at the far left end of the row; 2) set the wall clock to ten past nine: the short hour hand points just past the 9 (pointing left), the long minute hand points at the 2.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zur Freigabe",
+      "file": "refs/R4a.jpg",
+      "width": 2752,
+      "height": 1536,
+      "retouch": "Lokal retuschiert ohne API (scripts/retouch-clock.mjs): Uhr aus Versuch 2 eingesetzt, weil die Bearbeitung Ziffern auf das Zifferblatt gesetzt hat.",
+      "note": "Qualitätscheck ok nach Retusche; Abweichungen: 5 statt 6 Stühle, Uhr zeigt 10:10 (laut Shot-Bible unkritisch); Boden der Halle helles Holz"
+    },
+    {
+      "id": "R4c",
+      "type": "image",
+      "attempt": 1,
+      "timestamp": "2026-10-12T17:19:55.959Z",
+      "model": "gemini-3.1-flash-image",
+      "refs": [
+        "R4a"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the same clinic, keep materials, colors and furniture style identical.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nInterior of a modern dermatology clinic: a bright reception hall with a long white reception counter with light oak details; a waiting area along a floor-to-ceiling glass front with a row of six simple upholstered chairs; a long corridor with light grey linoleum flooring; on the left wall of the corridor the door to the doctor's consulting room; at the far end of the corridor on the right a second plain white door with a small unreadable sign; on the corridor wall a generic framed guideline-style poster (unreadable, no logo, no text) and a wall monitor showing an abstract line chart (no numbers, no text).\n\nShot: Set reference, camera position CAM-C. The corridor is completely empty: no people, no animals. The camera stands at the far end of the long corridor and looks back along the corridor toward the reception hall. The light grey linoleum floor runs away from the camera. Because we look back, the door to the doctor's consulting room appears on the right wall of the frame. On the left wall of the frame: the generic framed poster, the wall monitor with an abstract line chart, and between them a few tall windows to the outside showing summer greenery. The corridor is about 3.5 meters wide with a ceiling height of about 3.6 meters. At the far end, through the wide opening into the reception hall, the waiting area with the glass front and the row of chairs is visible small in the background.\n\nLight: soft bright morning light through the glass front, clean and warm.",
+      "status": "zur Freigabe",
+      "file": "refs/R4c.jpg",
+      "width": 2752,
+      "height": 1536,
+      "note": "Qualitätscheck ok; Poster-Pseudotext und Türschild unscharf, nicht lesbar"
+    },
+    {
+      "id": "R3a",
+      "type": "image",
+      "attempt": 1,
+      "timestamp": "2026-10-12T17:19:55.975Z",
+      "model": "gemini-3.1-flash-image",
+      "refs": [
+        "R4a"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the reception hall, keep the room, camera position and furniture identical.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nInterior of a modern dermatology clinic: a bright reception hall with a long white reception counter with light oak details; a waiting area along a floor-to-ceiling glass front with a row of six simple upholstered chairs; a long corridor with light grey linoleum flooring; on the left wall of the corridor the door to the doctor's consulting room; at the far end of the corridor on the right a second plain white door with a small unreadable sign; on the corridor wall a generic framed guideline-style poster (unreadable, no logo, no text) and a wall monitor showing an abstract line chart (no numbers, no text).\n\nOne adult African savanna elephant, realistic wrinkled grey skin, large ears, both tusks, calm and healthy, anatomically correct with four legs, standing indoors on the floor, casting a soft shadow. Not a cartoon, no human expression. Elephant size: natural size, shoulder height about 3 meters, fits the room with space to walk around it.\n\nShot: Elephant reference in the reception hall, camera position CAM-A as in the reference image. No people. The elephant stands calmly in the middle of the hall between the reception counter and the waiting area, seen in a full side view, its body parallel to the glass front, head facing left. The whole animal is visible from trunk tip to tail and from feet to the top of its back.\n\nLight: soft bright morning light through the glass front, clean and warm.",
+      "status": "abgelehnt",
+      "file": null,
+      "width": 2752,
+      "height": 1536,
+      "note": "Elefant gut, aber Raum verändert: Poster mit Pseudo-Schrift und Monitor in der Halle, Uhr entfernt, zusätzliche Stuhlreihe"
+    },
+    {
+      "id": "R4d",
+      "type": "image",
+      "attempt": 1,
+      "timestamp": "2026-10-12T17:19:56.478Z",
+      "model": "gemini-3.1-flash-image",
+      "refs": [
+        "R4a"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the same clinic, keep materials, colors and furniture style identical.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nInterior of a modern dermatology clinic: a bright reception hall with a long white reception counter with light oak details; a waiting area along a floor-to-ceiling glass front with a row of six simple upholstered chairs; a long corridor with light grey linoleum flooring; on the left wall of the corridor the door to the doctor's consulting room; at the far end of the corridor on the right a second plain white door with a small unreadable sign; on the corridor wall a generic framed guideline-style poster (unreadable, no logo, no text) and a wall monitor showing an abstract line chart (no numbers, no text).\n\nShot: Set reference, camera position CAM-D. The room is completely empty: no people, no animals. The camera stands in the waiting area at the front left and looks across the reception hall into the long corridor. In the left foreground, cut off by the frame edge and softly out of focus, the outermost upholstered chair of the waiting row. The reception counter with the round analog wall clock (plain bar markers, no numerals) on the left in the middle distance. In the center the open entrance of the long corridor with light grey linoleum floor; the door to the doctor's consulting room on the left wall of the corridor; at the far end of the corridor, slightly right of center, the plain white second door, clearly visible. Daylight from the glass front behind the camera falls into the room.\n\nLight: soft bright morning light through the glass front, clean and warm.",
+      "status": "abgelehnt",
+      "file": null,
+      "width": 2752,
+      "height": 1536,
+      "note": "Lesbare Schrift am Arztzimmer; Standpunkt entspricht nicht CAM-D (kein Blick aus dem Wartebereich in den Flur)"
+    },
+    {
+      "id": "R3a",
+      "type": "image",
+      "attempt": 2,
+      "timestamp": "2026-10-12T17:20:48.420Z",
+      "model": "gemini-3.1-flash-image",
+      "refs": [
+        "R4a"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the reception hall, keep the room, camera position and furniture identical.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nInterior of a modern dermatology clinic: a bright reception hall with a long white reception counter with light oak details; a waiting area along a floor-to-ceiling glass front with a row of six simple upholstered chairs; a long corridor with light grey linoleum flooring; on the left wall of the corridor the door to the doctor's consulting room; at the far end of the corridor on the right a second plain white door with a small unreadable sign; on the corridor wall a generic framed guideline-style poster (unreadable, no logo, no text) and a wall monitor showing an abstract line chart (no numbers, no text).\n\nOne adult African savanna elephant, realistic wrinkled grey skin, large ears, both tusks, calm and healthy, anatomically correct with four legs, standing indoors on the floor, casting a soft shadow. Not a cartoon, no human expression. Elephant size: natural size, shoulder height about 3 meters, fits the room with space to walk around it.\n\nShot: Elephant reference in the reception hall, same camera position and framing as the reference image (CAM-A). No people. The room stays exactly as in the reference image: the same five chairs in one row along the glass front and no chairs along the left wall, the reception counter on the right, the round wall clock behind the counter. No poster, no monitor, no screen anywhere in this view. The elephant stands calmly in the middle of the hall between the reception counter and the waiting area, seen in a full side view, its body parallel to the glass front, head facing left. The whole animal is visible from trunk tip to tail and from feet to the top of its back.\n\nLight: soft bright morning light through the glass front, clean and warm.",
+      "status": "zur Freigabe",
+      "file": "refs/R3a.jpg",
+      "width": 2752,
+      "height": 1536,
+      "note": "Qualitätscheck ok; in reiner Seitenansicht nur ein Stoßzahn sichtbar, Schatten schwach"
+    },
+    {
+      "id": "R4d",
+      "type": "image",
+      "attempt": 2,
+      "timestamp": "2026-10-12T17:20:49.365Z",
+      "model": "gemini-3.1-flash-image",
+      "refs": [
+        "R4a",
+        "R4c"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the reception hall seen from the corridor toward the glass front; keep materials, chairs, counter and clock identical; image 2 = the corridor seen from its far end toward the hall; keep the corridor identical.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nInterior of a modern dermatology clinic: a bright reception hall with a long white reception counter with light oak details; a waiting area along a floor-to-ceiling glass front with a row of six simple upholstered chairs; a long corridor with light grey linoleum flooring; on the left wall of the corridor the door to the doctor's consulting room; at the far end of the corridor on the right a second plain white door with a small unreadable sign; on the corridor wall a generic framed guideline-style poster (unreadable, no logo, no text) and a wall monitor showing an abstract line chart (no numbers, no text).\n\nShot: Set reference, camera position CAM-D, the reverse angle of the first reference image. The room is completely empty: no people, no animals. The camera stands in the waiting area right next to the glass front, at the far left end of the chair row, and looks back across the reception hall into the long corridor. The glass front is behind the camera; daylight falls from behind the camera into the room. In the left foreground, cut off by the frame edge and softly out of focus, the outermost upholstered chair of the waiting row (chair 1). The reception counter is now on the left side of the hall in the middle distance. In the center of the frame the wide opening of the long corridor with light grey linoleum floor, seen straight down its length; the door to the doctor's consulting room on the left wall of the corridor; the tall windows on the right wall of the corridor; at the far end of the corridor, slightly right of center, the plain white second door, clearly visible. All door signs are blank, no lettering anywhere.\n\nLight: soft bright morning light through the glass front, clean and warm.",
+      "status": "zur Freigabe",
+      "file": "refs/R4d.jpg",
+      "width": 2752,
+      "height": 1536,
+      "note": "Qualitätscheck ok; Gegenschuss zu R4c, Poster hängt hier an der Stirnwand statt an der Seitenwand"
+    },
+    {
+      "id": "R3b",
+      "type": "image",
+      "attempt": 1,
+      "timestamp": "2026-10-12T17:21:28.322Z",
+      "model": "gemini-3.1-flash-image",
+      "refs": [
+        "R4a",
+        "R3a"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the reception hall, keep the room and furniture identical; image 2 = the elephant, identical animal: same size, skin, ears and tusks.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nInterior of a modern dermatology clinic: a bright reception hall with a long white reception counter with light oak details; a waiting area along a floor-to-ceiling glass front with a row of six simple upholstered chairs; a long corridor with light grey linoleum flooring; on the left wall of the corridor the door to the doctor's consulting room; at the far end of the corridor on the right a second plain white door with a small unreadable sign; on the corridor wall a generic framed guideline-style poster (unreadable, no logo, no text) and a wall monitor showing an abstract line chart (no numbers, no text).\n\nOne adult African savanna elephant, realistic wrinkled grey skin, large ears, both tusks, calm and healthy, anatomically correct with four legs, standing indoors on the floor, casting a soft shadow. Not a cartoon, no human expression. Elephant size: natural size, shoulder height about 3 meters, fits the room with space to walk around it.\n\nShot: Elephant reference in the reception hall, same camera position and framing as the first reference image (CAM-A). No people. The room stays exactly as in the first reference image: the same five chairs in one row along the glass front, the reception counter on the right, the round wall clock behind the counter. No poster, no monitor, no screen anywhere in this view. The same elephant as in the second reference image stands calmly in the middle of the hall, now seen in a three-quarter front view, its body turned about 45 degrees toward the camera, head turned slightly toward the camera, both tusks clearly visible, ears relaxed, trunk hanging loosely. The whole animal is visible.\n\nLight: soft bright morning light through the glass front, clean and warm.",
+      "status": "zur Freigabe",
+      "file": "refs/R3b.jpg",
+      "width": 2752,
+      "height": 1536,
+      "note": "Qualitätscheck ok; beide Stoßzähne sichtbar, Schatten schwach"
+    }
+  ]
 }
