@@ -1,0 +1,25 @@
+{
+  "title": "Szene 1 · Der Elefant · Phase 3",
+  "rows": [
+    [
+      {
+        "file": "public/stills/01a.jpg",
+        "label": "01a · Totale, Push 1.00→1.04 (4K)"
+      },
+      {
+        "file": "public/stills/01b1.jpg",
+        "label": "01b1 · MFA geht links vorbei"
+      }
+    ],
+    [
+      {
+        "file": "public/stills/01b2.jpg",
+        "label": "01b2 · Passanten rechts, Becher"
+      },
+      {
+        "file": "public/stills/01c.jpg",
+        "label": "01c · ganzer Raum, Patientin auf Stuhl 1"
+      }
+    ]
+  ]
+}

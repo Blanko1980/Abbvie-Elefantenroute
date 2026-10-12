@@ -1,26 +1,29 @@
 # Status
 
-Stand: 12.10.2026, Ende Phase 2 (abgeschlossen). **Wartet auf Freigabe für Phase 3.**
+Stand: 12.10.2026, Ende Phase 3 (alle Standbilder). **Wartet auf Freigabe.**
 
 ## Fertig
 
 - **Phase 0 Preflight**, siehe `PREFLIGHT.md`.
-- **Phase 1 Referenzblätter** R1 bis R4 in `refs/`, alle freigegeben.
-- **Phase 2 Drei-Shot-Test**, abgeschlossen. Notiz `review/phase2-notiz.md` (Runden 1 bis 3), Kontaktbogen `review/contact-sheet-phase2.jpg`, Schnittvorschlag `review/clips-schnittvorschlag.mp4`.
-  - Bilder in `public/stills/`: 01a, 04a, 04b, 06b, 08c.
-  - Clips in `public/clips/`: V2 (nutzbar 0,5 bis 5,2 s), V1 (nutzbar 3,0 bis 6,0 s).
-  - Sprecher: Thomas Schendel.
+- **Phase 1 Referenzblätter** R1 bis R4 in `refs/`, freigegeben.
+- **Phase 2 Drei-Shot-Test**, abgeschlossen (`review/phase2-notiz.md`). Clips V1 und V2 liegen in `public/clips/`. Der Sprecher ist Thomas Schendel.
+- **Phase 3 alle 26 Standbilder** in `public/stills/`, Notiz `review/phase3/notiz.md`, Kontaktbögen je Szene in `review/phase3/`.
 
-## Offen
+## Offen, braucht Entscheidung
 
-- Freigabe des neuen V1 und Start von Phase 3.
+1. Freigabe der Standbilder.
+2. 03f und 03g: Der Elefant steht neben Poster bzw. Monitor statt davor (3 Versuche ausgeschöpft). So lassen oder eine Zusatzrunde (bis 3 weitere Versuche je Bild)?
 
-## Als Nächstes: Phase 3 (alle 26 Standbilder)
+## Als Nächstes: Phase 4 (Sprecher)
 
-- **Neues 04b:** Rüssel auf der rechten Schulter, als Bildbearbeitung aus dem V2-Bild bei 5 s in 4K. Grund: Ab 5,25 s springt der Rüssel in V2 durch den Kopf auf die andere Schulter, deshalb endet V2 im Film bei 5,2 s.
-- **01a:** Patientin in Jeans (Bildbearbeitung).
-- **Abendbilder:** übernehmen die lebendigen Details aus 06b (Pflanzen, Stehleuchte, Jacke, Becher). Die MFA trägt am Abend Straßenkleidung.
-- Varianten (03a bis 03e, 05a bis 05c) per Bildbearbeitung aus dem Master. Elefantenbilder mit dem Pro-Modell. Ein Kontaktbogen je Szene.
+Sprechertext satzweise mit Thomas Schendel erzeugen (Einstellungen wie in der Probe), Dauer messen, Pausen laut Script setzen, daraus `data/timeline.json`. Abweichungen über 10 Prozent je Szene melde ich.
+
+## Schnittnotizen für Phase 5 (aus Phase 2 und 3)
+
+- **V2:** von 0,5 bis 5,2 s nutzen (0:50 bis etwa 0:54,7), danach direkt 04b (Neuaufbau des Bilds bei 5,15 s), Push bis auf Hand und Schulter.
+- **V1:** von 3,0 bis 6,0 s nutzen (1:47 bis 1:50).
+- **01b1, 01b2:** als Halbtotale per Ausschnitt; **08d:** als Halbnah per Ausschnitt.
+- **03d:** Fenster eventuell leicht anheben, damit der Frühling erkennbar wird.
 
 ## Freigegebene Set- und Figuren-Entscheidungen
 
@@ -42,7 +45,8 @@ Stand: 12.10.2026, Ende Phase 2 (abgeschlossen). **Wartet auf Freigabe für Phas
 - **08c:** Der Elefant steht nach dem Schritt links hinter dem Arzt, nicht im Vordergrund. Er ist kaum unscharf.
 - **V2:** Die Stuhlreihe im Flur verschwindet, während der Arzt daran vorbeigeht (das Endbild 04b hat keine Stühle).
 - **06b:** Die Ärmel sind hochgeschoben, das Vordergrundblatt fehlt.
-- **V2:** Ab 5,25 s springt der Rüssel durch den Kopf des Arztes auf die andere Schulter, deshalb wird nur bis 5,2 s geschnitten; 04b wird in Phase 3 ersetzt.
+- **V2:** Ab 5,25 s springt der Rüssel durch den Kopf des Arztes auf die andere Schulter, deshalb wird nur bis 5,2 s geschnitten; 04b ist ersetzt.
+- **Phase 3:** Die Abweichungen je Bild stehen in `review/phase3/notiz.md`.
 - **Clips:** 8 statt 4 Sekunden, weil die API 4 Sekunden mit Endbild ablehnt. Im Film werden Ausschnitte genutzt.
 
 ## Entscheidungen bisher
@@ -68,7 +72,9 @@ Stand: 12.10.2026, Ende Phase 2 (abgeschlossen). **Wartet auf Freigabe für Phas
 - `node scripts/gen-image.mjs <shots.json> <ID> [...]` erzeugt je einen Versuch. Kandidaten landen in `work/candidates/<ID>_a<n>.jpg`, das Manifest bekommt einen Eintrag, das API-Log zählt mit. Mehr als 3 Versuche je ID und Runde verweigert das Skript. Eine neue Runde (Feld `round` in der Shot-Definition) gibt es nur, wenn sich die Vorgabe nach deinem Feedback ändert. `--dry` zeigt nur den Prompt.
 - `node scripts/review.mjs accept <ID> <Versuch> <refs|public/stills> [Notiz]` oder `node scripts/review.mjs reject <ID> <Versuch> <Grund>`.
 - `node scripts/preview.mjs <datei>` erzeugt eine verkleinerte Ansicht in `work/preview/`.
-- `node scripts/contact-sheet.mjs <layout.json> <ausgabe.jpg>` baut einen Kontaktbogen.
+- `node scripts/contact-sheet.mjs <layout.json> <ausgabe.jpg>` baut einen Kontaktbogen; `node scripts/grid.mjs` ein schnelles Prüfraster.
+- `node scripts/color-match.mjs <bild> <referenz> <ausgabe>` gleicht die Farbe lokal an (ohne API).
+- Shot-Definitionen Phase 3: `data/shots/phase3.json`.
 - Shot-Definitionen: `data/shots/phase1.json`, `data/shots/phase2.json`, Clips `data/shots/phase2-clips.json`.
 - `node scripts/gen-clip.mjs <clips.json> <ID>` erzeugt einen Veo-Clip (Limit und Protokoll wie bei Bildern).
 - `node scripts/gen-voice.mjs <config.json> <voiceKey>` erzeugt eine Sprecherprobe; `node scripts/check-voice.mjs <mp3>` prüft sie per Gemini.

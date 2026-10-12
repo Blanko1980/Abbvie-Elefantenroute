@@ -1,0 +1,19 @@
+{
+  "title": "Szene 5 · Warten · Phase 3",
+  "rows": [
+    [
+      {
+        "file": "public/stills/05a.jpg",
+        "label": "05a · Nachmittag, 3 Wartende"
+      },
+      {
+        "file": "public/stills/05b.jpg",
+        "label": "05b · später, 1 Wartender"
+      },
+      {
+        "file": "public/stills/05c.jpg",
+        "label": "05c · Abend, nur die Patientin"
+      }
+    ]
+  ]
+}

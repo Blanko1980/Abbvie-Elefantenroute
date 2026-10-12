@@ -1,0 +1,25 @@
+{
+  "title": "Szenen 6 und 7 · Die Patientin, Der Satz · Phase 3",
+  "rows": [
+    [
+      {
+        "file": "public/stills/06a.jpg",
+        "label": "06a · Patientin steht auf"
+      },
+      {
+        "file": "public/stills/06b.jpg",
+        "label": "06b · Dreier-Totale, auch Szene 7 (4K)"
+      }
+    ],
+    [
+      {
+        "file": "public/stills/06c.jpg",
+        "label": "06c · Arzt, Flanke im Bild"
+      },
+      {
+        "file": "public/stills/06d.jpg",
+        "label": "06d · Patientin kratzt sich"
+      }
+    ]
+  ]
+}

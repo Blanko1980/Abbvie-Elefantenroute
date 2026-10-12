@@ -1,0 +1,43 @@
+{
+  "title": "Szene 3 · Trampelpfad (Reihenfolge laut Shotliste) · Phase 3",
+  "rows": [
+    [
+      {
+        "file": "public/stills/03a.jpg",
+        "label": "03a · Sommer, E1"
+      },
+      {
+        "file": "public/stills/03b.jpg",
+        "label": "03b · Herbst, E1–E2"
+      },
+      {
+        "file": "public/stills/03f.jpg",
+        "label": "03f · Poster (Elefant daneben)"
+      }
+    ],
+    [
+      {
+        "file": "public/stills/03c.jpg",
+        "label": "03c · Winter, E2"
+      },
+      {
+        "file": "public/stills/03g.jpg",
+        "label": "03g · Monitor (Flanke daneben)"
+      },
+      {
+        "file": "public/stills/03d.jpg",
+        "label": "03d · Frühling, E2–E3"
+      }
+    ],
+    [
+      {
+        "file": "public/stills/03h.jpg",
+        "label": "03h · Tür 2 im Schatten, E3"
+      },
+      {
+        "file": "public/stills/03e.jpg",
+        "label": "03e · Sommer Jahre später, E3"
+      }
+    ]
+  ]
+}

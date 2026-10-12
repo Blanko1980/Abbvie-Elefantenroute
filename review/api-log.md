@@ -2,13 +2,14 @@
 
 Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen (Modell- und Stimmenlisten) sind nicht mitgezählt. Erzeugt aus `data/api-calls.json`.
 
-**Summe:** 35 Bild, 7 Clip, 18 Sprache, 3 Text (Prüfaufrufe)
+**Summe:** 69 Bild, 7 Clip, 18 Sprache, 3 Text (Prüfaufrufe)
 
 | Phase | Bild | Clip | Sprache | Text |
 | --- | ---: | ---: | ---: | ---: |
 | 0 | 1 | 0 | 1 | 0 |
 | 1 | 22 | 0 | 0 | 0 |
 | 2 | 12 | 7 | 17 | 3 |
+| 3 | 34 | 0 | 0 | 0 |
 
 ## Einzelaufrufe
 
@@ -77,3 +78,37 @@ Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen
 | 2026-10-12 18:29 | 2 | Clip | veo-3.1-generate-preview | V2 | 3 | ok | 8s 720p |
 | 2026-10-12 18:46 | 2 | Bild | gemini-3-pro-image | 06b | 4 | ok | 5504x3072 |
 | 2026-10-12 18:48 | 2 | Clip | veo-3.1-generate-preview | V1 | 2 | ok | 8s 720p |
+| 2026-10-12 18:53 | 3 | Bild | gemini-3-pro-image | 03a | 1 | ok | 2752x1536 |
+| 2026-10-12 18:53 | 3 | Bild | gemini-3-pro-image | 03h | 1 | ok | 2752x1536 |
+| 2026-10-12 18:53 | 3 | Bild | gemini-3-pro-image | 03g | 1 | ok | 2752x1536 |
+| 2026-10-12 18:53 | 3 | Bild | gemini-3-pro-image | 02a | 1 | ok | 3168x1344 |
+| 2026-10-12 18:53 | 3 | Bild | gemini-3-pro-image | 01b1 | 1 | ok | 2752x1536 |
+| 2026-10-12 18:53 | 3 | Bild | gemini-3-pro-image | 03f | 1 | ok | 2752x1536 |
+| 2026-10-12 18:53 | 3 | Bild | gemini-3-pro-image | 01c | 1 | ok | 2752x1536 |
+| 2026-10-12 18:53 | 3 | Bild | gemini-3-pro-image | 01a | 2 | ok | 5504x3072 |
+| 2026-10-12 18:56 | 3 | Bild | gemini-3.1-flash-image | 06d | 1 | ok | 2752x1536 |
+| 2026-10-12 18:56 | 3 | Bild | gemini-3.1-flash-image | 06a | 1 | ok | 2752x1536 |
+| 2026-10-12 18:56 | 3 | Bild | gemini-3-pro-image | 08d | 1 | ok | 2752x1536 |
+| 2026-10-12 18:56 | 3 | Bild | gemini-3-pro-image | 08a | 1 | ok | 2752x1536 |
+| 2026-10-12 18:56 | 3 | Bild | gemini-3-pro-image | 03f | 2 | ok | 2752x1536 |
+| 2026-10-12 18:56 | 3 | Bild | gemini-3-pro-image | 03g | 2 | ok | 2752x1536 |
+| 2026-10-12 18:56 | 3 | Bild | gemini-3-pro-image | 02a | 2 | ok | 3168x1344 |
+| 2026-10-12 18:56 | 3 | Bild | gemini-3-pro-image | 06c | 1 | ok | 2752x1536 |
+| 2026-10-12 18:56 | 3 | Bild | gemini-3-pro-image | 03h | 2 | ok | 2752x1536 |
+| 2026-10-12 18:56 | 3 | Bild | gemini-3-pro-image | 01c | 2 | ok | 2752x1536 |
+| 2026-10-12 18:56 | 3 | Bild | gemini-3-pro-image | 05a | 1 | ok | 2752x1536 |
+| 2026-10-12 18:56 | 3 | Bild | gemini-3-pro-image | 04b | 2 | ok | 5504x3072 |
+| 2026-10-12 18:57 | 3 | Bild | gemini-3.1-flash-image | 06d | 2 | ok | 2752x1536 |
+| 2026-10-12 18:57 | 3 | Bild | gemini-3-pro-image | 01b2 | 1 | ok | 2752x1536 |
+| 2026-10-12 18:57 | 3 | Bild | gemini-3-pro-image | 03d | 1 | ok | 2752x1536 |
+| 2026-10-12 18:57 | 3 | Bild | gemini-3-pro-image | 03c | 1 | ok | 2752x1536 |
+| 2026-10-12 18:58 | 3 | Bild | gemini-3-pro-image | 02a | 3 | ok | 3168x1344 |
+| 2026-10-12 18:58 | 3 | Bild | gemini-3-pro-image | 03b | 1 | ok | 2752x1536 |
+| 2026-10-12 18:58 | 3 | Bild | gemini-3-pro-image | 03e | 1 | ok | 2752x1536 |
+| 2026-10-12 18:58 | 3 | Bild | gemini-3-pro-image | 03g | 3 | ok | 2752x1536 |
+| 2026-10-12 18:58 | 3 | Bild | gemini-3-pro-image | 05a | 2 | ok | 2752x1536 |
+| 2026-10-12 18:58 | 3 | Bild | gemini-3-pro-image | 03f | 3 | ok | 2752x1536 |
+| 2026-10-12 18:58 | 3 | Bild | gemini-3-pro-image | 02b | 1 | ok | 2752x1536 |
+| 2026-10-12 18:59 | 3 | Bild | gemini-3-pro-image | 05b | 1 | ok | 2752x1536 |
+| 2026-10-12 18:59 | 3 | Bild | gemini-3-pro-image | 05c | 1 | ok | 2752x1536 |
+| 2026-10-12 18:59 | 3 | Bild | gemini-3-pro-image | 02b | 2 | ok | 2752x1536 |
