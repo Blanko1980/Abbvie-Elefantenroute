@@ -1,3 +1,7 @@
 .env
+.env.*
 node_modules/
 out/
+# Rohdaten der Generierung (PNG-Originale, verworfene Versuche) bleiben lokal
+work/
+*.png

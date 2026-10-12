@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "note": "Ein Eintrag je erzeugtem Asset (Bild, Clip, Sprache). Felder: id, prompt, model, refs, attempt, timestamp, status (freigegeben | abgelehnt).",
+  "assets": []
+}
