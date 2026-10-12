@@ -70,4 +70,4 @@ Alle **26 Standbilder** liegen in `public/stills/`. Pro Szene gibt es einen Kont
 
 **Weiterhin bekannt:** In 03f und 03g steht der Elefant neben Poster bzw. Monitor statt davor.
 
-**Kosten Runde 2:** 26 Bildaufrufe (inklusive 11 abgelehnter Anfragen wegen fehlenden Guthabens, die nicht berechnet wurden), 3 Clips (V3, V4, V5, je 8 s).
+**Kosten Runde 2:** 34 Bildaufrufe, davon 23 erfolgreich und 11 abgelehnt wegen fehlenden Guthabens (nicht berechnet); 3 Clips (V3, V4, V5, je 8 s).
