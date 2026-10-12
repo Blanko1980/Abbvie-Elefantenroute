@@ -46,7 +46,7 @@ if (!vid) {
   console.error("Kein Video:", why);
   process.exit(1);
 }
-mkdirSync("work/candidates", { recursive: true });
+mkdirSync("work/candidates", { recursive: true }); mkdirSync("work/preview", { recursive: true });
 const out = `work/candidates/${id}_a${attempt}.mp4`;
 await ai.files.download({ file: vid, downloadPath: out });
 logApiCall({ phase: clip.phase, type: "clip", model: clip.model, id, attempt, ok: true, note: `${clip.durationSeconds}s ${clip.resolution}` });

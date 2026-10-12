@@ -41,3 +41,33 @@ Alle **26 Standbilder** liegen in `public/stills/`. Pro Szene gibt es einen Kont
 ## Kosten Phase 3
 
 34 Bildaufrufe, davon 26 angenommen. Die übrigen sind Fehlversuche oder abgelöste Zwischenstände. Alle mit `gemini-3-pro-image`, außer 06a und 06d (`gemini-3.1-flash-image`). Clips und Sprache wurden in Phase 3 nicht erzeugt.
+
+## Runde 2 (Feedback vom 12.10.2026)
+
+**Umgesetzt:**
+- **Szene 3, Trampelpfad:** Statt des Streifens gibt es jetzt natürliche Abnutzung auf sauberem Linoleum, die von Bild zu Bild zunimmt:
+  - 03a: einzelne, kaum sichtbare Schuhabdrücke
+  - 03b: mehr Abdrücke
+  - 03c: eine schmale, matte Laufbahn
+  - 03d: eine breitere, deutlich ausgetretene Bahn mit flachen Vertiefungen
+  - 03e: ein ausgetretener Weg über fast die ganze Flurbreite
+  - Auch 03f, 03g und 03h sind angepasst.
+  - Der Weg dorthin:
+    1. Der erste Versuch ergab Schlamm- und Sandflecken.
+    2. Die vorige Stufe als ganzes Referenzbild führte dazu, dass das Modell das falsche Bild nachbaute.
+    3. Ein Bodenausschnitt als Referenz wurde fast unverändert kopiert, die Spur wuchs nicht.
+    4. Deshalb habe ich bei 03c und 03d die Abnutzungsstruktur aus 03e lokal auf eine wachsende Laufbahn übertragen (`scripts/floor-detail.py`, im Manifest vermerkt).
+- **Szene 5:** Zwei Zeitraffer-Clips. V3 (05a nach 05b): Wartende gehen, das Licht wird wärmer. V4 (05b nach 05c): Dämmerung, der letzte Wartende geht. In beiden bewegt sich der Elefant am Flurende natürlich (Ohren, Rüssel, Gewicht). Sie füllen zusammen die 16 Sekunden der Szene.
+- **06a:** Der Stuhl in der Raummitte ist weg. Ihr Stuhl steht neben dem Stuhl mit der Jacke, wie in 07a.
+- **06b neu und Clip V5:** Der Arzt kommt von vorn links herein, der Elefant tritt hinten links aus einer Öffnung um die Ecke und geht bis zwischen Arzt und Patientin. Das bisherige 06b heißt jetzt **07a** (Szene 7, Endbild von V5).
+- **06c neu:** im Abendlicht wie 07a.
+- **08a neu:** Der Arzt dreht sich von Kamera und Patientin weg und schaut in die Raumtiefe direkt auf den Elefanten, im warmen Licht.
+- **Licht:**
+  - Szenen 6 und 7 sind einheitlich kühl, Szene 8 einheitlich warm. Lokal angeglichen per Farbbalance an 07a: 06a, 06b, 06c, 06d; dazu 01c an 01a.
+  - Clip V1 bekommt in Phase 5 eine warme Farbkorrektur, damit Szene 8 nicht zwischen Blau und Gold springt.
+
+**Offen für den Schnitt:** V5 zeigt den ganzen Weg des Elefanten in 8 Sekunden, die Einstellung hat laut Script aber 3 Sekunden. Vorschlag: Ausschnitt 3,0 bis 6,0 s.
+
+**Weiterhin bekannt:** In 03f und 03g steht der Elefant neben Poster bzw. Monitor statt davor.
+
+**Kosten Runde 2:** 26 Bildaufrufe (inklusive 11 abgelehnter Anfragen wegen fehlenden Guthabens, die nicht berechnet wurden), 3 Clips (V3, V4, V5, je 8 s).

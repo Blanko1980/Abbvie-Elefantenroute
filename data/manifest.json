@@ -837,11 +837,11 @@
       "aspectRatio": "16:9",
       "imageSize": "2K",
       "prompt": "Reference images, in order: image 1 = room layout reference only: keep walls, windows, doors and furniture in the same places, but follow the lighting described in the text; image 2 = the doctor, identical face, hair, age and clothes; image 3 = the elephant: identical animal, skin, mud on the legs and tusks, and how it sits in the room light; image 4 = the same elephant in side view; image 5 = the patient, identical face, hair, age and the same dark grey sweater.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nInterior of a modern dermatology clinic: a bright reception hall with a long white reception counter with light oak details; a waiting area along a floor-to-ceiling glass front with a row of six simple upholstered chairs; a long corridor with light grey linoleum flooring; on the left wall of the corridor the door to the doctor's consulting room; at the far end of the corridor on the right a second plain white door with a small unreadable sign; on the corridor wall a generic framed guideline-style poster (unreadable, no logo, no text) and a wall monitor showing an abstract line chart (no numbers, no text).\n\nOne adult African savanna elephant, realistic wrinkled grey skin, large ears, both tusks, calm and healthy, anatomically correct with four legs, standing indoors on the floor, casting a soft shadow. Not a cartoon, no human expression. Elephant size: natural size, shoulder height about 3 meters, fits the room with space to walk around it.\n\nA man in his mid-50s, short grey-brown hair, kind calm face, white doctor's coat over a light blue shirt, holding a tablet. Same person as in the reference image.\n\nA young woman in her mid-20s, shoulder-length dark brown hair loosely tied back, natural everyday look with little makeup, slightly oversized dark grey long-sleeve knit sweater with sleeves pulled over her hands, blue jeans and white sneakers, upright posture, alert and composed expression with a hint of everyday annoyance, not sad, not exhausted, very subtle redness at the neck, never dramatic. Same person and same clothes as in the reference image.\n\nShot: Shot 03a, the corridor seen from its far end looking back toward the reception hall (camera position CAM-C), locked-off. Light grey linoleum floor; the consulting room door on the right wall of the frame; on the left wall of the frame the framed poster with abstract shapes, the wall monitor with an abstract line, and tall windows; summer: green trees outside. Seen from behind, the doctor walks away from the camera toward the reception hall, the elephant at natural size walking beside and slightly behind him. On the linoleum a thin, faint, slightly lighter worn track runs along the middle of the corridor. Far in the background, through the wide opening into the hall, the waiting area at the glass front: the patient sits small on chair 1 at the left end of the chair row. Bright summer daylight from the windows, the elephant lit by the same light, dark contact shadows. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere; posters and screens show only abstract shapes and lines, no text, no numbers, no logos.",
-      "status": "zur Freigabe",
-      "file": "public/stills/03a.jpg",
+      "status": "abgelehnt",
+      "file": null,
       "width": 2752,
       "height": 1536,
-      "note": "Qualitätscheck ok; Poster-Pseudotext unscharf, nicht lesbar"
+      "note": "Qualitätscheck ok; Poster-Pseudotext unscharf, nicht lesbar (ersetzt)"
     },
     {
       "id": "03h",
@@ -1034,11 +1034,11 @@
       "aspectRatio": "16:9",
       "imageSize": "2K",
       "prompt": "Reference images, in order: image 1 = the patient, identical face, hair, age and the same dark grey sweater; image 2 = the patient in three-quarter profile; image 3 = the look of the evening scene: light, colors, the lived-in waiting area with plants, floor lamp and the jacket on the chair, the people and the elephant.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nA young woman in her mid-20s, shoulder-length dark brown hair loosely tied back, natural everyday look with little makeup, slightly oversized dark grey long-sleeve knit sweater with sleeves pulled over her hands, blue jeans and white sneakers, upright posture, alert and composed expression with a hint of everyday annoyance, not sad, not exhausted, very subtle redness at the neck, never dramatic. Same person and same clothes as in the reference image.\n\nShot: Shot 06a, medium shot of the patient in the evening waiting area (camera position CAM-D, close): she is just standing up from her upholstered chair, one hand on the armrest, the chair pushed back slightly at an angle; her jacket hangs over the chair next to her. Determined but calm, not dramatic. Behind her large leafy plants and the warm floor lamp, blue dusk in the windows, cold fluorescent light from above. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere; posters and screens show only abstract shapes and lines, no text, no numbers, no logos.\n\nLight: dusk outside, cool blue light mixed with cold fluorescent ceiling lights inside, lower contrast.",
-      "status": "zur Freigabe",
-      "file": "public/stills/06a.jpg",
+      "status": "abgelehnt",
+      "file": null,
       "width": 2752,
       "height": 1536,
-      "note": "Qualitätscheck ok"
+      "note": "Qualitätscheck ok (ersetzt)"
     },
     {
       "id": "08d",
@@ -1079,11 +1079,11 @@
       "aspectRatio": "16:9",
       "imageSize": "2K",
       "prompt": "Reference images, in order: image 1 = the doctor, identical face, hair, age and clothes; image 2 = the doctor in three-quarter profile; image 3 = the room and light of this moment; image 4 = the elephant: identical animal, skin, mud on the legs and tusks, and how it sits in the room light.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nOne adult African savanna elephant, realistic wrinkled grey skin, large ears, both tusks, calm and healthy, anatomically correct with four legs, standing indoors on the floor, casting a soft shadow. Not a cartoon, no human expression. Elephant size: looks enormous, its body fills the corridor from wall to wall and nearly to the ceiling, only a narrow gap left.\n\nA man in his mid-50s, short grey-brown hair, kind calm face, white doctor's coat over a light blue shirt, holding a tablet. Same person as in the reference image.\n\nShot: Shot 08a, close-up of the doctor's face (camera position CAM-E, close): he looks steadily at the elephant, calm, without a word, a quiet decision in his eyes. At the right edge of the frame, very close and slightly out of focus, a part of the elephant's head with its large ear. Cool evening light, first warm sunlight touching the side of his face. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere; posters and screens show only abstract shapes and lines, no text, no numbers, no logos.\n\nLight: dusk outside, cool blue light mixed with cold fluorescent ceiling lights inside, lower contrast.",
-      "status": "zur Freigabe",
-      "file": "public/stills/08a.jpg",
+      "status": "abgelehnt",
+      "file": null,
       "width": 2752,
       "height": 1536,
-      "note": "Qualitätscheck ok; Elefantenkopf etwas größer als nur Bildrand"
+      "note": "Qualitätscheck ok; Elefantenkopf etwas größer als nur Bildrand (ersetzt)"
     },
     {
       "id": "03f",
@@ -1165,12 +1165,12 @@
       "aspectRatio": "16:9",
       "imageSize": "2K",
       "prompt": "Reference images, in order: image 1 = the doctor, identical face, hair, age and clothes; image 2 = the doctor in three-quarter profile; image 3 = the look of the evening scene: light, colors, the lived-in waiting area with plants, floor lamp and the jacket on the chair, the people and the elephant; image 4 = the elephant: identical animal, skin, mud on the legs and tusks, and how it sits in the room light.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nOne adult African savanna elephant, realistic wrinkled grey skin, large ears, both tusks, calm and healthy, anatomically correct with four legs, standing indoors on the floor, casting a soft shadow. Not a cartoon, no human expression. Elephant size: looks enormous, its body fills the corridor from wall to wall and nearly to the ceiling, only a narrow gap left.\n\nA man in his mid-50s, short grey-brown hair, kind calm face, white doctor's coat over a light blue shirt, holding a tablet. Same person as in the reference image.\n\nShot: Shot 06c, close shot of the doctor (camera position CAM-E, close), head and shoulders: he turns his head to look toward the patient off-screen right, but the huge grey wrinkled flank of the elephant slides into the right half of the frame, very close and slightly out of focus, blocking his view. His face calm, a first trace of unease. Cool evening light from the fluorescent ceiling, blue dusk behind him in the windows. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere; posters and screens show only abstract shapes and lines, no text, no numbers, no logos.\n\nLight: dusk outside, cool blue light mixed with cold fluorescent ceiling lights inside, lower contrast.",
-      "status": "zur Freigabe",
-      "file": "public/stills/06c.jpg",
+      "status": "abgelehnt",
+      "file": null,
       "width": 2752,
       "height": 1536,
       "retouch": "Lokal ohne API: Farbe per Kanalabgleich an 06b angeglichen (Abendlicht).",
-      "note": "Qualitätscheck ok nach Farbabgleich"
+      "note": "Qualitätscheck ok nach Farbabgleich (ersetzt)"
     },
     {
       "id": "03h",
@@ -1188,11 +1188,11 @@
       "aspectRatio": "16:9",
       "imageSize": "2K",
       "prompt": "Reference images, in order: image 1 = room layout reference only: keep walls, windows, doors and furniture in the same places, but follow the lighting described in the text; image 2 = the doctor, identical face, hair, age and clothes; image 3 = the elephant: identical animal, skin, mud on the legs and tusks, and how it sits in the room light; image 4 = the same elephant in side view.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nInterior of a modern dermatology clinic: a bright reception hall with a long white reception counter with light oak details; a waiting area along a floor-to-ceiling glass front with a row of six simple upholstered chairs; a long corridor with light grey linoleum flooring; on the left wall of the corridor the door to the doctor's consulting room; at the far end of the corridor on the right a second plain white door with a small unreadable sign; on the corridor wall a generic framed guideline-style poster (unreadable, no logo, no text) and a wall monitor showing an abstract line chart (no numbers, no text).\n\nOne adult African savanna elephant, realistic wrinkled grey skin, large ears, both tusks, calm and healthy, anatomically correct with four legs, standing indoors on the floor, casting a soft shadow. Not a cartoon, no human expression. Elephant size: looks enormous, its body fills the corridor from wall to wall and nearly to the ceiling, only a narrow gap left.\n\nA man in his mid-50s, short grey-brown hair, kind calm face, white doctor's coat over a light blue shirt, holding a tablet. Same person as in the reference image.\n\nShot: Shot 03h, close shot at the far end of the corridor (camera position CAM-C, close). This is the dead end of the corridor: only white walls, grey linoleum with a dark worn track, and the plain white second door in the end wall, its small sign blank. No counter, no reception, no chairs, no monitor here. The elephant's enormous body fills the whole right half of the frame from floor nearly to the ceiling, much larger than the door; its shadow covers half of the door. The doctor walks past the door from right to left without looking at it, tablet in hand, unhurried. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere; posters and screens show only abstract shapes and lines, no text, no numbers, no logos.\n\nLight: neutral bright daylight, slightly flatter.",
-      "status": "zur Freigabe",
-      "file": "public/stills/03h.jpg",
+      "status": "abgelehnt",
+      "file": null,
       "width": 2752,
       "height": 1536,
-      "note": "Qualitätscheck ok; Arzt in dunkler Hose"
+      "note": "Qualitätscheck ok; Arzt in dunkler Hose (ersetzt)"
     },
     {
       "id": "01c",
@@ -1314,11 +1314,11 @@
       "aspectRatio": "16:9",
       "imageSize": "2K",
       "prompt": "Reference images, in order: image 1 = the master image to be edited; image 2 = the elephant: identical animal, skin, mud on the legs and tusks, and how it sits in the room light.\n\nEdit image 1. Same corridor, same camera, same framing as image 1 (time-lapse: some months later). Change only: the season outside the windows is now spring, fresh light-green leaves and blossoms; the light matches the season; the worn track in the linoleum is now very broad, a deep dark worn lane across most of the floor; the elephant now appears very large: its body takes up most of the corridor width, back touching the ceiling; the doctor walks toward the camera in the narrow space next to the elephant. The patient still sits small on chair 1 in the far background, exactly the same, same clothes. Everything else stays identical.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
-      "status": "zur Freigabe",
-      "file": "public/stills/03d.jpg",
+      "status": "abgelehnt",
+      "file": null,
       "width": 2752,
       "height": 1536,
-      "note": "Qualitätscheck ok"
+      "note": "Qualitätscheck ok (ersetzt)"
     },
     {
       "id": "03c",
@@ -1334,11 +1334,11 @@
       "aspectRatio": "16:9",
       "imageSize": "2K",
       "prompt": "Reference images, in order: image 1 = the master image to be edited; image 2 = the elephant: identical animal, skin, mud on the legs and tusks, and how it sits in the room light.\n\nEdit image 1. Same corridor, same camera, same framing as image 1 (time-lapse: some months later). Change only: the season outside the windows is now winter, snow on the branches and the ground, cold white light; the light matches the season; the worn track in the linoleum is now broad and dark, clearly worn into the linoleum; the elephant now appears larger in relation to the room: its flank takes up about half of the corridor width, its back almost touching the ceiling; the doctor and the elephant walk away from the camera toward the reception. The patient still sits small on chair 1 in the far background, exactly the same, same clothes. Everything else stays identical.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
-      "status": "zur Freigabe",
-      "file": "public/stills/03c.jpg",
+      "status": "abgelehnt",
+      "file": null,
       "width": 2752,
       "height": 1536,
-      "note": "Qualitätscheck ok"
+      "note": "Qualitätscheck ok (ersetzt)"
     },
     {
       "id": "02a",
@@ -1378,11 +1378,11 @@
       "aspectRatio": "16:9",
       "imageSize": "2K",
       "prompt": "Reference images, in order: image 1 = the master image to be edited; image 2 = the elephant: identical animal, skin, mud on the legs and tusks, and how it sits in the room light.\n\nEdit image 1. Same corridor, same camera, same framing as image 1 (time-lapse: some months later). Change only: the season outside the windows is now autumn, orange and brown leaves on the trees; the light matches the season; the worn track in the linoleum is now clearly visible, darker and wider, worn into the floor; the elephant now appears somewhat larger in relation to the corridor, between natural size and half the corridor width; the doctor and the elephant now walk toward the camera, the doctor looking at his tablet, the elephant beside him. The patient still sits small on chair 1 in the far background, exactly the same, same clothes. Everything else stays identical.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
-      "status": "zur Freigabe",
-      "file": "public/stills/03b.jpg",
+      "status": "abgelehnt",
+      "file": null,
       "width": 2752,
       "height": 1536,
-      "note": "Qualitätscheck ok"
+      "note": "Qualitätscheck ok (ersetzt)"
     },
     {
       "id": "03e",
@@ -1398,11 +1398,11 @@
       "aspectRatio": "16:9",
       "imageSize": "2K",
       "prompt": "Reference images, in order: image 1 = the master image to be edited; image 2 = the elephant: identical animal, skin, mud on the legs and tusks, and how it sits in the room light.\n\nEdit image 1. Same corridor, same camera, same framing as image 1 (time-lapse: some months later). Change only: the season outside the windows is now summer again, years later, lush dark-green trees; the light matches the season; the worn track in the linoleum is now a deep, dark lane worn across the whole floor width; the elephant now looks enormous: its body fills the corridor from wall to wall and nearly to the ceiling, only a narrow gap left; the doctor walks away from the camera, squeezed into the narrow gap next to the elephant, unbothered. The patient still sits small on chair 1 in the far background, exactly the same, same clothes. Everything else stays identical.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
-      "status": "zur Freigabe",
-      "file": "public/stills/03e.jpg",
+      "status": "abgelehnt",
+      "file": null,
       "width": 2752,
       "height": 1536,
-      "note": "Qualitätscheck ok; Elefant groß, links noch ein Spalt"
+      "note": "Qualitätscheck ok; Elefant groß, links noch ein Spalt (ersetzt)"
     },
     {
       "id": "03g",
@@ -1417,11 +1417,11 @@
       "aspectRatio": "16:9",
       "imageSize": "2K",
       "prompt": "Reference images, in order: image 1 = the master image to be edited.\n\nEdit image 1. Same corridor, same camera, same framing, same light, same elephant. Only change: the elephant has moved to the left, so that its huge flank now covers about two thirds of the wall monitor; only the left edge of the screen with the beginning of the rising line is still visible. The elephant is clearly in front of the wall. Nothing else changes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
-      "status": "zur Freigabe",
-      "file": "public/stills/03g.jpg",
+      "status": "abgelehnt",
+      "file": null,
       "width": 2752,
       "height": 1536,
-      "note": "Nach 3 Versuchen: Flanke neben statt vor dem Monitor"
+      "note": "Nach 3 Versuchen: Flanke neben statt vor dem Monitor (ersetzt)"
     },
     {
       "id": "05a",
@@ -1456,11 +1456,11 @@
       "aspectRatio": "16:9",
       "imageSize": "2K",
       "prompt": "Reference images, in order: image 1 = the master image to be edited.\n\nEdit image 1. Same corridor, same camera, same framing, same light, same elephant. Only change: the elephant has moved a little to the left, so that its flank and ear now cover the left half of the framed poster on the wall; the poster is half hidden behind the elephant's body. Nothing else changes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
-      "status": "zur Freigabe",
-      "file": "public/stills/03f.jpg",
+      "status": "abgelehnt",
+      "file": null,
       "width": 2752,
       "height": 1536,
-      "note": "Nach 3 Versuchen: Elefant steht neben statt vor dem Poster"
+      "note": "Nach 3 Versuchen: Elefant steht neben statt vor dem Poster (ersetzt)"
     },
     {
       "id": "02b",
@@ -1542,6 +1542,524 @@
       "width": 2752,
       "height": 1536,
       "note": "Qualitätscheck ok; Rüsselspitze nah am Arzt, aber ohne Berührung"
+    },
+    {
+      "id": "03d",
+      "type": "image",
+      "attempt": 2,
+      "round": 2,
+      "timestamp": "2026-10-12T19:24:30.973Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/raw/r2/03d.jpg"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited.\n\nEdit image 1. Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with a broad worn path: the linoleum rubbed matte and scuffed, dense overlapping prints, the round elephant footprints visible as shallow depressions, the edges irregular and organic. It must look like a real, naturally worn floor: no painted stripe, no straight line, no rally stripe, no hard edges; organic, irregular, built up from countless individual footprints. Nothing else changes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "abgelehnt",
+      "file": null,
+      "width": 2752,
+      "height": 1536,
+      "note": "Runde 2: Pfad wirkt wie Schlamm- und Sandfleck mit harten Rändern statt natürlicher Abnutzung; Sprung zu 03a zu groß"
+    },
+    {
+      "id": "03f",
+      "type": "image",
+      "attempt": 4,
+      "round": 2,
+      "timestamp": "2026-10-12T19:24:31.658Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/raw/r2/03f.jpg"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited.\n\nEdit image 1. Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with many overlapping shoe prints and round elephant footprints, the worn band clearly visible, matte and slightly greyish, with irregular edges. It must look like a real, naturally worn floor: no painted stripe, no straight line, no rally stripe, no hard edges; organic, irregular, built up from countless individual footprints. Nothing else changes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "abgelehnt",
+      "file": null,
+      "width": 2752,
+      "height": 1536,
+      "note": "Runde 2: Pfad wirkt wie Schlamm- und Sandfleck mit harten Rändern statt natürlicher Abnutzung; Sprung zu 03a zu groß"
+    },
+    {
+      "id": "03a",
+      "type": "image",
+      "attempt": 2,
+      "round": 2,
+      "timestamp": "2026-10-12T19:24:32.464Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/raw/r2/03a.jpg"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited.\n\nEdit image 1. Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with a first, faint trace: a few scattered, barely visible shoe prints and scuff marks along the middle of the corridor, the linoleum's gloss very slightly dulled in a narrow, irregular band. It must look like a real, naturally worn floor: no painted stripe, no straight line, no rally stripe, no hard edges; organic, irregular, built up from countless individual footprints. Nothing else changes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zur Freigabe",
+      "file": "public/stills/03a.jpg",
+      "width": 2752,
+      "height": 1536,
+      "note": "Runde 2: natürliche, kaum sichtbare Schuhabdrücke"
+    },
+    {
+      "id": "03b",
+      "type": "image",
+      "attempt": 2,
+      "round": 2,
+      "timestamp": "2026-10-12T19:24:32.748Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/raw/r2/03b.jpg"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited.\n\nEdit image 1. Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with more shoe prints and the first faint round elephant footprints, overlapping, the dull band of worn linoleum a little wider and more irregular, its edges soft and frayed. It must look like a real, naturally worn floor: no painted stripe, no straight line, no rally stripe, no hard edges; organic, irregular, built up from countless individual footprints. Nothing else changes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "abgelehnt",
+      "file": null,
+      "width": 2752,
+      "height": 1536,
+      "note": "Runde 2: Pfad wirkt wie Schlamm- und Sandfleck mit harten Rändern statt natürlicher Abnutzung; Sprung zu 03a zu groß"
+    },
+    {
+      "id": "06a",
+      "type": "image",
+      "attempt": 2,
+      "round": 2,
+      "timestamp": "2026-10-12T19:24:32.766Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/raw/r2/06a.jpg",
+        "07a"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited; image 2 = the same waiting area: where the chairs stand and the evening light.\n\nEdit image 1. Same patient, same pose, same camera, same light. Only change the chairs: remove the extra chair standing in the middle of the room. The chair she is just getting up from stands at the end of the row of chairs along the wall behind her, slightly pushed back at an angle; she stands directly in front of it, one hand still on its armrest. The chair with the jacket stays. Nothing else changes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zur Freigabe",
+      "file": "public/stills/06a.jpg",
+      "width": 2752,
+      "height": 1536,
+      "note": "Runde 2: Stuhl in der Raummitte entfernt, ihr Stuhl neben dem Jackenstuhl wie in 07a",
+      "retouch": "Lichtangleichung an 07a (scripts/color-balance.mjs)."
+    },
+    {
+      "id": "08a",
+      "type": "image",
+      "attempt": 2,
+      "round": 2,
+      "timestamp": "2026-10-12T19:24:33.495Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "08c",
+        "R1a",
+        "R1b",
+        "R3a"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the room, the warm golden light, and where the elephant stands (behind the doctor, on the left, in the depth of the room); image 2 = the doctor, identical face, hair, age and clothes; image 3 = the doctor in three-quarter profile; image 4 = the elephant.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nOne adult African savanna elephant, realistic wrinkled grey skin, large ears, both tusks, calm and healthy, anatomically correct with four legs, standing indoors on the floor, casting a soft shadow. Not a cartoon, no human expression. Elephant size: looks enormous, its body fills the corridor from wall to wall and nearly to the ceiling, only a narrow gap left.\n\nA man in his mid-50s, short grey-brown hair, kind calm face, white doctor's coat over a light blue shirt, holding a tablet. Same person as in the reference image.\n\nShot: Shot 08a, close shot of the doctor from behind his right shoulder (camera position CAM-E, close): he has deliberately turned away from the camera and from the patient and looks back into the depth of the room, directly at the elephant. We see the back of his head, his ear and the side of his face in lost profile, calm, without a word. In the depth of the room, softly out of focus, the elephant's head faces him, its large ear slightly moving, the head lowered as if in the faintest nod. The last warm, low golden sunlight falls through the windows, a warm rim light on the doctor's hair and cheek; the same warm evening light as in the reference image. A real photograph taken on location, not a composite, not a 3D rendering. No text anywhere.\n\nLight: the last warm sunlight low through the windows, golden rim light, warm and gentle.",
+      "status": "zur Freigabe",
+      "file": "public/stills/08a.jpg",
+      "width": 2752,
+      "height": 1536,
+      "note": "Runde 2: Arzt dreht sich weg und schaut in die Raumtiefe auf den Elefanten, warmes Licht"
+    },
+    {
+      "id": "03c",
+      "type": "image",
+      "attempt": 2,
+      "round": 2,
+      "timestamp": "2026-10-12T19:24:33.568Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/raw/r2/03c.jpg"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited.\n\nEdit image 1. Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with many overlapping shoe prints and round elephant footprints, pressed very slightly into the linoleum, some grey-brown grit from winter shoes, the worn band clearly wider with irregular, frayed edges. It must look like a real, naturally worn floor: no painted stripe, no straight line, no rally stripe, no hard edges; organic, irregular, built up from countless individual footprints. Nothing else changes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "abgelehnt",
+      "file": null,
+      "width": 2752,
+      "height": 1536,
+      "note": "Runde 2: Pfad wirkt wie Schlamm- und Sandfleck mit harten Rändern statt natürlicher Abnutzung; Sprung zu 03a zu groß"
+    },
+    {
+      "id": "03g",
+      "type": "image",
+      "attempt": 4,
+      "round": 2,
+      "timestamp": "2026-10-12T19:24:33.607Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/raw/r2/03g.jpg"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited.\n\nEdit image 1. Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with many overlapping shoe prints and round elephant footprints, a clearly worn, matte band with irregular edges. It must look like a real, naturally worn floor: no painted stripe, no straight line, no rally stripe, no hard edges; organic, irregular, built up from countless individual footprints. Nothing else changes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "abgelehnt",
+      "file": null,
+      "width": 2752,
+      "height": 1536,
+      "note": "Runde 2: Pfad wirkt wie Schlamm- und Sandfleck mit harten Rändern statt natürlicher Abnutzung; Sprung zu 03a zu groß"
+    },
+    {
+      "id": "03h",
+      "type": "image",
+      "attempt": 3,
+      "round": 2,
+      "timestamp": "2026-10-12T19:24:33.840Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/raw/r2/03h.jpg"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited.\n\nEdit image 1. Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with a broad worn path: the linoleum rubbed matte and scuffed, dense overlapping prints, round elephant footprints as shallow depressions. It must look like a real, naturally worn floor: no painted stripe, no straight line, no rally stripe, no hard edges; organic, irregular, built up from countless individual footprints. Nothing else changes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "abgelehnt",
+      "file": null,
+      "width": 2752,
+      "height": 1536,
+      "note": "Runde 2: Pfad wirkt wie Schlamm- und Sandfleck mit harten Rändern statt natürlicher Abnutzung; Sprung zu 03a zu groß"
+    },
+    {
+      "id": "06c",
+      "type": "image",
+      "attempt": 2,
+      "round": 2,
+      "timestamp": "2026-10-12T19:24:34.461Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "07a",
+        "R1a",
+        "R1b",
+        "R3a"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the same room at the same moment: evening light, blue dusk in the windows, cold ceiling light, warm floor lamp, plants, and the doctor's clothes; image 2 = the doctor, identical face, hair, age and clothes; image 3 = the doctor in three-quarter profile; image 4 = the elephant's skin.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nOne adult African savanna elephant, realistic wrinkled grey skin, large ears, both tusks, calm and healthy, anatomically correct with four legs, standing indoors on the floor, casting a soft shadow. Not a cartoon, no human expression. Elephant size: looks enormous, its body fills the corridor from wall to wall and nearly to the ceiling, only a narrow gap left.\n\nA man in his mid-50s, short grey-brown hair, kind calm face, white doctor's coat over a light blue shirt, holding a tablet. Same person as in the reference image.\n\nShot: Shot 06c, close shot of the doctor (camera position CAM-E, close), head and shoulders, in the evening waiting area of the reference image: he turns his head to look toward the patient off-screen right, but the huge grey wrinkled flank of the elephant slides into the right half of the frame, very close and slightly out of focus, blocking his view. His face calm, a first trace of unease. Exactly the evening light of the reference image: blue dusk outside the tall windows behind him, cold fluorescent light from the ceiling on his hair and shoulders, a small warm glow from the floor lamp; lower contrast, cool colors. It is clearly evening, not daytime. A real photograph taken on location, not a composite, not a 3D rendering. No text anywhere.\n\nLight: dusk outside, cool blue light mixed with cold fluorescent ceiling lights inside, lower contrast.",
+      "status": "zur Freigabe",
+      "file": "public/stills/06c.jpg",
+      "width": 2752,
+      "height": 1536,
+      "note": "Runde 2: Abendlicht wie 07a",
+      "retouch": "Lichtangleichung an 07a (scripts/color-balance.mjs)."
+    },
+    {
+      "id": "03e",
+      "type": "image",
+      "attempt": 2,
+      "round": 2,
+      "timestamp": "2026-10-12T19:24:34.552Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/raw/r2/03e.jpg"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited.\n\nEdit image 1. Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with a worn-out path across most of the corridor width: the linoleum rubbed matte and thin, in places worn through to a slightly darker under-layer, shallow depressions from the elephant's feet, countless overlapping prints, organic edges. It must look like a real, naturally worn floor: no painted stripe, no straight line, no rally stripe, no hard edges; organic, irregular, built up from countless individual footprints. Nothing else changes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "abgelehnt",
+      "file": null,
+      "width": 2752,
+      "height": 1536,
+      "note": "Runde 2: Pfad wirkt wie Schlamm- und Sandfleck mit harten Rändern statt natürlicher Abnutzung; Sprung zu 03a zu groß"
+    },
+    {
+      "id": "06b",
+      "type": "image",
+      "attempt": 1,
+      "round": 2,
+      "timestamp": "2026-10-12T19:24:44.297Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/raw/r2/07a.jpg",
+        "R1a",
+        "R3a"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "4K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited; image 2 = the doctor; image 3 = the elephant.\n\nEdit image 1. Same room, same camera, same framing, same evening light, same plants, lamp, jacket, cup; the patient stands in exactly the same place at the right and looks toward the left. Show an earlier moment: the doctor is just entering the frame from the left edge in the foreground, mid-stride, walking into the room, tablet in hand, looking ahead; the elephant is not yet in the middle of the room: it is just coming around the corner at the back left of the room, from a wide opening in the back wall, its head, trunk and front legs already in the room, the rest of its body still hidden behind the corner. The middle of the room between the doctor and the patient is empty for now. The woman in the trench coat in the background stays. Nothing else changes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "abgelehnt",
+      "file": null,
+      "width": 5504,
+      "height": 3072,
+      "note": "Elefant steht schon vollständig hinten im Raum statt um die Ecke zu biegen"
+    },
+    {
+      "id": "03b",
+      "type": "image",
+      "attempt": 3,
+      "round": 2,
+      "timestamp": "2026-10-12T19:26:09.183Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/raw/r2/03b.jpg",
+        "03a"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited; image 2 = the previous stage of the same floor, some months earlier: the new floor must be slightly MORE worn than this, never less, and look like the same kind of wear.\n\nEdit image 1. Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with a naturally worn path, slightly more worn than the previous stage: the matte band a little wider, about a third of a meter, with more prints. The wear shows only on a clean, well-kept linoleum floor: the gloss is rubbed off to a matte, very slightly lighter-greyish finish, with fine scuffs and faint, overlapping shoe prints and round elephant footprints, visible mainly by their different sheen and as very shallow impressions. No mud, no dirt, no sand, no stains, no dark patches, no puddles. The edges of the worn area fade out softly and gradually, without any outline or border; no painted stripe, no straight line. Nothing else changes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zur Freigabe",
+      "file": "public/stills/03b.jpg",
+      "width": 2752,
+      "height": 1536,
+      "note": "Runde 2: Pfad natürlich, etwas mehr als 03a"
+    },
+    {
+      "id": "06b",
+      "type": "image",
+      "attempt": 2,
+      "round": 2,
+      "timestamp": "2026-10-12T19:26:16.700Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/raw/r2/07a.jpg",
+        "R1a",
+        "R3a"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "4K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited; image 2 = the doctor; image 3 = the elephant.\n\nEdit image 1. Same room, same camera, same framing, same evening light, same plants, lamp, jacket, cup, same woman in the trench coat; the patient stands in exactly the same place at the right and looks toward the left. Show an earlier moment: the doctor is just entering the frame from the left edge in the foreground, mid-stride, tablet in hand, looking ahead. At the back left of the room, where the window wall meets the wood-panelled back wall, there is a wide opening to a side corridor. The elephant is just stepping out of this opening around the corner into the room: only its head, trunk, one ear and one front leg are visible, the rest of its huge body is still hidden behind the wall. The middle of the room between the doctor and the patient is empty. Nothing else changes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zur Freigabe",
+      "file": "public/stills/06b.jpg",
+      "width": 5504,
+      "height": 3072,
+      "note": "Runde 2: Arzt kommt von vorn links, Elefant tritt hinten links um die Ecke; Startbild V5",
+      "retouch": "Lichtangleichung an 07a (scripts/color-balance.mjs)."
+    },
+    {
+      "id": "03f",
+      "type": "image",
+      "attempt": 5,
+      "round": 2,
+      "timestamp": "2026-10-12T19:26:54.042Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/raw/r2/03f.jpg",
+        "03b"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited; image 2 = the previous stage of the same floor, some months earlier: the new floor must be slightly MORE worn than this, never less, and look like the same kind of wear.\n\nEdit image 1. Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with a naturally worn path, clearly more worn than the previous stage: the matte band about half a meter wide, prints denser. The wear shows only on a clean, well-kept linoleum floor: the gloss is rubbed off to a matte, very slightly lighter-greyish finish, with fine scuffs and faint, overlapping shoe prints and round elephant footprints, visible mainly by their different sheen and as very shallow impressions. No mud, no dirt, no sand, no stains, no dark patches, no puddles. The edges of the worn area fade out softly and gradually, without any outline or border; no painted stripe, no straight line. Nothing else changes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "abgelehnt",
+      "file": null,
+      "width": 2752,
+      "height": 1536,
+      "note": "Modell hat die Referenz 03b nachgebaut statt das Posterbild zu bearbeiten"
+    },
+    {
+      "id": "03c",
+      "type": "image",
+      "attempt": 3,
+      "round": 2,
+      "timestamp": "2026-10-12T19:26:55.784Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/raw/r2/03c.jpg",
+        "03b"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited; image 2 = the previous stage of the same floor, some months earlier: the new floor must be slightly MORE worn than this, never less, and look like the same kind of wear.\n\nEdit image 1. Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with a naturally worn path, clearly more worn than the previous stage: the matte band about half a meter to a meter wide, prints denser, the first very shallow round depressions from the elephant's feet. The wear shows only on a clean, well-kept linoleum floor: the gloss is rubbed off to a matte, very slightly lighter-greyish finish, with fine scuffs and faint, overlapping shoe prints and round elephant footprints, visible mainly by their different sheen and as very shallow impressions. No mud, no dirt, no sand, no stains, no dark patches, no puddles. The edges of the worn area fade out softly and gradually, without any outline or border; no painted stripe, no straight line. Nothing else changes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "abgelehnt",
+      "file": null,
+      "width": 2752,
+      "height": 1536,
+      "note": "Modell hat die Referenz 03b nachgebaut statt das Winterbild zu bearbeiten"
+    },
+    {
+      "id": "03f",
+      "type": "image",
+      "attempt": 6,
+      "round": 2,
+      "timestamp": "2026-10-12T19:27:44.824Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/raw/r2/03f.jpg",
+        "work/raw/floorref_03b.jpg"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the image to be edited; image 2 = floor texture reference only: how the wear looked some months earlier (do not copy anything else from it).\n\nEdit image 1. Edit image 1 only; image 1 is a close shot of the elephant standing next to the framed poster on the corridor wall. Keep everything of image 1 exactly: same season, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor of image 1: replace it with a naturally worn path, clearly more worn than the floor texture in image 2: a matte band about half a meter wide with dense prints. The wear shows only on a clean, well-kept linoleum floor: the gloss is rubbed off to a matte, very slightly lighter-greyish finish, with fine scuffs and faint, overlapping shoe prints and round elephant footprints, visible mainly by their different sheen and as very shallow impressions. No mud, no dirt, no sand, no stains, no dark patches, no puddles. The edges of the worn area fade out softly and gradually, without any outline or border; no painted stripe, no straight line. Image 2 is only a small floor texture sample; do not use it as the scene.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zur Freigabe",
+      "file": "public/stills/03f.jpg",
+      "width": 2752,
+      "height": 1536,
+      "note": "Runde 2: Pfad natürlich; Elefant weiterhin neben statt vor dem Poster"
+    },
+    {
+      "id": "03c",
+      "type": "image",
+      "attempt": 4,
+      "round": 2,
+      "timestamp": "2026-10-12T19:27:45.923Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/raw/r2/03c.jpg",
+        "work/raw/floorref_03b.jpg"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the image to be edited; image 2 = floor texture reference only: how the wear looked some months earlier (do not copy anything else from it).\n\nEdit image 1. Edit image 1 only; image 1 shows the corridor in winter with snow outside the windows; the doctor and the elephant walk away from the camera. Keep everything of image 1 exactly: same season, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor of image 1: replace it with a naturally worn path, clearly more worn than the floor texture in image 2: a matte band about half a meter to a meter wide along the walking line, prints denser, the first very shallow round depressions from the elephant's feet. The wear shows only on a clean, well-kept linoleum floor: the gloss is rubbed off to a matte, very slightly lighter-greyish finish, with fine scuffs and faint, overlapping shoe prints and round elephant footprints, visible mainly by their different sheen and as very shallow impressions. No mud, no dirt, no sand, no stains, no dark patches, no puddles. The edges of the worn area fade out softly and gradually, without any outline or border; no painted stripe, no straight line. Image 2 is only a small floor texture sample; do not use it as the scene.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zur Freigabe",
+      "file": "public/stills/03c.jpg",
+      "width": 2752,
+      "height": 1536,
+      "note": "Runde 2: Pfad natürlich, matt mit Abdrücken; nur leicht mehr als 03b",
+      "retouch": "Lokal ohne API: Abnutzungsstruktur aus 03e zu 35 % auf eine schmale Laufbahn übertragen (scripts/floor-detail.py), damit der Pfad gegenüber 03b wächst."
+    },
+    {
+      "id": "03g",
+      "type": "image",
+      "attempt": 5,
+      "round": 2,
+      "timestamp": "2026-10-12T19:28:16.989Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/raw/r2/03g.jpg",
+        "work/raw/floorref_03c.jpg"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the image to be edited; image 2 = floor texture reference only: how the wear looked some months earlier (do not copy anything else from it).\n\nEdit image 1. Edit image 1 only; image 1 is a close shot of the elephant's flank next to the wall monitor. Keep everything of image 1 exactly: same season, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor of image 1: replace it with a naturally worn path, about as worn as the floor texture in image 2: a matte band about a meter wide with dense prints. The wear shows only on a clean, well-kept linoleum floor: the gloss is rubbed off to a matte, very slightly lighter-greyish finish, with fine scuffs and faint, overlapping shoe prints and round elephant footprints, visible mainly by their different sheen and as very shallow impressions. No mud, no dirt, no sand, no stains, no dark patches, no puddles. The edges of the worn area fade out softly and gradually, without any outline or border; no painted stripe, no straight line. Image 2 is only a small floor texture sample; do not use it as the scene.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zur Freigabe",
+      "file": "public/stills/03g.jpg",
+      "width": 2752,
+      "height": 1536,
+      "note": "Runde 2: Pfad natürlich (Stufe zwischen 03c und 03d); Flanke weiterhin neben dem Monitor"
+    },
+    {
+      "id": "03d",
+      "type": "image",
+      "attempt": 3,
+      "round": 2,
+      "timestamp": "2026-10-12T19:28:17.181Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/raw/r2/03d.jpg",
+        "work/raw/floorref_03c.jpg"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the image to be edited; image 2 = floor texture reference only: how the wear looked some months earlier (do not copy anything else from it).\n\nEdit image 1. Edit image 1 only; image 1 shows the corridor in spring; the very large elephant and the doctor walk toward the camera. Keep everything of image 1 exactly: same season, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor of image 1: replace it with a naturally worn path, more worn than the floor texture in image 2: a band about one and a half meters wide, the linoleum surface rubbed thin, the elephant footprints as shallow but clearly visible depressions. The wear shows only on a clean, well-kept linoleum floor: the gloss is rubbed off to a matte, very slightly lighter-greyish finish, with fine scuffs and faint, overlapping shoe prints and round elephant footprints, visible mainly by their different sheen and as very shallow impressions. No mud, no dirt, no sand, no stains, no dark patches, no puddles. The edges of the worn area fade out softly and gradually, without any outline or border; no painted stripe, no straight line. Image 2 is only a small floor texture sample; do not use it as the scene.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "abgelehnt",
+      "file": null,
+      "width": 2752,
+      "height": 1536,
+      "note": "Runde 2: Pfad natürlich, aber kaum mehr Abnutzung als 03c (Bodenreferenz wurde kopiert); Ausgangsbild für die Steigerung"
+    },
+    {
+      "id": "03h",
+      "type": "image",
+      "attempt": 4,
+      "round": 2,
+      "timestamp": "2026-10-12T19:29:14.914Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/raw/r2/03h.jpg"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the image to be edited.\n\nEdit image 1. Edit this image. Keep everything exactly: the plain white door at the end of the corridor, the enormous elephant, the doctor walking past, camera, framing and light. Only change the floor: replace the dark track with a broad, naturally worn path: the linoleum rubbed matte and slightly thin, a continuous lane of merged shoe prints, round elephant footprints as shallow depressions. Keep it a clean, well-kept clinic floor: no mud, no dirt, no sand, no stains, no puddles; the wear shows as matte, rubbed linoleum, fine scuffs and shallow impressions, with edges that fade out softly without any outline; no painted stripe. Nothing else changes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zur Freigabe",
+      "file": "public/stills/03h.jpg",
+      "width": 2752,
+      "height": 1536,
+      "note": "Runde 2: Pfad natürlich"
+    },
+    {
+      "id": "03e",
+      "type": "image",
+      "attempt": 3,
+      "round": 2,
+      "timestamp": "2026-10-12T19:29:15.329Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/raw/r2/03e.jpg",
+        "work/raw/r2/03d_a3.jpg"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the image to be edited; image 2 = for comparison only: an earlier, much less worn stage of the same floor; the new floor must be far more worn than this.\n\nEdit image 1. Edit image 1 only; image 1 shows the corridor in summer, years later, the enormous elephant fills most of the corridor and the doctor walks away from the camera beside it. Keep everything of image 1 exactly. Only change the floor: replace the dark track with a deeply worn-out path across most of the corridor width: the linoleum rubbed matte and thin, in the middle worn through to a slightly darker under-layer, a continuous lane of countless merged shoe prints, round elephant footprints as clear shallow depressions, the surface very slightly hollowed along the walking line. Keep it a clean, well-kept clinic floor: no mud, no dirt, no sand, no stains, no puddles; the wear shows as matte, rubbed linoleum, fine scuffs and shallow impressions, with edges that fade out softly without any outline; no painted stripe. It must look far more worn than image 2. Nothing else changes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zur Freigabe",
+      "file": "public/stills/03e.jpg",
+      "width": 2752,
+      "height": 1536,
+      "note": "Runde 2: ausgetretener Weg, natürlich, sauber"
+    },
+    {
+      "id": "03d",
+      "type": "image",
+      "attempt": 4,
+      "round": 2,
+      "timestamp": "2026-10-12T19:29:16.417Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/raw/r2/03d_a3.jpg"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the image to be edited.\n\nEdit image 1. Edit this image. Keep everything exactly: same spring corridor, camera, framing, light, people and elephant. Only make the worn path on the linoleum floor clearly more worn than it is now: it becomes about twice as wide (roughly one and a half meters), the linoleum along the walking line is rubbed visibly matte and slightly thinner, the many overlapping shoe prints merge into a continuous worn lane, and the round elephant footprints are visible as shallow depressions. Keep it a clean, well-kept clinic floor: no mud, no dirt, no sand, no stains, no puddles; the wear shows as matte, rubbed linoleum, fine scuffs and shallow impressions, with edges that fade out softly without any outline; no painted stripe. Nothing else changes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zur Freigabe",
+      "file": "public/stills/03d.jpg",
+      "width": 2752,
+      "height": 1536,
+      "note": "Runde 2: Pfad per lokaler Strukturübertragung verstärkt",
+      "retouch": "Lokal ohne API: Abnutzungsstruktur aus 03e zu 70 % auf eine breitere Laufbahn übertragen (scripts/floor-detail.py)."
+    },
+    {
+      "id": "V3",
+      "type": "clip",
+      "attempt": 1,
+      "round": 1,
+      "timestamp": "2026-10-12T19:32:31.665Z",
+      "model": "veo-3.1-generate-preview",
+      "refs": [
+        "05a",
+        "05b"
+      ],
+      "prompt": "Locked-off tripod shot, no camera movement, slow observational time-lapse in a clinic waiting area. The afternoon light slowly becomes warmer and lower, long soft shadows grow across the floor. One by one, the waiting patients are called, stand up and walk out of the frame; only the older man with the newspaper stays. In the left foreground the young woman stays seated, sinking a little lower in her chair, sleeves pulled over her hands. At the far end of the corridor the huge, calm elephant stays in its place but is alive: it slowly flaps its ears, sways its trunk, shifts its weight from one foot to the other. Natural, realistic movement, real animal behaviour, the elephant keeps its size and position.",
+      "negativePrompt": "text, captions, subtitles, letters, logos, watermark, cartoon, camera shake, zoom, morphing, distorted anatomy, elephant walking away, elephant changing size",
+      "durationSeconds": 8,
+      "resolution": "720p",
+      "status": "zur Freigabe",
+      "file": "public/clips/V3.mp4",
+      "note": "Zeitraffer 05a→05b, Elefant lebendig am Flurende; ganze 8 s nutzbar"
+    },
+    {
+      "id": "V4",
+      "type": "clip",
+      "attempt": 1,
+      "round": 1,
+      "timestamp": "2026-10-12T19:33:44.601Z",
+      "model": "veo-3.1-generate-preview",
+      "refs": [
+        "05b",
+        "05c"
+      ],
+      "prompt": "Locked-off tripod shot, no camera movement, slow observational time-lapse in a clinic waiting area. The low warm sun fades into blue dusk outside, the ceiling lights switch on, the floor lamp glows warm. The older man with the newspaper folds it, stands up and leaves the frame. In the left foreground the young woman stays seated alone, slightly slumped, sleeves pulled over her hands. At the far end of the corridor the huge, calm elephant stays in its place but is alive: it slowly flaps its ears, sways its trunk, shifts its weight. Natural, realistic movement, real animal behaviour, the elephant keeps its size and position.",
+      "negativePrompt": "text, captions, subtitles, letters, logos, watermark, cartoon, camera shake, zoom, morphing, distorted anatomy, elephant walking away, elephant changing size, clock",
+      "durationSeconds": 8,
+      "resolution": "720p",
+      "status": "zur Freigabe",
+      "file": "public/clips/V4.mp4",
+      "note": "Zeitraffer 05b→05c, Dämmerung, letzter Wartender geht; ganze 8 s nutzbar"
+    },
+    {
+      "id": "V5",
+      "type": "clip",
+      "attempt": 1,
+      "round": 1,
+      "timestamp": "2026-10-12T19:34:57.270Z",
+      "model": "veo-3.1-generate-preview",
+      "refs": [
+        "06b",
+        "07a"
+      ],
+      "prompt": "Locked-off tripod shot, no camera movement, calm nature documentary style, cool evening light in a lived-in clinic waiting area. A young woman stands on the right and looks toward the left. At the same time a doctor in a white coat walks in from the left edge of the frame in the foreground and stops at his place, and a huge, calm African elephant comes around the corner at the back left of the room and walks slowly forward until it stands in the middle, between the doctor and the woman, blocking their view of each other. In the background a woman in a trench coat puts on her coat. Slow, natural, realistic movement, real animal behaviour, the elephant keeps its size.",
+      "negativePrompt": "text, captions, subtitles, letters, logos, watermark, extra people, extra animals, cartoon, camera shake, zoom, morphing, distorted anatomy, fast motion",
+      "durationSeconds": 8,
+      "resolution": "720p",
+      "status": "zur Freigabe",
+      "file": "public/clips/V5.mp4",
+      "note": "Arzt und Elefant kommen herein, Elefant tritt zwischen beide; Vorschlag Ausschnitt 3,0 bis 6,0 s"
     }
   ]
 }

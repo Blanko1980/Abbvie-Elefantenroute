@@ -144,9 +144,13 @@
       {
         "id": "work/raw/r2/03b.jpg",
         "role": "the master image to be edited"
+      },
+      {
+        "id": "03a",
+        "role": "the previous stage of the same floor, some months earlier: the new floor must be slightly MORE worn than this, never less, and look like the same kind of wear"
       }
     ],
-    "edit": "Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with more shoe prints and the first faint round elephant footprints, overlapping, the dull band of worn linoleum a little wider and more irregular, its edges soft and frayed. It must look like a real, naturally worn floor: no painted stripe, no straight line, no rally stripe, no hard edges; organic, irregular, built up from countless individual footprints. Nothing else changes."
+    "edit": "Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with a naturally worn path, slightly more worn than the previous stage: the matte band a little wider, about a third of a meter, with more prints. The wear shows only on a clean, well-kept linoleum floor: the gloss is rubbed off to a matte, very slightly lighter-greyish finish, with fine scuffs and faint, overlapping shoe prints and round elephant footprints, visible mainly by their different sheen and as very shallow impressions. No mud, no dirt, no sand, no stains, no dark patches, no puddles. The edges of the worn area fade out softly and gradually, without any outline or border; no painted stripe, no straight line. Nothing else changes."
   },
   "03c": {
     "phase": "3",
@@ -157,10 +161,14 @@
     "refs": [
       {
         "id": "work/raw/r2/03c.jpg",
-        "role": "the master image to be edited"
+        "role": "the image to be edited"
+      },
+      {
+        "id": "work/raw/floorref_03b.jpg",
+        "role": "floor texture reference only: how the wear looked some months earlier (do not copy anything else from it)"
       }
     ],
-    "edit": "Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with many overlapping shoe prints and round elephant footprints, pressed very slightly into the linoleum, some grey-brown grit from winter shoes, the worn band clearly wider with irregular, frayed edges. It must look like a real, naturally worn floor: no painted stripe, no straight line, no rally stripe, no hard edges; organic, irregular, built up from countless individual footprints. Nothing else changes."
+    "edit": "Edit image 1 only; image 1 shows the corridor in winter with snow outside the windows; the doctor and the elephant walk away from the camera. Keep everything of image 1 exactly: same season, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor of image 1: replace it with a naturally worn path, clearly more worn than the floor texture in image 2: a matte band about half a meter to a meter wide along the walking line, prints denser, the first very shallow round depressions from the elephant's feet. The wear shows only on a clean, well-kept linoleum floor: the gloss is rubbed off to a matte, very slightly lighter-greyish finish, with fine scuffs and faint, overlapping shoe prints and round elephant footprints, visible mainly by their different sheen and as very shallow impressions. No mud, no dirt, no sand, no stains, no dark patches, no puddles. The edges of the worn area fade out softly and gradually, without any outline or border; no painted stripe, no straight line. Image 2 is only a small floor texture sample; do not use it as the scene."
   },
   "03d": {
     "phase": "3",
@@ -170,11 +178,11 @@
     "imageSize": "2K",
     "refs": [
       {
-        "id": "work/raw/r2/03d.jpg",
-        "role": "the master image to be edited"
+        "id": "work/raw/r2/03d_a3.jpg",
+        "role": "the image to be edited"
       }
     ],
-    "edit": "Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with a broad worn path: the linoleum rubbed matte and scuffed, dense overlapping prints, the round elephant footprints visible as shallow depressions, the edges irregular and organic. It must look like a real, naturally worn floor: no painted stripe, no straight line, no rally stripe, no hard edges; organic, irregular, built up from countless individual footprints. Nothing else changes."
+    "edit": "Edit this image. Keep everything exactly: same spring corridor, camera, framing, light, people and elephant. Only make the worn path on the linoleum floor clearly more worn than it is now: it becomes about twice as wide (roughly one and a half meters), the linoleum along the walking line is rubbed visibly matte and slightly thinner, the many overlapping shoe prints merge into a continuous worn lane, and the round elephant footprints are visible as shallow depressions. Keep it a clean, well-kept clinic floor: no mud, no dirt, no sand, no stains, no puddles; the wear shows as matte, rubbed linoleum, fine scuffs and shallow impressions, with edges that fade out softly without any outline; no painted stripe. Nothing else changes."
   },
   "03e": {
     "phase": "3",
@@ -185,10 +193,14 @@
     "refs": [
       {
         "id": "work/raw/r2/03e.jpg",
-        "role": "the master image to be edited"
+        "role": "the image to be edited"
+      },
+      {
+        "id": "work/raw/r2/03d_a3.jpg",
+        "role": "for comparison only: an earlier, much less worn stage of the same floor; the new floor must be far more worn than this"
       }
     ],
-    "edit": "Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with a worn-out path across most of the corridor width: the linoleum rubbed matte and thin, in places worn through to a slightly darker under-layer, shallow depressions from the elephant's feet, countless overlapping prints, organic edges. It must look like a real, naturally worn floor: no painted stripe, no straight line, no rally stripe, no hard edges; organic, irregular, built up from countless individual footprints. Nothing else changes."
+    "edit": "Edit image 1 only; image 1 shows the corridor in summer, years later, the enormous elephant fills most of the corridor and the doctor walks away from the camera beside it. Keep everything of image 1 exactly. Only change the floor: replace the dark track with a deeply worn-out path across most of the corridor width: the linoleum rubbed matte and thin, in the middle worn through to a slightly darker under-layer, a continuous lane of countless merged shoe prints, round elephant footprints as clear shallow depressions, the surface very slightly hollowed along the walking line. Keep it a clean, well-kept clinic floor: no mud, no dirt, no sand, no stains, no puddles; the wear shows as matte, rubbed linoleum, fine scuffs and shallow impressions, with edges that fade out softly without any outline; no painted stripe. It must look far more worn than image 2. Nothing else changes."
   },
   "03f": {
     "phase": "3",
@@ -199,10 +211,14 @@
     "refs": [
       {
         "id": "work/raw/r2/03f.jpg",
-        "role": "the master image to be edited"
+        "role": "the image to be edited"
+      },
+      {
+        "id": "work/raw/floorref_03b.jpg",
+        "role": "floor texture reference only: how the wear looked some months earlier (do not copy anything else from it)"
       }
     ],
-    "edit": "Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with many overlapping shoe prints and round elephant footprints, the worn band clearly visible, matte and slightly greyish, with irregular edges. It must look like a real, naturally worn floor: no painted stripe, no straight line, no rally stripe, no hard edges; organic, irregular, built up from countless individual footprints. Nothing else changes."
+    "edit": "Edit image 1 only; image 1 is a close shot of the elephant standing next to the framed poster on the corridor wall. Keep everything of image 1 exactly: same season, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor of image 1: replace it with a naturally worn path, clearly more worn than the floor texture in image 2: a matte band about half a meter wide with dense prints. The wear shows only on a clean, well-kept linoleum floor: the gloss is rubbed off to a matte, very slightly lighter-greyish finish, with fine scuffs and faint, overlapping shoe prints and round elephant footprints, visible mainly by their different sheen and as very shallow impressions. No mud, no dirt, no sand, no stains, no dark patches, no puddles. The edges of the worn area fade out softly and gradually, without any outline or border; no painted stripe, no straight line. Image 2 is only a small floor texture sample; do not use it as the scene."
   },
   "03g": {
     "phase": "3",
@@ -213,10 +229,14 @@
     "refs": [
       {
         "id": "work/raw/r2/03g.jpg",
-        "role": "the master image to be edited"
+        "role": "the image to be edited"
+      },
+      {
+        "id": "work/raw/floorref_03c.jpg",
+        "role": "floor texture reference only: how the wear looked some months earlier (do not copy anything else from it)"
       }
     ],
-    "edit": "Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with many overlapping shoe prints and round elephant footprints, a clearly worn, matte band with irregular edges. It must look like a real, naturally worn floor: no painted stripe, no straight line, no rally stripe, no hard edges; organic, irregular, built up from countless individual footprints. Nothing else changes."
+    "edit": "Edit image 1 only; image 1 is a close shot of the elephant's flank next to the wall monitor. Keep everything of image 1 exactly: same season, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor of image 1: replace it with a naturally worn path, about as worn as the floor texture in image 2: a matte band about a meter wide with dense prints. The wear shows only on a clean, well-kept linoleum floor: the gloss is rubbed off to a matte, very slightly lighter-greyish finish, with fine scuffs and faint, overlapping shoe prints and round elephant footprints, visible mainly by their different sheen and as very shallow impressions. No mud, no dirt, no sand, no stains, no dark patches, no puddles. The edges of the worn area fade out softly and gradually, without any outline or border; no painted stripe, no straight line. Image 2 is only a small floor texture sample; do not use it as the scene."
   },
   "03h": {
     "phase": "3",
@@ -227,10 +247,10 @@
     "refs": [
       {
         "id": "work/raw/r2/03h.jpg",
-        "role": "the master image to be edited"
+        "role": "the image to be edited"
       }
     ],
-    "edit": "Same corridor, same camera, same framing, same light, same people and elephant in the same places. Only change the worn track on the linoleum floor: replace it with a broad worn path: the linoleum rubbed matte and scuffed, dense overlapping prints, round elephant footprints as shallow depressions. It must look like a real, naturally worn floor: no painted stripe, no straight line, no rally stripe, no hard edges; organic, irregular, built up from countless individual footprints. Nothing else changes."
+    "edit": "Edit this image. Keep everything exactly: the plain white door at the end of the corridor, the enormous elephant, the doctor walking past, camera, framing and light. Only change the floor: replace the dark track with a broad, naturally worn path: the linoleum rubbed matte and slightly thin, a continuous lane of merged shoe prints, round elephant footprints as shallow depressions. Keep it a clean, well-kept clinic floor: no mud, no dirt, no sand, no stains, no puddles; the wear shows as matte, rubbed linoleum, fine scuffs and shallow impressions, with edges that fade out softly without any outline; no painted stripe. Nothing else changes."
   },
   "04b": {
     "phase": "3",
@@ -329,6 +349,7 @@
   },
   "06c": {
     "phase": "3",
+    "round": 2,
     "model": "gemini-3-pro-image",
     "aspectRatio": "16:9",
     "imageSize": "2K",
@@ -336,6 +357,10 @@
     "elephant": "E3",
     "light": "EVENING_COOL",
     "refs": [
+      {
+        "id": "07a",
+        "role": "the same room at the same moment: evening light, blue dusk in the windows, cold ceiling light, warm floor lamp, plants, and the doctor's clothes"
+      },
       {
         "id": "R1a",
         "role": "the doctor, identical face, hair, age and clothes"
@@ -345,15 +370,11 @@
         "role": "the doctor in three-quarter profile"
       },
       {
-        "id": "07a",
-        "role": "the look of the evening scene: light, colors, the lived-in waiting area with plants, floor lamp and the jacket on the chair, the people and the elephant"
-      },
-      {
         "id": "R3a",
-        "role": "the elephant: identical animal, skin, mud on the legs and tusks, and how it sits in the room light"
+        "role": "the elephant's skin"
       }
     ],
-    "content": "Shot 06c, close shot of the doctor (camera position CAM-E, close), head and shoulders: he turns his head to look toward the patient off-screen right, but the huge grey wrinkled flank of the elephant slides into the right half of the frame, very close and slightly out of focus, blocking his view. His face calm, a first trace of unease. Cool evening light from the fluorescent ceiling, blue dusk behind him in the windows. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere; posters and screens show only abstract shapes and lines, no text, no numbers, no logos."
+    "content": "Shot 06c, close shot of the doctor (camera position CAM-E, close), head and shoulders, in the evening waiting area of the reference image: he turns his head to look toward the patient off-screen right, but the huge grey wrinkled flank of the elephant slides into the right half of the frame, very close and slightly out of focus, blocking his view. His face calm, a first trace of unease. Exactly the evening light of the reference image: blue dusk outside the tall windows behind him, cold fluorescent light from the ceiling on his hair and shoulders, a small warm glow from the floor lamp; lower contrast, cool colors. It is clearly evening, not daytime. A real photograph taken on location, not a composite, not a 3D rendering. No text anywhere."
   },
   "06d": {
     "phase": "3",
@@ -456,6 +477,6 @@
         "role": "the elephant"
       }
     ],
-    "edit": "Same room, same camera, same framing, same evening light, same plants, lamp, jacket, cup; the patient stands in exactly the same place at the right and looks toward the left. Show an earlier moment: the doctor is just entering the frame from the left edge in the foreground, mid-stride, walking into the room, tablet in hand, looking ahead; the elephant is not yet in the middle of the room: it is just coming around the corner at the back left of the room, from a wide opening in the back wall, its head, trunk and front legs already in the room, the rest of its body still hidden behind the corner. The middle of the room between the doctor and the patient is empty for now. The woman in the trench coat in the background stays. Nothing else changes."
+    "edit": "Same room, same camera, same framing, same evening light, same plants, lamp, jacket, cup, same woman in the trench coat; the patient stands in exactly the same place at the right and looks toward the left. Show an earlier moment: the doctor is just entering the frame from the left edge in the foreground, mid-stride, tablet in hand, looking ahead. At the back left of the room, where the window wall meets the wood-panelled back wall, there is a wide opening to a side corridor. The elephant is just stepping out of this opening around the corner into the room: only its head, trunk, one ear and one front leg are visible, the rest of its huge body is still hidden behind the wall. The middle of the room between the doctor and the patient is empty. Nothing else changes."
   }
 }

@@ -1,18 +1,18 @@
 {
-  "title": "Szene 8 · Der Schritt · Phase 3",
+  "title": "Szene 8 · Runde 2: einheitlich warm",
   "rows": [
     [
       {
         "file": "public/stills/08a.jpg",
-        "label": "08a · Arzt sieht den Elefanten an"
+        "label": "08a · Arzt dreht sich weg, sieht den Elefanten an"
       },
       {
         "file": "public/stills/08c.jpg",
-        "label": "08c · Elefant tritt zur Seite (Endbild V1)"
+        "label": "08c · Elefant tritt zur Seite"
       },
       {
         "file": "public/stills/08d.jpg",
-        "label": "08d · Arzt und Patientin, goldenes Licht"
+        "label": "08d · Arzt und Patientin"
       }
     ]
   ]

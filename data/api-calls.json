@@ -1058,5 +1058,265 @@
     "attempt": 1,
     "ok": false,
     "note": "{\"error\":{\"code\":402,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projec"
+  },
+  {
+    "timestamp": "2026-10-12T19:24:30.964Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "03d",
+    "attempt": 2,
+    "ok": true,
+    "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-12T19:24:31.657Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "03f",
+    "attempt": 4,
+    "ok": true,
+    "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-12T19:24:32.463Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "03a",
+    "attempt": 2,
+    "ok": true,
+    "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-12T19:24:32.742Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "03b",
+    "attempt": 2,
+    "ok": true,
+    "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-12T19:24:32.764Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "06a",
+    "attempt": 2,
+    "ok": true,
+    "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-12T19:24:33.494Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "08a",
+    "attempt": 2,
+    "ok": true,
+    "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-12T19:24:33.566Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "03c",
+    "attempt": 2,
+    "ok": true,
+    "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-12T19:24:33.606Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "03g",
+    "attempt": 4,
+    "ok": true,
+    "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-12T19:24:33.837Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "03h",
+    "attempt": 3,
+    "ok": true,
+    "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-12T19:24:34.459Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "06c",
+    "attempt": 2,
+    "ok": true,
+    "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-12T19:24:34.551Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "03e",
+    "attempt": 2,
+    "ok": true,
+    "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-12T19:24:44.295Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "06b",
+    "attempt": 1,
+    "ok": true,
+    "note": "5504x3072"
+  },
+  {
+    "timestamp": "2026-10-12T19:26:09.179Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "03b",
+    "attempt": 3,
+    "ok": true,
+    "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-12T19:26:16.698Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "06b",
+    "attempt": 2,
+    "ok": true,
+    "note": "5504x3072"
+  },
+  {
+    "timestamp": "2026-10-12T19:26:54.040Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "03f",
+    "attempt": 5,
+    "ok": true,
+    "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-12T19:26:55.783Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "03c",
+    "attempt": 3,
+    "ok": true,
+    "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-12T19:27:44.821Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "03f",
+    "attempt": 6,
+    "ok": true,
+    "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-12T19:27:45.920Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "03c",
+    "attempt": 4,
+    "ok": true,
+    "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-12T19:28:16.986Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "03g",
+    "attempt": 5,
+    "ok": true,
+    "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-12T19:28:17.180Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "03d",
+    "attempt": 3,
+    "ok": true,
+    "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-12T19:29:14.911Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "03h",
+    "attempt": 4,
+    "ok": true,
+    "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-12T19:29:15.327Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "03e",
+    "attempt": 3,
+    "ok": true,
+    "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-12T19:29:16.416Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "03d",
+    "attempt": 4,
+    "ok": true,
+    "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-12T19:32:31.663Z",
+    "phase": "3",
+    "type": "clip",
+    "model": "veo-3.1-generate-preview",
+    "id": "V3",
+    "attempt": 1,
+    "ok": true,
+    "note": "8s 720p"
+  },
+  {
+    "timestamp": "2026-10-12T19:33:44.598Z",
+    "phase": "3",
+    "type": "clip",
+    "model": "veo-3.1-generate-preview",
+    "id": "V4",
+    "attempt": 1,
+    "ok": true,
+    "note": "8s 720p"
+  },
+  {
+    "timestamp": "2026-10-12T19:34:57.267Z",
+    "phase": "3",
+    "type": "clip",
+    "model": "veo-3.1-generate-preview",
+    "id": "V5",
+    "attempt": 1,
+    "ok": true,
+    "note": "8s 720p"
   }
 ]

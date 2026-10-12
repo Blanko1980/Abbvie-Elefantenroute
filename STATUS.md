@@ -1,29 +1,28 @@
 # Status
 
-Stand: 12.10.2026, Phase 3, Runde 2. **Blockiert: Gemini-Guthaben aufgebraucht (Fehler 402).**
+Stand: 12.10.2026, Ende Phase 3, Runde 2. **Wartet auf Freigabe.**
 
 ## Fertig
 
-- Phase 0 bis 2 abgeschlossen, siehe frühere Notizen. Sprecher: Thomas Schendel.
-- Phase 3, Runde 1: alle Standbilder in `public/stills/`, Kontaktbögen in `review/phase3/`.
-- Phase 3, Runde 2 (Feedback vom 12.10.2026), bisher umgesetzt:
-  - **Neue Bild-ID 07a:** Das bisherige 06b (Elefant zwischen Arzt und Patientin) heißt jetzt 07a (Szene 7, Endbild von V5, Startbild von V1). Script, Shot-Bible, Manifest und Shot-Definitionen sind angepasst.
-  - Script und Shot-Bible enthalten alle neuen Entscheidungen: Trampelpfad, Elefant in Szene 5 lebendig, Hereinkommen in Szene 6, 08a mit Blick zum Elefanten, Licht konsistent je Szene, neue Clips V3, V4, V5.
-  - **Lichtangleichung lokal:** 01c an 01a, 06d an 07a (`scripts/color-balance.mjs`, nur Farbbalance).
+- Phasen 0 bis 2 abgeschlossen. Sprecher: Thomas Schendel.
+- **Phase 3:** 27 Standbilder in `public/stills/` (07a ist neu, das bisherige 06b). Clips in `public/clips/`: V1, V2, V3, V4, V5. Notiz `review/phase3/notiz.md` (Runden 1 und 2), Kontaktbögen je Szene in `review/phase3/`.
 
-## Blockiert
+## Offen, braucht Entscheidung
 
-Die Gemini-API antwortet mit „Your prepayment credits are depleted“. Alle 11 Anfragen der Runde wurden abgelehnt (nicht berechnet, im API-Log als Fehler vermerkt). **Du musst im AI Studio unter Projekte → Billing Guthaben aufladen.** Danach kann ich sofort weitermachen.
+- Freigabe der Standbilder und der Clips V3, V4 und V5.
 
-## Bereit zum Start, sobald Guthaben da ist
+## Als Nächstes: Phase 4 (Sprecher)
 
-Die Vorgaben sind fertig in `data/shots/phase3.json` (Runde 2) und `data/shots/phase3-clips.json`:
-1. **Szene 3, Trampelpfad:** Bildbearbeitung von 03a bis 03h. Natürliche Schuh- und Elefantenabdrücke, die von Bild zu Bild zunehmen, breiter und minimal tiefer werden, bis ein ausgetretener Weg entsteht.
-2. **06a:** Der überzählige Stuhl verschwindet, ihr Stuhl steht in der Reihe.
-3. **06b neu (Startbild V5):** Der Arzt kommt von vorn links, der Elefant biegt hinten links um die Ecke (Bearbeitung aus 07a).
-4. **08a neu:** Der Arzt dreht sich weg und schaut in die Raumtiefe auf den Elefanten, im warmen Licht von Szene 8.
-5. **Clips** (freigegeben): V3 (05a nach 05b) und V4 (05b nach 05c) für den Zeitraffer in Szene 5 mit lebendigem Elefanten, V5 (06b nach 07a) für das Hereinkommen.
-6. **Danach Lichtangleichung:** 06a und 08a; V1 wird in Phase 5 warm gegradet, damit Szene 8 nicht zwischen Blau und Gold springt. Vorschlag: **06c neu im Abendlicht**, weil der Hintergrund trotz Farbangleichung nach Tag aussieht.
+Sprechertext satzweise mit Thomas Schendel erzeugen (Einstellungen wie in der Probe), Dauer messen, Pausen laut Script setzen, daraus `data/timeline.json`. Abweichungen über 10 Prozent je Szene melde ich.
+
+## Schnittnotizen für Phase 5
+
+- **V2:** 0,5 bis 5,2 s (0:50 bis etwa 0:54,7), danach 04b mit Push auf Hand und Schulter.
+- **V3 und V4:** je volle 8 s für Szene 5 (1:04 bis 1:20), harter Übergang, weil V3 auf 05b endet und V4 dort beginnt.
+- **V5:** Vorschlag 3,0 bis 6,0 s für Szene 6, Einstellung 2.
+- **V1:** 3,0 bis 6,0 s (1:47 bis 1:50), warm gegradet auf 08c.
+- **01b1, 01b2:** als Halbtotale per Ausschnitt; **08d:** als Halbnah per Ausschnitt.
+- **Szene 7:** 07a mit Push 1.00 auf 1.15.
 
 ## Freigegebene Set- und Figuren-Entscheidungen
 
@@ -73,7 +72,10 @@ Die Vorgaben sind fertig in `data/shots/phase3.json` (Runde 2) und `data/shots/p
 - `node scripts/review.mjs accept <ID> <Versuch> <refs|public/stills> [Notiz]` oder `node scripts/review.mjs reject <ID> <Versuch> <Grund>`.
 - `node scripts/preview.mjs <datei>` erzeugt eine verkleinerte Ansicht in `work/preview/`.
 - `node scripts/contact-sheet.mjs <layout.json> <ausgabe.jpg>` baut einen Kontaktbogen; `node scripts/grid.mjs` ein schnelles Prüfraster.
-- `node scripts/color-match.mjs <bild> <referenz> <ausgabe>` gleicht die Farbe lokal an (ohne API).
+- `node scripts/color-match.mjs <bild> <referenz> <ausgabe>` gleicht die Farbe lokal an (ohne API); `node scripts/color-balance.mjs <bild> <referenz> <ausgabe> [stärke]` überträgt nur die Farbbalance.
+- `python3 scripts/floor-detail.py <ziel> <quelle> <ausgabe> <stärke> <y_start> [x_mitte sigma]` überträgt Bodenstruktur zwischen Bildern derselben Kamera.
+- `node scripts/floor-crop.mjs <bild> <ausgabe>` schneidet einen Bodenausschnitt als Texturreferenz aus.
+- Clip-Vorgaben Phase 3: `data/shots/phase3-clips.json`.
 - Shot-Definitionen Phase 3: `data/shots/phase3.json`.
 - Shot-Definitionen: `data/shots/phase1.json`, `data/shots/phase2.json`, Clips `data/shots/phase2-clips.json`.
 - `node scripts/gen-clip.mjs <clips.json> <ID>` erzeugt einen Veo-Clip (Limit und Protokoll wie bei Bildern).

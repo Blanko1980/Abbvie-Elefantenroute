@@ -1,24 +1,34 @@
 {
-  "title": "Szenen 6 und 7 · Die Patientin, Der Satz · Phase 3",
+  "title": "Szenen 6 und 7 · Runde 2",
   "rows": [
     [
       {
         "file": "public/stills/06a.jpg",
-        "label": "06a · Patientin steht auf"
+        "label": "06a · Patientin steht auf (Stuhl korrigiert)"
       },
       {
         "file": "public/stills/06b.jpg",
-        "label": "06b · Dreier-Totale, auch Szene 7 (4K)"
+        "label": "06b · Arzt kommt herein, Elefant biegt um die Ecke"
       }
     ],
     [
       {
         "file": "public/stills/06c.jpg",
-        "label": "06c · Arzt, Flanke im Bild"
+        "label": "06c · Arzt, Flanke im Bild (Abendlicht)"
       },
       {
         "file": "public/stills/06d.jpg",
         "label": "06d · Patientin kratzt sich"
+      },
+      {
+        "file": "public/stills/07a.jpg",
+        "label": "07a · Dreier-Totale, Szene 7 (Endbild V5)"
+      }
+    ],
+    [
+      {
+        "file": "work/preview/V5_sheet.jpg",
+        "label": "V5 · Arzt und Elefant kommen herein, Elefant tritt zwischen beide (8 s)"
       }
     ]
   ]

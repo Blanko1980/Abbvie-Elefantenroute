@@ -2,14 +2,14 @@
 
 Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen (Modell- und Stimmenlisten) sind nicht mitgezählt. Erzeugt aus `data/api-calls.json`.
 
-**Summe:** 80 Bild, 7 Clip, 18 Sprache, 3 Text (Prüfaufrufe)
+**Summe:** 103 Bild, 10 Clip, 18 Sprache, 3 Text (Prüfaufrufe)
 
 | Phase | Bild | Clip | Sprache | Text |
 | --- | ---: | ---: | ---: | ---: |
 | 0 | 1 | 0 | 1 | 0 |
 | 1 | 22 | 0 | 0 | 0 |
 | 2 | 12 | 7 | 17 | 3 |
-| 3 | 45 | 0 | 0 | 0 |
+| 3 | 68 | 3 | 0 | 0 |
 
 ## Einzelaufrufe
 
@@ -123,3 +123,29 @@ Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen
 | 2026-10-12 19:15 | 3 | Bild | gemini-3-pro-image | 08a | 2 | Fehler | {"error":{"code":402,"message":"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projec |
 | 2026-10-12 19:15 | 3 | Bild | gemini-3-pro-image | 06a | 2 | Fehler | {"error":{"code":402,"message":"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projec |
 | 2026-10-12 19:15 | 3 | Bild | gemini-3-pro-image | 06b | 1 | Fehler | {"error":{"code":402,"message":"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projec |
+| 2026-10-12 19:24 | 3 | Bild | gemini-3-pro-image | 03d | 2 | ok | 2752x1536 |
+| 2026-10-12 19:24 | 3 | Bild | gemini-3-pro-image | 03f | 4 | ok | 2752x1536 |
+| 2026-10-12 19:24 | 3 | Bild | gemini-3-pro-image | 03a | 2 | ok | 2752x1536 |
+| 2026-10-12 19:24 | 3 | Bild | gemini-3-pro-image | 03b | 2 | ok | 2752x1536 |
+| 2026-10-12 19:24 | 3 | Bild | gemini-3-pro-image | 06a | 2 | ok | 2752x1536 |
+| 2026-10-12 19:24 | 3 | Bild | gemini-3-pro-image | 08a | 2 | ok | 2752x1536 |
+| 2026-10-12 19:24 | 3 | Bild | gemini-3-pro-image | 03c | 2 | ok | 2752x1536 |
+| 2026-10-12 19:24 | 3 | Bild | gemini-3-pro-image | 03g | 4 | ok | 2752x1536 |
+| 2026-10-12 19:24 | 3 | Bild | gemini-3-pro-image | 03h | 3 | ok | 2752x1536 |
+| 2026-10-12 19:24 | 3 | Bild | gemini-3-pro-image | 06c | 2 | ok | 2752x1536 |
+| 2026-10-12 19:24 | 3 | Bild | gemini-3-pro-image | 03e | 2 | ok | 2752x1536 |
+| 2026-10-12 19:24 | 3 | Bild | gemini-3-pro-image | 06b | 1 | ok | 5504x3072 |
+| 2026-10-12 19:26 | 3 | Bild | gemini-3-pro-image | 03b | 3 | ok | 2752x1536 |
+| 2026-10-12 19:26 | 3 | Bild | gemini-3-pro-image | 06b | 2 | ok | 5504x3072 |
+| 2026-10-12 19:26 | 3 | Bild | gemini-3-pro-image | 03f | 5 | ok | 2752x1536 |
+| 2026-10-12 19:26 | 3 | Bild | gemini-3-pro-image | 03c | 3 | ok | 2752x1536 |
+| 2026-10-12 19:27 | 3 | Bild | gemini-3-pro-image | 03f | 6 | ok | 2752x1536 |
+| 2026-10-12 19:27 | 3 | Bild | gemini-3-pro-image | 03c | 4 | ok | 2752x1536 |
+| 2026-10-12 19:28 | 3 | Bild | gemini-3-pro-image | 03g | 5 | ok | 2752x1536 |
+| 2026-10-12 19:28 | 3 | Bild | gemini-3-pro-image | 03d | 3 | ok | 2752x1536 |
+| 2026-10-12 19:29 | 3 | Bild | gemini-3-pro-image | 03h | 4 | ok | 2752x1536 |
+| 2026-10-12 19:29 | 3 | Bild | gemini-3-pro-image | 03e | 3 | ok | 2752x1536 |
+| 2026-10-12 19:29 | 3 | Bild | gemini-3-pro-image | 03d | 4 | ok | 2752x1536 |
+| 2026-10-12 19:32 | 3 | Clip | veo-3.1-generate-preview | V3 | 1 | ok | 8s 720p |
+| 2026-10-12 19:33 | 3 | Clip | veo-3.1-generate-preview | V4 | 1 | ok | 8s 720p |
+| 2026-10-12 19:34 | 3 | Clip | veo-3.1-generate-preview | V5 | 1 | ok | 8s 720p |

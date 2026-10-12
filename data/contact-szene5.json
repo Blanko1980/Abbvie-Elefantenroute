@@ -1,18 +1,30 @@
 {
-  "title": "Szene 5 · Warten · Phase 3",
+  "title": "Szene 5 · Warten, Runde 2: Zeitraffer-Clips",
   "rows": [
     [
       {
         "file": "public/stills/05a.jpg",
-        "label": "05a · Nachmittag, 3 Wartende"
+        "label": "05a · Startbild V3"
       },
       {
         "file": "public/stills/05b.jpg",
-        "label": "05b · später, 1 Wartender"
+        "label": "05b · Endbild V3 / Startbild V4"
       },
       {
         "file": "public/stills/05c.jpg",
-        "label": "05c · Abend, nur die Patientin"
+        "label": "05c · Endbild V4"
+      }
+    ],
+    [
+      {
+        "file": "work/preview/V3_sheet.jpg",
+        "label": "V3 · 05a→05b, Elefant lebendig, Wartende gehen (8 s)"
+      }
+    ],
+    [
+      {
+        "file": "work/preview/V4_sheet.jpg",
+        "label": "V4 · 05b→05c, Dämmerung, letzter Wartender geht (8 s)"
       }
     ]
   ]
