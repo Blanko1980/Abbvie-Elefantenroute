@@ -19,7 +19,8 @@
     "durationSeconds": 8,
     "resolution": "720p",
     "aspectRatio": "16:9",
-    "prompt": "Calm nature documentary shot, locked-off camera on a tripod, no camera movement. In a clinic hall at dusk a huge, calm African elephant stands between a doctor on the left and a young woman on the right. Without hurry, the elephant lifts one front foot and takes one soft, quiet step to the left and slightly back, out of the line of sight, and comes to rest on the left side of the frame behind the doctor. The doctor and the young woman stand still and now look at each other. Warm low sunlight slowly comes through the windows. Slow, natural, realistic movement, real animal behaviour, nothing else changes in the scene.",
-    "negativePrompt": "text, captions, subtitles, letters, logos, watermark, extra people, extra animals, cartoon, fast motion, camera shake, zoom, morphing, distorted anatomy, people walking"
+    "prompt": "Calm nature documentary shot, locked-off camera on a tripod, no camera movement. In a lived-in clinic waiting area at dusk a huge, calm African elephant stands between a doctor on the left and a young woman on the right, blocking their view of each other. Without hurry, the elephant lifts one front foot and takes one soft, quiet step to the left and slightly back, out of the line of sight, and comes to rest on the left side of the frame behind the doctor. The doctor turns his head toward the young woman; she stops scratching her arm, lowers it and raises her eyes to meet his. In the far background a woman in a trench coat quietly walks out of the frame. Warm low sunlight slowly spreads across the floor. Slow, natural, realistic movement, real animal behaviour, the elephant keeps its size, nothing else changes in the scene.",
+    "negativePrompt": "text, captions, subtitles, letters, logos, watermark, extra people, extra animals, cartoon, fast motion, camera shake, zoom, morphing, distorted anatomy, elephant walking toward the camera",
+    "round": 2
   }
 }

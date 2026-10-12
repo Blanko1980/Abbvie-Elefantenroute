@@ -76,7 +76,7 @@
   },
   "06b": {
     "phase": "2",
-    "round": 2,
+    "round": 3,
     "model": "gemini-3-pro-image",
     "aspectRatio": "16:9",
     "imageSize": "4K",
@@ -87,35 +87,12 @@
     "light": "EVENING_COOL",
     "refs": [
       {
-        "id": "R4a",
-        "role": "the reception hall: same materials (light oak plank floor, white walls, tall narrow windows on the left wall), same furniture style"
-      },
-      {
-        "id": "R1a",
-        "role": "the doctor, identical face, hair, age and clothes"
-      },
-      {
-        "id": "R1b",
-        "role": "the doctor in three-quarter profile"
-      },
-      {
-        "id": "R2a",
-        "role": "the patient, identical face, hair, age and the same dark grey sweater"
-      },
-      {
-        "id": "R2b",
-        "role": "the patient in three-quarter profile"
-      },
-      {
-        "id": "R3a",
-        "role": "the elephant: identical animal, skin, mud on the legs and tusks"
-      },
-      {
-        "id": "R3b",
-        "role": "the same elephant in side view"
+        "id": "work/raw/06b_runde2_a3.jpg",
+        "role": "the master image to be edited"
       }
     ],
-    "content": "Shot 06b, wide observational shot in the waiting area of the reception hall at the end of the day (camera position CAM-E), filmed from a distance with a telephoto lens, the camera at a slight angle to the room, not perfectly square. Background: the left wall of the hall with its row of tall, narrow floor-to-ceiling windows, blue dusk outside; light oak plank floor. The room feels lived in: large leafy potted plants (a fiddle-leaf fig and a monstera) stand by the windows; a warm floor lamp glows in a corner; a few upholstered chairs along the wall, a light jacket hangs over the back of one chair and the patient's bag sits on the seat next to it; a forgotten coffee cup stands on the windowsill. Far in the background, small and softly out of focus, a medical assistant at the end of her shift puts on her coat. In the extreme left foreground, a large out-of-focus plant leaf cuts slightly into the frame. No counter, no poster, no monitor, no screen in this view. The doctor stands at the left third of the frame, turned three-quarters toward the patient, relaxed and natural, his weight on one leg, the tablet lowered at his side. The patient stands at the right third of the frame, about three meters away from him, turned three-quarters toward the doctor, one hand on the strap of her bag on her shoulder, the other hand absent-mindedly scratching her forearm through the sweater sleeve, sleeves pulled over her hands. They are not posed; it looks like a real, unplanned moment. Exactly between them stands the enormous elephant: its head and front face the camera at a slight angle, its body extends away from the camera into the depth of the room, its back nearly touching the ceiling. Its massive head blocks the line of sight between the doctor and the patient: they cannot see each other. Cool evening: blue dusk in the windows, cold fluorescent ceiling light from above gives the elephant's head and back a cold top light and casts short dark shadows; the warm floor lamp adds a small warm counterpoint in the corner. The elephant's skin is matte and dusty, dark contact shadows under its feet. Lower contrast. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere."
+    "content": "Shot 06b, wide observational shot in the waiting area of the reception hall at the end of the day (camera position CAM-E), filmed from a distance with a telephoto lens, the camera at a slight angle to the room, not perfectly square. Background: the left wall of the hall with its row of tall, narrow floor-to-ceiling windows, blue dusk outside; light oak plank floor. The room feels lived in: large leafy potted plants (a fiddle-leaf fig and a monstera) stand by the windows; a warm floor lamp glows in a corner; a few upholstered chairs along the wall, a light jacket hangs over the back of one chair and the patient's bag sits on the seat next to it; a forgotten coffee cup stands on the windowsill. Far in the background, small and softly out of focus, a medical assistant at the end of her shift puts on her coat. In the extreme left foreground, a large out-of-focus plant leaf cuts slightly into the frame. No counter, no poster, no monitor, no screen in this view. The doctor stands at the left third of the frame, turned three-quarters toward the patient, relaxed and natural, his weight on one leg, the tablet lowered at his side. The patient stands at the right third of the frame, about three meters away from him, turned three-quarters toward the doctor, one hand on the strap of her bag on her shoulder, the other hand absent-mindedly scratching her forearm through the sweater sleeve, sleeves pulled over her hands. They are not posed; it looks like a real, unplanned moment. Exactly between them stands the enormous elephant: its head and front face the camera at a slight angle, its body extends away from the camera into the depth of the room, its back nearly touching the ceiling. Its massive head blocks the line of sight between the doctor and the patient: they cannot see each other. Cool evening: blue dusk in the windows, cold fluorescent ceiling light from above gives the elephant's head and back a cold top light and casts short dark shadows; the warm floor lamp adds a small warm counterpoint in the corner. The elephant's skin is matte and dusty, dark contact shadows under its feet. Lower contrast. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere.",
+    "edit": "Same room, same camera, same framing, same light, same people, same elephant, everything unchanged except one thing: the medical assistant in the background wears ordinary street clothes instead of medical clothing: a casual beige trench coat over a dark sweater, dark trousers, a handbag over her shoulder; she is just putting on the coat at the end of her shift. No white coat, no scrubs. She stays small and softly out of focus in the background."
   },
   "08c": {
     "phase": "2",

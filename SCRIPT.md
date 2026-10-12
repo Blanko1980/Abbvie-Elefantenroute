@@ -157,5 +157,6 @@ Med-Legal gehört bei Schritt 2 und 3 von Anfang an dazu: Antworten zur Sicherhe
 - **Einblendung Szene 2:** „Dafür ist die Patientin noch nicht schwer genug.“ (Entscheidung 12.10.2026).
 - **Sprecher:** männlich, Naturdoku-Stil; Stimme Thomas Schendel bei ElevenLabs (Entscheidung 12.10.2026).
 - **Szene 4:** Der Arzt geht auf die Tür zu, der Rüssel bremst ihn (Entscheidung 12.10.2026).
+- **Kleidung der Patientin:** dunkelgrauer Pullover, Jeans, weiße Sneaker. **MFA am Abend:** Straßenkleidung (Entscheidung 12.10.2026).
 - **Patientin statt Patient:** Die Figur ist eine junge Frau, nicht leidend und nicht antriebslos, sondern genervt von ihrem Leiden (Entscheidung 12.10.2026).
 - **Umsetzungsweg:** generierter Film mit Claude Code (Remotion). Sprecher: ElevenLabs. Musik und Raumton: später, vermutlich mit Suno.

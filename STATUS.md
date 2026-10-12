@@ -1,25 +1,26 @@
 # Status
 
-Stand: 12.10.2026, Phase 2, Runde 2. **Wartet auf Rückmeldung.**
+Stand: 12.10.2026, Ende Phase 2 (abgeschlossen). **Wartet auf Freigabe für Phase 3.**
 
 ## Fertig
 
 - **Phase 0 Preflight**, siehe `PREFLIGHT.md`.
 - **Phase 1 Referenzblätter** R1 bis R4 in `refs/`, alle freigegeben.
-- **Phase 2 Drei-Shot-Test** mit Notiz `review/phase2-notiz.md` (Runden 1 und 2) und Kontaktbogen `review/contact-sheet-phase2.jpg`.
-  - Bilder in `public/stills/`: 01a, 04a (neu), 04b, 06b (neu), 08c (neu).
-  - Clip V2 (neu, Arzt geht, Rüssel bremst) in `public/clips/`. Nutzbar ist der Ausschnitt 0,5 bis 6,5 s, siehe `review/clips-schnittvorschlag.mp4`.
-  - Sprecher entschieden: **Thomas Schendel** (`review/voice/thomas-schendel-calm.mp3`).
+- **Phase 2 Drei-Shot-Test**, abgeschlossen. Notiz `review/phase2-notiz.md` (Runden 1 bis 3), Kontaktbogen `review/contact-sheet-phase2.jpg`, Schnittvorschlag `review/clips-schnittvorschlag.mp4`.
+  - Bilder in `public/stills/`: 01a, 04a, 04b, 06b, 08c.
+  - Clips in `public/clips/`: V2 (nutzbar 0,5 bis 5,2 s), V1 (nutzbar 3,0 bis 6,0 s).
+  - Sprecher: Thomas Schendel.
 
-## Offen, braucht Entscheidung
+## Offen
 
-1. **06b und 08c (mehr Leben):** Freigabe des Looks, danach erzeuge ich **Clip V1 neu** (06b nach 08c). Der alte V1 ist nicht mehr im Repo.
-2. **Neuer Clip V2:** Freigabe von Bewegung und Timing.
-3. **Kleidung der Patientin:** In 06b trägt sie Jeans, in 01a eine dunkle Hose. Welche Variante soll ab Phase 3 gelten? Mein Vorschlag sind Jeans, das wirkt alltäglicher.
+- Freigabe des neuen V1 und Start von Phase 3.
 
-## Als Nächstes
+## Als Nächstes: Phase 3 (alle 26 Standbilder)
 
-Nach Freigabe: Clip V1, dann Phase 3 (alle 26 Standbilder). Bei den Abendbildern übernehme ich die lebendigen Details aus 06b.
+- **Neues 04b:** Rüssel auf der rechten Schulter, als Bildbearbeitung aus dem V2-Bild bei 5 s in 4K. Grund: Ab 5,25 s springt der Rüssel in V2 durch den Kopf auf die andere Schulter, deshalb endet V2 im Film bei 5,2 s.
+- **01a:** Patientin in Jeans (Bildbearbeitung).
+- **Abendbilder:** übernehmen die lebendigen Details aus 06b (Pflanzen, Stehleuchte, Jacke, Becher). Die MFA trägt am Abend Straßenkleidung.
+- Varianten (03a bis 03e, 05a bis 05c) per Bildbearbeitung aus dem Master. Elefantenbilder mit dem Pro-Modell. Ein Kontaktbogen je Szene.
 
 ## Freigegebene Set- und Figuren-Entscheidungen
 
@@ -30,7 +31,8 @@ Nach Freigabe: Clip V1, dann Phase 3 (alle 26 Standbilder). Bei den Abendbildern
 5. **Patientin statt Patient:** junge Frau, wach und genervt, nicht erschöpft. Die Einblendung in Szene 2 lautet „Dafür ist die Patientin noch nicht schwer genug.“
 6. **Sprecher:** männlich, Naturdoku-Stil, Stimme Thomas Schendel (ElevenLabs, Voice-ID `Fghah4fztZORbiKfIGAs`, Stimmbibliothek).
 7. **Szene 4:** Der Arzt geht auf Tür 2 zu, der Rüssel bremst ihn; V2 läuft von 0:50 bis 0:56.
-8. **Lebendiges Set:** Pflanzen, Alltagsspuren, am Abend macht eine MFA Feierabend; natürliche Haltungen statt steifem Profil.
+8. **Kleidung:** Die Patientin trägt einen dunkelgrauen Pullover, Jeans und weiße Sneaker; die MFA trägt am Abend Straßenkleidung.
+9. **Lebendiges Set:** Pflanzen, Alltagsspuren, am Abend macht eine MFA Feierabend; natürliche Haltungen statt steifem Profil.
 
 ## Bekannte Abweichungen
 
@@ -39,7 +41,8 @@ Nach Freigabe: Clip V1, dann Phase 3 (alle 26 Standbilder). Bei den Abendbildern
 - **04b:** gleicher Bildausschnitt wie 04a; der Push auf Hand und Schulter entsteht in Remotion.
 - **08c:** Der Elefant steht nach dem Schritt links hinter dem Arzt, nicht im Vordergrund. Er ist kaum unscharf.
 - **V2:** Die Stuhlreihe im Flur verschwindet, während der Arzt daran vorbeigeht (das Endbild 04b hat keine Stühle).
-- **06b:** Die Patientin trägt Jeans, die Ärmel sind hochgeschoben, die MFA trägt einen weißen Kittel, das Vordergrundblatt fehlt.
+- **06b:** Die Ärmel sind hochgeschoben, das Vordergrundblatt fehlt.
+- **V2:** Ab 5,25 s springt der Rüssel durch den Kopf des Arztes auf die andere Schulter, deshalb wird nur bis 5,2 s geschnitten; 04b wird in Phase 3 ersetzt.
 - **Clips:** 8 statt 4 Sekunden, weil die API 4 Sekunden mit Endbild ablehnt. Im Film werden Ausschnitte genutzt.
 
 ## Entscheidungen bisher

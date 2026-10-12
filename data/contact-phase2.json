@@ -1,5 +1,5 @@
 {
-  "title": "Phase 2, Runde 2 · Szene 4 und Szenen 6–8 überarbeitet · zur Prüfung",
+  "title": "Phase 2, Runde 3 · Drei-Shot-Test abgeschlossen",
   "rows": [
     [
       {
@@ -14,7 +14,7 @@
     [
       {
         "file": "public/stills/06b.jpg",
-        "label": "06b · Dreier-Totale mit mehr Leben (neu, 4K)"
+        "label": "06b · Dreier-Totale, MFA in Straßenkleidung (neu)"
       },
       {
         "file": "public/stills/08c.jpg",
@@ -24,7 +24,13 @@
     [
       {
         "file": "work/preview/V2_use.jpg",
-        "label": "V2 · nutzbarer Ausschnitt 0,5–6,5 s: gehen, Griff zur Klinke, Rüssel bremst (neu)"
+        "label": "V2 · Ausschnitt 0,5–5,2 s (endet vor dem Rüssel-Sprung)"
+      }
+    ],
+    [
+      {
+        "file": "work/preview/V1_use.jpg",
+        "label": "V1 · Ausschnitt 3,0–6,0 s: Elefant tritt nach links hinter den Arzt (neu)"
       }
     ]
   ]

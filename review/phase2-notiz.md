@@ -79,3 +79,29 @@ Einstellungen der Probe: `eleven_multilingual_v2`, Stabilität 0,55, Ähnlichkei
 **Noch offen:** Clip V1 erzeuge ich neu, sobald du das neue 06b freigibst. Der alte V1 passt nicht mehr zu den Bildern und ist nicht mehr im Repo.
 
 **Kosten Runde 2:** 4 Bildaufrufe (alle angenommen bis auf das erste neue 04a), 2 Clips (V2 zweimal, der erste abgelehnt).
+
+## Runde 3 (Abschluss Phase 2)
+
+**Entscheidungen:**
+- Der Look von 06b und 08c ist freigegeben.
+- Die MFA trägt Straßenkleidung.
+- Die Patientin trägt Jeans; im Patientinnen-Baustein steht jetzt „blue jeans and white sneakers“.
+- Bewegung und Timing von V2 sind freigegeben.
+
+**Neu:**
+- **06b:** Bildbearbeitung, die MFA trägt jetzt Trenchcoat und Handtasche.
+- **V1:** Der Elefant tritt ohne Eile nach links hinter den Arzt. Die MFA geht hinaus, die Patientin senkt den Arm und sieht auf, das Licht wird golden. Nutzbar ist der Ausschnitt von 3,0 bis 6,0 Sekunden. Die Einzelbildprüfung zeigt keine Sprünge.
+
+**Rüssel-Fehler in V2 und Plan für den finalen Schnitt:**
+- Der Rüssel legt sich bei etwa 4,75 Sekunden auf die rechte Schulter, also die von der Kamera abgewandte, wie es das Script verlangt.
+- Zwischen 5,25 und 5,75 Sekunden springt er durch Kopf und Hals auf die linke Schulter.
+- Im Film läuft V2 deshalb nur von 0,5 bis 5,2 Sekunden (0:50 bis etwa 0:54,7). Der Rüssel landet bei 0:54, passend zur Einblendung.
+- Danach folgt ein **neues 04b** mit dem Rüssel auf der rechten Schulter, als Bildbearbeitung aus dem Clip-Bild bei 5 Sekunden in 4K (Phase 3).
+- Der Schnittvorschlag `review/clips-schnittvorschlag.mp4` zeigt beide Ausschnitte.
+
+**Weitere Aufgaben für Phase 3:**
+- **01a:** Die Patientin trägt dort noch eine dunkle Hose und bekommt Jeans (Bildbearbeitung).
+
+**Kosten Runde 3:** 1 Bild, 1 Clip.
+
+**Phase 2 gesamt:** 12 Bildaufrufe, 5 erzeugte Clips (je 8 s; V2 dreimal, V1 zweimal; dazu 2 abgelehnte Anfragen, die nicht berechnet wurden), 15 Sprachaufrufe, 3 Prüfaufrufe (Text).

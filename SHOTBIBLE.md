@@ -39,7 +39,7 @@ Größenstufen (an den Elephant-Block anhängen):
 
 **PATIENT_BLOCK** (Patientin, geändert am 12.10.2026)
 
-> A young woman in her mid-20s, shoulder-length dark brown hair loosely tied back, natural everyday look with little makeup, slightly oversized dark grey long-sleeve knit sweater with sleeves pulled over her hands, upright posture, alert and composed expression with a hint of everyday annoyance, not sad, not exhausted, very subtle redness at the neck, never dramatic. Same person and same clothes as in the reference image.
+> A young woman in her mid-20s, shoulder-length dark brown hair loosely tied back, natural everyday look with little makeup, slightly oversized dark grey long-sleeve knit sweater with sleeves pulled over her hands, blue jeans and white sneakers, upright posture, alert and composed expression with a hint of everyday annoyance, not sad, not exhausted, very subtle redness at the neck, never dramatic. Same person and same clothes as in the reference image.
 
 **Licht-Token**
 

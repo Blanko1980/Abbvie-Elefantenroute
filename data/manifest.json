@@ -500,7 +500,7 @@
       "aspectRatio": "16:9",
       "imageSize": "4K",
       "prompt": "Reference images, in order: image 1 = room layout reference only: keep walls, windows, chairs, counter and clock in the same places; image 2 = the elephant: identical animal, skin, mud on the legs and tusks; also the look of the lighting, how the elephant sits in the room light; image 3 = the same elephant in side view; image 4 = the patient, identical face, hair, age and the same dark grey sweater.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nInterior of a modern dermatology clinic: a bright reception hall with a long white reception counter with light oak details; a waiting area along a floor-to-ceiling glass front with a row of six simple upholstered chairs; a long corridor with light grey linoleum flooring; on the left wall of the corridor the door to the doctor's consulting room; at the far end of the corridor on the right a second plain white door with a small unreadable sign; on the corridor wall a generic framed guideline-style poster (unreadable, no logo, no text) and a wall monitor showing an abstract line chart (no numbers, no text).\n\nOne adult African savanna elephant, realistic wrinkled grey skin, large ears, both tusks, calm and healthy, anatomically correct with four legs, standing indoors on the floor, casting a soft shadow. Not a cartoon, no human expression. Elephant size: natural size, shoulder height about 3 meters, fits the room with space to walk around it.\n\nA young woman in her mid-20s, shoulder-length dark brown hair loosely tied back, natural everyday look with little makeup, slightly oversized dark grey long-sleeve knit sweater with sleeves pulled over her hands, upright posture, alert and composed expression with a hint of everyday annoyance, not sad, not exhausted, very subtle redness at the neck, never dramatic. Same person and same clothes as in the reference image.\n\nShot: Shot 01a, wide establishing shot of the reception hall from camera position CAM-A, same framing as the first reference image. Same room layout and materials: light oak plank floor, five chairs in one row along the glass front, the reception counter on the right, the round wall clock without numerals behind the counter. No poster, no monitor, no screen in this view. The elephant stands calmly in the middle of the hall between the counter and the waiting area, in a three-quarter side view, ears relaxed, trunk hanging loosely, simply breathing. The hall is almost empty. Far in the background, small and easy to overlook: the patient sits on chair 1 at the far left end of the chair row, sleeves pulled over her hands; one medical assistant in light clinic clothes walks past near the waiting area without looking at the elephant. Nobody looks at the elephant. Lighting as in the elephant reference: a naturally exposed interior, dimmer than the bright summer morning outside, a broad soft pool of daylight from the glass front across the floor; the elephant is backlit with a soft bright rim along its back and ears, the side facing the camera in soft shade, its shadow falls across the floor toward the camera, dark contact shadows under its feet. Dust particles glow faintly in the backlight. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere.\n\nLight: soft bright morning light through the glass front, clean and warm.",
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/stills/01a.jpg",
       "width": 5504,
       "height": 3072,
@@ -618,7 +618,7 @@
       "file": "public/stills/04b.jpg",
       "width": 5504,
       "height": 3072,
-      "note": "Qualitätscheck ok; gleicher Bildausschnitt wie 04a statt Halbnah, der Push auf Hand und Schulter entsteht in Remotion"
+      "note": "Qualitätscheck ok; gleicher Bildausschnitt wie 04a statt Halbnah, der Push auf Hand und Schulter entsteht in Remotion | Wird in Phase 3 ersetzt: Rüssel muss auf der rechten Schulter liegen wie in V2 bei 5 s."
     },
     {
       "id": "V2",
@@ -655,8 +655,8 @@
       "durationSeconds": 8,
       "resolution": "720p",
       "status": "abgelehnt",
-      "file": "public/clips/V1.mp4",
-      "note": "Start- und Endbild ersetzt (06b/08c Runde 2); Neuerzeugung nach Freigabe des neuen 06b"
+      "file": null,
+      "note": "Start- und Endbild ersetzt (06b/08c Runde 2); Neuerzeugung nach Freigabe des neuen 06b (ersetzt)"
     },
     {
       "id": "04a",
@@ -698,11 +698,11 @@
       "aspectRatio": "16:9",
       "imageSize": "4K",
       "prompt": "Reference images, in order: image 1 = the reception hall: same materials (light oak plank floor, white walls, tall narrow windows on the left wall), same furniture style; image 2 = the doctor, identical face, hair, age and clothes; image 3 = the doctor in three-quarter profile; image 4 = the patient, identical face, hair, age and the same dark grey sweater; image 5 = the patient in three-quarter profile; image 6 = the elephant: identical animal, skin, mud on the legs and tusks; image 7 = the same elephant in side view.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nInterior of a modern dermatology clinic: a bright reception hall with a long white reception counter with light oak details; a waiting area along a floor-to-ceiling glass front with a row of six simple upholstered chairs; a long corridor with light grey linoleum flooring; on the left wall of the corridor the door to the doctor's consulting room; at the far end of the corridor on the right a second plain white door with a small unreadable sign; on the corridor wall a generic framed guideline-style poster (unreadable, no logo, no text) and a wall monitor showing an abstract line chart (no numbers, no text).\n\nOne adult African savanna elephant, realistic wrinkled grey skin, large ears, both tusks, calm and healthy, anatomically correct with four legs, standing indoors on the floor, casting a soft shadow. Not a cartoon, no human expression. Elephant size: looks enormous, its body fills the corridor from wall to wall and nearly to the ceiling, only a narrow gap left.\n\nA man in his mid-50s, short grey-brown hair, kind calm face, white doctor's coat over a light blue shirt, holding a tablet. Same person as in the reference image.\n\nA young woman in her mid-20s, shoulder-length dark brown hair loosely tied back, natural everyday look with little makeup, slightly oversized dark grey long-sleeve knit sweater with sleeves pulled over her hands, upright posture, alert and composed expression with a hint of everyday annoyance, not sad, not exhausted, very subtle redness at the neck, never dramatic. Same person and same clothes as in the reference image.\n\nShot: Shot 06b, wide observational shot in the waiting area of the reception hall at the end of the day (camera position CAM-E), filmed from a distance with a telephoto lens, the camera at a slight angle to the room, not perfectly square. Background: the left wall of the hall with its row of tall, narrow floor-to-ceiling windows, blue dusk outside; light oak plank floor. The room feels lived in: large leafy potted plants (a fiddle-leaf fig and a monstera) stand by the windows; a warm floor lamp glows in a corner; a few upholstered chairs along the wall, a light jacket hangs over the back of one chair and the patient's bag sits on the seat next to it; a forgotten coffee cup stands on the windowsill. Far in the background, small and softly out of focus, a medical assistant at the end of her shift puts on her coat. In the extreme left foreground, a large out-of-focus plant leaf cuts slightly into the frame. No counter, no poster, no monitor, no screen in this view. The doctor stands at the left third of the frame, turned three-quarters toward the patient, relaxed and natural, his weight on one leg, the tablet lowered at his side. The patient stands at the right third of the frame, about three meters away from him, turned three-quarters toward the doctor, one hand on the strap of her bag on her shoulder, the other hand absent-mindedly scratching her forearm through the sweater sleeve, sleeves pulled over her hands. They are not posed; it looks like a real, unplanned moment. Exactly between them stands the enormous elephant: its head and front face the camera at a slight angle, its body extends away from the camera into the depth of the room, its back nearly touching the ceiling. Its massive head blocks the line of sight between the doctor and the patient: they cannot see each other. Cool evening: blue dusk in the windows, cold fluorescent ceiling light from above gives the elephant's head and back a cold top light and casts short dark shadows; the warm floor lamp adds a small warm counterpoint in the corner. The elephant's skin is matte and dusty, dark contact shadows under its feet. Lower contrast. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere.\n\nLight: dusk outside, cool blue light mixed with cold fluorescent ceiling lights inside, lower contrast.",
-      "status": "zur Freigabe",
-      "file": "public/stills/06b.jpg",
+      "status": "abgelehnt",
+      "file": null,
       "width": 5504,
       "height": 3072,
-      "note": "Runde 2 (mehr Leben): Qualitätscheck ok; Abweichungen: Patientin in Jeans, Ärmel hochgeschoben, MFA im weißen Kittel, kein Vordergrundblatt"
+      "note": "Runde 2 (mehr Leben): Qualitätscheck ok; Abweichungen: Patientin in Jeans, Ärmel hochgeschoben, MFA im weißen Kittel, kein Vordergrundblatt (ersetzt)"
     },
     {
       "id": "08c",
@@ -717,7 +717,7 @@
       "aspectRatio": "16:9",
       "imageSize": "2K",
       "prompt": "Reference images, in order: image 1 = the master image to be edited.\n\nEdit image 1. Same room, same camera, same framing, same furniture, plants, lamp, jacket, cup and background details; the doctor and the patient stay in exactly the same places with the same clothes. Only change three things: 1) the elephant has taken one calm step to the left and slightly back, out of the line of sight between the doctor and the patient: it now stands on the left side of the frame behind the doctor, partly cut off by the left frame edge, softly out of focus, calm; the doctor stands in front of it and remains fully visible; 2) nothing stands between the doctor and the patient any more: the doctor has turned toward the patient and looks directly at her; the patient has stopped scratching, lowers her arm and raises her eyes to look back at him, calm, no smile; 3) the light turns warmer: the last warm, low golden sunlight falls through the windows across the floor and onto the patient, a gentle golden rim light on her hair and shoulders, while the rest of the room keeps the soft evening light. The medical assistant in the background has left.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/stills/08c.jpg",
       "width": 2752,
       "height": 1536,
@@ -757,7 +757,7 @@
       "aspectRatio": "16:9",
       "imageSize": "2K",
       "prompt": "Reference images, in order: image 1 = the master image to be edited; image 2 = the end of this moment: same corridor, same light, same people; image 3 = the doctor, identical face, hair and clothes.\n\nEdit image 1. Same corridor, same camera, same framing, same light, same door on the right. Change only the positions: the doctor is now about three steps away from the door, in the middle of the frame, walking briskly and purposefully toward the door on the right, caught mid-stride, head up, looking at the door; his arms swing naturally, the tablet in his left hand; he has not reached for the handle yet. The elephant follows close behind him on the left, correspondingly further back, mid-step, trunk hanging loosely, same size as before. There is clearly visible empty floor between the doctor and the door. Nothing else changes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/stills/04a.jpg",
       "width": 2752,
       "height": 1536,
@@ -778,9 +778,47 @@
       "negativePrompt": "text, captions, subtitles, letters, logos, watermark, extra people, extra animals, cartoon, fast motion, camera shake, zoom, morphing, distorted anatomy",
       "durationSeconds": 8,
       "resolution": "720p",
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/clips/V2.mp4",
       "note": "Runde 2: Qualitätscheck ok; Arzt geht ca. 3 s, Griff zur Klinke ca. 3,0 s, Rüssel landet ca. 4,5 s; nutzbar 0,5 bis 6,5 s; Stuhlreihe verschwindet hinter dem Arzt"
+    },
+    {
+      "id": "06b",
+      "type": "image",
+      "attempt": 4,
+      "round": 3,
+      "timestamp": "2026-10-12T18:46:59.531Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/raw/06b_runde2_a3.jpg"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "4K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited.\n\nEdit image 1. Same room, same camera, same framing, same light, same people, same elephant, everything unchanged except one thing: the medical assistant in the background wears ordinary street clothes instead of medical clothing: a casual beige trench coat over a dark sweater, dark trousers, a handbag over her shoulder; she is just putting on the coat at the end of her shift. No white coat, no scrubs. She stays small and softly out of focus in the background.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "freigegeben",
+      "file": "public/stills/06b.jpg",
+      "width": 5504,
+      "height": 3072,
+      "note": "Runde 3: MFA in Straßenkleidung (Trenchcoat, Handtasche); sonst unverändert"
+    },
+    {
+      "id": "V1",
+      "type": "clip",
+      "attempt": 2,
+      "round": 2,
+      "timestamp": "2026-10-12T18:48:24.412Z",
+      "model": "veo-3.1-generate-preview",
+      "refs": [
+        "06b",
+        "08c"
+      ],
+      "prompt": "Calm nature documentary shot, locked-off camera on a tripod, no camera movement. In a lived-in clinic waiting area at dusk a huge, calm African elephant stands between a doctor on the left and a young woman on the right, blocking their view of each other. Without hurry, the elephant lifts one front foot and takes one soft, quiet step to the left and slightly back, out of the line of sight, and comes to rest on the left side of the frame behind the doctor. The doctor turns his head toward the young woman; she stops scratching her arm, lowers it and raises her eyes to meet his. In the far background a woman in a trench coat quietly walks out of the frame. Warm low sunlight slowly spreads across the floor. Slow, natural, realistic movement, real animal behaviour, the elephant keeps its size, nothing else changes in the scene.",
+      "negativePrompt": "text, captions, subtitles, letters, logos, watermark, extra people, extra animals, cartoon, fast motion, camera shake, zoom, morphing, distorted anatomy, elephant walking toward the camera",
+      "durationSeconds": 8,
+      "resolution": "720p",
+      "status": "zur Freigabe",
+      "file": "public/clips/V1.mp4",
+      "note": "Runde 2: Qualitätscheck ok; Schritt nach links hinter den Arzt 3,0 bis 6,0 s, MFA geht hinaus, Licht wird golden; keine Sprünge (Einzelbildprüfung)"
     }
   ]
 }
