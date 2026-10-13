@@ -1,25 +1,27 @@
 # Status
 
-Stand: 13.10.2026, Ende Phase 4 (Sprecher und Zeitleiste). **Wartet auf Rückmeldung.**
+Stand: 13.10.2026, Ende Phase 5 (Rohschnitt). **Wartet auf Freigabe des Rohschnitts.**
 
 ## Fertig
 
-- Phasen 0 bis 3 abgeschlossen und freigegeben: 27 Standbilder, Clips V1 bis V5.
-- **Phase 4:**
-  - 17 Sprechersätze von Thomas Schendel in `public/voice/`.
-  - Zeitleiste `data/timeline.json`, Gesamtlänge 146.7 s.
-  - Hörprobe `review/voice/sprecher-timeline.mp3`.
-  - Notiz `review/phase4-notiz.md`.
+- Phasen 0 bis 3: freigegeben. 27 Standbilder, Clips V1 bis V5 (plus `V1-warm.mp4`, lokal gegradet).
+- Phase 4: Sprecher Thomas Schendel (17 Sätze in `public/voice/`), Zeitleiste `data/timeline.json` (146,7 s). Entscheidungen: Szene 5 dauert 18 s; Endcard-Zeile 2 ab 6 s; die 2-Sekunden-Einstellungen der Shotliste gelten.
+- **Phase 5:**
+  - Komposition `Film` in Remotion, komplett aus `data/timeline.json`.
+  - Proxy `review/rohschnitt-720p.mp4` (CRF 28).
+  - Notiz `review/phase5-notiz.md`.
 
 ## Offen, braucht Entscheidung
 
-1. **Szene 5 (+12,5 %):** 18 statt 16 Sekunden. Empfehlung: so lassen (2 s Standbild 05c nach dem Zeitraffer, wie im Script). Optionen in der Notiz.
-2. **Endcard-Timing:** Script und CLAUDE.md sind nicht eindeutig. Script: Zeile 1 „steht 4 Sekunden. Nach 2 Sekunden Pause erscheint darunter“ Zeile 2, „steht 5 Sekunden“. CLAUDE.md: Zeile 2 „2 Sekunden später“.
-3. **Einstellungen unter 3 Sekunden:** Das Script sagt „bis Szene 6 keine Einstellung unter 3 Sekunden“, die Shotliste sieht aber 2-Sekunden-Einstellungen vor (01b1 und 01b2, die Zwischenschnitte in Szene 3). Ich halte mich an die Shotliste, weil das Script die Zwischenschnitte in Szene 3 ausdrücklich mit ca. 2 s nennt.
+1. Freigabe des Rohschnitts. Danach rendere ich das finale `renders/elefant-v1-1080p.mp4` (H.264, CRF 20, bei über 95 MB mit höherem CRF neu).
+2. Der dunkle Verlauf hinter den Einblendungen (Lesbarkeit) steht nicht im Script: so lassen?
+3. Coda-Karten mit 0,3 s Blende oder mit harten Schnitten?
 
-## Als Nächstes: Phase 5 (Schnitt in Remotion)
+## Rendern
 
-Komposition aus `data/timeline.json`, Proxy `review/rohschnitt-720p.mp4` (CRF 28), dann STOP.
+- Proxy: `npx remotion render src/index.ts Film review/rohschnitt-720p.mp4 --scale=0.6666666666666666 --codec=h264 --crf=28`
+- Final: `npx remotion render src/index.ts Film renders/elefant-v1-1080p.mp4 --codec=h264 --crf=20`
+- Nach jeder Änderung an Sprecher oder Einstellungen: `python3 scripts/speech-bounds.py && node scripts/build-timeline.mjs`.
 
 ## Schnittnotizen für Phase 5
 

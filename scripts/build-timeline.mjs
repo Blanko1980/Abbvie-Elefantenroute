@@ -1,6 +1,7 @@
 // Phase 4: baut data/timeline.json aus Sprecherzeilen (data/voice/narration.json),
 // gemessenen Sprechgrenzen (data/voice/bounds.json) und der Einstellungsfolge laut Shotliste.
 import { readFileSync, writeFileSync } from "node:fs";
+import sharp from "sharp";
 
 const cfg = JSON.parse(readFileSync("data/voice/narration.json", "utf8"));
 const bounds = JSON.parse(readFileSync("data/voice/bounds.json", "utf8"));
@@ -16,11 +17,11 @@ const SHOTS = {
   s2: [{ id: "02a", type: "still", dur: 14, move: { kind: "pan", from: 0, to: 1 } }, { id: "02b", type: "still", dur: "rest", move: { kind: "static" } }],
   s3: [{ id: "03a", type: "still", dur: 2 }, { id: "03b", type: "still", dur: 3 }, { id: "03f", type: "still", dur: 2 }, { id: "03c", type: "still", dur: 2 },
        { id: "03g", type: "still", dur: 2 }, { id: "03d", type: "still", dur: 3 }, { id: "03h", type: "still", dur: 2 }, { id: "03e", type: "still", dur: "rest" }],
-  s4: [{ id: "V2", type: "clip", clip: { from: 0.5, to: 5.2 } }, { id: "04b", type: "still", dur: "rest", move: { kind: "push", from: 1.0, to: 1.1 } }],
-  s5: [{ id: "V3", type: "clip", clip: { from: 0, to: 8 } }, { id: "V4", type: "clip", clip: { from: 0, to: 8 } }, { id: "05c", type: "still", dur: "rest", move: { kind: "static" } }],
+  s4: [{ id: "V2", type: "clip", clip: { from: 0.5, to: 5.2 } }, { id: "04b", type: "still", dur: "rest", move: { kind: "push", from: 1.0, to: 1.1, origin: "74% 50%" } }],
+  s5: [{ id: "V3", type: "clip", clip: { from: 0, to: 8 } }, { id: "V4", type: "clip", clip: { from: 0, to: 8 }, crossfadeIn: 1 }, { id: "05c", type: "still", dur: "rest", move: { kind: "static" }, crossfadeIn: 1 }],
   s6: [{ id: "06a", type: "still", dur: 2 }, { id: "V5", type: "clip", clip: { from: 0.5, to: 3.5 } }, { id: "06c", type: "still", dur: 2 }, { id: "06d", type: "still", dur: "rest" }],
   s7: [{ id: "07a", type: "still", dur: "rest", move: { kind: "push", from: 1.0, to: 1.15 } }],
-  s8: [{ id: "08a", type: "still", dur: 4 }, { id: "V1", type: "clip", clip: { from: 3.0, to: 6.0 }, grade: "warm-like-08c" },
+  s8: [{ id: "08a", type: "still", dur: 4 }, { id: "V1", type: "clip", clip: { from: 3.0, to: 6.0 }, grade: "warm-like-08c", file: "clips/V1-warm.mp4" },
        { id: "08d", type: "still", dur: "rest", move: { kind: "crop", scale: 1.3 } }],
   end: [{ id: "End", type: "endcard", dur: "rest" }],
   coda: [{ id: "Coda", type: "coda", dur: "rest" }],
@@ -45,11 +46,12 @@ for (const sc of cfg.scenes) {
   const dur = end - start;
   // Einstellungen verteilen
   const shots = [];
-  const fixed = SHOTS[sc.id].reduce((s, x) => s + (x.type === "clip" ? x.clip.to - x.clip.from : x.dur === "rest" ? 0 : x.dur), 0);
+  const fixed = SHOTS[sc.id].reduce((s, x) => s + (x.type === "clip" ? x.clip.to - x.clip.from : x.dur === "rest" ? 0 : x.dur) - (x.dur === "rest" ? 0 : x.crossfadeIn ?? 0), 0);
   let st = start;
   for (const s of SHOTS[sc.id]) {
-    const d = s.type === "clip" ? s.clip.to - s.clip.from : s.dur === "rest" ? dur - fixed : s.dur;
-    shots.push({ ...s, dur: undefined, start: r3(st), duration: r3(d), src: s.type === "still" ? `stills/${s.id}.jpg` : s.type === "clip" ? `clips/${s.id}.mp4` : null });
+    const d = s.type === "clip" ? s.clip.to - s.clip.from : s.dur === "rest" ? dur - fixed + (s.crossfadeIn ?? 0) : s.dur;
+    st -= s.crossfadeIn ?? 0;
+    shots.push({ ...s, dur: undefined, start: r3(st), duration: r3(d), src: s.file ?? (s.type === "still" ? `stills/${s.id}.jpg` : s.type === "clip" ? `clips/${s.id}.mp4` : null), file: undefined });
     st += d;
   }
   const deviation = (dur - sc.scriptDur) / sc.scriptDur;
@@ -69,18 +71,23 @@ const overlays = [
   { scene: "s4", text: "„Da habe ich Respekt vor.“", at: 4.1 },
 ].map((o) => ({ ...o, start: r3(S[o.scene].start + o.at), fadeIn: 0.3, visible: 2.5, fadeOut: 0.3 }));
 
+// Bildmaße der Standbilder (für Schwenk und Ausschnitt)
+for (const sc of scenes) for (const sh of sc.shots) if (sh.type === "still") {
+  const m = await sharp(`public/${sh.src}`).metadata();
+  sh.width = m.width; sh.height = m.height;
+}
 const total = scenes[scenes.length - 1].end;
 const timeline = {
   version: 1, fps: FPS, width: 1920, height: 1080, durationSeconds: r3(total), durationInFrames: Math.round(total * FPS),
   note: "Erzeugt von scripts/build-timeline.mjs. Zeiten in Sekunden ab Filmbeginn. Audiospuren music und ambience bleiben vorerst leer.",
   audioTracks: { voice: "voice", music: null, ambience: null },
   scenes, voice, overlays,
-  endcard: { scene: "end", line1: "LASST UNS ÜBER ELEFANTEN REDEN.", line2: "Welcher Elefant bestimmt Ihre Entscheidung?", line1At: 0, line2At: null, note: "line2At offen, siehe STATUS.md" },
-  coda: { scene: "coda", cards: [
-    "Die Frage. „Was ist der größte Elefant in Ihrer Therapieentscheidung?“ auf Kongress, digital, Social, Print und Mikrosite.",
-    "Das Sammeln. Antworten anonym und kuratiert, am Kongress analog (Wand, Sticker), online eher als Auswahl denn als Freitext.",
-    "Der Elefanten-Check. Drei Fragen zur eigenen Entscheidungsroutine, mit echten Patientenfällen. Das ist die Brücke von der Haltung zur Substanz.",
-    "Der Außendienst. Das Gespräch beginnt bei der Frage, nicht beim Produkt."], cardDuration: 3.5 },
+  endcard: { scene: "end", line1: "LASST UNS ÜBER ELEFANTEN REDEN.", line2: "Welcher Elefant bestimmt Ihre Entscheidung?", line1At: 0, line2At: 6, note: "Zeile 1 sofort ohne Überblendung, Zeile 2 ab 6 s darunter, beide bis zum Ende (Entscheidung 13.10.2026)" },
+  coda: { scene: "coda", cardDuration: 3.5, fade: 0.3, cards: [
+    { title: "Die Frage.", body: "„Was ist der größte Elefant in Ihrer Therapieentscheidung?“ auf Kongress, digital, Social, Print und Mikrosite." },
+    { title: "Das Sammeln.", body: "Antworten anonym und kuratiert, am Kongress analog (Wand, Sticker), online eher als Auswahl denn als Freitext." },
+    { title: "Der Elefanten-Check.", body: "Drei Fragen zur eigenen Entscheidungsroutine, mit echten Patientenfällen. Das ist die Brücke von der Haltung zur Substanz." },
+    { title: "Der Außendienst.", body: "Das Gespräch beginnt bei der Frage, nicht beim Produkt." }] },
 };
 writeFileSync("data/timeline.json", JSON.stringify(timeline, null, 2) + "\n");
 console.log("Gesamt", r3(total), "s =", Math.floor(total / 60) + ":" + String(Math.round(total % 60)).padStart(2, "0"));

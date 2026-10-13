@@ -159,6 +159,9 @@ Med-Legal gehört bei Schritt 2 und 3 von Anfang an dazu: Antworten zur Sicherhe
 - **Sprecher:** männlich, Naturdoku-Stil; Stimme Thomas Schendel bei ElevenLabs (Entscheidung 12.10.2026).
 - **Szene 4:** Der Arzt geht auf die Tür zu, der Rüssel bremst ihn (Entscheidung 12.10.2026).
 - **Trampelpfad (Szene 3):** natürliche, von Bild zu Bild zunehmende Abdrücke von Schuhen und Elefantenfüßen, langsam breiter und minimal tiefer, bis ein ausgetretener Weg entsteht; kein aufgemalter Streifen.
+- **Szene 5:** 18 statt 16 Sekunden; nach dem Zeitraffer (Clips V3, V4) steht 05c noch 2 Sekunden (Entscheidung 13.10.2026).
+- **Endcard:** Zeile 1 sofort, Zeile 2 ab 6 Sekunden darunter, beide stehen bis zum Ende (Entscheidung 13.10.2026).
+- **Kurze Einstellungen:** Die 2-Sekunden-Einstellungen der Shotliste gelten (Entscheidung 13.10.2026).
 - **Lichtstimmung:** innerhalb einer Szene konsistent; Szenen 6 und 7 kühl, Szene 8 warm (Ausnahme: Zeit vergeht in der Szene).
 - **Kleidung der Patientin:** dunkelgrauer Pullover, Jeans, weiße Sneaker. **MFA am Abend:** Straßenkleidung (Entscheidung 12.10.2026).
 - **Patientin statt Patient:** Die Figur ist eine junge Frau, nicht leidend und nicht antriebslos, sondern genervt von ihrem Leiden (Entscheidung 12.10.2026).

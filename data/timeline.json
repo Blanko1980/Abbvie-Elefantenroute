@@ -40,7 +40,9 @@
           },
           "start": 2,
           "duration": 4,
-          "src": "stills/01a.jpg"
+          "src": "stills/01a.jpg",
+          "width": 5504,
+          "height": 3072
         },
         {
           "id": "01b1",
@@ -51,7 +53,9 @@
           },
           "start": 6,
           "duration": 2,
-          "src": "stills/01b1.jpg"
+          "src": "stills/01b1.jpg",
+          "width": 2752,
+          "height": 1536
         },
         {
           "id": "01b2",
@@ -62,7 +66,9 @@
           },
           "start": 8,
           "duration": 2,
-          "src": "stills/01b2.jpg"
+          "src": "stills/01b2.jpg",
+          "width": 2752,
+          "height": 1536
         },
         {
           "id": "01c",
@@ -72,7 +78,9 @@
           },
           "start": 10,
           "duration": 5.247,
-          "src": "stills/01c.jpg"
+          "src": "stills/01c.jpg",
+          "width": 2752,
+          "height": 1536
         }
       ]
     },
@@ -97,7 +105,9 @@
           },
           "start": 15.247,
           "duration": 14,
-          "src": "stills/02a.jpg"
+          "src": "stills/02a.jpg",
+          "width": 3168,
+          "height": 1344
         },
         {
           "id": "02b",
@@ -107,7 +117,9 @@
           },
           "start": 29.247,
           "duration": 4,
-          "src": "stills/02b.jpg"
+          "src": "stills/02b.jpg",
+          "width": 2752,
+          "height": 1536
         }
       ]
     },
@@ -127,56 +139,72 @@
           "type": "still",
           "start": 33.247,
           "duration": 2,
-          "src": "stills/03a.jpg"
+          "src": "stills/03a.jpg",
+          "width": 2752,
+          "height": 1536
         },
         {
           "id": "03b",
           "type": "still",
           "start": 35.247,
           "duration": 3,
-          "src": "stills/03b.jpg"
+          "src": "stills/03b.jpg",
+          "width": 2752,
+          "height": 1536
         },
         {
           "id": "03f",
           "type": "still",
           "start": 38.247,
           "duration": 2,
-          "src": "stills/03f.jpg"
+          "src": "stills/03f.jpg",
+          "width": 2752,
+          "height": 1536
         },
         {
           "id": "03c",
           "type": "still",
           "start": 40.247,
           "duration": 2,
-          "src": "stills/03c.jpg"
+          "src": "stills/03c.jpg",
+          "width": 2752,
+          "height": 1536
         },
         {
           "id": "03g",
           "type": "still",
           "start": 42.247,
           "duration": 2,
-          "src": "stills/03g.jpg"
+          "src": "stills/03g.jpg",
+          "width": 2752,
+          "height": 1536
         },
         {
           "id": "03d",
           "type": "still",
           "start": 44.247,
           "duration": 3,
-          "src": "stills/03d.jpg"
+          "src": "stills/03d.jpg",
+          "width": 2752,
+          "height": 1536
         },
         {
           "id": "03h",
           "type": "still",
           "start": 47.247,
           "duration": 2,
-          "src": "stills/03h.jpg"
+          "src": "stills/03h.jpg",
+          "width": 2752,
+          "height": 1536
         },
         {
           "id": "03e",
           "type": "still",
           "start": 49.247,
           "duration": 2.447,
-          "src": "stills/03e.jpg"
+          "src": "stills/03e.jpg",
+          "width": 2752,
+          "height": 1536
         }
       ]
     },
@@ -208,11 +236,14 @@
           "move": {
             "kind": "push",
             "from": 1,
-            "to": 1.1
+            "to": 1.1,
+            "origin": "74% 50%"
           },
           "start": 56.394,
           "duration": 10.285,
-          "src": "stills/04b.jpg"
+          "src": "stills/04b.jpg",
+          "width": 5504,
+          "height": 3072
         }
       ]
     },
@@ -245,7 +276,8 @@
             "from": 0,
             "to": 8
           },
-          "start": 74.679,
+          "crossfadeIn": 1,
+          "start": 73.679,
           "duration": 8,
           "src": "clips/V4.mp4"
         },
@@ -255,9 +287,12 @@
           "move": {
             "kind": "static"
           },
-          "start": 82.679,
-          "duration": 2.002,
-          "src": "stills/05c.jpg"
+          "crossfadeIn": 1,
+          "start": 80.679,
+          "duration": 4.002,
+          "src": "stills/05c.jpg",
+          "width": 2752,
+          "height": 1536
         }
       ]
     },
@@ -277,7 +312,9 @@
           "type": "still",
           "start": 84.681,
           "duration": 2,
-          "src": "stills/06a.jpg"
+          "src": "stills/06a.jpg",
+          "width": 2752,
+          "height": 1536
         },
         {
           "id": "V5",
@@ -295,14 +332,18 @@
           "type": "still",
           "start": 89.681,
           "duration": 2,
-          "src": "stills/06c.jpg"
+          "src": "stills/06c.jpg",
+          "width": 2752,
+          "height": 1536
         },
         {
           "id": "06d",
           "type": "still",
           "start": 91.681,
           "duration": 3,
-          "src": "stills/06d.jpg"
+          "src": "stills/06d.jpg",
+          "width": 2752,
+          "height": 1536
         }
       ]
     },
@@ -327,7 +368,9 @@
           },
           "start": 94.681,
           "duration": 14.027,
-          "src": "stills/07a.jpg"
+          "src": "stills/07a.jpg",
+          "width": 5504,
+          "height": 3072
         }
       ]
     },
@@ -347,7 +390,9 @@
           "type": "still",
           "start": 108.708,
           "duration": 4,
-          "src": "stills/08a.jpg"
+          "src": "stills/08a.jpg",
+          "width": 2752,
+          "height": 1536
         },
         {
           "id": "V1",
@@ -359,7 +404,7 @@
           "grade": "warm-like-08c",
           "start": 112.708,
           "duration": 3,
-          "src": "clips/V1.mp4"
+          "src": "clips/V1-warm.mp4"
         },
         {
           "id": "08d",
@@ -370,7 +415,9 @@
           },
           "start": 115.708,
           "duration": 5,
-          "src": "stills/08d.jpg"
+          "src": "stills/08d.jpg",
+          "width": 2752,
+          "height": 1536
         }
       ]
     },
@@ -673,17 +720,30 @@
     "line1": "LASST UNS ÜBER ELEFANTEN REDEN.",
     "line2": "Welcher Elefant bestimmt Ihre Entscheidung?",
     "line1At": 0,
-    "line2At": null,
-    "note": "line2At offen, siehe STATUS.md"
+    "line2At": 6,
+    "note": "Zeile 1 sofort ohne Überblendung, Zeile 2 ab 6 s darunter, beide bis zum Ende (Entscheidung 13.10.2026)"
   },
   "coda": {
     "scene": "coda",
+    "cardDuration": 3.5,
+    "fade": 0.3,
     "cards": [
-      "Die Frage. „Was ist der größte Elefant in Ihrer Therapieentscheidung?“ auf Kongress, digital, Social, Print und Mikrosite.",
-      "Das Sammeln. Antworten anonym und kuratiert, am Kongress analog (Wand, Sticker), online eher als Auswahl denn als Freitext.",
-      "Der Elefanten-Check. Drei Fragen zur eigenen Entscheidungsroutine, mit echten Patientenfällen. Das ist die Brücke von der Haltung zur Substanz.",
-      "Der Außendienst. Das Gespräch beginnt bei der Frage, nicht beim Produkt."
-    ],
-    "cardDuration": 3.5
+      {
+        "title": "Die Frage.",
+        "body": "„Was ist der größte Elefant in Ihrer Therapieentscheidung?“ auf Kongress, digital, Social, Print und Mikrosite."
+      },
+      {
+        "title": "Das Sammeln.",
+        "body": "Antworten anonym und kuratiert, am Kongress analog (Wand, Sticker), online eher als Auswahl denn als Freitext."
+      },
+      {
+        "title": "Der Elefanten-Check.",
+        "body": "Drei Fragen zur eigenen Entscheidungsroutine, mit echten Patientenfällen. Das ist die Brücke von der Haltung zur Substanz."
+      },
+      {
+        "title": "Der Außendienst.",
+        "body": "Das Gespräch beginnt bei der Frage, nicht beim Produkt."
+      }
+    ]
   }
 }
