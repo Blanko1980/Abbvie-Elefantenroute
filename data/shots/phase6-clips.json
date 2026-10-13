@@ -1,0 +1,257 @@
+{
+  "V01a": {
+    "phase": "6",
+    "model": "veo-3.1-generate-preview",
+    "start": "01a",
+    "durationSeconds": 6,
+    "resolution": "720p",
+    "aspectRatio": "16:9",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot with an extremely slow, barely noticeable push-in. A bright clinic reception hall in the morning, backlit by tall windows. A huge African elephant stands calmly in the middle of the hall and breathes slowly: its ears move gently, its trunk sways a little, it shifts its weight from one foot to another. In the background a nurse in light scrubs walks on to the right without looking at it; a young woman sits quietly on a chair by the window. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position. The wall clock stays unchanged.",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change"
+  },
+  "V01b1": {
+    "phase": "6",
+    "model": "veo-3.1-generate-preview",
+    "start": "01b1",
+    "durationSeconds": 4,
+    "resolution": "720p",
+    "aspectRatio": "16:9",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement. Morning, bright reception hall. A nurse in light blue scrubs carrying a stack of files walks past the elephant from left to right at a normal pace, without looking at it, as if it were a piece of furniture. The elephant stands still and breathes, its ears move gently, its trunk sways slightly. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position. ",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
+    "crop": {
+      "scale": 1.25
+    }
+  },
+  "V01b2": {
+    "phase": "6",
+    "model": "veo-3.1-generate-preview",
+    "start": "01b2",
+    "durationSeconds": 4,
+    "resolution": "720p",
+    "aspectRatio": "16:9",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement. Morning, bright reception hall. Two men walk past the elephant to the reception counter on the right without looking at it; the younger man puts a coffee cup down on the counter in passing. The elephant stands still and breathes, its ears move gently, its trunk sways slightly. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position. ",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
+    "crop": {
+      "scale": 1.25
+    }
+  },
+  "V01c": {
+    "phase": "6",
+    "model": "veo-3.1-generate-preview",
+    "start": "01c",
+    "durationSeconds": 6,
+    "resolution": "720p",
+    "aspectRatio": "16:9",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod wide shot, no camera movement, no focus change. Morning, bright reception hall with waiting chairs along the window. The receptionist works quietly behind the counter, two waiting patients look at their phones. On the leftmost chair a young woman sits still with her sleeves pulled over her hands. The elephant in the middle stands calmly and breathes, its ears move gently, its trunk sways slightly. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position. The wall clock stays unchanged.",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change"
+  },
+  "V02a": {
+    "phase": "6",
+    "model": "veo-3.1-generate-preview",
+    "start": "02a",
+    "durationSeconds": 8,
+    "resolution": "720p",
+    "aspectRatio": "16:9",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Side-on tracking shot: the camera dollies to the right parallel to the corridor wall at exactly their walking speed, so both stay in the same place in the frame, seen in profile. The camera never turns. A doctor in a white coat with a tablet walks calmly along a bright clinic corridor toward the right. A huge African elephant walks closely behind him, its trunk curved forward close to his ear as if whispering to him, the trunk tip stays at his ear and is never raised up. The doctor keeps his eyes on his tablet or ahead, never looks at the elephant and never stops walking; once he nods slightly. Open, empty corridor: nothing passes between the camera and them, no pillars or counters in the foreground. Natural, realistic walking, real elephant gait, soft daylight. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position. ",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
+    "region": {
+      "left": 390,
+      "top": 0,
+      "width": 2389,
+      "height": 1344
+    },
+    "extend": {
+      "prompt": "The camera keeps dollying to the right parallel to the wall at their walking speed, seen in profile. The doctor keeps walking calmly and looks at his tablet, never at the elephant. The elephant follows closely behind him, its trunk tip close to his ear, never raised up. Same corridor, same soft daylight. Natural, realistic movement."
+    }
+  },
+  "V02b": {
+    "phase": "6",
+    "model": "veo-3.1-generate-preview",
+    "start": "02b",
+    "durationSeconds": 6,
+    "resolution": "720p",
+    "aspectRatio": "16:9",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement. Bright clinic corridor. The doctor in a white coat steps through the open wooden door on the right into his consulting room and disappears. The elephant stops in front of the door; its trunk briefly brushes along the door frame, then it stands still and breathes. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position. ",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change"
+  },
+  "V03a": {
+    "phase": "6",
+    "model": "veo-3.1-generate-preview",
+    "start": "03a",
+    "durationSeconds": 4,
+    "resolution": "720p",
+    "aspectRatio": "16:9",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement, looking down a long clinic corridor toward the glass front of the waiting area, summer, green trees outside. The elephant and the doctor in a white coat walk calmly away from the camera, side by side. Worn footprints on the light grey linoleum floor stay unchanged. Leaves move gently outside. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position. ",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change"
+  },
+  "V03b": {
+    "phase": "6",
+    "model": "veo-3.1-generate-preview",
+    "start": "03b",
+    "durationSeconds": 4,
+    "resolution": "720p",
+    "aspectRatio": "16:9",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement, long clinic corridor, autumn: orange trees outside the glass front, a few leaves drift down outside behind the glass; nothing falls inside the corridor. The elephant and the doctor in a white coat walk slowly toward the camera, side by side; the doctor looks at his tablet. The worn footprints on the light grey linoleum floor stay unchanged. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position. ",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change"
+  },
+  "V03f": {
+    "phase": "6",
+    "model": "veo-3.1-generate-preview",
+    "start": "03f",
+    "durationSeconds": 4,
+    "resolution": "720p",
+    "aspectRatio": "16:9",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement, close shot in a clinic corridor. The huge elephant stands in front of the wall with the framed abstract poster and slowly shifts its weight; its large ear flaps gently and slides further in front of the poster, its trunk swings slowly. Matte dusty wrinkled skin, soft daylight. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position. ",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change"
+  },
+  "V03c": {
+    "phase": "6",
+    "model": "veo-3.1-generate-preview",
+    "start": "03c",
+    "durationSeconds": 4,
+    "resolution": "720p",
+    "aspectRatio": "16:9",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement, long clinic corridor, winter: snow outside the glass front, snowflakes fall gently outside. The elephant and the doctor in a white coat walk calmly away from the camera, side by side, along a broad worn path on the light grey linoleum floor. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position. ",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change"
+  },
+  "V03g": {
+    "phase": "6",
+    "model": "veo-3.1-generate-preview",
+    "start": "03g",
+    "durationSeconds": 4,
+    "resolution": "720p",
+    "aspectRatio": "16:9",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement, close shot. The elephant's huge grey flank fills most of the frame next to a wall monitor showing a simple rising line. The elephant stands still and does not walk; it only breathes slowly, the wrinkled skin of its flank rises and falls, its ear moves slightly at the edge of the frame. The screen stays unchanged. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position. ",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change"
+  },
+  "V03d": {
+    "phase": "6",
+    "model": "veo-3.1-generate-preview",
+    "start": "03d",
+    "durationSeconds": 4,
+    "resolution": "720p",
+    "aspectRatio": "16:9",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement, long clinic corridor, spring: blossoming trees outside the glass front. The doctor in a white coat walks slowly toward the camera next to the huge elephant, which fills most of the corridor; the elephant moves its ears and trunk calmly. A broad worn path on the light grey linoleum floor. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position. ",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change"
+  },
+  "V03h": {
+    "phase": "6",
+    "model": "veo-3.1-generate-preview",
+    "start": "03h",
+    "durationSeconds": 4,
+    "resolution": "720p",
+    "aspectRatio": "16:9",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement, end of a clinic corridor with a plain white closed door. The doctor in a white coat with a tablet keeps walking past the door toward the camera, looking down at his tablet; he never stops and never looks at the door or the elephant. The huge elephant next to the door moves slowly, its body casting a shadow over half of the door; its trunk swings gently. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position. ",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change"
+  },
+  "V03e": {
+    "phase": "6",
+    "model": "veo-3.1-generate-preview",
+    "start": "03e",
+    "durationSeconds": 4,
+    "resolution": "720p",
+    "aspectRatio": "16:9",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement, long clinic corridor, summer years later, green trees outside. The huge elephant fills the corridor from wall to wall and walks slowly away from the camera; the doctor in a white coat walks calmly beside it. Deep worn path on the light grey linoleum floor. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position. ",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change"
+  },
+  "V04b": {
+    "phase": "6",
+    "model": "veo-3.1-generate-preview",
+    "start": "04b",
+    "durationSeconds": 8,
+    "resolution": "720p",
+    "aspectRatio": "16:9",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement at all. End of a bright clinic corridor, early afternoon. The doctor stands in profile facing the closed door, his hand rests on the door handle, he does not open the door and does not turn toward the camera. The elephant's trunk lies gently and motionless on the doctor's shoulder the whole time and is never lifted. The doctor holds still, his mouth stays closed, he breathes out quietly, his shoulders sink slightly; his face stays calm and serious. The elephant breathes calmly, its ear moves slightly. Calm and serious, caring, not threatening. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position.",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
+    "extend": {
+      "prompt": "Locked-off tripod shot, no camera movement. Nothing else changes: the doctor keeps standing in profile at the door with his hand on the handle, mouth closed, calm; the elephant's trunk keeps resting motionless on his shoulder; the elephant breathes calmly. Same corridor, same light."
+    }
+  },
+  "V05c": {
+    "phase": "6",
+    "model": "veo-3.1-generate-preview",
+    "start": "05c",
+    "durationSeconds": 4,
+    "resolution": "720p",
+    "aspectRatio": "16:9",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement. Evening in a clinic waiting area, dusk outside, ceiling lights on, a warm floor lamp. The young woman sits alone on her chair in the left foreground, slightly slumped, she shifts a little and pulls her sleeves over her hands. At the far end the huge elephant stands in place but is alive: its ears move slowly, its trunk sways. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position. ",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change"
+  },
+  "V06a": {
+    "phase": "6",
+    "model": "veo-3.1-generate-preview",
+    "start": "06a",
+    "durationSeconds": 4,
+    "resolution": "720p",
+    "aspectRatio": "16:9",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement. Evening, cool light in a clinic waiting area. The young woman has just stood up next to her chair: she lets go of the chair back, the chair slides back slightly, she straightens up, takes one small step forward and stops, calm and alert, looking toward the left.",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change"
+  },
+  "V06c": {
+    "phase": "6",
+    "model": "veo-3.1-generate-preview",
+    "start": "06c",
+    "durationSeconds": 4,
+    "resolution": "720p",
+    "aspectRatio": "16:9",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement. Close shot of a doctor in a white coat holding a tablet, cool evening light. He wants to look toward someone off-screen on the right and leans his head slightly; the huge grey flank and ear of the elephant slowly push further into the frame from the right and block his view. He does not touch the elephant; both hands stay on his tablet. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position. ",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change"
+  },
+  "V06d": {
+    "phase": "6",
+    "model": "veo-3.1-generate-preview",
+    "start": "06d",
+    "durationSeconds": 4,
+    "resolution": "720p",
+    "aspectRatio": "16:9",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement. Close shot of a young woman in a dark grey sweater, cool evening light. With her sleeve pulled over her hand she scratches her forearm, calmly; her look is calm and direct toward someone off-screen left, not pleading, not sad. In the out-of-focus left foreground the elephant's head: its eye blinks slowly, the skin moves with its breath.",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change"
+  },
+  "V07a": {
+    "phase": "6",
+    "model": "veo-3.1-generate-preview",
+    "start": "07a",
+    "durationSeconds": 8,
+    "resolution": "720p",
+    "aspectRatio": "16:9",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Very slow, steady push-in on a dolly, no cuts. Evening, cool light in a lived-in clinic waiting area. On the left a doctor in a white coat stands still with a tablet; in the middle the huge elephant stands motionless, only its breathing is visible, its ears barely move; on the right the young woman scratches her forearm, after about four seconds she stops scratching and lowers her hand. After about seven seconds the doctor's gaze moves for the first time from the woman to the elephant. In the background a woman in a trench coat buttons her coat. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position. ",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
+    "extend": {
+      "prompt": "The camera continues the very slow push-in. The doctor keeps looking at the elephant, the young woman stands still, the elephant breathes calmly and does not move. In the background the woman in the trench coat picks up her bag. Same room, same cool evening light."
+    }
+  },
+  "V08a": {
+    "phase": "6",
+    "model": "veo-3.1-generate-preview",
+    "start": "08a",
+    "durationSeconds": 6,
+    "resolution": "720p",
+    "aspectRatio": "16:9",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement. Close shot from behind the doctor's shoulder, warm low evening sun. The doctor has turned away from the camera and looks calmly at the elephant standing in the room, without a word, holding still. The slightly out-of-focus elephant stays where it is and does not walk; it holds his gaze, its ears stay relaxed against its body and move only minimally, its head nods almost imperceptibly once. Very calm. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position. ",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change"
+  },
+  "V08d": {
+    "phase": "6",
+    "model": "veo-3.1-generate-preview",
+    "start": "08d",
+    "durationSeconds": 6,
+    "resolution": "720p",
+    "aspectRatio": "16:9",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement. The doctor on the left and the young woman on the right stand facing each other in the waiting area, the last warm sunlight falls through the windows behind her across the floor. She slowly lifts her gaze to the doctor and holds it; he looks at her calmly. Only small natural movements and breathing. No one else in the room. No dialogue, only quiet room tone.",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
+    "crop": {
+      "scale": 1.3
+    }
+  },
+  "V07b": {
+    "phase": "6",
+    "model": "veo-3.1-generate-preview",
+    "start": "V07a",
+    "startFile": "work/frames/V07a_last.jpg",
+    "durationSeconds": 8,
+    "resolution": "720p",
+    "aspectRatio": "16:9",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Continuation of the same shot: a very slow, steady push-in on a dolly continues at the same speed, no cuts. Evening, cool light in a lived-in clinic waiting area. On the left the doctor in a white coat stands still and keeps looking at the elephant; in the middle the huge elephant stands motionless, only its breathing is visible; on the right the young woman stands still with her hands lowered. In the background a woman in a trench coat picks up her bag. Everyone stays in place. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position.",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change"
+  }
+}

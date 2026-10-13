@@ -2,6 +2,7 @@
 // gemessenen Sprechgrenzen (data/voice/bounds.json) und der Einstellungsfolge laut Shotliste.
 import { readFileSync, writeFileSync } from "node:fs";
 import sharp from "sharp";
+import { execFileSync } from "node:child_process";
 
 const cfg = JSON.parse(readFileSync("data/voice/narration.json", "utf8"));
 const bounds = JSON.parse(readFileSync("data/voice/bounds.json", "utf8"));
@@ -10,19 +11,18 @@ const r3 = (x) => Math.round(x * 1000) / 1000;
 
 // Einstellungen je Szene laut Shotliste. dur in Sekunden; "rest" füllt die Szene bis zum Ende.
 // clip: Ausschnitt aus dem Veo-Clip (from/to in Sekunden). move: Kamerabewegung laut Technik-Spalte.
+// Ab 13.10.2026 ist jede Einstellung ein Veo-Clip. Clips mit "dur" sind flexibel (Ausschnitt ab "from"),
+// Clips ohne "dur" haben ein festes Fenster from/to.
+const C = (id, from, dur, extra = {}) => ({ id, type: "clip", clip: { from }, dur, ...extra });
 const SHOTS = {
-  s1: [{ id: "00", type: "black", dur: 2 }, { id: "01a", type: "still", dur: 4, move: { kind: "push", from: 1.0, to: 1.04 } },
-       { id: "01b1", type: "still", dur: 2, move: { kind: "crop", scale: 1.25 } }, { id: "01b2", type: "still", dur: 2, move: { kind: "crop", scale: 1.25 } },
-       { id: "01c", type: "still", dur: "rest", move: { kind: "static" } }],
-  s2: [{ id: "02a", type: "still", dur: 14, move: { kind: "pan", from: 0, to: 1 } }, { id: "02b", type: "still", dur: "rest", move: { kind: "static" } }],
-  s3: [{ id: "03a", type: "still", dur: 2 }, { id: "03b", type: "still", dur: 3 }, { id: "03f", type: "still", dur: 2 }, { id: "03c", type: "still", dur: 2 },
-       { id: "03g", type: "still", dur: 2 }, { id: "03d", type: "still", dur: 3 }, { id: "03h", type: "still", dur: 2 }, { id: "03e", type: "still", dur: "rest" }],
-  s4: [{ id: "V2", type: "clip", clip: { from: 0.5, to: 5.2 } }, { id: "04b", type: "still", dur: "rest", move: { kind: "push", from: 1.0, to: 1.1, origin: "74% 50%" } }],
-  s5: [{ id: "V3", type: "clip", clip: { from: 0, to: 8 } }, { id: "V4", type: "clip", clip: { from: 0, to: 8 }, crossfadeIn: 1 }, { id: "05c", type: "still", dur: "rest", move: { kind: "static" }, crossfadeIn: 1 }],
-  s6: [{ id: "06a", type: "still", dur: 2 }, { id: "V5", type: "clip", clip: { from: 0.5, to: 3.5 } }, { id: "06c", type: "still", dur: 2 }, { id: "06d", type: "still", dur: "rest" }],
-  s7: [{ id: "07a", type: "still", dur: "rest", move: { kind: "push", from: 1.0, to: 1.15 } }],
-  s8: [{ id: "08a", type: "still", dur: 4 }, { id: "V1", type: "clip", clip: { from: 3.0, to: 6.0 }, grade: "warm-like-08c", file: "clips/V1-warm.mp4" },
-       { id: "08d", type: "still", dur: "rest", move: { kind: "crop", scale: 1.3 } }],
+  s1: [{ id: "00", type: "black", dur: 2 }, C("V01a", 0, 4), C("V01b1", 0, 2), C("V01b2", 0, 2), C("V01c", 0, "rest")],
+  s2: [C("V02a", 0, 14), C("V02b", 0, "rest")],
+  s3: [C("V03a", 0, 2), C("V03b", 0, 3), C("V03f", 0, 2), C("V03c", 0, 2), C("V03g", 0, 2), C("V03d", 0, 3), C("V03h", 0, 2), C("V03e", 0, "rest")],
+  s4: [{ id: "V2", type: "clip", clip: { from: 0.5, to: 5.2 } }, C("V04b", 0, "rest")],
+  s5: [{ id: "V3", type: "clip", clip: { from: 0, to: 8 } }, { id: "V4", type: "clip", clip: { from: 0, to: 8 }, crossfadeIn: 1 }, C("V05c", 0, "rest", { crossfadeIn: 1 })],
+  s6: [C("V06a", 0, 2), { id: "V5", type: "clip", clip: { from: 0.5, to: 3.5 } }, C("V06c", 0, 2), C("V06d", 0, "rest")],
+  s7: [C("V07a", 0, "rest")],
+  s8: [C("V08a", 0, 4), { id: "V1", type: "clip", clip: { from: 3.0, to: 6.0 }, grade: "warm-like-08c", file: "clips/V1-warm.mp4" }, C("V08d", 0, "rest")],
   end: [{ id: "End", type: "endcard", dur: "rest" }],
   coda: [{ id: "Coda", type: "coda", dur: "rest" }],
 };
@@ -46,18 +46,27 @@ for (const sc of cfg.scenes) {
   const dur = end - start;
   // Einstellungen verteilen
   const shots = [];
-  const fixed = SHOTS[sc.id].reduce((s, x) => s + (x.type === "clip" ? x.clip.to - x.clip.from : x.dur === "rest" ? 0 : x.dur) - (x.dur === "rest" ? 0 : x.crossfadeIn ?? 0), 0);
+  const flex = (x) => x.type === "still" || (x.type === "clip" && x.dur != null);
+  const lenOf = (x) => (x.type === "clip" && x.dur == null ? x.clip.to - x.clip.from : x.dur);
+  const fixed = SHOTS[sc.id].reduce((s, x) => s + (x.dur === "rest" ? 0 : lenOf(x) - (x.crossfadeIn ?? 0)), 0);
   let st = start;
-  // Reine Standbild-Szenen, die durch den Text länger werden: Zusatzzeit gleichmäßig auf alle Standbilder verteilen
-  const stillsOnly = SHOTS[sc.id].every((x) => x.type === "still" || x.type === "black");
+  // Szenen nur aus flexiblen Einstellungen, die durch den Text länger werden: Zusatzzeit gleichmäßig verteilen
+  const flexOnly = SHOTS[sc.id].every((x) => flex(x) || x.type === "black");
   const blackTime = SHOTS[sc.id].filter((x) => x.type === "black").reduce((a, x) => a + x.dur, 0);
   const restScript = sc.scriptDur - fixed;
-  const stretch = stillsOnly && dur > sc.scriptDur ? (dur - blackTime) / (sc.scriptDur - blackTime) : 1;
+  const stretch = flexOnly && dur > sc.scriptDur ? (dur - blackTime) / (sc.scriptDur - blackTime) : 1;
   for (const s of SHOTS[sc.id]) {
-    let d = s.type === "clip" ? s.clip.to - s.clip.from : s.dur === "rest" ? dur - fixed + (s.crossfadeIn ?? 0) : s.dur;
-    if (stretch > 1 && s.type === "still") d = (s.dur === "rest" ? restScript : s.dur) * stretch;
+    let d = s.dur === "rest" ? dur - fixed + (s.crossfadeIn ?? 0) : lenOf(s);
+    if (stretch > 1 && flex(s)) d = (s.dur === "rest" ? restScript : s.dur) * stretch;
     st -= s.crossfadeIn ?? 0;
-    shots.push({ ...s, dur: undefined, start: r3(st), duration: r3(d), src: s.file ?? (s.type === "still" ? `stills/${s.id}.jpg` : s.type === "clip" ? `clips/${s.id}.mp4` : null), file: undefined });
+    const src = s.file ?? (s.type === "still" ? `stills/${s.id}.jpg` : s.type === "clip" ? `clips/${s.id}.mp4` : null);
+    let clip = s.clip;
+    if (s.type === "clip") {
+      clip = { from: s.clip.from, to: r3(s.clip.from + d) };
+      const len = Number(execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", `public/${src}`]).toString());
+      if (clip.to > len + 0.01) throw new Error(`${s.id}: Ausschnitt bis ${clip.to} s, Clip hat nur ${len} s`);
+    }
+    shots.push({ ...s, dur: undefined, start: r3(st), duration: r3(d), src, file: undefined, clip });
     st += d;
   }
   const deviation = (dur - sc.scriptDur) / sc.scriptDur;

@@ -21,7 +21,7 @@ const ShotView: React.FC<{ shot: Shot }> = ({ shot }) => {
     case "still":
       return <Still src={shot.src!} move={shot.move} width={shot.width} height={shot.height} />;
     case "clip":
-      return <Clip src={shot.src!} from={shot.clip!.from} />;
+      return <Clip src={shot.src!} from={shot.clip!.from} move={shot.move} />;
     case "endcard":
       return <Endcard line1={timeline.endcard.line1} line2={timeline.endcard.line2} line2At={timeline.endcard.line2At} />;
     case "coda":

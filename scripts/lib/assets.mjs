@@ -19,7 +19,9 @@ export function attemptsFor(id) {
 }
 
 export function attemptsInRound(id, round = 1) {
-  return loadManifest().assets.filter((a) => a.id === id && (a.round ?? 1) === round).length;
+  // Nicht gezählt werden Aufrufe, die kein Ergebnis geliefert haben (API-Fehler oder Filter, nicht berechnet).
+  const noResult = new Set(["API-Fehler, kein Video", "kein Video"]);
+  return loadManifest().assets.filter((a) => a.id === id && (a.round ?? 1) === round && !noResult.has(a.note)).length;
 }
 
 export function addManifestEntry(entry) {
