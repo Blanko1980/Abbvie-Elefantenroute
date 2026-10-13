@@ -71,3 +71,12 @@ Alle **26 Standbilder** liegen in `public/stills/`. Pro Szene gibt es einen Kont
 **Weiterhin bekannt:** In 03f und 03g steht der Elefant neben Poster bzw. Monitor statt davor.
 
 **Kosten Runde 2:** 34 Bildaufrufe, davon 23 erfolgreich und 11 abgelehnt wegen fehlenden Guthabens (nicht berechnet); 3 Clips (V3, V4, V5, je 8 s).
+
+## Runde 3 (Feedback vom 13.10.2026)
+
+- **06b:** Den Arzt habe ich aus dem Startbild entfernt (Bildbearbeitung). Zu Beginn sind nur die Patientin, die MFA im Hintergrund und der Elefant an der Ecke zu sehen.
+- **V5 neu:** Nach etwa 1 Sekunde läuft der Arzt von links aus dem Off ins Bild und bleibt an seinem Platz stehen. Gleichzeitig kommt der Elefant von hinten und steht nach etwa 6 Sekunden zwischen Arzt und Patientin.
+- **Schnittvorschlag:**
+  - Für die 3 Sekunden laut Script nehme ich 0,5 bis 3,5 Sekunden: Der Arzt kommt herein, der Elefant ist unterwegs.
+  - Soll man sehen, wie der Elefant ganz zwischen die beiden tritt, bräuchte die Einstellung etwa 6 Sekunden. Das ginge zulasten der anderen Einstellungen in Szene 6 oder würde die Szene verlängern.
+- **Kosten:** 1 Bild, 1 Clip.

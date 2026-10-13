@@ -2,14 +2,14 @@
 
 Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen (Modell- und Stimmenlisten) sind nicht mitgezählt. Erzeugt aus `data/api-calls.json`.
 
-**Summe:** 103 Bild, 10 Clip, 18 Sprache, 3 Text (Prüfaufrufe)
+**Summe:** 104 Bild, 11 Clip, 18 Sprache, 3 Text (Prüfaufrufe)
 
 | Phase | Bild | Clip | Sprache | Text |
 | --- | ---: | ---: | ---: | ---: |
 | 0 | 1 | 0 | 1 | 0 |
 | 1 | 22 | 0 | 0 | 0 |
 | 2 | 12 | 7 | 17 | 3 |
-| 3 | 68 | 3 | 0 | 0 |
+| 3 | 69 | 4 | 0 | 0 |
 
 ## Einzelaufrufe
 
@@ -149,3 +149,5 @@ Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen
 | 2026-10-12 19:32 | 3 | Clip | veo-3.1-generate-preview | V3 | 1 | ok | 8s 720p |
 | 2026-10-12 19:33 | 3 | Clip | veo-3.1-generate-preview | V4 | 1 | ok | 8s 720p |
 | 2026-10-12 19:34 | 3 | Clip | veo-3.1-generate-preview | V5 | 1 | ok | 8s 720p |
+| 2026-10-13 07:09 | 3 | Bild | gemini-3-pro-image | 06b | 3 | ok | 5504x3072 |
+| 2026-10-13 07:11 | 3 | Clip | veo-3.1-generate-preview | V5 | 2 | ok | 8s 720p |

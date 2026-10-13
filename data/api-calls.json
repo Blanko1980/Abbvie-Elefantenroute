@@ -1318,5 +1318,25 @@
     "attempt": 1,
     "ok": true,
     "note": "8s 720p"
+  },
+  {
+    "timestamp": "2026-10-13T07:09:31.691Z",
+    "phase": "3",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "06b",
+    "attempt": 3,
+    "ok": true,
+    "note": "5504x3072"
+  },
+  {
+    "timestamp": "2026-10-13T07:11:00.933Z",
+    "phase": "3",
+    "type": "clip",
+    "model": "veo-3.1-generate-preview",
+    "id": "V5",
+    "attempt": 2,
+    "ok": true,
+    "note": "8s 720p"
   }
 ]

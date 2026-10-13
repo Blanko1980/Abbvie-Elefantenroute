@@ -1,6 +1,6 @@
 # Status
 
-Stand: 12.10.2026, Ende Phase 3, Runde 2. **Wartet auf Freigabe.**
+Stand: 13.10.2026, Ende Phase 3, Runde 3. **Wartet auf Freigabe.**
 
 ## Fertig
 
@@ -19,7 +19,7 @@ Sprechertext satzweise mit Thomas Schendel erzeugen (Einstellungen wie in der Pr
 
 - **V2:** 0,5 bis 5,2 s (0:50 bis etwa 0:54,7), danach 04b mit Push auf Hand und Schulter.
 - **V3 und V4:** je volle 8 s für Szene 5 (1:04 bis 1:20), harter Übergang, weil V3 auf 05b endet und V4 dort beginnt.
-- **V5:** Vorschlag 3,0 bis 6,0 s für Szene 6, Einstellung 2.
+- **V5:** Der Arzt kommt nach etwa 1 s aus dem Off, der Elefant steht nach etwa 6 s in der Mitte. Vorschlag 0,5 bis 3,5 s für Szene 6, Einstellung 2 (Alternative: etwa 6 s, wenn man den ganzen Schritt sehen soll).
 - **V1:** 3,0 bis 6,0 s (1:47 bis 1:50), warm gegradet auf 08c.
 - **01b1, 01b2:** als Halbtotale per Ausschnitt; **08d:** als Halbnah per Ausschnitt.
 - **Szene 7:** 07a mit Push 1.00 auf 1.15.

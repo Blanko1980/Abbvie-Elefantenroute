@@ -459,24 +459,16 @@
   },
   "06b": {
     "phase": "3",
-    "round": 2,
+    "round": 3,
     "model": "gemini-3-pro-image",
     "aspectRatio": "16:9",
     "imageSize": "4K",
     "refs": [
       {
-        "id": "work/raw/r2/07a.jpg",
-        "role": "the master image to be edited"
-      },
-      {
-        "id": "R1a",
-        "role": "the doctor"
-      },
-      {
-        "id": "R3a",
-        "role": "the elephant"
+        "id": "work/raw/r2/06b_mit_arzt.jpg",
+        "role": "the image to be edited"
       }
     ],
-    "edit": "Same room, same camera, same framing, same evening light, same plants, lamp, jacket, cup, same woman in the trench coat; the patient stands in exactly the same place at the right and looks toward the left. Show an earlier moment: the doctor is just entering the frame from the left edge in the foreground, mid-stride, tablet in hand, looking ahead. At the back left of the room, where the window wall meets the wood-panelled back wall, there is a wide opening to a side corridor. The elephant is just stepping out of this opening around the corner into the room: only its head, trunk, one ear and one front leg are visible, the rest of its huge body is still hidden behind the wall. The middle of the room between the doctor and the patient is empty. Nothing else changes."
+    "edit": "Same room, same camera, same framing, same evening light, same patient, same elephant just coming around the corner at the back left, same woman in the trench coat, same plants, lamp, jacket and cup. Only change: remove the doctor completely. The doctor is not yet in the frame; where he was, the floor, the plant and the window wall are visible. Nothing else changes."
   }
 }

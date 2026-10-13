@@ -1817,11 +1817,11 @@
       "aspectRatio": "16:9",
       "imageSize": "4K",
       "prompt": "Reference images, in order: image 1 = the master image to be edited; image 2 = the doctor; image 3 = the elephant.\n\nEdit image 1. Same room, same camera, same framing, same evening light, same plants, lamp, jacket, cup, same woman in the trench coat; the patient stands in exactly the same place at the right and looks toward the left. Show an earlier moment: the doctor is just entering the frame from the left edge in the foreground, mid-stride, tablet in hand, looking ahead. At the back left of the room, where the window wall meets the wood-panelled back wall, there is a wide opening to a side corridor. The elephant is just stepping out of this opening around the corner into the room: only its head, trunk, one ear and one front leg are visible, the rest of its huge body is still hidden behind the wall. The middle of the room between the doctor and the patient is empty. Nothing else changes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
-      "status": "zur Freigabe",
-      "file": "public/stills/06b.jpg",
+      "status": "abgelehnt",
+      "file": null,
       "width": 5504,
       "height": 3072,
-      "note": "Runde 2: Arzt kommt von vorn links, Elefant tritt hinten links um die Ecke; Startbild V5",
+      "note": "Runde 2: Arzt kommt von vorn links, Elefant tritt hinten links um die Ecke; Startbild V5 (ersetzt)",
       "retouch": "Lichtangleichung an 07a (scripts/color-balance.mjs)."
     },
     {
@@ -2057,9 +2057,47 @@
       "negativePrompt": "text, captions, subtitles, letters, logos, watermark, extra people, extra animals, cartoon, camera shake, zoom, morphing, distorted anatomy, fast motion",
       "durationSeconds": 8,
       "resolution": "720p",
+      "status": "abgelehnt",
+      "file": null,
+      "note": "Arzt und Elefant kommen herein, Elefant tritt zwischen beide; Vorschlag Ausschnitt 3,0 bis 6,0 s (ersetzt)"
+    },
+    {
+      "id": "06b",
+      "type": "image",
+      "attempt": 3,
+      "round": 3,
+      "timestamp": "2026-10-13T07:09:31.698Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/raw/r2/06b_mit_arzt.jpg"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "4K",
+      "prompt": "Reference images, in order: image 1 = the image to be edited.\n\nEdit image 1. Same room, same camera, same framing, same evening light, same patient, same elephant just coming around the corner at the back left, same woman in the trench coat, same plants, lamp, jacket and cup. Only change: remove the doctor completely. The doctor is not yet in the frame; where he was, the floor, the plant and the window wall are visible. Nothing else changes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zur Freigabe",
+      "file": "public/stills/06b.jpg",
+      "width": 5504,
+      "height": 3072,
+      "note": "Runde 3: Arzt entfernt, er kommt im Clip V5 von links aus dem Off"
+    },
+    {
+      "id": "V5",
+      "type": "clip",
+      "attempt": 2,
+      "round": 2,
+      "timestamp": "2026-10-13T07:11:00.936Z",
+      "model": "veo-3.1-generate-preview",
+      "refs": [
+        "06b",
+        "07a"
+      ],
+      "prompt": "Locked-off tripod shot, no camera movement, calm nature documentary style, cool evening light in a lived-in clinic waiting area. A young woman stands on the right and looks toward the left. At the start the doctor is not in the frame. After about one second, a doctor in a white coat walks into the frame from off-screen at the left edge, in the foreground, and walks to his place on the left, where he stops. At the same time a huge, calm African elephant comes around the corner at the back left of the room and walks slowly forward until it stands in the middle, between the doctor and the woman, blocking their view of each other. In the background a woman in a trench coat puts on her coat. Slow, natural, realistic movement, real animal behaviour, the elephant keeps its size.",
+      "negativePrompt": "text, captions, subtitles, letters, logos, watermark, extra people, extra animals, cartoon, camera shake, zoom, morphing, distorted anatomy, fast motion",
+      "durationSeconds": 8,
+      "resolution": "720p",
       "status": "zur Freigabe",
       "file": "public/clips/V5.mp4",
-      "note": "Arzt und Elefant kommen herein, Elefant tritt zwischen beide; Vorschlag Ausschnitt 3,0 bis 6,0 s"
+      "note": "Runde 2: Arzt läuft nach ca. 1 s von links aus dem Off ins Bild, Elefant tritt bis ca. 6 s zwischen beide"
     }
   ]
 }
