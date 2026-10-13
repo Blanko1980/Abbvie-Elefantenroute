@@ -1,25 +1,31 @@
 # Status
 
-Stand: 13.10.2026, Ende Phase 3, Runde 3. **Wartet auf Freigabe.**
+Stand: 13.10.2026, Ende Phase 4 (Sprecher und Zeitleiste). **Wartet auf Rückmeldung.**
 
 ## Fertig
 
-- Phasen 0 bis 2 abgeschlossen. Sprecher: Thomas Schendel.
-- **Phase 3:** 27 Standbilder in `public/stills/` (07a ist neu, das bisherige 06b). Clips in `public/clips/`: V1, V2, V3, V4, V5. Notiz `review/phase3/notiz.md` (Runden 1 und 2), Kontaktbögen je Szene in `review/phase3/`.
+- Phasen 0 bis 3 abgeschlossen und freigegeben: 27 Standbilder, Clips V1 bis V5.
+- **Phase 4:**
+  - 17 Sprechersätze von Thomas Schendel in `public/voice/`.
+  - Zeitleiste `data/timeline.json`, Gesamtlänge 146.7 s.
+  - Hörprobe `review/voice/sprecher-timeline.mp3`.
+  - Notiz `review/phase4-notiz.md`.
 
 ## Offen, braucht Entscheidung
 
-- Freigabe der Standbilder und der Clips V3, V4 und V5.
+1. **Szene 5 (+12,5 %):** 18 statt 16 Sekunden. Empfehlung: so lassen (2 s Standbild 05c nach dem Zeitraffer, wie im Script). Optionen in der Notiz.
+2. **Endcard-Timing:** Script und CLAUDE.md sind nicht eindeutig. Script: Zeile 1 „steht 4 Sekunden. Nach 2 Sekunden Pause erscheint darunter“ Zeile 2, „steht 5 Sekunden“. CLAUDE.md: Zeile 2 „2 Sekunden später“.
+3. **Einstellungen unter 3 Sekunden:** Das Script sagt „bis Szene 6 keine Einstellung unter 3 Sekunden“, die Shotliste sieht aber 2-Sekunden-Einstellungen vor (01b1 und 01b2, die Zwischenschnitte in Szene 3). Ich halte mich an die Shotliste, weil das Script die Zwischenschnitte in Szene 3 ausdrücklich mit ca. 2 s nennt.
 
-## Als Nächstes: Phase 4 (Sprecher)
+## Als Nächstes: Phase 5 (Schnitt in Remotion)
 
-Sprechertext satzweise mit Thomas Schendel erzeugen (Einstellungen wie in der Probe), Dauer messen, Pausen laut Script setzen, daraus `data/timeline.json`. Abweichungen über 10 Prozent je Szene melde ich.
+Komposition aus `data/timeline.json`, Proxy `review/rohschnitt-720p.mp4` (CRF 28), dann STOP.
 
 ## Schnittnotizen für Phase 5
 
 - **V2:** 0,5 bis 5,2 s (0:50 bis etwa 0:54,7), danach 04b mit Push auf Hand und Schulter.
 - **V3 und V4:** je volle 8 s für Szene 5 (1:04 bis 1:20), harter Übergang, weil V3 auf 05b endet und V4 dort beginnt.
-- **V5:** Der Arzt kommt nach etwa 1 s aus dem Off, der Elefant steht nach etwa 6 s in der Mitte. Vorschlag 0,5 bis 3,5 s für Szene 6, Einstellung 2 (Alternative: etwa 6 s, wenn man den ganzen Schritt sehen soll).
+- **V5:** 0,5 bis 3,5 s (freigegeben).
 - **V1:** 3,0 bis 6,0 s (1:47 bis 1:50), warm gegradet auf 08c.
 - **01b1, 01b2:** als Halbtotale per Ausschnitt; **08d:** als Halbnah per Ausschnitt.
 - **Szene 7:** 07a mit Push 1.00 auf 1.15.
@@ -79,5 +85,6 @@ Sprechertext satzweise mit Thomas Schendel erzeugen (Einstellungen wie in der Pr
 - Shot-Definitionen Phase 3: `data/shots/phase3.json`.
 - Shot-Definitionen: `data/shots/phase1.json`, `data/shots/phase2.json`, Clips `data/shots/phase2-clips.json`.
 - `node scripts/gen-clip.mjs <clips.json> <ID>` erzeugt einen Veo-Clip (Limit und Protokoll wie bei Bildern).
+- `node scripts/gen-narration.mjs [Satz-ID ...]` erzeugt den Sprechertext aus `data/voice/narration.json`; `python3 scripts/speech-bounds.py` misst die Sprechgrenzen; `node scripts/build-timeline.mjs` baut `data/timeline.json`; `node scripts/check-narration.mjs <mp3>` prüft die Sprecherspur per Gemini.
 - `node scripts/gen-voice.mjs <config.json> <voiceKey>` erzeugt eine Sprecherprobe; `node scripts/check-voice.mjs <mp3>` prüft sie per Gemini.
 - Testrendering: `npx remotion render src/index.ts Preflight out/test.mp4 --scale=0.6666666666666666` (Browser ist in `remotion.config.ts` gesetzt)

@@ -1,0 +1,208 @@
+{
+  "_note": "Sprechertext laut SCRIPT.md. at = Zielstart in Sekunden ab Filmbeginn laut Script (Regie-Details); minGap = Mindestpause nach dem Vorsatz in Sekunden.",
+  "voice": {
+    "name": "Thomas Schendel - Authoritative and Calm",
+    "voice_id": "Fghah4fztZORbiKfIGAs"
+  },
+  "model": "eleven_multilingual_v2",
+  "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 0.92
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "name": "Der Elefant",
+      "scriptStart": 0,
+      "scriptDur": 14,
+      "tail": 1.0
+    },
+    {
+      "id": "s2",
+      "name": "Gedächtnis",
+      "scriptStart": 14,
+      "scriptDur": 18,
+      "tail": 1.0
+    },
+    {
+      "id": "s3",
+      "name": "Trampelpfad",
+      "scriptStart": 32,
+      "scriptDur": 18,
+      "tail": 8.0
+    },
+    {
+      "id": "s4",
+      "name": "Respekt",
+      "scriptStart": 50,
+      "scriptDur": 14,
+      "tail": 1.0
+    },
+    {
+      "id": "s5",
+      "name": "Warten",
+      "scriptStart": 64,
+      "scriptDur": 16,
+      "tail": 2.0
+    },
+    {
+      "id": "s6",
+      "name": "Die Patientin",
+      "scriptStart": 80,
+      "scriptDur": 10,
+      "tail": 0
+    },
+    {
+      "id": "s7",
+      "name": "Der Satz",
+      "scriptStart": 90,
+      "scriptDur": 13,
+      "tail": 0.5
+    },
+    {
+      "id": "s8",
+      "name": "Der Schritt",
+      "scriptStart": 103,
+      "scriptDur": 12,
+      "tail": 0
+    },
+    {
+      "id": "end",
+      "name": "Endcard",
+      "scriptStart": 115,
+      "scriptDur": 12,
+      "tail": 0
+    },
+    {
+      "id": "coda",
+      "name": "Coda",
+      "scriptStart": 127,
+      "scriptDur": 14,
+      "tail": 0
+    }
+  ],
+  "lines": [
+    {
+      "id": "s1-1",
+      "scene": "s1",
+      "at": 4,
+      "minGap": 0,
+      "text": "Das hier ist ein Elefant."
+    },
+    {
+      "id": "s1-2",
+      "scene": "s1",
+      "at": 8,
+      "minGap": 1.2,
+      "text": "Er lebt seit vielen Jahren in diesem Gebäude."
+    },
+    {
+      "id": "s1-3",
+      "scene": "s1",
+      "at": null,
+      "minGap": 0.5,
+      "text": "Niemand erinnert sich, wann er gekommen ist."
+    },
+    {
+      "id": "s2-1",
+      "scene": "s2",
+      "at": 15,
+      "minGap": 0,
+      "text": "Elefanten vergessen nichts."
+    },
+    {
+      "id": "s2-2",
+      "scene": "s2",
+      "at": null,
+      "minGap": 0.5,
+      "text": "Sie erinnern sich an jeden Weg, der sie einmal sicher ans Ziel gebracht hat."
+    },
+    {
+      "id": "s2-3",
+      "scene": "s2",
+      "at": 25,
+      "minGap": 1.2,
+      "text": "Das ist ihre Stärke."
+    },
+    {
+      "id": "s3-1",
+      "scene": "s3",
+      "at": 36,
+      "minGap": 0,
+      "text": "Mit den Jahren wird aus Erinnerung Gewohnheit."
+    },
+    {
+      "id": "s3-2",
+      "scene": "s3",
+      "at": null,
+      "minGap": 0.7,
+      "text": "Und aus Gewohnheit wird Platz."
+    },
+    {
+      "id": "s4-1",
+      "scene": "s4",
+      "at": 56,
+      "minGap": 0,
+      "text": "Manchmal ist seine Vorsicht berechtigt."
+    },
+    {
+      "id": "s4-2",
+      "scene": "s4",
+      "at": 60,
+      "minGap": 1.2,
+      "text": "Und manchmal ist es nur Gewohnheit, die sich als Vorsicht ausgibt."
+    },
+    {
+      "id": "s5-1",
+      "scene": "s5",
+      "at": 65,
+      "minGap": 0,
+      "text": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten."
+    },
+    {
+      "id": "s5-2",
+      "scene": "s5",
+      "at": null,
+      "minGap": 0.6,
+      "text": "Er wartet."
+    },
+    {
+      "id": "s5-3",
+      "scene": "s5",
+      "at": null,
+      "minGap": 0.6,
+      "text": "Meist auf das Zeichen, dass der alte Weg nicht mehr trägt."
+    },
+    {
+      "id": "s5-4",
+      "scene": "s5",
+      "at": 75,
+      "minGap": 1.2,
+      "text": "Bis dahin wartet jemand anderes mit ihm."
+    },
+    {
+      "id": "s7-1",
+      "scene": "s7",
+      "at": 91,
+      "minGap": 0,
+      "text": "Der Elefant ist nicht die Therapie."
+    },
+    {
+      "id": "s7-2",
+      "scene": "s7",
+      "at": null,
+      "minGap": 1.5,
+      "text": "Der Elefant ist nicht die Evidenz."
+    },
+    {
+      "id": "s7-3",
+      "scene": "s7",
+      "at": null,
+      "minGap": 1.5,
+      "text": "Der Elefant ist die Gewohnheit, mit der wir Evidenz betrachten."
+    }
+  ]
+}

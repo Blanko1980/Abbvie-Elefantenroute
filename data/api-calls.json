@@ -1338,5 +1338,184 @@
     "attempt": 2,
     "ok": true,
     "note": "8s 720p"
+  },
+  {
+    "timestamp": "2026-10-13T07:51:23.414Z",
+    "phase": "4",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s1-1",
+    "attempt": 1,
+    "ok": true,
+    "note": "25 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-13T07:51:25.749Z",
+    "phase": "4",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s1-2",
+    "attempt": 1,
+    "ok": true,
+    "note": "45 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-13T07:51:27.066Z",
+    "phase": "4",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s1-3",
+    "attempt": 1,
+    "ok": true,
+    "note": "44 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-13T07:51:28.483Z",
+    "phase": "4",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s2-1",
+    "attempt": 1,
+    "ok": true,
+    "note": "27 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-13T07:51:29.913Z",
+    "phase": "4",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s2-2",
+    "attempt": 1,
+    "ok": true,
+    "note": "76 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-13T07:51:31.244Z",
+    "phase": "4",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s2-3",
+    "attempt": 1,
+    "ok": true,
+    "note": "20 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-13T07:51:32.451Z",
+    "phase": "4",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s3-1",
+    "attempt": 1,
+    "ok": true,
+    "note": "46 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-13T07:51:33.657Z",
+    "phase": "4",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s3-2",
+    "attempt": 1,
+    "ok": true,
+    "note": "30 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-13T07:51:35.108Z",
+    "phase": "4",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s4-1",
+    "attempt": 1,
+    "ok": true,
+    "note": "39 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-13T07:51:36.767Z",
+    "phase": "4",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s4-2",
+    "attempt": 1,
+    "ok": true,
+    "note": "66 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-13T07:51:38.613Z",
+    "phase": "4",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s5-1",
+    "attempt": 1,
+    "ok": true,
+    "note": "82 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-13T07:51:40.262Z",
+    "phase": "4",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s5-2",
+    "attempt": 1,
+    "ok": true,
+    "note": "10 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-13T07:51:42.175Z",
+    "phase": "4",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s5-3",
+    "attempt": 1,
+    "ok": true,
+    "note": "58 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-13T07:51:43.669Z",
+    "phase": "4",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s5-4",
+    "attempt": 1,
+    "ok": true,
+    "note": "40 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-13T07:51:45.479Z",
+    "phase": "4",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s7-1",
+    "attempt": 1,
+    "ok": true,
+    "note": "35 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-13T07:51:47.243Z",
+    "phase": "4",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s7-2",
+    "attempt": 1,
+    "ok": true,
+    "note": "34 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-13T07:51:48.972Z",
+    "phase": "4",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s7-3",
+    "attempt": 1,
+    "ok": true,
+    "note": "63 Zeichen"
+  },
+  {
+    "timestamp": "2026-10-13T07:53:39.642Z",
+    "phase": "4",
+    "type": "text",
+    "model": "gemini-3-flash-preview",
+    "id": "check:review/voice/sprecher-timeline.mp3",
+    "ok": true,
+    "note": "Sprecherspur prüfen"
   }
 ]

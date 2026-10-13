@@ -1,0 +1,104 @@
+{
+  "s1-1": {
+    "file": "public/voice/s1-1.mp3",
+    "total": 2.325,
+    "speechStart": 0.108,
+    "speechEnd": 2.325
+  },
+  "s1-2": {
+    "file": "public/voice/s1-2.mp3",
+    "total": 3.109,
+    "speechStart": 0.0,
+    "speechEnd": 3.109
+  },
+  "s1-3": {
+    "file": "public/voice/s1-3.mp3",
+    "total": 2.638,
+    "speechStart": 0.0,
+    "speechEnd": 2.638
+  },
+  "s2-1": {
+    "file": "public/voice/s2-1.mp3",
+    "total": 2.508,
+    "speechStart": 0.0,
+    "speechEnd": 2.508
+  },
+  "s2-2": {
+    "file": "public/voice/s2-2.mp3",
+    "total": 4.78,
+    "speechStart": 0.0,
+    "speechEnd": 4.78
+  },
+  "s2-3": {
+    "file": "public/voice/s2-3.mp3",
+    "total": 1.62,
+    "speechStart": 0.0,
+    "speechEnd": 1.62
+  },
+  "s3-1": {
+    "file": "public/voice/s3-1.mp3",
+    "total": 3.474,
+    "speechStart": 0.0,
+    "speechEnd": 3.474
+  },
+  "s3-2": {
+    "file": "public/voice/s3-2.mp3",
+    "total": 2.273,
+    "speechStart": 0.0,
+    "speechEnd": 2.273
+  },
+  "s4-1": {
+    "file": "public/voice/s4-1.mp3",
+    "total": 2.743,
+    "speechStart": 0.0,
+    "speechEnd": 2.743
+  },
+  "s4-2": {
+    "file": "public/voice/s4-2.mp3",
+    "total": 4.075,
+    "speechStart": 0.09,
+    "speechEnd": 4.075
+  },
+  "s5-1": {
+    "file": "public/voice/s5-1.mp3",
+    "total": 4.833,
+    "speechStart": 0.096,
+    "speechEnd": 4.833
+  },
+  "s5-2": {
+    "file": "public/voice/s5-2.mp3",
+    "total": 1.515,
+    "speechStart": 0.085,
+    "speechEnd": 1.515
+  },
+  "s5-3": {
+    "file": "public/voice/s5-3.mp3",
+    "total": 4.023,
+    "speechStart": 0.0,
+    "speechEnd": 4.023
+  },
+  "s5-4": {
+    "file": "public/voice/s5-4.mp3",
+    "total": 2.508,
+    "speechStart": 0.096,
+    "speechEnd": 2.508
+  },
+  "s7-1": {
+    "file": "public/voice/s7-1.mp3",
+    "total": 2.952,
+    "speechStart": 0.086,
+    "speechEnd": 2.952
+  },
+  "s7-2": {
+    "file": "public/voice/s7-2.mp3",
+    "total": 3.004,
+    "speechStart": 0.0,
+    "speechEnd": 3.004
+  },
+  "s7-3": {
+    "file": "public/voice/s7-3.mp3",
+    "total": 3.657,
+    "speechStart": 0.0,
+    "speechEnd": 3.657
+  }
+}

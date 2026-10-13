@@ -1,0 +1,689 @@
+{
+  "version": 1,
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "durationSeconds": 146.708,
+  "durationInFrames": 3521,
+  "note": "Erzeugt von scripts/build-timeline.mjs. Zeiten in Sekunden ab Filmbeginn. Audiospuren music und ambience bleiben vorerst leer.",
+  "audioTracks": {
+    "voice": "voice",
+    "music": null,
+    "ambience": null
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "name": "Der Elefant",
+      "start": 0,
+      "end": 15.247,
+      "duration": 15.247,
+      "scriptStart": 0,
+      "scriptDuration": 14,
+      "deviationPercent": 8.9,
+      "flag": false,
+      "shots": [
+        {
+          "id": "00",
+          "type": "black",
+          "start": 0,
+          "duration": 2,
+          "src": null
+        },
+        {
+          "id": "01a",
+          "type": "still",
+          "move": {
+            "kind": "push",
+            "from": 1,
+            "to": 1.04
+          },
+          "start": 2,
+          "duration": 4,
+          "src": "stills/01a.jpg"
+        },
+        {
+          "id": "01b1",
+          "type": "still",
+          "move": {
+            "kind": "crop",
+            "scale": 1.25
+          },
+          "start": 6,
+          "duration": 2,
+          "src": "stills/01b1.jpg"
+        },
+        {
+          "id": "01b2",
+          "type": "still",
+          "move": {
+            "kind": "crop",
+            "scale": 1.25
+          },
+          "start": 8,
+          "duration": 2,
+          "src": "stills/01b2.jpg"
+        },
+        {
+          "id": "01c",
+          "type": "still",
+          "move": {
+            "kind": "static"
+          },
+          "start": 10,
+          "duration": 5.247,
+          "src": "stills/01c.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "name": "Gedächtnis",
+      "start": 15.247,
+      "end": 33.247,
+      "duration": 18,
+      "scriptStart": 14,
+      "scriptDuration": 18,
+      "deviationPercent": 0,
+      "flag": false,
+      "shots": [
+        {
+          "id": "02a",
+          "type": "still",
+          "move": {
+            "kind": "pan",
+            "from": 0,
+            "to": 1
+          },
+          "start": 15.247,
+          "duration": 14,
+          "src": "stills/02a.jpg"
+        },
+        {
+          "id": "02b",
+          "type": "still",
+          "move": {
+            "kind": "static"
+          },
+          "start": 29.247,
+          "duration": 4,
+          "src": "stills/02b.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "name": "Trampelpfad",
+      "start": 33.247,
+      "end": 51.694,
+      "duration": 18.447,
+      "scriptStart": 32,
+      "scriptDuration": 18,
+      "deviationPercent": 2.5,
+      "flag": false,
+      "shots": [
+        {
+          "id": "03a",
+          "type": "still",
+          "start": 33.247,
+          "duration": 2,
+          "src": "stills/03a.jpg"
+        },
+        {
+          "id": "03b",
+          "type": "still",
+          "start": 35.247,
+          "duration": 3,
+          "src": "stills/03b.jpg"
+        },
+        {
+          "id": "03f",
+          "type": "still",
+          "start": 38.247,
+          "duration": 2,
+          "src": "stills/03f.jpg"
+        },
+        {
+          "id": "03c",
+          "type": "still",
+          "start": 40.247,
+          "duration": 2,
+          "src": "stills/03c.jpg"
+        },
+        {
+          "id": "03g",
+          "type": "still",
+          "start": 42.247,
+          "duration": 2,
+          "src": "stills/03g.jpg"
+        },
+        {
+          "id": "03d",
+          "type": "still",
+          "start": 44.247,
+          "duration": 3,
+          "src": "stills/03d.jpg"
+        },
+        {
+          "id": "03h",
+          "type": "still",
+          "start": 47.247,
+          "duration": 2,
+          "src": "stills/03h.jpg"
+        },
+        {
+          "id": "03e",
+          "type": "still",
+          "start": 49.247,
+          "duration": 2.447,
+          "src": "stills/03e.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "name": "Respekt",
+      "start": 51.694,
+      "end": 66.679,
+      "duration": 14.985,
+      "scriptStart": 50,
+      "scriptDuration": 14,
+      "deviationPercent": 7,
+      "flag": false,
+      "shots": [
+        {
+          "id": "V2",
+          "type": "clip",
+          "clip": {
+            "from": 0.5,
+            "to": 5.2
+          },
+          "start": 51.694,
+          "duration": 4.7,
+          "src": "clips/V2.mp4"
+        },
+        {
+          "id": "04b",
+          "type": "still",
+          "move": {
+            "kind": "push",
+            "from": 1,
+            "to": 1.1
+          },
+          "start": 56.394,
+          "duration": 10.285,
+          "src": "stills/04b.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "name": "Warten",
+      "start": 66.679,
+      "end": 84.681,
+      "duration": 18.002,
+      "scriptStart": 64,
+      "scriptDuration": 16,
+      "deviationPercent": 12.5,
+      "flag": true,
+      "shots": [
+        {
+          "id": "V3",
+          "type": "clip",
+          "clip": {
+            "from": 0,
+            "to": 8
+          },
+          "start": 66.679,
+          "duration": 8,
+          "src": "clips/V3.mp4"
+        },
+        {
+          "id": "V4",
+          "type": "clip",
+          "clip": {
+            "from": 0,
+            "to": 8
+          },
+          "start": 74.679,
+          "duration": 8,
+          "src": "clips/V4.mp4"
+        },
+        {
+          "id": "05c",
+          "type": "still",
+          "move": {
+            "kind": "static"
+          },
+          "start": 82.679,
+          "duration": 2.002,
+          "src": "stills/05c.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "name": "Die Patientin",
+      "start": 84.681,
+      "end": 94.681,
+      "duration": 10,
+      "scriptStart": 80,
+      "scriptDuration": 10,
+      "deviationPercent": 0,
+      "flag": false,
+      "shots": [
+        {
+          "id": "06a",
+          "type": "still",
+          "start": 84.681,
+          "duration": 2,
+          "src": "stills/06a.jpg"
+        },
+        {
+          "id": "V5",
+          "type": "clip",
+          "clip": {
+            "from": 0.5,
+            "to": 3.5
+          },
+          "start": 86.681,
+          "duration": 3,
+          "src": "clips/V5.mp4"
+        },
+        {
+          "id": "06c",
+          "type": "still",
+          "start": 89.681,
+          "duration": 2,
+          "src": "stills/06c.jpg"
+        },
+        {
+          "id": "06d",
+          "type": "still",
+          "start": 91.681,
+          "duration": 3,
+          "src": "stills/06d.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "name": "Der Satz",
+      "start": 94.681,
+      "end": 108.708,
+      "duration": 14.027,
+      "scriptStart": 90,
+      "scriptDuration": 13,
+      "deviationPercent": 7.9,
+      "flag": false,
+      "shots": [
+        {
+          "id": "07a",
+          "type": "still",
+          "move": {
+            "kind": "push",
+            "from": 1,
+            "to": 1.15
+          },
+          "start": 94.681,
+          "duration": 14.027,
+          "src": "stills/07a.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "name": "Der Schritt",
+      "start": 108.708,
+      "end": 120.708,
+      "duration": 12,
+      "scriptStart": 103,
+      "scriptDuration": 12,
+      "deviationPercent": 0,
+      "flag": false,
+      "shots": [
+        {
+          "id": "08a",
+          "type": "still",
+          "start": 108.708,
+          "duration": 4,
+          "src": "stills/08a.jpg"
+        },
+        {
+          "id": "V1",
+          "type": "clip",
+          "clip": {
+            "from": 3,
+            "to": 6
+          },
+          "grade": "warm-like-08c",
+          "start": 112.708,
+          "duration": 3,
+          "src": "clips/V1.mp4"
+        },
+        {
+          "id": "08d",
+          "type": "still",
+          "move": {
+            "kind": "crop",
+            "scale": 1.3
+          },
+          "start": 115.708,
+          "duration": 5,
+          "src": "stills/08d.jpg"
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "name": "Endcard",
+      "start": 120.708,
+      "end": 132.708,
+      "duration": 12,
+      "scriptStart": 115,
+      "scriptDuration": 12,
+      "deviationPercent": 0,
+      "flag": false,
+      "shots": [
+        {
+          "id": "End",
+          "type": "endcard",
+          "start": 120.708,
+          "duration": 12,
+          "src": null
+        }
+      ]
+    },
+    {
+      "id": "coda",
+      "name": "Coda",
+      "start": 132.708,
+      "end": 146.708,
+      "duration": 14,
+      "scriptStart": 127,
+      "scriptDuration": 14,
+      "deviationPercent": 0,
+      "flag": false,
+      "shots": [
+        {
+          "id": "Coda",
+          "type": "coda",
+          "start": 132.708,
+          "duration": 14,
+          "src": null
+        }
+      ]
+    }
+  ],
+  "voice": [
+    {
+      "id": "s1-1",
+      "scene": "s1",
+      "text": "Das hier ist ein Elefant.",
+      "file": "voice/s1-1.mp3",
+      "start": 3.892,
+      "speechStart": 4,
+      "end": 6.217,
+      "duration": 2.325,
+      "scriptAt": 4,
+      "offsetToScript": 0
+    },
+    {
+      "id": "s1-2",
+      "scene": "s1",
+      "text": "Er lebt seit vielen Jahren in diesem Gebäude.",
+      "file": "voice/s1-2.mp3",
+      "start": 8,
+      "speechStart": 8,
+      "end": 11.109,
+      "duration": 3.109,
+      "scriptAt": 8,
+      "offsetToScript": 0
+    },
+    {
+      "id": "s1-3",
+      "scene": "s1",
+      "text": "Niemand erinnert sich, wann er gekommen ist.",
+      "file": "voice/s1-3.mp3",
+      "start": 11.609,
+      "speechStart": 11.609,
+      "end": 14.247,
+      "duration": 2.638,
+      "scriptAt": null,
+      "offsetToScript": null
+    },
+    {
+      "id": "s2-1",
+      "scene": "s2",
+      "text": "Elefanten vergessen nichts.",
+      "file": "voice/s2-1.mp3",
+      "start": 16.247,
+      "speechStart": 16.247,
+      "end": 18.755,
+      "duration": 2.508,
+      "scriptAt": 15,
+      "offsetToScript": 1.247
+    },
+    {
+      "id": "s2-2",
+      "scene": "s2",
+      "text": "Sie erinnern sich an jeden Weg, der sie einmal sicher ans Ziel gebracht hat.",
+      "file": "voice/s2-2.mp3",
+      "start": 19.255,
+      "speechStart": 19.255,
+      "end": 24.035,
+      "duration": 4.78,
+      "scriptAt": null,
+      "offsetToScript": null
+    },
+    {
+      "id": "s2-3",
+      "scene": "s2",
+      "text": "Das ist ihre Stärke.",
+      "file": "voice/s2-3.mp3",
+      "start": 26.247,
+      "speechStart": 26.247,
+      "end": 27.867,
+      "duration": 1.62,
+      "scriptAt": 25,
+      "offsetToScript": 1.247
+    },
+    {
+      "id": "s3-1",
+      "scene": "s3",
+      "text": "Mit den Jahren wird aus Erinnerung Gewohnheit.",
+      "file": "voice/s3-1.mp3",
+      "start": 37.247,
+      "speechStart": 37.247,
+      "end": 40.721,
+      "duration": 3.474,
+      "scriptAt": 36,
+      "offsetToScript": 1.247
+    },
+    {
+      "id": "s3-2",
+      "scene": "s3",
+      "text": "Und aus Gewohnheit wird Platz.",
+      "file": "voice/s3-2.mp3",
+      "start": 41.421,
+      "speechStart": 41.421,
+      "end": 43.694,
+      "duration": 2.273,
+      "scriptAt": null,
+      "offsetToScript": null
+    },
+    {
+      "id": "s4-1",
+      "scene": "s4",
+      "text": "Manchmal ist seine Vorsicht berechtigt.",
+      "file": "voice/s4-1.mp3",
+      "start": 57.694,
+      "speechStart": 57.694,
+      "end": 60.437,
+      "duration": 2.743,
+      "scriptAt": 56,
+      "offsetToScript": 1.694
+    },
+    {
+      "id": "s4-2",
+      "scene": "s4",
+      "text": "Und manchmal ist es nur Gewohnheit, die sich als Vorsicht ausgibt.",
+      "file": "voice/s4-2.mp3",
+      "start": 61.604,
+      "speechStart": 61.694,
+      "end": 65.679,
+      "duration": 4.075,
+      "scriptAt": 60,
+      "offsetToScript": 1.694
+    },
+    {
+      "id": "s5-1",
+      "scene": "s5",
+      "text": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten.",
+      "file": "voice/s5-1.mp3",
+      "start": 67.583,
+      "speechStart": 67.679,
+      "end": 72.416,
+      "duration": 4.833,
+      "scriptAt": 65,
+      "offsetToScript": 2.679
+    },
+    {
+      "id": "s5-2",
+      "scene": "s5",
+      "text": "Er wartet.",
+      "file": "voice/s5-2.mp3",
+      "start": 72.931,
+      "speechStart": 73.016,
+      "end": 74.446,
+      "duration": 1.515,
+      "scriptAt": null,
+      "offsetToScript": null
+    },
+    {
+      "id": "s5-3",
+      "scene": "s5",
+      "text": "Meist auf das Zeichen, dass der alte Weg nicht mehr trägt.",
+      "file": "voice/s5-3.mp3",
+      "start": 75.046,
+      "speechStart": 75.046,
+      "end": 79.069,
+      "duration": 4.023,
+      "scriptAt": null,
+      "offsetToScript": null
+    },
+    {
+      "id": "s5-4",
+      "scene": "s5",
+      "text": "Bis dahin wartet jemand anderes mit ihm.",
+      "file": "voice/s5-4.mp3",
+      "start": 80.173,
+      "speechStart": 80.269,
+      "end": 82.681,
+      "duration": 2.508,
+      "scriptAt": 75,
+      "offsetToScript": 5.269
+    },
+    {
+      "id": "s7-1",
+      "scene": "s7",
+      "text": "Der Elefant ist nicht die Therapie.",
+      "file": "voice/s7-1.mp3",
+      "start": 95.595,
+      "speechStart": 95.681,
+      "end": 98.547,
+      "duration": 2.952,
+      "scriptAt": 91,
+      "offsetToScript": 4.681
+    },
+    {
+      "id": "s7-2",
+      "scene": "s7",
+      "text": "Der Elefant ist nicht die Evidenz.",
+      "file": "voice/s7-2.mp3",
+      "start": 100.047,
+      "speechStart": 100.047,
+      "end": 103.051,
+      "duration": 3.004,
+      "scriptAt": null,
+      "offsetToScript": null
+    },
+    {
+      "id": "s7-3",
+      "scene": "s7",
+      "text": "Der Elefant ist die Gewohnheit, mit der wir Evidenz betrachten.",
+      "file": "voice/s7-3.mp3",
+      "start": 104.551,
+      "speechStart": 104.551,
+      "end": 108.208,
+      "duration": 3.657,
+      "scriptAt": null,
+      "offsetToScript": null
+    }
+  ],
+  "overlays": [
+    {
+      "scene": "s2",
+      "text": "„Das hat sich bewährt.“",
+      "at": 2,
+      "start": 17.247,
+      "fadeIn": 0.3,
+      "visible": 2.5,
+      "fadeOut": 0.3
+    },
+    {
+      "scene": "s2",
+      "text": "„Damit kenne ich mich aus.“",
+      "at": 5,
+      "start": 20.247,
+      "fadeIn": 0.3,
+      "visible": 2.5,
+      "fadeOut": 0.3
+    },
+    {
+      "scene": "s2",
+      "text": "„Dafür ist die Patientin noch nicht schwer genug.“",
+      "at": 8,
+      "start": 23.247,
+      "fadeIn": 0.3,
+      "visible": 2.5,
+      "fadeOut": 0.3
+    },
+    {
+      "scene": "s2",
+      "text": "„Ich hebe mir das für später auf.“",
+      "at": 11,
+      "start": 26.247,
+      "fadeIn": 0.3,
+      "visible": 2.5,
+      "fadeOut": 0.3
+    },
+    {
+      "scene": "s4",
+      "text": "„Da habe ich Respekt vor.“",
+      "at": 4.1,
+      "start": 55.794,
+      "fadeIn": 0.3,
+      "visible": 2.5,
+      "fadeOut": 0.3
+    }
+  ],
+  "endcard": {
+    "scene": "end",
+    "line1": "LASST UNS ÜBER ELEFANTEN REDEN.",
+    "line2": "Welcher Elefant bestimmt Ihre Entscheidung?",
+    "line1At": 0,
+    "line2At": null,
+    "note": "line2At offen, siehe STATUS.md"
+  },
+  "coda": {
+    "scene": "coda",
+    "cards": [
+      "Die Frage. „Was ist der größte Elefant in Ihrer Therapieentscheidung?“ auf Kongress, digital, Social, Print und Mikrosite.",
+      "Das Sammeln. Antworten anonym und kuratiert, am Kongress analog (Wand, Sticker), online eher als Auswahl denn als Freitext.",
+      "Der Elefanten-Check. Drei Fragen zur eigenen Entscheidungsroutine, mit echten Patientenfällen. Das ist die Brücke von der Haltung zur Substanz.",
+      "Der Außendienst. Das Gespräch beginnt bei der Frage, nicht beim Produkt."
+    ],
+    "cardDuration": 3.5
+  }
+}
