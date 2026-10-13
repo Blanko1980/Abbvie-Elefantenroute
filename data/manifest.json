@@ -1014,10 +1014,11 @@
       "aspectRatio": "16:9",
       "imageSize": "2K",
       "prompt": "Reference images, in order: image 1 = the patient, identical face, hair, age and the same dark grey sweater; image 2 = the patient in three-quarter profile; image 3 = her hand and forearm with the subtle redness; image 4 = the look of the evening scene: light, colors, the lived-in waiting area with plants, floor lamp and the jacket on the chair, the people and the elephant.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nA young woman in her mid-20s, shoulder-length dark brown hair loosely tied back, natural everyday look with little makeup, slightly oversized dark grey long-sleeve knit sweater with sleeves pulled over her hands, blue jeans and white sneakers, upright posture, alert and composed expression with a hint of everyday annoyance, not sad, not exhausted, very subtle redness at the neck, never dramatic. Same person and same clothes as in the reference image.\n\nShot: Shot 06d, close shot of the patient (camera position CAM-E, close), from the chest up: the sweater sleeve pulled over one hand, with it she scratches her forearm through the sleeve; her look is calm and direct, toward someone off-screen left, not pleading, not sad. Background softly out of focus: plants and the warm floor lamp in the evening waiting area. Cool fluorescent light from above. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere; posters and screens show only abstract shapes and lines, no text, no numbers, no logos.\n\nLight: dusk outside, cool blue light mixed with cold fluorescent ceiling lights inside, lower contrast.",
-      "status": "zu prüfen",
+      "status": "abgelehnt",
       "file": null,
       "width": 2752,
-      "height": 1536
+      "height": 1536,
+      "note": "nicht ausgewählt, ein späterer Versuch wurde freigegeben"
     },
     {
       "id": "06a",
@@ -1100,10 +1101,11 @@
       "aspectRatio": "16:9",
       "imageSize": "2K",
       "prompt": "Reference images, in order: image 1 = room layout reference only: keep walls, windows, doors and furniture in the same places, but follow the lighting described in the text; image 2 = the elephant: identical animal, skin, mud on the legs and tusks, and how it sits in the room light; image 3 = the same elephant in side view.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nInterior of a modern dermatology clinic: a bright reception hall with a long white reception counter with light oak details; a waiting area along a floor-to-ceiling glass front with a row of six simple upholstered chairs; a long corridor with light grey linoleum flooring; on the left wall of the corridor the door to the doctor's consulting room; at the far end of the corridor on the right a second plain white door with a small unreadable sign; on the corridor wall a generic framed guideline-style poster (unreadable, no logo, no text) and a wall monitor showing an abstract line chart (no numbers, no text).\n\nOne adult African savanna elephant, realistic wrinkled grey skin, large ears, both tusks, calm and healthy, anatomically correct with four legs, standing indoors on the floor, casting a soft shadow. Not a cartoon, no human expression. Elephant size: appears larger in relation to the room, its flank takes up about half of the corridor width, back almost touching the ceiling.\n\nShot: Shot 03f, close shot in the corridor (camera position CAM-C, close): the floor is light grey linoleum (not wood), with a dark worn track. The elephant's large grey body slowly pushes in front of the framed guideline-style poster on the white wall; the poster is half covered by its flank and ear. The poster shows only abstract colored shapes and lines, no text. The elephant appears large in relation to the corridor. Soft daylight from the windows, matte dusty skin with deep wrinkles, its shadow falls on the wall. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere; posters and screens show only abstract shapes and lines, no text, no numbers, no logos.\n\nLight: neutral bright daylight, slightly flatter.",
-      "status": "zu prüfen",
+      "status": "abgelehnt",
       "file": null,
       "width": 2752,
-      "height": 1536
+      "height": 1536,
+      "note": "nicht ausgewählt, ein späterer Versuch wurde freigegeben"
     },
     {
       "id": "03g",
@@ -1120,10 +1122,11 @@
       "aspectRatio": "16:9",
       "imageSize": "2K",
       "prompt": "Reference images, in order: image 1 = room layout reference only: keep walls, windows, doors and furniture in the same places, but follow the lighting described in the text; image 2 = the elephant: identical animal, skin, mud on the legs and tusks, and how it sits in the room light; image 3 = the same elephant in side view.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nInterior of a modern dermatology clinic: a bright reception hall with a long white reception counter with light oak details; a waiting area along a floor-to-ceiling glass front with a row of six simple upholstered chairs; a long corridor with light grey linoleum flooring; on the left wall of the corridor the door to the doctor's consulting room; at the far end of the corridor on the right a second plain white door with a small unreadable sign; on the corridor wall a generic framed guideline-style poster (unreadable, no logo, no text) and a wall monitor showing an abstract line chart (no numbers, no text).\n\nOne adult African savanna elephant, realistic wrinkled grey skin, large ears, both tusks, calm and healthy, anatomically correct with four legs, standing indoors on the floor, casting a soft shadow. Not a cartoon, no human expression. Elephant size: appears larger in relation to the room, its flank takes up about half of the corridor width, back almost touching the ceiling.\n\nShot: Shot 03g, close shot in the corridor (camera position CAM-C, close): on the white wall hangs a wall monitor showing a simple abstract rising line on a light background, no numbers, no text. The elephant stands in the corridor in front of this wall, its head out of frame to the right; its huge grey flank and belly fill most of the frame and cover about two thirds of the monitor, only the left edge of the screen with the start of the line is still visible. Nothing passes through the wall; the elephant is clearly in front of it. Light grey linoleum floor. Soft daylight, matte dusty wrinkled skin, the screen's light reflected faintly on the skin. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere; posters and screens show only abstract shapes and lines, no text, no numbers, no logos.\n\nLight: neutral bright daylight, slightly flatter.",
-      "status": "zu prüfen",
+      "status": "abgelehnt",
       "file": null,
       "width": 2752,
-      "height": 1536
+      "height": 1536,
+      "note": "nicht ausgewählt, ein späterer Versuch wurde freigegeben"
     },
     {
       "id": "02a",
@@ -1232,10 +1235,11 @@
       "aspectRatio": "16:9",
       "imageSize": "2K",
       "prompt": "Reference images, in order: image 1 = room layout reference only: keep walls, windows, doors and furniture in the same places, but follow the lighting described in the text; image 2 = the look of the evening scene: light, colors, the lived-in waiting area with plants, floor lamp and the jacket on the chair, the people and the elephant; image 3 = the patient, identical face, hair, age and the same dark grey sweater; image 4 = the patient in three-quarter profile; image 5 = the elephant: identical animal, skin, mud on the legs and tusks, and how it sits in the room light; image 6 = the same elephant in side view.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nInterior of a modern dermatology clinic: a bright reception hall with a long white reception counter with light oak details; a waiting area along a floor-to-ceiling glass front with a row of six simple upholstered chairs; a long corridor with light grey linoleum flooring; on the left wall of the corridor the door to the doctor's consulting room; at the far end of the corridor on the right a second plain white door with a small unreadable sign; on the corridor wall a generic framed guideline-style poster (unreadable, no logo, no text) and a wall monitor showing an abstract line chart (no numbers, no text).\n\nOne adult African savanna elephant, realistic wrinkled grey skin, large ears, both tusks, calm and healthy, anatomically correct with four legs, standing indoors on the floor, casting a soft shadow. Not a cartoon, no human expression. Elephant size: looks enormous, its body fills the corridor from wall to wall and nearly to the ceiling, only a narrow gap left.\n\nA young woman in her mid-20s, shoulder-length dark brown hair loosely tied back, natural everyday look with little makeup, slightly oversized dark grey long-sleeve knit sweater with sleeves pulled over her hands, blue jeans and white sneakers, upright posture, alert and composed expression with a hint of everyday annoyance, not sad, not exhausted, very subtle redness at the neck, never dramatic. Same person and same clothes as in the reference image.\n\nShot: Shot 05a, static wide shot from the waiting area into the corridor (camera position CAM-D), early afternoon. In the left foreground, cut off by the frame edge and slightly soft, the patient sits on her chair, sleeves pulled over her hands, her jacket over the back of the chair next to her and her bag on its seat. In the middle distance the reception counter and the open entrance of the long corridor with grey linoleum. At the far end of the corridor stands the enormous elephant: its body fills the corridor from wall to wall and nearly to the ceiling and completely covers the second door. Three other waiting patients sit on chairs in the hall: an older man with a newspaper, a woman with a child, a young man with headphones. Large leafy potted plants and a floor lamp in the waiting area. Neutral bright daylight from the glass front behind the camera; the elephant in the corridor lit by the corridor windows, matte dusty skin, dark contact shadows. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere; posters and screens show only abstract shapes and lines, no text, no numbers, no logos.\n\nLight: neutral bright daylight, slightly flatter.",
-      "status": "zu prüfen",
+      "status": "abgelehnt",
       "file": null,
       "width": 2752,
-      "height": 1536
+      "height": 1536,
+      "note": "nicht ausgewählt, ein späterer Versuch wurde freigegeben"
     },
     {
       "id": "04b",
@@ -2116,9 +2120,10 @@
       },
       "prompt": "Das hier ist ein Elefant.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "abgelehnt",
       "file": "public/voice/s1-1.mp3",
-      "duration": 2.324898
+      "duration": 2.324898,
+      "note": "ersetzt durch Fassung 2 (Feedback 13.10.2026)"
     },
     {
       "id": "s1-2",
@@ -2137,9 +2142,10 @@
       },
       "prompt": "Er lebt seit vielen Jahren in diesem Gebäude.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/voice/s1-2.mp3",
-      "duration": 3.108571
+      "duration": 3.108571,
+      "note": "Sprechertext Fassung 2, freigegeben am 13.10.2026"
     },
     {
       "id": "s1-3",
@@ -2158,9 +2164,10 @@
       },
       "prompt": "Niemand erinnert sich, wann er gekommen ist.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/voice/s1-3.mp3",
-      "duration": 2.638367
+      "duration": 2.638367,
+      "note": "Sprechertext Fassung 2, freigegeben am 13.10.2026"
     },
     {
       "id": "s2-1",
@@ -2179,9 +2186,10 @@
       },
       "prompt": "Elefanten vergessen nichts.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/voice/s2-1.mp3",
-      "duration": 2.507755
+      "duration": 2.507755,
+      "note": "Sprechertext Fassung 2, freigegeben am 13.10.2026"
     },
     {
       "id": "s2-2",
@@ -2200,9 +2208,10 @@
       },
       "prompt": "Sie erinnern sich an jeden Weg, der sie einmal sicher ans Ziel gebracht hat.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/voice/s2-2.mp3",
-      "duration": 4.780408
+      "duration": 4.780408,
+      "note": "Sprechertext Fassung 2, freigegeben am 13.10.2026"
     },
     {
       "id": "s2-3",
@@ -2221,9 +2230,10 @@
       },
       "prompt": "Das ist ihre Stärke.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "abgelehnt",
       "file": "public/voice/s2-3.mp3",
-      "duration": 1.619592
+      "duration": 1.619592,
+      "note": "ersetzt durch Fassung 2 (Feedback 13.10.2026)"
     },
     {
       "id": "s3-1",
@@ -2242,9 +2252,10 @@
       },
       "prompt": "Mit den Jahren wird aus Erinnerung Gewohnheit.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "abgelehnt",
       "file": "public/voice/s3-1.mp3",
-      "duration": 3.474286
+      "duration": 3.474286,
+      "note": "ersetzt durch Fassung 2 (Feedback 13.10.2026)"
     },
     {
       "id": "s3-2",
@@ -2263,9 +2274,10 @@
       },
       "prompt": "Und aus Gewohnheit wird Platz.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "abgelehnt",
       "file": "public/voice/s3-2.mp3",
-      "duration": 2.272653
+      "duration": 2.272653,
+      "note": "ersetzt durch Fassung 2 (Feedback 13.10.2026)"
     },
     {
       "id": "s4-1",
@@ -2284,9 +2296,10 @@
       },
       "prompt": "Manchmal ist seine Vorsicht berechtigt.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "abgelehnt",
       "file": "public/voice/s4-1.mp3",
-      "duration": 2.742857
+      "duration": 2.742857,
+      "note": "ersetzt durch Fassung 2 (Feedback 13.10.2026)"
     },
     {
       "id": "s4-2",
@@ -2305,9 +2318,10 @@
       },
       "prompt": "Und manchmal ist es nur Gewohnheit, die sich als Vorsicht ausgibt.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "abgelehnt",
       "file": "public/voice/s4-2.mp3",
-      "duration": 4.075102
+      "duration": 4.075102,
+      "note": "ersetzt durch Fassung 2 (Feedback 13.10.2026)"
     },
     {
       "id": "s5-1",
@@ -2326,9 +2340,10 @@
       },
       "prompt": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/voice/s5-1.mp3",
-      "duration": 4.832653
+      "duration": 4.832653,
+      "note": "Sprechertext Fassung 2, freigegeben am 13.10.2026"
     },
     {
       "id": "s5-2",
@@ -2347,9 +2362,10 @@
       },
       "prompt": "Er wartet.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "abgelehnt",
       "file": "public/voice/s5-2.mp3",
-      "duration": 1.515102
+      "duration": 1.515102,
+      "note": "ersetzt durch Fassung 2 (Feedback 13.10.2026)"
     },
     {
       "id": "s5-3",
@@ -2368,9 +2384,10 @@
       },
       "prompt": "Meist auf das Zeichen, dass der alte Weg nicht mehr trägt.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "abgelehnt",
       "file": "public/voice/s5-3.mp3",
-      "duration": 4.022857
+      "duration": 4.022857,
+      "note": "ersetzt durch Fassung 2 (Feedback 13.10.2026)"
     },
     {
       "id": "s5-4",
@@ -2389,9 +2406,10 @@
       },
       "prompt": "Bis dahin wartet jemand anderes mit ihm.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "abgelehnt",
       "file": "public/voice/s5-4.mp3",
-      "duration": 2.507755
+      "duration": 2.507755,
+      "note": "ersetzt durch Fassung 2 (Feedback 13.10.2026)"
     },
     {
       "id": "s7-1",
@@ -2410,9 +2428,10 @@
       },
       "prompt": "Der Elefant ist nicht die Therapie.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "abgelehnt",
       "file": "public/voice/s7-1.mp3",
-      "duration": 2.951837
+      "duration": 2.951837,
+      "note": "ersetzt durch Fassung 2 (Feedback 13.10.2026)"
     },
     {
       "id": "s7-2",
@@ -2431,9 +2450,10 @@
       },
       "prompt": "Der Elefant ist nicht die Evidenz.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "abgelehnt",
       "file": "public/voice/s7-2.mp3",
-      "duration": 3.004082
+      "duration": 3.004082,
+      "note": "ersetzt durch Fassung 2 (Feedback 13.10.2026)"
     },
     {
       "id": "s7-3",
@@ -2452,9 +2472,10 @@
       },
       "prompt": "Der Elefant ist die Gewohnheit, mit der wir Evidenz betrachten.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "abgelehnt",
       "file": "public/voice/s7-3.mp3",
-      "duration": 3.657143
+      "duration": 3.657143,
+      "note": "ersetzt durch Fassung 2 (Feedback 13.10.2026)"
     },
     {
       "id": "V1-warm",
@@ -2487,9 +2508,10 @@
       },
       "prompt": "Das hier ist ein Elefant. Genaugenommen ein Entscheidungselefant.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/voice/s1-1.mp3",
-      "duration": 6.817959
+      "duration": 6.817959,
+      "note": "Sprechertext Fassung 2, freigegeben am 13.10.2026"
     },
     {
       "id": "s2-3",
@@ -2508,9 +2530,10 @@
       },
       "prompt": "Das ist ihre Stärke – und das bringt Sicherheit.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/voice/s2-3.mp3",
-      "duration": 4.022857
+      "duration": 4.022857,
+      "note": "Sprechertext Fassung 2, freigegeben am 13.10.2026"
     },
     {
       "id": "s3-1",
@@ -2529,9 +2552,10 @@
       },
       "prompt": "Mit der Zeit wird aus Erinnerung Gewohnheit.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/voice/s3-1.mp3",
-      "duration": 2.690612
+      "duration": 2.690612,
+      "note": "Sprechertext Fassung 2, freigegeben am 13.10.2026"
     },
     {
       "id": "s3-2",
@@ -2550,9 +2574,10 @@
       },
       "prompt": "Und Gewohnheit verstellt den Blick auf Neues.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/voice/s3-2.mp3",
-      "duration": 2.951837
+      "duration": 2.951837,
+      "note": "Sprechertext Fassung 2, freigegeben am 13.10.2026"
     },
     {
       "id": "s4-1",
@@ -2571,9 +2596,10 @@
       },
       "prompt": "Neue Wege verunsichern den Elefanten.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/voice/s4-1.mp3",
-      "duration": 2.76898
+      "duration": 2.76898,
+      "note": "Sprechertext Fassung 2, freigegeben am 13.10.2026"
     },
     {
       "id": "s4-2",
@@ -2592,9 +2618,10 @@
       },
       "prompt": "Ob er sie aus Gewohnheit oder Vorsicht meidet, ist nicht immer bekannt.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/voice/s4-2.mp3",
-      "duration": 4.362449
+      "duration": 4.362449,
+      "note": "Sprechertext Fassung 2, freigegeben am 13.10.2026"
     },
     {
       "id": "s5-2",
@@ -2613,9 +2640,10 @@
       },
       "prompt": "Er verharrt.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/voice/s5-2.mp3",
-      "duration": 1.515102
+      "duration": 1.515102,
+      "note": "Sprechertext Fassung 2, freigegeben am 13.10.2026"
     },
     {
       "id": "s5-3",
@@ -2634,9 +2662,10 @@
       },
       "prompt": "Zwar zeigt er weiter Interesse an neuen Wegen.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/voice/s5-3.mp3",
-      "duration": 3.343673
+      "duration": 3.343673,
+      "note": "Sprechertext Fassung 2, freigegeben am 13.10.2026"
     },
     {
       "id": "s5-4",
@@ -2655,9 +2684,10 @@
       },
       "prompt": "Aber ohne guten Grund, beschreitet er sie nicht.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/voice/s5-4.mp3",
-      "duration": 3.004082
+      "duration": 3.004082,
+      "note": "Sprechertext Fassung 2, freigegeben am 13.10.2026"
     },
     {
       "id": "s7-1",
@@ -2676,9 +2706,10 @@
       },
       "prompt": "Der Elefant ist immer da.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/voice/s7-1.mp3",
-      "duration": 2.115918
+      "duration": 2.115918,
+      "note": "Sprechertext Fassung 2, freigegeben am 13.10.2026"
     },
     {
       "id": "s7-2",
@@ -2697,9 +2728,10 @@
       },
       "prompt": "Er begleitet jeden von uns.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/voice/s7-2.mp3",
-      "duration": 2.35102
+      "duration": 2.35102,
+      "note": "Sprechertext Fassung 2, freigegeben am 13.10.2026"
     },
     {
       "id": "s7-3",
@@ -2718,9 +2750,10 @@
       },
       "prompt": "Jeden Tag.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/voice/s7-3.mp3",
-      "duration": 1.28
+      "duration": 1.28,
+      "note": "Sprechertext Fassung 2, freigegeben am 13.10.2026"
     },
     {
       "id": "s8-1",
@@ -2739,9 +2772,10 @@
       },
       "prompt": "Man muss den Entscheidungselefanten bewusst wahrnehmen.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/voice/s8-1.mp3",
-      "duration": 3.422041
+      "duration": 3.422041,
+      "note": "Sprechertext Fassung 2, freigegeben am 13.10.2026"
     },
     {
       "id": "s8-2",
@@ -2760,9 +2794,10 @@
       },
       "prompt": "Dann öffnen sich neue Wege.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/voice/s8-2.mp3",
-      "duration": 2.168163
+      "duration": 2.168163,
+      "note": "Sprechertext Fassung 2, freigegeben am 13.10.2026"
     }
   ]
 }

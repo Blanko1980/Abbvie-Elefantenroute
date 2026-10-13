@@ -75,7 +75,9 @@ const overlays = [
   { scene: "s2", text: "„Ich hebe mir das für später auf.“", at: 11 },
   // Szene 4: in dem Moment, in dem der Rüssel landet (V2 bei ca. 4,6 s Clipzeit = 4,1 s nach Szenenstart)
   { scene: "s4", text: "„Da habe ich Respekt vor.“", at: 4.1 },
-].map((o) => ({ ...o, start: r3(S[o.scene].start + o.at), fadeIn: 0.3, visible: 2.5, fadeOut: 0.3 }));
+].map((o) => ({ ...o, start: r3(S[o.scene].start + o.at), fadeIn: 0.3, visible: 2.5, fadeOut: 0.3 }))
+  // Entscheidung 13.10.2026: keine Einblendungen beim Elefanten im finalen Film
+  .filter(() => false);
 
 // Bildmaße der Standbilder (für Schwenk und Ausschnitt)
 for (const sc of scenes) for (const sh of sc.shots) if (sh.type === "still") {

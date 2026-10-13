@@ -1,6 +1,6 @@
 # Status
 
-Stand: 13.10.2026, Phase 5, Rohschnitt Fassung 2 (neuer Sprechertext). **Wartet auf Freigabe des Rohschnitts.**
+Stand: 13.10.2026, Phase 5 abgeschlossen. **Finaler Film `renders/elefant-v1-1080p.mp4` gerendert.** Offen sind nur die Punkte für später (Musik, Raumton, Parallax).
 
 ## Fertig
 
@@ -8,14 +8,19 @@ Stand: 13.10.2026, Phase 5, Rohschnitt Fassung 2 (neuer Sprechertext). **Wartet 
 - Phase 4: Sprecher Thomas Schendel, Sprechertext Fassung 2 (19 Sätze in `public/voice/`, siehe `SCRIPT.md`), Zeitleiste `data/timeline.json` (145.1 s). Szene 1 dauert 17,2 s statt 14 s (+22,5 %, wegen des zusätzlichen Satzes). Entscheidungen: Szene 5 dauert 18 s; Endcard-Zeile 2 ab 6 s; die 2-Sekunden-Einstellungen der Shotliste gelten.
 - **Phase 5:**
   - Komposition `Film` in Remotion, komplett aus `data/timeline.json`.
-  - Proxy `review/rohschnitt-720p.mp4` (CRF 28).
+  - Proxy `review/rohschnitt-720p.mp4` (CRF 28, Fassung 2 noch mit Einblendungen).
+  - Sprechertext Fassung 2 freigegeben (13.10.2026).
+  - **Finaler Film** `renders/elefant-v1-1080p.mp4` (H.264, CRF 20, 1920×1080, 24 fps, 3482 Frames = 145,1 s wie in `data/timeline.json`), **ohne Einblendungen** (deine Entscheidung vom 13.10.2026).
   - Notiz `review/phase5-notiz.md`.
 
 ## Offen, braucht Entscheidung
 
-1. Freigabe des Rohschnitts. Danach rendere ich das finale `renders/elefant-v1-1080p.mp4` (H.264, CRF 20, bei über 95 MB mit höherem CRF neu).
-2. Der dunkle Verlauf hinter den Einblendungen (Lesbarkeit) steht nicht im Script: so lassen?
-3. Coda-Karten mit 0,3 s Blende oder mit harten Schnitten?
+1. Coda-Karten mit 0,3 s Blende oder mit harten Schnitten? (derzeit Blende)
+
+## Später, nicht jetzt
+
+- Musik (vermutlich Suno) in die leere Spur `music`, Raumton in `ambience`.
+- Tiefenkarten-Parallax.
 
 ## Rendern
 
@@ -38,7 +43,8 @@ Stand: 13.10.2026, Phase 5, Rohschnitt Fassung 2 (neuer Sprechertext). **Wartet 
 2. **Böden:** Halle und Wartebereich helles Eichenholz, Flur hellgrauer Linoleum.
 3. **Jahreszeit:** Sommergrün vor den Fenstern, außer im Zeitraffer in Szene 3.
 4. **Wanduhr:** rund, ohne Ziffern, hinter dem Tresen.
-5. **Patientin statt Patient:** junge Frau, wach und genervt, nicht erschöpft. Die Einblendung in Szene 2 lautet „Dafür ist die Patientin noch nicht schwer genug.“
+5. **Patientin statt Patient:** junge Frau, wach und genervt, nicht erschöpft.
+10. **Keine Einblendungen:** Die Gedanken-Einblendungen in Szene 2 und Szene 4 entfallen im finalen Film. Die Komponente `Overlay` bleibt im Code; die Liste in `scripts/build-timeline.mjs` wird per Filter geleert und kann bei Bedarf wieder aktiviert werden.
 6. **Sprecher:** männlich, Naturdoku-Stil, Stimme Thomas Schendel (ElevenLabs, Voice-ID `Fghah4fztZORbiKfIGAs`, Stimmbibliothek).
 7. **Szene 4:** Der Arzt geht auf Tür 2 zu, der Rüssel bremst ihn; V2 läuft von 0:50 bis 0:56.
 8. **Kleidung:** Die Patientin trägt einen dunkelgrauen Pullover, Jeans und weiße Sneaker; die MFA trägt am Abend Straßenkleidung.

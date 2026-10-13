@@ -692,53 +692,7 @@
       "offsetToScript": 4.086
     }
   ],
-  "overlays": [
-    {
-      "scene": "s2",
-      "text": "„Das hat sich bewährt.“",
-      "at": 2,
-      "start": 19.151,
-      "fadeIn": 0.3,
-      "visible": 2.5,
-      "fadeOut": 0.3
-    },
-    {
-      "scene": "s2",
-      "text": "„Damit kenne ich mich aus.“",
-      "at": 5,
-      "start": 22.151,
-      "fadeIn": 0.3,
-      "visible": 2.5,
-      "fadeOut": 0.3
-    },
-    {
-      "scene": "s2",
-      "text": "„Dafür ist die Patientin noch nicht schwer genug.“",
-      "at": 8,
-      "start": 25.151,
-      "fadeIn": 0.3,
-      "visible": 2.5,
-      "fadeOut": 0.3
-    },
-    {
-      "scene": "s2",
-      "text": "„Ich hebe mir das für später auf.“",
-      "at": 11,
-      "start": 28.151,
-      "fadeIn": 0.3,
-      "visible": 2.5,
-      "fadeOut": 0.3
-    },
-    {
-      "scene": "s4",
-      "text": "„Da habe ich Respekt vor.“",
-      "at": 4.1,
-      "start": 57.251,
-      "fadeIn": 0.3,
-      "visible": 2.5,
-      "fadeOut": 0.3
-    }
-  ],
+  "overlays": [],
   "endcard": {
     "scene": "end",
     "line1": "LASST UNS ÜBER ELEFANTEN REDEN.",

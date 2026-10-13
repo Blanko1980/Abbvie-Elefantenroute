@@ -71,3 +71,11 @@ Laut `data/timeline.json` dauert der Film 146,7 s (2:26,7), das sind 3521 Bilder
 | coda Coda | 14.0 s | 14 s | 0 % |
 
 Gesamtlänge: 145.1 s.
+
+## Finaler Film (13.10.2026)
+
+- **Datei:** `renders/elefant-v1-1080p.mp4`, H.264, CRF 20, 1920×1080, 24 fps.
+- **Sprechertext:** Fassung 2, freigegeben.
+- **Einblendungen:** Alle fünf Einblendungen beim Elefanten (vier in Szene 2, eine in Szene 4) sind entfallen (deine Entscheidung). Endcard und Coda bleiben unverändert.
+- **Länge:** wie in `data/timeline.json`, 3482 Frames = 145,1 s: Film bis 1:59,1, Endcard bis 2:11,1, Coda bis 2:25,1.
+- **Abweichung über 10 %:** weiterhin Szene 1 (+22,5 %), siehe oben.

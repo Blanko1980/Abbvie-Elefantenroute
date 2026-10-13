@@ -181,9 +181,10 @@ Nach dem Feedback zum Rohschnitt (`review/sprechertext-feedback-v1-rueckmeldung.
 - **Zweite Endcard-Zeile:** „Welcher Elefant bestimmt Ihre Entscheidung?“
 - **Tonwechsel in Szene 6:** bleibt zunächst hart, wie im Script.
 - **Szene 8:** Nur ein Blick, kein Text.
-- **Einblendung Szene 2:** „Dafür ist die Patientin noch nicht schwer genug.“ (Entscheidung 12.10.2026).
+- **Einblendung Szene 2:** „Dafür ist die Patientin noch nicht schwer genug.“ (Entscheidung 12.10.2026). Entfällt seit 13.10.2026, siehe „Keine Einblendungen“.
 - **Sprecher:** männlich, Naturdoku-Stil; Stimme Thomas Schendel bei ElevenLabs (Entscheidung 12.10.2026).
 - **Szene 4:** Der Arzt geht auf die Tür zu, der Rüssel bremst ihn (Entscheidung 12.10.2026).
+- **Keine Einblendungen:** Die Gedanken-Einblendungen des Elefanten in Szene 2 und Szene 4 entfallen im finalen Film (Entscheidung 13.10.2026).
 - **Sprechertext Fassung 2:** siehe eigener Abschnitt; Szene 8 bekommt zwei Sprechersätze (Entscheidung 13.10.2026).
 - **Trampelpfad (Szene 3):** natürliche, von Bild zu Bild zunehmende Abdrücke von Schuhen und Elefantenfüßen, langsam breiter und minimal tiefer, bis ein ausgetretener Weg entsteht; kein aufgemalter Streifen.
 - **Szene 5:** 18 statt 16 Sekunden; nach dem Zeitraffer (Clips V3, V4) steht 05c noch 2 Sekunden (Entscheidung 13.10.2026).
