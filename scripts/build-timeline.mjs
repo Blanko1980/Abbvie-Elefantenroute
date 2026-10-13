@@ -48,8 +48,14 @@ for (const sc of cfg.scenes) {
   const shots = [];
   const fixed = SHOTS[sc.id].reduce((s, x) => s + (x.type === "clip" ? x.clip.to - x.clip.from : x.dur === "rest" ? 0 : x.dur) - (x.dur === "rest" ? 0 : x.crossfadeIn ?? 0), 0);
   let st = start;
+  // Reine Standbild-Szenen, die durch den Text länger werden: Zusatzzeit gleichmäßig auf alle Standbilder verteilen
+  const stillsOnly = SHOTS[sc.id].every((x) => x.type === "still" || x.type === "black");
+  const blackTime = SHOTS[sc.id].filter((x) => x.type === "black").reduce((a, x) => a + x.dur, 0);
+  const restScript = sc.scriptDur - fixed;
+  const stretch = stillsOnly && dur > sc.scriptDur ? (dur - blackTime) / (sc.scriptDur - blackTime) : 1;
   for (const s of SHOTS[sc.id]) {
-    const d = s.type === "clip" ? s.clip.to - s.clip.from : s.dur === "rest" ? dur - fixed + (s.crossfadeIn ?? 0) : s.dur;
+    let d = s.type === "clip" ? s.clip.to - s.clip.from : s.dur === "rest" ? dur - fixed + (s.crossfadeIn ?? 0) : s.dur;
+    if (stretch > 1 && s.type === "still") d = (s.dur === "rest" ? restScript : s.dur) * stretch;
     st -= s.crossfadeIn ?? 0;
     shots.push({ ...s, dur: undefined, start: r3(st), duration: r3(d), src: s.file ?? (s.type === "still" ? `stills/${s.id}.jpg` : s.type === "clip" ? `clips/${s.id}.mp4` : null), file: undefined });
     st += d;

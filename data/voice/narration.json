@@ -67,7 +67,7 @@
       "name": "Der Schritt",
       "scriptStart": 103,
       "scriptDur": 12,
-      "tail": 0
+      "tail": 0.5
     },
     {
       "id": "end",
@@ -90,7 +90,7 @@
       "scene": "s1",
       "at": 4,
       "minGap": 0,
-      "text": "Das hier ist ein Elefant."
+      "text": "Das hier ist ein Elefant. Genaugenommen ein Entscheidungselefant."
     },
     {
       "id": "s1-2",
@@ -125,35 +125,35 @@
       "scene": "s2",
       "at": 25,
       "minGap": 1.2,
-      "text": "Das ist ihre Stärke."
+      "text": "Das ist ihre Stärke – und das bringt Sicherheit."
     },
     {
       "id": "s3-1",
       "scene": "s3",
       "at": 36,
       "minGap": 0,
-      "text": "Mit den Jahren wird aus Erinnerung Gewohnheit."
+      "text": "Mit der Zeit wird aus Erinnerung Gewohnheit."
     },
     {
       "id": "s3-2",
       "scene": "s3",
       "at": null,
       "minGap": 0.7,
-      "text": "Und aus Gewohnheit wird Platz."
+      "text": "Und Gewohnheit verstellt den Blick auf Neues."
     },
     {
       "id": "s4-1",
       "scene": "s4",
       "at": 56,
       "minGap": 0,
-      "text": "Manchmal ist seine Vorsicht berechtigt."
+      "text": "Neue Wege verunsichern den Elefanten."
     },
     {
       "id": "s4-2",
       "scene": "s4",
       "at": 60,
       "minGap": 1.2,
-      "text": "Und manchmal ist es nur Gewohnheit, die sich als Vorsicht ausgibt."
+      "text": "Ob er sie aus Gewohnheit oder Vorsicht meidet, ist nicht immer bekannt."
     },
     {
       "id": "s5-1",
@@ -167,42 +167,57 @@
       "scene": "s5",
       "at": null,
       "minGap": 0.6,
-      "text": "Er wartet."
+      "text": "Er verharrt."
     },
     {
       "id": "s5-3",
       "scene": "s5",
       "at": null,
       "minGap": 0.6,
-      "text": "Meist auf das Zeichen, dass der alte Weg nicht mehr trägt."
+      "text": "Zwar zeigt er weiter Interesse an neuen Wegen."
     },
     {
       "id": "s5-4",
       "scene": "s5",
-      "at": 75,
-      "minGap": 1.2,
-      "text": "Bis dahin wartet jemand anderes mit ihm."
+      "at": null,
+      "minGap": 0.6,
+      "text": "Aber ohne guten Grund, beschreitet er sie nicht."
     },
     {
       "id": "s7-1",
       "scene": "s7",
       "at": 91,
       "minGap": 0,
-      "text": "Der Elefant ist nicht die Therapie."
+      "text": "Der Elefant ist immer da."
     },
     {
       "id": "s7-2",
       "scene": "s7",
       "at": null,
       "minGap": 1.5,
-      "text": "Der Elefant ist nicht die Evidenz."
+      "text": "Er begleitet jeden von uns."
     },
     {
       "id": "s7-3",
       "scene": "s7",
       "at": null,
       "minGap": 1.5,
-      "text": "Der Elefant ist die Gewohnheit, mit der wir Evidenz betrachten."
+      "text": "Jeden Tag."
+    },
+    {
+      "id": "s8-1",
+      "scene": "s8",
+      "at": 103.6,
+      "minGap": 0,
+      "text": "Man muss den Entscheidungselefanten bewusst wahrnehmen."
+    },
+    {
+      "id": "s8-2",
+      "scene": "s8",
+      "at": 110.5,
+      "minGap": 1.0,
+      "text": "Dann öffnen sich neue Wege."
     }
-  ]
+  ],
+  "_version": "Fassung 2 nach Feedback vom 13.10.2026 (review/sprechertext-feedback-v1-rueckmeldung.docx)"
 }

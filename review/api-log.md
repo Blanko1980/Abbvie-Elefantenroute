@@ -2,7 +2,7 @@
 
 Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen (Modell- und Stimmenlisten) sind nicht mitgezählt. Erzeugt aus `data/api-calls.json`.
 
-**Summe:** 104 Bild, 11 Clip, 35 Sprache, 4 Text (Prüfaufrufe)
+**Summe:** 104 Bild, 11 Clip, 49 Sprache, 5 Text (Prüfaufrufe)
 
 | Phase | Bild | Clip | Sprache | Text |
 | --- | ---: | ---: | ---: | ---: |
@@ -10,7 +10,7 @@ Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen
 | 1 | 22 | 0 | 0 | 0 |
 | 2 | 12 | 7 | 17 | 3 |
 | 3 | 69 | 4 | 0 | 0 |
-| 4 | 0 | 0 | 17 | 1 |
+| 4 | 0 | 0 | 31 | 2 |
 
 ## Einzelaufrufe
 
@@ -170,3 +170,18 @@ Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen
 | 2026-10-13 07:51 | 4 | Sprache | eleven_multilingual_v2 | s7-2 | 1 | ok | 34 Zeichen |
 | 2026-10-13 07:51 | 4 | Sprache | eleven_multilingual_v2 | s7-3 | 1 | ok | 63 Zeichen |
 | 2026-10-13 07:53 | 4 | Text (Prüfung) | gemini-3-flash-preview | check:review/voice/sprecher-timeline.mp3 | – | ok | Sprecherspur prüfen |
+| 2026-10-13 20:59 | 4 | Sprache | eleven_multilingual_v2 | s1-1 | 2 | ok | 65 Zeichen |
+| 2026-10-13 20:59 | 4 | Sprache | eleven_multilingual_v2 | s2-3 | 2 | ok | 48 Zeichen |
+| 2026-10-13 20:59 | 4 | Sprache | eleven_multilingual_v2 | s3-1 | 2 | ok | 44 Zeichen |
+| 2026-10-13 20:59 | 4 | Sprache | eleven_multilingual_v2 | s3-2 | 2 | ok | 45 Zeichen |
+| 2026-10-13 20:59 | 4 | Sprache | eleven_multilingual_v2 | s4-1 | 2 | ok | 37 Zeichen |
+| 2026-10-13 20:59 | 4 | Sprache | eleven_multilingual_v2 | s4-2 | 2 | ok | 71 Zeichen |
+| 2026-10-13 20:59 | 4 | Sprache | eleven_multilingual_v2 | s5-2 | 2 | ok | 12 Zeichen |
+| 2026-10-13 20:59 | 4 | Sprache | eleven_multilingual_v2 | s5-3 | 2 | ok | 46 Zeichen |
+| 2026-10-13 20:59 | 4 | Sprache | eleven_multilingual_v2 | s5-4 | 2 | ok | 48 Zeichen |
+| 2026-10-13 20:59 | 4 | Sprache | eleven_multilingual_v2 | s7-1 | 2 | ok | 25 Zeichen |
+| 2026-10-13 20:59 | 4 | Sprache | eleven_multilingual_v2 | s7-2 | 2 | ok | 27 Zeichen |
+| 2026-10-13 20:59 | 4 | Sprache | eleven_multilingual_v2 | s7-3 | 2 | ok | 10 Zeichen |
+| 2026-10-13 20:59 | 4 | Sprache | eleven_multilingual_v2 | s8-1 | 1 | ok | 55 Zeichen |
+| 2026-10-13 20:59 | 4 | Sprache | eleven_multilingual_v2 | s8-2 | 1 | ok | 27 Zeichen |
+| 2026-10-13 21:00 | 4 | Text (Prüfung) | gemini-3-flash-preview | check:review/voice/sprecher-timeline.mp3 | – | ok | Sprecherspur prüfen |

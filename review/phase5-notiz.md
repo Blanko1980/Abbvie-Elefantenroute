@@ -42,3 +42,32 @@ Laut `data/timeline.json` dauert der Film 146,7 s (2:26,7), das sind 3521 Bilder
 - Szene 5 dauert 18 statt 16 Sekunden (freigegeben).
 - In 03f und 03g steht der Elefant neben Poster bzw. Monitor statt davor.
 - Musik und Raumton folgen später.
+
+
+## Rohschnitt, Fassung 2 (Sprechertext nach Feedback, 13.10.2026)
+
+- **Neu gesprochen:** 14 Sätze laut `review/sprechertext-feedback-v1-rueckmeldung.docx`, darunter zwei neue Sätze in Szene 8. Die geltende Fassung steht in `SCRIPT.md` unter „Sprechertext, Fassung 2“.
+- **Prüfung per Gemini:** Alle 19 Sätze sind wörtlich richtig und ohne Aussprachefehler.
+- **Zeitleiste:**
+  - Stille am Satzende wird jetzt genauer abgezogen (Schwelle −40 dB). Das strafft alle Szenen leicht.
+  - Wird eine reine Standbild-Szene länger, verteile ich die Zusatzzeit gleichmäßig auf ihre Einstellungen.
+- **Abweichung über 10 %:**
+  - **Szene 1:** 17,2 s statt 14 s (+22,5 %), wegen des zusätzlichen Satzes „Genaugenommen ein Entscheidungselefant.“.
+  - Die Einstellungen sind gleichmäßig gestreckt: 01a 5,1 s, 01b1 und 01b2 je 2,5 s, 01c 5,1 s.
+- **Szene 5:** wieder genau 16 s. Die beiden zusammenhängenden Sätze folgen ohne lange Pause aufeinander.
+- **Zum Ausfüllen:** `review/sprechertext-feedback-v2.docx` mit den neuen Zeiten, für weiteres Feedback.
+
+| Szene | Dauer | Script | Abweichung |
+| --- | --- | --- | --- |
+| s1 Der Elefant | 17.2 s | 14 s | +22.5 % ⚠ |
+| s2 Gedächtnis | 18.0 s | 18 s | 0 % |
+| s3 Trampelpfad | 18.0 s | 18 s | 0 % |
+| s4 Respekt | 14.9 s | 14 s | +6.7 % |
+| s5 Warten | 16.0 s | 16 s | 0 % |
+| s6 Die Patientin | 10.0 s | 10 s | 0 % |
+| s7 Der Satz | 13.0 s | 13 s | 0 % |
+| s8 Der Schritt | 12.0 s | 12 s | 0 % |
+| end Endcard | 12.0 s | 12 s | 0 % |
+| coda Coda | 14.0 s | 14 s | 0 % |
+
+Gesamtlänge: 145.1 s.

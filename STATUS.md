@@ -1,11 +1,11 @@
 # Status
 
-Stand: 13.10.2026, Ende Phase 5 (Rohschnitt). **Wartet auf Freigabe des Rohschnitts.**
+Stand: 13.10.2026, Phase 5, Rohschnitt Fassung 2 (neuer Sprechertext). **Wartet auf Freigabe des Rohschnitts.**
 
 ## Fertig
 
 - Phasen 0 bis 3: freigegeben. 27 Standbilder, Clips V1 bis V5 (plus `V1-warm.mp4`, lokal gegradet).
-- Phase 4: Sprecher Thomas Schendel (17 Sätze in `public/voice/`), Zeitleiste `data/timeline.json` (146,7 s). Entscheidungen: Szene 5 dauert 18 s; Endcard-Zeile 2 ab 6 s; die 2-Sekunden-Einstellungen der Shotliste gelten.
+- Phase 4: Sprecher Thomas Schendel, Sprechertext Fassung 2 (19 Sätze in `public/voice/`, siehe `SCRIPT.md`), Zeitleiste `data/timeline.json` (145.1 s). Szene 1 dauert 17,2 s statt 14 s (+22,5 %, wegen des zusätzlichen Satzes). Entscheidungen: Szene 5 dauert 18 s; Endcard-Zeile 2 ab 6 s; die 2-Sekunden-Einstellungen der Shotliste gelten.
 - **Phase 5:**
   - Komposition `Film` in Remotion, komplett aus `data/timeline.json`.
   - Proxy `review/rohschnitt-720p.mp4` (CRF 28).

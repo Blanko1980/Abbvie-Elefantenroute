@@ -150,6 +150,32 @@ Nach der Endcard wechselt der Film vom Doku-Ton auf schlichte Textkarten, weiß 
 
 Med-Legal gehört bei Schritt 2 und 3 von Anfang an dazu: Antworten zur Sicherheit auf Marken-Kanälen berühren Pharmakovigilanz und HWG.
 
+## Sprechertext, Fassung 2 (verbindlich ab 13.10.2026)
+
+Nach dem Feedback zum Rohschnitt (`review/sprechertext-feedback-v1-rueckmeldung.docx`) gilt dieser Sprechertext. Er ersetzt die Sprecherzitate in der Tabelle oben und in den Regie-Details. Neu ist, dass Szene 8 Sprecher hat; die Stille in Szene 8 entfällt.
+
+| Szene | Satz | Text |
+| --- | --- | --- |
+| Der Elefant | s1-1 | Das hier ist ein Elefant. Genaugenommen ein Entscheidungselefant. |
+| Der Elefant | s1-2 | Er lebt seit vielen Jahren in diesem Gebäude. |
+| Der Elefant | s1-3 | Niemand erinnert sich, wann er gekommen ist. |
+| Gedächtnis | s2-1 | Elefanten vergessen nichts. |
+| Gedächtnis | s2-2 | Sie erinnern sich an jeden Weg, der sie einmal sicher ans Ziel gebracht hat. |
+| Gedächtnis | s2-3 | Das ist ihre Stärke – und das bringt Sicherheit. |
+| Trampelpfad | s3-1 | Mit der Zeit wird aus Erinnerung Gewohnheit. |
+| Trampelpfad | s3-2 | Und Gewohnheit verstellt den Blick auf Neues. |
+| Respekt | s4-1 | Neue Wege verunsichern den Elefanten. |
+| Respekt | s4-2 | Ob er sie aus Gewohnheit oder Vorsicht meidet, ist nicht immer bekannt. |
+| Warten | s5-1 | Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten. |
+| Warten | s5-2 | Er verharrt. |
+| Warten | s5-3 | Zwar zeigt er weiter Interesse an neuen Wegen. |
+| Warten | s5-4 | Aber ohne guten Grund, beschreitet er sie nicht. |
+| Der Satz | s7-1 | Der Elefant ist immer da. |
+| Der Satz | s7-2 | Er begleitet jeden von uns. |
+| Der Satz | s7-3 | Jeden Tag. |
+| Der Schritt | s8-1 | Man muss den Entscheidungselefanten bewusst wahrnehmen. |
+| Der Schritt | s8-2 | Dann öffnen sich neue Wege. |
+
 ## Entscheidungen
 
 - **Zweite Endcard-Zeile:** „Welcher Elefant bestimmt Ihre Entscheidung?“
@@ -158,6 +184,7 @@ Med-Legal gehört bei Schritt 2 und 3 von Anfang an dazu: Antworten zur Sicherhe
 - **Einblendung Szene 2:** „Dafür ist die Patientin noch nicht schwer genug.“ (Entscheidung 12.10.2026).
 - **Sprecher:** männlich, Naturdoku-Stil; Stimme Thomas Schendel bei ElevenLabs (Entscheidung 12.10.2026).
 - **Szene 4:** Der Arzt geht auf die Tür zu, der Rüssel bremst ihn (Entscheidung 12.10.2026).
+- **Sprechertext Fassung 2:** siehe eigener Abschnitt; Szene 8 bekommt zwei Sprechersätze (Entscheidung 13.10.2026).
 - **Trampelpfad (Szene 3):** natürliche, von Bild zu Bild zunehmende Abdrücke von Schuhen und Elefantenfüßen, langsam breiter und minimal tiefer, bis ein ausgetretener Weg entsteht; kein aufgemalter Streifen.
 - **Szene 5:** 18 statt 16 Sekunden; nach dem Zeitraffer (Clips V3, V4) steht 05c noch 2 Sekunden (Entscheidung 13.10.2026).
 - **Endcard:** Zeile 1 sofort, Zeile 2 ab 6 Sekunden darunter, beide stehen bis zum Ende (Entscheidung 13.10.2026).

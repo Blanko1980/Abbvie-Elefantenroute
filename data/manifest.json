@@ -2469,6 +2469,300 @@
       "prompt": "Farbkorrektur von V1 auf die warme Balance von 08c (R×1,148, G×1,019, B×0,827), ohne API",
       "status": "freigegeben",
       "file": "public/clips/V1-warm.mp4"
+    },
+    {
+      "id": "s1-1",
+      "type": "speech",
+      "attempt": 2,
+      "timestamp": "2026-10-13T20:59:01.142Z",
+      "model": "eleven_multilingual_v2",
+      "voice": "Thomas Schendel - Authoritative and Calm",
+      "voice_id": "Fghah4fztZORbiKfIGAs",
+      "settings": {
+        "stability": 0.55,
+        "similarity_boost": 0.8,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 0.92
+      },
+      "prompt": "Das hier ist ein Elefant. Genaugenommen ein Entscheidungselefant.",
+      "refs": [],
+      "status": "zur Freigabe",
+      "file": "public/voice/s1-1.mp3",
+      "duration": 6.817959
+    },
+    {
+      "id": "s2-3",
+      "type": "speech",
+      "attempt": 2,
+      "timestamp": "2026-10-13T20:59:04.964Z",
+      "model": "eleven_multilingual_v2",
+      "voice": "Thomas Schendel - Authoritative and Calm",
+      "voice_id": "Fghah4fztZORbiKfIGAs",
+      "settings": {
+        "stability": 0.55,
+        "similarity_boost": 0.8,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 0.92
+      },
+      "prompt": "Das ist ihre Stärke – und das bringt Sicherheit.",
+      "refs": [],
+      "status": "zur Freigabe",
+      "file": "public/voice/s2-3.mp3",
+      "duration": 4.022857
+    },
+    {
+      "id": "s3-1",
+      "type": "speech",
+      "attempt": 2,
+      "timestamp": "2026-10-13T20:59:06.336Z",
+      "model": "eleven_multilingual_v2",
+      "voice": "Thomas Schendel - Authoritative and Calm",
+      "voice_id": "Fghah4fztZORbiKfIGAs",
+      "settings": {
+        "stability": 0.55,
+        "similarity_boost": 0.8,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 0.92
+      },
+      "prompt": "Mit der Zeit wird aus Erinnerung Gewohnheit.",
+      "refs": [],
+      "status": "zur Freigabe",
+      "file": "public/voice/s3-1.mp3",
+      "duration": 2.690612
+    },
+    {
+      "id": "s3-2",
+      "type": "speech",
+      "attempt": 2,
+      "timestamp": "2026-10-13T20:59:08.077Z",
+      "model": "eleven_multilingual_v2",
+      "voice": "Thomas Schendel - Authoritative and Calm",
+      "voice_id": "Fghah4fztZORbiKfIGAs",
+      "settings": {
+        "stability": 0.55,
+        "similarity_boost": 0.8,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 0.92
+      },
+      "prompt": "Und Gewohnheit verstellt den Blick auf Neues.",
+      "refs": [],
+      "status": "zur Freigabe",
+      "file": "public/voice/s3-2.mp3",
+      "duration": 2.951837
+    },
+    {
+      "id": "s4-1",
+      "type": "speech",
+      "attempt": 2,
+      "timestamp": "2026-10-13T20:59:09.822Z",
+      "model": "eleven_multilingual_v2",
+      "voice": "Thomas Schendel - Authoritative and Calm",
+      "voice_id": "Fghah4fztZORbiKfIGAs",
+      "settings": {
+        "stability": 0.55,
+        "similarity_boost": 0.8,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 0.92
+      },
+      "prompt": "Neue Wege verunsichern den Elefanten.",
+      "refs": [],
+      "status": "zur Freigabe",
+      "file": "public/voice/s4-1.mp3",
+      "duration": 2.76898
+    },
+    {
+      "id": "s4-2",
+      "type": "speech",
+      "attempt": 2,
+      "timestamp": "2026-10-13T20:59:11.586Z",
+      "model": "eleven_multilingual_v2",
+      "voice": "Thomas Schendel - Authoritative and Calm",
+      "voice_id": "Fghah4fztZORbiKfIGAs",
+      "settings": {
+        "stability": 0.55,
+        "similarity_boost": 0.8,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 0.92
+      },
+      "prompt": "Ob er sie aus Gewohnheit oder Vorsicht meidet, ist nicht immer bekannt.",
+      "refs": [],
+      "status": "zur Freigabe",
+      "file": "public/voice/s4-2.mp3",
+      "duration": 4.362449
+    },
+    {
+      "id": "s5-2",
+      "type": "speech",
+      "attempt": 2,
+      "timestamp": "2026-10-13T20:59:13.299Z",
+      "model": "eleven_multilingual_v2",
+      "voice": "Thomas Schendel - Authoritative and Calm",
+      "voice_id": "Fghah4fztZORbiKfIGAs",
+      "settings": {
+        "stability": 0.55,
+        "similarity_boost": 0.8,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 0.92
+      },
+      "prompt": "Er verharrt.",
+      "refs": [],
+      "status": "zur Freigabe",
+      "file": "public/voice/s5-2.mp3",
+      "duration": 1.515102
+    },
+    {
+      "id": "s5-3",
+      "type": "speech",
+      "attempt": 2,
+      "timestamp": "2026-10-13T20:59:14.849Z",
+      "model": "eleven_multilingual_v2",
+      "voice": "Thomas Schendel - Authoritative and Calm",
+      "voice_id": "Fghah4fztZORbiKfIGAs",
+      "settings": {
+        "stability": 0.55,
+        "similarity_boost": 0.8,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 0.92
+      },
+      "prompt": "Zwar zeigt er weiter Interesse an neuen Wegen.",
+      "refs": [],
+      "status": "zur Freigabe",
+      "file": "public/voice/s5-3.mp3",
+      "duration": 3.343673
+    },
+    {
+      "id": "s5-4",
+      "type": "speech",
+      "attempt": 2,
+      "timestamp": "2026-10-13T20:59:16.398Z",
+      "model": "eleven_multilingual_v2",
+      "voice": "Thomas Schendel - Authoritative and Calm",
+      "voice_id": "Fghah4fztZORbiKfIGAs",
+      "settings": {
+        "stability": 0.55,
+        "similarity_boost": 0.8,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 0.92
+      },
+      "prompt": "Aber ohne guten Grund, beschreitet er sie nicht.",
+      "refs": [],
+      "status": "zur Freigabe",
+      "file": "public/voice/s5-4.mp3",
+      "duration": 3.004082
+    },
+    {
+      "id": "s7-1",
+      "type": "speech",
+      "attempt": 2,
+      "timestamp": "2026-10-13T20:59:17.685Z",
+      "model": "eleven_multilingual_v2",
+      "voice": "Thomas Schendel - Authoritative and Calm",
+      "voice_id": "Fghah4fztZORbiKfIGAs",
+      "settings": {
+        "stability": 0.55,
+        "similarity_boost": 0.8,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 0.92
+      },
+      "prompt": "Der Elefant ist immer da.",
+      "refs": [],
+      "status": "zur Freigabe",
+      "file": "public/voice/s7-1.mp3",
+      "duration": 2.115918
+    },
+    {
+      "id": "s7-2",
+      "type": "speech",
+      "attempt": 2,
+      "timestamp": "2026-10-13T20:59:19.214Z",
+      "model": "eleven_multilingual_v2",
+      "voice": "Thomas Schendel - Authoritative and Calm",
+      "voice_id": "Fghah4fztZORbiKfIGAs",
+      "settings": {
+        "stability": 0.55,
+        "similarity_boost": 0.8,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 0.92
+      },
+      "prompt": "Er begleitet jeden von uns.",
+      "refs": [],
+      "status": "zur Freigabe",
+      "file": "public/voice/s7-2.mp3",
+      "duration": 2.35102
+    },
+    {
+      "id": "s7-3",
+      "type": "speech",
+      "attempt": 2,
+      "timestamp": "2026-10-13T20:59:20.621Z",
+      "model": "eleven_multilingual_v2",
+      "voice": "Thomas Schendel - Authoritative and Calm",
+      "voice_id": "Fghah4fztZORbiKfIGAs",
+      "settings": {
+        "stability": 0.55,
+        "similarity_boost": 0.8,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 0.92
+      },
+      "prompt": "Jeden Tag.",
+      "refs": [],
+      "status": "zur Freigabe",
+      "file": "public/voice/s7-3.mp3",
+      "duration": 1.28
+    },
+    {
+      "id": "s8-1",
+      "type": "speech",
+      "attempt": 1,
+      "timestamp": "2026-10-13T20:59:22.157Z",
+      "model": "eleven_multilingual_v2",
+      "voice": "Thomas Schendel - Authoritative and Calm",
+      "voice_id": "Fghah4fztZORbiKfIGAs",
+      "settings": {
+        "stability": 0.55,
+        "similarity_boost": 0.8,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 0.92
+      },
+      "prompt": "Man muss den Entscheidungselefanten bewusst wahrnehmen.",
+      "refs": [],
+      "status": "zur Freigabe",
+      "file": "public/voice/s8-1.mp3",
+      "duration": 3.422041
+    },
+    {
+      "id": "s8-2",
+      "type": "speech",
+      "attempt": 1,
+      "timestamp": "2026-10-13T20:59:23.660Z",
+      "model": "eleven_multilingual_v2",
+      "voice": "Thomas Schendel - Authoritative and Calm",
+      "voice_id": "Fghah4fztZORbiKfIGAs",
+      "settings": {
+        "stability": 0.55,
+        "similarity_boost": 0.8,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 0.92
+      },
+      "prompt": "Dann öffnen sich neue Wege.",
+      "refs": [],
+      "status": "zur Freigabe",
+      "file": "public/voice/s8-2.mp3",
+      "duration": 2.168163
     }
   ]
 }
