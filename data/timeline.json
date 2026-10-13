@@ -31,56 +31,48 @@
           "src": null
         },
         {
-          "id": "01a",
-          "type": "still",
-          "move": {
-            "kind": "push",
-            "from": 1,
-            "to": 1.04
+          "id": "V01a",
+          "type": "clip",
+          "clip": {
+            "from": 0,
+            "to": 5.05
           },
           "start": 2,
           "duration": 5.05,
-          "src": "stills/01a.jpg",
-          "width": 5504,
-          "height": 3072
+          "src": "clips/V01a.mp4"
         },
         {
-          "id": "01b1",
-          "type": "still",
-          "move": {
-            "kind": "crop",
-            "scale": 1.25
+          "id": "V01b1",
+          "type": "clip",
+          "clip": {
+            "from": 0,
+            "to": 2.525
           },
           "start": 7.05,
           "duration": 2.525,
-          "src": "stills/01b1.jpg",
-          "width": 2752,
-          "height": 1536
+          "src": "clips/V01b1.mp4"
         },
         {
-          "id": "01b2",
-          "type": "still",
-          "move": {
-            "kind": "crop",
-            "scale": 1.25
+          "id": "V01b2",
+          "type": "clip",
+          "clip": {
+            "from": 0,
+            "to": 2.525
           },
           "start": 9.576,
           "duration": 2.525,
-          "src": "stills/01b2.jpg",
-          "width": 2752,
-          "height": 1536
+          "src": "clips/V01b2.mp4"
         },
         {
-          "id": "01c",
-          "type": "still",
-          "move": {
-            "kind": "static"
+          "id": "V01c",
+          "type": "clip",
+          "clip": {
+            "from": 0,
+            "to": 5.05
           },
           "start": 12.101,
           "duration": 5.05,
-          "src": "stills/01c.jpg",
-          "width": 2752,
-          "height": 1536
+          "src": "clips/V01c.mp4"
         }
       ]
     },
@@ -96,30 +88,26 @@
       "flag": false,
       "shots": [
         {
-          "id": "02a",
-          "type": "still",
-          "move": {
-            "kind": "pan",
+          "id": "V02a",
+          "type": "clip",
+          "clip": {
             "from": 0,
-            "to": 1
+            "to": 14
           },
           "start": 17.151,
           "duration": 14,
-          "src": "stills/02a.jpg",
-          "width": 3168,
-          "height": 1344
+          "src": "clips/V02a.mp4"
         },
         {
-          "id": "02b",
-          "type": "still",
-          "move": {
-            "kind": "static"
+          "id": "V02b",
+          "type": "clip",
+          "clip": {
+            "from": 0,
+            "to": 4
           },
           "start": 31.151,
           "duration": 4,
-          "src": "stills/02b.jpg",
-          "width": 2752,
-          "height": 1536
+          "src": "clips/V02b.mp4"
         }
       ]
     },
@@ -135,76 +123,92 @@
       "flag": false,
       "shots": [
         {
-          "id": "03a",
-          "type": "still",
+          "id": "V03a",
+          "type": "clip",
+          "clip": {
+            "from": 0,
+            "to": 2
+          },
           "start": 35.151,
           "duration": 2,
-          "src": "stills/03a.jpg",
-          "width": 2752,
-          "height": 1536
+          "src": "clips/V03a.mp4"
         },
         {
-          "id": "03b",
-          "type": "still",
+          "id": "V03b",
+          "type": "clip",
+          "clip": {
+            "from": 0,
+            "to": 3
+          },
           "start": 37.151,
           "duration": 3,
-          "src": "stills/03b.jpg",
-          "width": 2752,
-          "height": 1536
+          "src": "clips/V03b.mp4"
         },
         {
-          "id": "03f",
-          "type": "still",
+          "id": "V03f",
+          "type": "clip",
+          "clip": {
+            "from": 0,
+            "to": 2
+          },
           "start": 40.151,
           "duration": 2,
-          "src": "stills/03f.jpg",
-          "width": 2752,
-          "height": 1536
+          "src": "clips/V03f.mp4"
         },
         {
-          "id": "03c",
-          "type": "still",
+          "id": "V03c",
+          "type": "clip",
+          "clip": {
+            "from": 0,
+            "to": 2
+          },
           "start": 42.151,
           "duration": 2,
-          "src": "stills/03c.jpg",
-          "width": 2752,
-          "height": 1536
+          "src": "clips/V03c.mp4"
         },
         {
-          "id": "03g",
-          "type": "still",
+          "id": "V03g",
+          "type": "clip",
+          "clip": {
+            "from": 0,
+            "to": 2
+          },
           "start": 44.151,
           "duration": 2,
-          "src": "stills/03g.jpg",
-          "width": 2752,
-          "height": 1536
+          "src": "clips/V03g.mp4"
         },
         {
-          "id": "03d",
-          "type": "still",
+          "id": "V03d",
+          "type": "clip",
+          "clip": {
+            "from": 0,
+            "to": 3
+          },
           "start": 46.151,
           "duration": 3,
-          "src": "stills/03d.jpg",
-          "width": 2752,
-          "height": 1536
+          "src": "clips/V03d.mp4"
         },
         {
-          "id": "03h",
-          "type": "still",
+          "id": "V03h",
+          "type": "clip",
+          "clip": {
+            "from": 0,
+            "to": 2
+          },
           "start": 49.151,
           "duration": 2,
-          "src": "stills/03h.jpg",
-          "width": 2752,
-          "height": 1536
+          "src": "clips/V03h.mp4"
         },
         {
-          "id": "03e",
-          "type": "still",
+          "id": "V03e",
+          "type": "clip",
+          "clip": {
+            "from": 0,
+            "to": 2
+          },
           "start": 51.151,
           "duration": 2,
-          "src": "stills/03e.jpg",
-          "width": 2752,
-          "height": 1536
+          "src": "clips/V03e.mp4"
         }
       ]
     },
@@ -231,8 +235,12 @@
           "src": "clips/V2.mp4"
         },
         {
-          "id": "04b",
-          "type": "still",
+          "id": "V04b",
+          "type": "clip",
+          "clip": {
+            "from": 0,
+            "to": 10.235
+          },
           "move": {
             "kind": "push",
             "from": 1,
@@ -241,9 +249,7 @@
           },
           "start": 57.851,
           "duration": 10.235,
-          "src": "stills/04b.jpg",
-          "width": 5504,
-          "height": 3072
+          "src": "clips/V04b.mp4"
         }
       ]
     },
@@ -282,17 +288,16 @@
           "src": "clips/V4.mp4"
         },
         {
-          "id": "05c",
-          "type": "still",
-          "move": {
-            "kind": "static"
+          "id": "V05c",
+          "type": "clip",
+          "clip": {
+            "from": 0,
+            "to": 2
           },
           "crossfadeIn": 1,
           "start": 82.086,
           "duration": 2,
-          "src": "stills/05c.jpg",
-          "width": 2752,
-          "height": 1536
+          "src": "clips/V05c.mp4"
         }
       ]
     },
@@ -308,13 +313,15 @@
       "flag": false,
       "shots": [
         {
-          "id": "06a",
-          "type": "still",
+          "id": "V06a",
+          "type": "clip",
+          "clip": {
+            "from": 0,
+            "to": 2
+          },
           "start": 84.086,
           "duration": 2,
-          "src": "stills/06a.jpg",
-          "width": 2752,
-          "height": 1536
+          "src": "clips/V06a.mp4"
         },
         {
           "id": "V5",
@@ -328,22 +335,26 @@
           "src": "clips/V5.mp4"
         },
         {
-          "id": "06c",
-          "type": "still",
+          "id": "V06c",
+          "type": "clip",
+          "clip": {
+            "from": 0,
+            "to": 2
+          },
           "start": 89.086,
           "duration": 2,
-          "src": "stills/06c.jpg",
-          "width": 2752,
-          "height": 1536
+          "src": "clips/V06c.mp4"
         },
         {
-          "id": "06d",
-          "type": "still",
+          "id": "V06d",
+          "type": "clip",
+          "clip": {
+            "from": 0,
+            "to": 3
+          },
           "start": 91.086,
           "duration": 3,
-          "src": "stills/06d.jpg",
-          "width": 2752,
-          "height": 1536
+          "src": "clips/V06d.mp4"
         }
       ]
     },
@@ -359,18 +370,30 @@
       "flag": false,
       "shots": [
         {
-          "id": "07a",
+          "id": "V07a",
+          "type": "clip",
+          "clip": {
+            "from": 0,
+            "to": 8
+          },
+          "start": 94.086,
+          "duration": 8,
+          "src": "clips/V07a.mp4"
+        },
+        {
+          "id": "07a-ende",
           "type": "still",
           "move": {
             "kind": "push",
             "from": 1,
-            "to": 1.15
+            "to": 1.06,
+            "ease": "out"
           },
-          "start": 94.086,
-          "duration": 13,
-          "src": "stills/07a.jpg",
-          "width": 5504,
-          "height": 3072
+          "start": 102.086,
+          "duration": 5,
+          "src": "stills/07a-ende.jpg",
+          "width": 1920,
+          "height": 1080
         }
       ]
     },
@@ -386,13 +409,15 @@
       "flag": false,
       "shots": [
         {
-          "id": "08a",
-          "type": "still",
+          "id": "V08a",
+          "type": "clip",
+          "clip": {
+            "from": 0,
+            "to": 4
+          },
           "start": 107.086,
           "duration": 4,
-          "src": "stills/08a.jpg",
-          "width": 2752,
-          "height": 1536
+          "src": "clips/V08a.mp4"
         },
         {
           "id": "V1",
@@ -407,17 +432,15 @@
           "src": "clips/V1-warm.mp4"
         },
         {
-          "id": "08d",
-          "type": "still",
-          "move": {
-            "kind": "crop",
-            "scale": 1.3
+          "id": "V08d",
+          "type": "clip",
+          "clip": {
+            "from": 0,
+            "to": 5
           },
           "start": 114.086,
           "duration": 5,
-          "src": "stills/08d.jpg",
-          "width": 2752,
-          "height": 1536
+          "src": "clips/V08d.mp4"
         }
       ]
     },

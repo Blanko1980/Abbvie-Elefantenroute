@@ -2,7 +2,7 @@
 import raw from "../data/timeline.json";
 
 export type Move =
-  | { kind: "push"; from: number; to: number; origin?: string }
+  | { kind: "push"; from: number; to: number; origin?: string; ease?: "inOut" | "out" }
   | { kind: "pan"; from: number; to: number }
   | { kind: "crop"; scale: number }
   | { kind: "static" };

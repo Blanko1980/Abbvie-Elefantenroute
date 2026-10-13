@@ -7,7 +7,8 @@ export const Clip: React.FC<{ src: string; from: number; move?: Move }> = ({ src
   const frame = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
   const p = interpolate(frame, [0, Math.max(1, durationInFrames - 1)], [0, 1], {
-    easing: Easing.inOut(Easing.sin),
+    // "out": setzt mit Tempo ein, damit eine laufende Fahrt aus der vorigen Einstellung ohne Ruck weitergeht
+    easing: move?.kind === "push" && move.ease === "out" ? Easing.out(Easing.sin) : Easing.inOut(Easing.sin),
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
   });

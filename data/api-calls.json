@@ -2176,5 +2176,55 @@
     "attempt": 2,
     "ok": false,
     "note": "Verlängerung: {\"code\":13,\"message\":\"Video generation failed due to an internal server issue. Please try again in a few minutes. If the problem persists, p"
+  },
+  {
+    "timestamp": "2026-10-13T23:11:34.256Z",
+    "phase": "6",
+    "type": "clip",
+    "model": "veo-3.1-generate-preview",
+    "id": "V07b",
+    "attempt": 1,
+    "ok": true,
+    "note": "8s 720p"
+  },
+  {
+    "timestamp": "2026-10-13T23:11:34.270Z",
+    "phase": "6",
+    "type": "clip",
+    "model": "veo-3.1-generate-preview",
+    "id": "V04b",
+    "attempt": 4,
+    "ok": true,
+    "note": "8s 720p"
+  },
+  {
+    "timestamp": "2026-10-13T23:13:15.376Z",
+    "phase": "6",
+    "type": "clip",
+    "model": "veo-3.1-generate-preview",
+    "id": "V04b",
+    "attempt": 4,
+    "ok": false,
+    "note": "Verlängerung: {\"code\":13,\"message\":\"Video generation failed due to an internal server issue. Please try again in a few minutes. If the problem persists, please contact Gemini API support.\"}"
+  },
+  {
+    "timestamp": "2026-10-13T23:15:26.583Z",
+    "phase": "6",
+    "type": "clip",
+    "model": "veo-3.1-generate-preview",
+    "id": "V04b",
+    "attempt": 4,
+    "ok": true,
+    "note": "Verlängerung +7s 720p"
+  },
+  {
+    "timestamp": "2026-10-13T23:15:59.369Z",
+    "phase": "6",
+    "type": "clip",
+    "model": "veo-3.1-generate-preview",
+    "id": "V07b",
+    "attempt": 2,
+    "ok": false,
+    "note": "{\"error\":{\"code\":402,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and "
   }
 ]

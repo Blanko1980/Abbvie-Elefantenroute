@@ -1,6 +1,6 @@
 # Status
 
-Stand: 13.10.2026, Phase 5 abgeschlossen. **Finaler Film `renders/elefant-v1-1080p.mp4` gerendert.** Offen sind nur die Punkte für später (Musik, Raumton, Parallax).
+Stand: 13.10.2026, Nacharbeit „alle Einstellungen animiert“. **Rohschnitt `review/rohschnitt-animiert-720p.mp4` wartet auf Freigabe. Gemini-Guthaben aufgebraucht, V07b fehlt (Platzhalter im Schnitt).** `renders/elefant-v1-1080p.mp4` ist noch die Fassung mit Standbildern.
 
 ## Fertig
 
@@ -15,7 +15,10 @@ Stand: 13.10.2026, Phase 5 abgeschlossen. **Finaler Film `renders/elefant-v1-108
 
 ## Offen, braucht Entscheidung
 
-1. Coda-Karten mit 0,3 s Blende oder mit harten Schnitten? (derzeit Blende)
+1. **Guthaben aufladen** (Gemini-Prepayment, Fehler 402). Dann erzeuge ich V07b (1 Clip, 8 s) und ersetze den Platzhalter `public/stills/07a-ende.jpg` in Szene 7 (`scripts/build-timeline.mjs`, Zeile s7: `C("V07b", 1 / 24, "rest", { move: … })`).
+2. Freigabe des animierten Rohschnitts, Abweichungen in `review/phase6-notiz.md` (02a, 04b, 03g, 08a, 08d). Danach finales 1080p neu rendern.
+
+3. Coda-Karten mit 0,3 s Blende oder mit harten Schnitten? (derzeit Blende)
 
 ## Später, nicht jetzt
 
@@ -44,6 +47,7 @@ Stand: 13.10.2026, Phase 5 abgeschlossen. **Finaler Film `renders/elefant-v1-108
 3. **Jahreszeit:** Sommergrün vor den Fenstern, außer im Zeitraffer in Szene 3.
 4. **Wanduhr:** rund, ohne Ziffern, hinter dem Tresen.
 5. **Patientin statt Patient:** junge Frau, wach und genervt, nicht erschöpft.
+11. **Alle Einstellungen animiert** (13.10.2026): jede Einstellung ist ein Veo-Clip, Vorgaben in `data/shots/phase6-clips.json`, Notiz `review/phase6-notiz.md`.
 10. **Keine Einblendungen:** Die Gedanken-Einblendungen in Szene 2 und Szene 4 entfallen im finalen Film. Die Komponente `Overlay` bleibt im Code; die Liste in `scripts/build-timeline.mjs` wird per Filter geleert und kann bei Bedarf wieder aktiviert werden.
 6. **Sprecher:** männlich, Naturdoku-Stil, Stimme Thomas Schendel (ElevenLabs, Voice-ID `Fghah4fztZORbiKfIGAs`, Stimmbibliothek).
 7. **Szene 4:** Der Arzt geht auf Tür 2 zu, der Rüssel bremst ihn; V2 läuft von 0:50 bis 0:56.
@@ -92,7 +96,8 @@ Stand: 13.10.2026, Phase 5 abgeschlossen. **Finaler Film `renders/elefant-v1-108
 - Clip-Vorgaben Phase 3: `data/shots/phase3-clips.json`.
 - Shot-Definitionen Phase 3: `data/shots/phase3.json`.
 - Shot-Definitionen: `data/shots/phase1.json`, `data/shots/phase2.json`, Clips `data/shots/phase2-clips.json`.
-- `node scripts/gen-clip.mjs <clips.json> <ID>` erzeugt einen Veo-Clip (Limit und Protokoll wie bei Bildern).
+- `node scripts/gen-clip.mjs <clips.json> <ID> [<ID> ...] [--parallel N]` erzeugt Veo-Clips in einem Prozess (Limit und Protokoll wie bei Bildern). Felder: `end` (Endbild, dann nur 8 s), `crop`/`region` (Ausschnitt des Startbilds), `startFile` (eigenes Startbild), `extend` (Verlängerung um 7 s). Aufrufe ohne Ergebnis zählen nicht als Versuch.
+- `node scripts/extend-clip.mjs <clips.json> <ID> <Versuch>` verlängert einen Clip über die im Manifest gespeicherte Video-Referenz (gilt laut Veo nur rund 2 Tage).
 - `node scripts/gen-narration.mjs [Satz-ID ...]` erzeugt den Sprechertext aus `data/voice/narration.json`; `python3 scripts/speech-bounds.py` misst die Sprechgrenzen; `node scripts/build-timeline.mjs` baut `data/timeline.json`; `node scripts/check-narration.mjs <mp3>` prüft die Sprecherspur per Gemini.
 - `node scripts/gen-voice.mjs <config.json> <voiceKey>` erzeugt eine Sprecherprobe; `node scripts/check-voice.mjs <mp3>` prüft sie per Gemini.
 - Testrendering: `npx remotion render src/index.ts Preflight out/test.mp4 --scale=0.6666666666666666` (Browser ist in `remotion.config.ts` gesetzt)

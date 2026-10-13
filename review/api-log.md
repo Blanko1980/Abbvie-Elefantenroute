@@ -2,7 +2,7 @@
 
 Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen (Modell- und Stimmenlisten) sind nicht mitgezählt. Erzeugt aus `data/api-calls.json`.
 
-**Summe:** 104 Bild, 62 Clip, 49 Sprache, 5 Text (Prüfaufrufe)
+**Summe:** 104 Bild, 67 Clip, 49 Sprache, 5 Text (Prüfaufrufe)
 
 | Phase | Bild | Clip | Sprache | Text |
 | --- | ---: | ---: | ---: | ---: |
@@ -11,7 +11,7 @@ Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen
 | 2 | 12 | 7 | 17 | 3 |
 | 3 | 69 | 4 | 0 | 0 |
 | 4 | 0 | 0 | 31 | 2 |
-| 6 | 0 | 51 | 0 | 0 |
+| 6 | 0 | 56 | 0 | 0 |
 
 ## Einzelaufrufe
 
@@ -237,3 +237,8 @@ Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen
 | 2026-10-13 23:00 | 6 | Clip | veo-3.1-generate-preview | V07a | 2 | Fehler | Verlängerung: {"code":13,"message":"Video generation failed due to an internal server issue. Please try again in a few minutes. If the problem persists, p |
 | 2026-10-13 23:03 | 6 | Clip | veo-3.1-generate-preview | V07a | 2 | Fehler | Verlängerung: {"code":13,"message":"Video generation failed due to an internal server issue. Please try again in a few minutes. If the problem persists, p |
 | 2026-10-13 23:07 | 6 | Clip | veo-3.1-generate-preview | V07a | 2 | Fehler | Verlängerung: {"code":13,"message":"Video generation failed due to an internal server issue. Please try again in a few minutes. If the problem persists, p |
+| 2026-10-13 23:11 | 6 | Clip | veo-3.1-generate-preview | V07b | 1 | ok | 8s 720p |
+| 2026-10-13 23:11 | 6 | Clip | veo-3.1-generate-preview | V04b | 4 | ok | 8s 720p |
+| 2026-10-13 23:13 | 6 | Clip | veo-3.1-generate-preview | V04b | 4 | Fehler | Verlängerung: {"code":13,"message":"Video generation failed due to an internal server issue. Please try again in a few minutes. If the problem persists, please contact Gemini API support."} |
+| 2026-10-13 23:15 | 6 | Clip | veo-3.1-generate-preview | V04b | 4 | ok | Verlängerung +7s 720p |
+| 2026-10-13 23:15 | 6 | Clip | veo-3.1-generate-preview | V07b | 2 | Fehler | {"error":{"code":402,"message":"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and  |

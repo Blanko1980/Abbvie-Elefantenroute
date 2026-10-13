@@ -3512,6 +3512,68 @@
       "file": "public/clips/V08d.mp4",
       "videoUri": "https://generativelanguage.googleapis.com/v1beta/files/sb5jknjxiqww:download?alt=media",
       "note": "geprüft; Kamera driftet leicht, Arzt tritt einen Schritt auf sie zu"
+    },
+    {
+      "id": "V07b",
+      "type": "clip",
+      "attempt": 1,
+      "round": 1,
+      "timestamp": "2026-10-13T23:10:32.881Z",
+      "model": "veo-3.1-generate-preview",
+      "refs": [
+        "V07a"
+      ],
+      "crop": null,
+      "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Continuation of the same shot: a very slow, steady push-in on a dolly continues at the same speed, no cuts. Evening, cool light in a lived-in clinic waiting area. On the left the doctor in a white coat stands still and keeps looking at the elephant; in the middle the huge elephant stands motionless, only its breathing is visible; on the right the young woman stands still with her hands lowered. In the background a woman in a trench coat picks up her bag. Everyone stays in place. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position.",
+      "extendPrompt": null,
+      "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
+      "durationSeconds": 8,
+      "resolution": "720p",
+      "status": "abgelehnt",
+      "file": null,
+      "videoUri": "https://generativelanguage.googleapis.com/v1beta/files/p5dyw0hbjofa:download?alt=media",
+      "note": "Elefant spreizt die Ohren, Kamerafahrt deutlich schneller als in V07a"
+    },
+    {
+      "id": "V04b",
+      "type": "clip",
+      "attempt": 4,
+      "round": 1,
+      "timestamp": "2026-10-13T23:10:32.899Z",
+      "model": "veo-3.1-generate-preview",
+      "refs": [
+        "04b"
+      ],
+      "crop": null,
+      "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement at all. End of a bright clinic corridor, early afternoon. The doctor stands in profile facing the closed door, his hand rests on the door handle, he does not open the door and does not turn toward the camera. The elephant's trunk lies gently and motionless on the doctor's shoulder the whole time and is never lifted. The doctor holds still, his mouth stays closed, he breathes out quietly, his shoulders sink slightly; his face stays calm and serious. The elephant breathes calmly, its ear moves slightly. Calm and serious, caring, not threatening. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position.",
+      "extendPrompt": "Locked-off tripod shot, no camera movement. Nothing else changes: the doctor keeps standing in profile at the door with his hand on the handle, mouth closed, calm; the elephant's trunk keeps resting motionless on his shoulder; the elephant breathes calmly. Same corridor, same light.",
+      "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
+      "durationSeconds": 8,
+      "resolution": "720p",
+      "status": "zur Freigabe",
+      "file": "public/clips/V04b.mp4",
+      "videoUri": "https://generativelanguage.googleapis.com/v1beta/files/rpwcvsib62jn:download?alt=media",
+      "note": "dritter gültiger Versuch; Rüssel hebt sich bei 4 s kurz ab und legt sich bei 9 s wieder auf"
+    },
+    {
+      "id": "V07b",
+      "type": "clip",
+      "attempt": 2,
+      "round": 1,
+      "timestamp": "2026-10-13T23:15:59.136Z",
+      "model": "veo-3.1-generate-preview",
+      "refs": [
+        "V07a"
+      ],
+      "crop": null,
+      "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Continuation of the same shot. Locked-off tripod shot, no camera movement at all, the framing stays exactly the same. Evening, cool light in a lived-in clinic waiting area. On the left the doctor in a white coat stands still and keeps looking at the elephant; in the middle the huge elephant stands motionless, only its breathing is visible, its ears stay relaxed against its body; on the right the young woman stands still with her hands lowered. In the background a woman in a trench coat picks up her bag. Everyone stays in place. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position.",
+      "extendPrompt": null,
+      "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
+      "durationSeconds": 8,
+      "resolution": "720p",
+      "status": "abgelehnt",
+      "file": null,
+      "note": "API-Fehler, kein Video"
     }
   ]
 }
