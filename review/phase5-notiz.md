@@ -4,7 +4,7 @@ Stand: 13.10.2026
 
 ## Was zu prüfen ist
 
-- `review/rohschnitt-720p.mp4`: Proxy in 1280×720, H.264, CRF 28, mit Sprecher. Musik und Raumton fehlen noch (die Spuren `music` und `ambience` sind angelegt und leer).
+- `review/rohschnitt-720p.mp4`: Proxy in 1280×720, H.264, CRF 28, mit Sprecher; 3521 Bilder, 146,7 s, 15,5 MB, Sprecher bei −17,7 LUFS integriert, Renderzeit 130 s. Musik und Raumton fehlen noch (die Spuren `music` und `ambience` sind angelegt und leer).
 
 ## Aufbau
 
