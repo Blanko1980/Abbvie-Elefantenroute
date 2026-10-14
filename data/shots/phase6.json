@@ -1,0 +1,24 @@
+{
+  "06a": {
+    "phase": "6",
+    "round": 3,
+    "model": "gemini-3-pro-image",
+    "aspectRatio": "16:9",
+    "imageSize": "2K",
+    "refs": [
+      {
+        "id": "work/frames/06b_right.jpg",
+        "role": "the master image to be edited: the same room, camera and evening light as the following shot"
+      },
+      {
+        "id": "R2a",
+        "role": "the patient, identical face, hair, age and the same dark grey sweater"
+      },
+      {
+        "id": "05c",
+        "role": "how she sat in the waiting area before: the same chair with the dark jacket over its backrest, her posture, sleeves pulled over her hands"
+      }
+    ],
+    "edit": "Same room, same camera position and framing, same cool evening light with the warm floor lamp. The woman in the trench coat in the background stays as in image 1: she looks down while putting on her coat, never toward the camera. Change only the young woman in the foreground: she now sits fully on the seat of the chair with the dark jacket draped over its backrest (the chair to her right in image 1), her back against the backrest, both feet flat on the floor in front of the chair, clearly seated, not hovering. Same dark grey sweater, blue jeans and white sneakers; the sweater sleeves pulled over her hands, which rest on her thighs; she looks calmly ahead toward the left, alert, as if she is about to stand up. The empty chair to her left stays where it is. No elephant, no tusk, no other people in the foreground. Correct anatomy, natural proportions. A real photograph taken on location, not a composite."
+  }
+}

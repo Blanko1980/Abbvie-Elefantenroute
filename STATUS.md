@@ -1,6 +1,6 @@
 # Status
 
-Stand: 13.10.2026, Nacharbeit „alle Einstellungen animiert“. **Rohschnitt `review/rohschnitt-animiert-720p.mp4` wartet auf Freigabe. Gemini-Guthaben aufgebraucht, V07b fehlt (Platzhalter im Schnitt).** `renders/elefant-v1-1080p.mp4` ist noch die Fassung mit Standbildern.
+Stand: 14.10.2026, Nacharbeit „alle Einstellungen animiert“. **Rohschnitt `review/rohschnitt-animiert-720p.mp4` komplett (V07b erzeugt, 06a neu), wartet auf Freigabe.** `renders/elefant-v1-1080p.mp4` ist noch die Fassung mit Standbildern.
 
 ## Fertig
 
@@ -15,10 +15,8 @@ Stand: 13.10.2026, Nacharbeit „alle Einstellungen animiert“. **Rohschnitt `r
 
 ## Offen, braucht Entscheidung
 
-1. **Guthaben aufladen** (Gemini-Prepayment, Fehler 402). Dann erzeuge ich V07b (1 Clip, 8 s) und ersetze den Platzhalter `public/stills/07a-ende.jpg` in Szene 7 (`scripts/build-timeline.mjs`, Zeile s7: `C("V07b", 1 / 24, "rest", { move: … })`).
-2. Freigabe des animierten Rohschnitts, Abweichungen in `review/phase6-notiz.md` (02a, 04b, 03g, 08a, 08d). Danach finales 1080p neu rendern.
-
-3. Coda-Karten mit 0,3 s Blende oder mit harten Schnitten? (derzeit Blende)
+1. Freigabe des animierten Rohschnitts (Abweichungen bei 02a und 04b bleiben, deine Entscheidung). Danach finales 1080p neu rendern.
+2. Coda-Karten mit 0,3 s Blende oder mit harten Schnitten? (derzeit Blende)
 
 ## Später, nicht jetzt
 

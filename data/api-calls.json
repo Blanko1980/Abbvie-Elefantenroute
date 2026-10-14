@@ -2226,5 +2226,45 @@
     "attempt": 2,
     "ok": false,
     "note": "{\"error\":{\"code\":402,\"message\":\"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and "
+  },
+  {
+    "timestamp": "2026-10-14T12:28:32.688Z",
+    "phase": "6",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "06a",
+    "attempt": 3,
+    "ok": true,
+    "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-14T12:29:12.606Z",
+    "phase": "6",
+    "type": "image",
+    "model": "gemini-3-pro-image",
+    "id": "06a",
+    "attempt": 4,
+    "ok": true,
+    "note": "2752x1536"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:05.136Z",
+    "phase": "6",
+    "type": "clip",
+    "model": "veo-3.1-generate-preview",
+    "id": "V06a",
+    "attempt": 2,
+    "ok": true,
+    "note": "4s 720p"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:35.465Z",
+    "phase": "6",
+    "type": "clip",
+    "model": "veo-3.1-generate-preview",
+    "id": "V07b",
+    "attempt": 3,
+    "ok": true,
+    "note": "8s 720p"
   }
 ]

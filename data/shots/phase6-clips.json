@@ -184,8 +184,9 @@
     "durationSeconds": 4,
     "resolution": "720p",
     "aspectRatio": "16:9",
-    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement. Evening, cool light in a clinic waiting area. The young woman has just stood up next to her chair: she lets go of the chair back, the chair slides back slightly, she straightens up, takes one small step forward and stops, calm and alert, looking toward the left.",
-    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change"
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement. Evening, cool light in a clinic waiting area with a warm floor lamp. The young woman sitting on the chair with the dark jacket over its backrest stands up in one calm movement; the chair scrapes back slightly. She takes one small step to the left, away from the chair, and stops, standing upright, alert, looking toward the left. She pulls one sweater sleeve over her hand. In the background the woman in the trench coat keeps putting on her coat and looks down, never toward the camera. No one else enters the frame.",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
+    "round": 2
   },
   "V06c": {
     "phase": "6",

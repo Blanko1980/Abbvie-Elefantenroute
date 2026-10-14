@@ -2,7 +2,7 @@
 
 Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen (Modell- und Stimmenlisten) sind nicht mitgezählt. Erzeugt aus `data/api-calls.json`.
 
-**Summe:** 104 Bild, 67 Clip, 49 Sprache, 5 Text (Prüfaufrufe)
+**Summe:** 106 Bild, 69 Clip, 49 Sprache, 5 Text (Prüfaufrufe)
 
 | Phase | Bild | Clip | Sprache | Text |
 | --- | ---: | ---: | ---: | ---: |
@@ -11,7 +11,7 @@ Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen
 | 2 | 12 | 7 | 17 | 3 |
 | 3 | 69 | 4 | 0 | 0 |
 | 4 | 0 | 0 | 31 | 2 |
-| 6 | 0 | 56 | 0 | 0 |
+| 6 | 2 | 58 | 0 | 0 |
 
 ## Einzelaufrufe
 
@@ -242,3 +242,7 @@ Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen
 | 2026-10-13 23:13 | 6 | Clip | veo-3.1-generate-preview | V04b | 4 | Fehler | Verlängerung: {"code":13,"message":"Video generation failed due to an internal server issue. Please try again in a few minutes. If the problem persists, please contact Gemini API support."} |
 | 2026-10-13 23:15 | 6 | Clip | veo-3.1-generate-preview | V04b | 4 | ok | Verlängerung +7s 720p |
 | 2026-10-13 23:15 | 6 | Clip | veo-3.1-generate-preview | V07b | 2 | Fehler | {"error":{"code":402,"message":"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and  |
+| 2026-10-14 12:28 | 6 | Bild | gemini-3-pro-image | 06a | 3 | ok | 2752x1536 |
+| 2026-10-14 12:29 | 6 | Bild | gemini-3-pro-image | 06a | 4 | ok | 2752x1536 |
+| 2026-10-14 12:30 | 6 | Clip | veo-3.1-generate-preview | V06a | 2 | ok | 4s 720p |
+| 2026-10-14 12:30 | 6 | Clip | veo-3.1-generate-preview | V07b | 3 | ok | 8s 720p |

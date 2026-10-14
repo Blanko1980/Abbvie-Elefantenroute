@@ -22,8 +22,9 @@ const SHOTS = {
   s5: [{ id: "V3", type: "clip", clip: { from: 0, to: 8 } }, { id: "V4", type: "clip", clip: { from: 0, to: 8 }, crossfadeIn: 1 }, C("V05c", 0, "rest", { crossfadeIn: 1 })],
   s6: [C("V06a", 0, 2), { id: "V5", type: "clip", clip: { from: 0.5, to: 3.5 } }, C("V06c", 0, 2), C("V06d", 0, "rest")],
   // V07b setzt am letzten Bild von V07a an (Veo-Verlängerung scheiterte serverseitig); erstes Bild übersprungen.
-  // PLATZHALTER bis V07b erzeugt ist: Schlussbild von V07a, die Fahrt läuft in Remotion weiter.
-  s7: [C("V07a", 0, 8), { id: "07a-ende", type: "still", dur: "rest", move: { kind: "push", from: 1.0, to: 1.06, ease: "out" } }],
+  // V07b setzt am letzten Bild von V07a an (Veo-Verlängerung scheiterte serverseitig); erstes Bild übersprungen.
+  // V07b hat eine feste Kamera, die Fahrt aus V07a läuft in Remotion mit Tempo weiter.
+  s7: [C("V07a", 0, 8), C("V07b", 1 / 24, "rest", { move: { kind: "push", from: 1.0, to: 1.06, ease: "out" } })],
   s8: [C("V08a", 0, 4), { id: "V1", type: "clip", clip: { from: 3.0, to: 6.0 }, grade: "warm-like-08c", file: "clips/V1-warm.mp4" }, C("V08d", 0, "rest")],
   end: [{ id: "End", type: "endcard", dur: "rest" }],
   coda: [{ id: "Coda", type: "coda", dur: "rest" }],

@@ -185,6 +185,7 @@ Nach dem Feedback zum Rohschnitt (`review/sprechertext-feedback-v1-rueckmeldung.
 - **Sprecher:** männlich, Naturdoku-Stil; Stimme Thomas Schendel bei ElevenLabs (Entscheidung 12.10.2026).
 - **Szene 4:** Der Arzt geht auf die Tür zu, der Rüssel bremst ihn (Entscheidung 12.10.2026).
 - **Alle Einstellungen animiert** (Entscheidung 13.10.2026): Jede bisherige Standbild-Einstellung ist jetzt ein Veo-Clip ab ihrem Standbild. Kamerafahrten der Shotliste übernimmt Veo (02a seitliche Fahrt, 07a langsamer Push). Bei 04b liegt der Push in Remotion auf einem Clip mit fester Kamera. 02a und 04b sind per Veo-Verlängerung durchgehende Clips. 07a besteht aus zwei aneinander anschließenden Clips (V07a, V07b), weil die Verlängerung serverseitig scheiterte. Abweichungen je Clip: `review/phase6-notiz.md`.
+- **Szene 6, Einstellung 1** (Entscheidung 14.10.2026): Die Patientin sitzt rechts auf dem Stuhl mit der Jacke (derselbe Stuhl wie in Szene 5, aus der Gegenrichtung) und steht dort auf. Gleiche Blickrichtung wie die folgende Totale, sodass sie in V5 an derselben Stelle steht.
 - **Keine Einblendungen:** Die Gedanken-Einblendungen des Elefanten in Szene 2 und Szene 4 entfallen im finalen Film (Entscheidung 13.10.2026).
 - **Sprechertext Fassung 2:** siehe eigener Abschnitt; Szene 8 bekommt zwei Sprechersätze (Entscheidung 13.10.2026).
 - **Trampelpfad (Szene 3):** natürliche, von Bild zu Bild zunehmende Abdrücke von Schuhen und Elefantenfüßen, langsam breiter und minimal tiefer, bis ein ausgetretener Weg entsteht; kein aufgemalter Streifen.

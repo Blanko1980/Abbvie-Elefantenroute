@@ -381,8 +381,12 @@
           "src": "clips/V07a.mp4"
         },
         {
-          "id": "07a-ende",
-          "type": "still",
+          "id": "V07b",
+          "type": "clip",
+          "clip": {
+            "from": 0.041666666666666664,
+            "to": 5.042
+          },
           "move": {
             "kind": "push",
             "from": 1,
@@ -391,9 +395,7 @@
           },
           "start": 102.086,
           "duration": 5,
-          "src": "stills/07a-ende.jpg",
-          "width": 1920,
-          "height": 1080
+          "src": "clips/V07b.mp4"
         }
       ]
     },

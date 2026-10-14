@@ -1637,11 +1637,11 @@
       "aspectRatio": "16:9",
       "imageSize": "2K",
       "prompt": "Reference images, in order: image 1 = the master image to be edited; image 2 = the same waiting area: where the chairs stand and the evening light.\n\nEdit image 1. Same patient, same pose, same camera, same light. Only change the chairs: remove the extra chair standing in the middle of the room. The chair she is just getting up from stands at the end of the row of chairs along the wall behind her, slightly pushed back at an angle; she stands directly in front of it, one hand still on its armrest. The chair with the jacket stays. Nothing else changes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
-      "status": "freigegeben",
-      "file": "public/stills/06a.jpg",
+      "status": "abgelehnt",
+      "file": null,
       "width": 2752,
       "height": 1536,
-      "note": "Runde 2: Stuhl in der Raummitte entfernt, ihr Stuhl neben dem Jackenstuhl wie in 07a",
+      "note": "Runde 2: Stuhl in der Raummitte entfernt, ihr Stuhl neben dem Jackenstuhl wie in 07a (ersetzt)",
       "retouch": "Lichtangleichung an 07a (scripts/color-balance.mjs)."
     },
     {
@@ -3164,9 +3164,9 @@
       "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
       "durationSeconds": 4,
       "resolution": "720p",
-      "status": "zur Freigabe",
-      "file": "public/clips/V06a.mp4",
-      "note": "Animation aller Einstellungen, geprüft"
+      "status": "abgelehnt",
+      "file": null,
+      "note": "Animation aller Einstellungen, geprüft (ersetzt)"
     },
     {
       "id": "V06c",
@@ -3574,6 +3574,90 @@
       "status": "abgelehnt",
       "file": null,
       "note": "API-Fehler, kein Video"
+    },
+    {
+      "id": "06a",
+      "type": "image",
+      "attempt": 3,
+      "round": 3,
+      "timestamp": "2026-10-14T12:28:32.698Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/frames/06b_right.jpg",
+        "R2a",
+        "05c"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited: the same room, camera and evening light as the following shot; image 2 = the patient, identical face, hair, age and the same dark grey sweater; image 3 = how she sat in the waiting area before: the same chair with the dark jacket over its backrest, her posture, sleeves pulled over her hands.\n\nEdit image 1. Same room, same camera position and framing, same cool evening light with the warm floor lamp, same woman in the trench coat in the background. Change only the young woman in the foreground: she now sits on the chair with the dark jacket draped over its backrest (the chair to her right in image 1), upright and alert, in the same dark grey sweater, blue jeans and white sneakers, the sweater sleeves pulled over her hands resting on her thighs, her weight slightly forward as if about to stand up, looking calmly ahead toward the left. The empty chair to her left stays where it is. No elephant, no tusk, no other people in the foreground. A real photograph taken on location, not a composite.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "abgelehnt",
+      "file": null,
+      "width": 2752,
+      "height": 1536,
+      "note": "schwebt halb über dem Stuhl, Schuh falsch, MFA schaut in die Kamera"
+    },
+    {
+      "id": "06a",
+      "type": "image",
+      "attempt": 4,
+      "round": 3,
+      "timestamp": "2026-10-14T12:29:12.608Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/frames/06b_right.jpg",
+        "R2a",
+        "05c"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited: the same room, camera and evening light as the following shot; image 2 = the patient, identical face, hair, age and the same dark grey sweater; image 3 = how she sat in the waiting area before: the same chair with the dark jacket over its backrest, her posture, sleeves pulled over her hands.\n\nEdit image 1. Same room, same camera position and framing, same cool evening light with the warm floor lamp. The woman in the trench coat in the background stays as in image 1: she looks down while putting on her coat, never toward the camera. Change only the young woman in the foreground: she now sits fully on the seat of the chair with the dark jacket draped over its backrest (the chair to her right in image 1), her back against the backrest, both feet flat on the floor in front of the chair, clearly seated, not hovering. Same dark grey sweater, blue jeans and white sneakers; the sweater sleeves pulled over her hands, which rest on her thighs; she looks calmly ahead toward the left, alert, as if she is about to stand up. The empty chair to her left stays where it is. No elephant, no tusk, no other people in the foreground. Correct anatomy, natural proportions. A real photograph taken on location, not a composite.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zur Freigabe",
+      "file": "public/stills/06a.jpg",
+      "width": 2752,
+      "height": 1536,
+      "note": "Runde 3: sitzt rechts auf dem Jackenstuhl, Anschluss an V5"
+    },
+    {
+      "id": "V06a",
+      "type": "clip",
+      "attempt": 2,
+      "round": 2,
+      "timestamp": "2026-10-14T12:29:24.184Z",
+      "model": "veo-3.1-generate-preview",
+      "refs": [
+        "06a"
+      ],
+      "crop": null,
+      "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement. Evening, cool light in a clinic waiting area with a warm floor lamp. The young woman sitting on the chair with the dark jacket over its backrest stands up in one calm movement; the chair scrapes back slightly. She takes one small step to the left, away from the chair, and stops, standing upright, alert, looking toward the left. She pulls one sweater sleeve over her hand. In the background the woman in the trench coat keeps putting on her coat and looks down, never toward the camera. No one else enters the frame.",
+      "extendPrompt": null,
+      "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
+      "durationSeconds": 4,
+      "resolution": "720p",
+      "status": "zur Freigabe",
+      "file": "public/clips/V06a.mp4",
+      "videoUri": "https://generativelanguage.googleapis.com/v1beta/files/erufhv64l1oo:download?alt=media",
+      "note": "Runde 2: steht vom Jackenstuhl auf, genutzt 0 bis 2 s"
+    },
+    {
+      "id": "V07b",
+      "type": "clip",
+      "attempt": 3,
+      "round": 1,
+      "timestamp": "2026-10-14T12:29:24.198Z",
+      "model": "veo-3.1-generate-preview",
+      "refs": [
+        "V07a"
+      ],
+      "crop": null,
+      "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Continuation of the same shot. Locked-off tripod shot, no camera movement at all, the framing stays exactly the same. Evening, cool light in a lived-in clinic waiting area. On the left the doctor in a white coat stands still and keeps looking at the elephant; in the middle the huge elephant stands motionless, only its breathing is visible, its ears stay relaxed against its body; on the right the young woman stands still with her hands lowered. In the background a woman in a trench coat picks up her bag. Everyone stays in place. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position.",
+      "extendPrompt": null,
+      "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
+      "durationSeconds": 8,
+      "resolution": "720p",
+      "status": "zur Freigabe",
+      "file": "public/clips/V07b.mp4",
+      "videoUri": "https://generativelanguage.googleapis.com/v1beta/files/f5icjkecie7d:download?alt=media",
+      "note": "Fortsetzung von V07a, feste Kamera, Push in Remotion"
     }
   ]
 }

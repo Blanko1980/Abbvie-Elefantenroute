@@ -20,11 +20,14 @@ Du wolltest, dass auch die bisherigen Standbilder als Veo-Clips laufen. Jede Sta
   - 02a (14 s) und 04b (10,2 s): Clips mit 15 Sekunden über die Veo-Verlängerung (8 s plus 7 s).
   - 07a (13 s): Die Verlängerung scheiterte siebenmal mit einem internen Serverfehler. Ersatz ist ein zweiter Clip V07b, der am letzten Bild von V07a ansetzt.
 
-## Offen: V07b
+## Nachtrag 14.10.2026
 
-Beim Versuch, V07b neu zu erzeugen, kam die Meldung, dass das Gemini-Guthaben aufgebraucht ist (Fehler 402). Im Rohschnitt steht deshalb für die letzten 5 Sekunden von Szene 7 ein **Platzhalter**: das Schlussbild von V07a, auf dem der Push in Remotion weiterläuft. Weil in dieser Einstellung ohnehin alle stillstehen, fällt das wenig auf, aber der Atem des Elefanten fehlt. Sobald Guthaben da ist, erzeuge ich V07b (ein Clip, 8 Sekunden) und tausche den Platzhalter aus.
-
-Der erste V07b-Versuch ist abgelehnt: Der Elefant spreizte die Ohren, und die Kamera fuhr deutlich schneller als in V07a. Der zweite Versuch läuft mit fester Kamera, die Fahrt kommt dann aus Remotion.
+- **V07b erzeugt:** Der Clip setzt am letzten Bild von V07a an und hat eine feste Kamera. Die Fahrt aus V07a läuft in Remotion weiter (1,00 auf 1,06, setzt mit Tempo ein). Der Platzhalter ist entfernt.
+- **06a neu (Vorschlag A, deine Entscheidung):**
+  - Bisher stand die Patientin in 06a mitten im Raum an einem freien Stuhl. In V5 stand sie danach rechts vor dem Stuhl mit der Jacke.
+  - Neues Standbild: Bildbearbeitung aus 06b, gleiche Kamera wie V5, näher dran. Sie sitzt auf dem Stuhl mit der Jacke, wie in Szene 5.
+  - Neuer Clip V06a: Sie steht auf. Genutzt werden 0 bis 2 s, danach läuft sie weiter, das liegt außerhalb des Schnitts.
+- **Abweichungen bei 02a und 04b:** bleiben so (deine Entscheidung).
 
 ## Bekannte Abweichungen
 
@@ -63,8 +66,9 @@ Der erste V07b-Versuch ist abgelehnt: Der Elefant spreizte die Ohren, und die Ka
 | V03a bis V03h | 03a bis 03h | je 4 s | 0 bis 2 oder 3 s |
 | V04b | 04b | 15 s (verlängert) | 0 bis 10,2 s, plus Push in Remotion |
 | V05c | 05c | 4 s | 0 bis 2 s (mit 1 s Überblendung aus V4) |
-| V06a, V06c, V06d | 06a, 06c, 06d | je 4 s | 0 bis 2 oder 3 s |
+| V06a | 06a (neu) | 4 s | 0 bis 2 s |
+| V06c, V06d | 06c, 06d | je 4 s | 0 bis 2 oder 3 s |
 | V07a | 07a, Teil 1 | 8 s | 0 bis 8 s |
-| V07b | 07a, Teil 2 | **offen** | Platzhalter |
+| V07b | 07a, Teil 2 | 8 s | 0,04 bis 5,04 s, plus Push in Remotion |
 | V08a | 08a | 6 s | 0 bis 4 s |
 | V08d | 08d | 6 s | 0 bis 5 s |
