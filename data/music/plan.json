@@ -3,14 +3,119 @@
     "note": "Hauptstück, Szenen 1 bis 5 (ab 0:02, harter Abbruch bei Szenenbeginn 6)",
     "start": 2.0,
     "composition_plan": {
-      "positive_global_styles": ["BBC nature documentary orchestral score", "lush cinematic chamber orchestra", "warm major key", "sense of wonder and gentle curiosity", "flowing melodic strings", "harp arpeggios", "woodwind melodies on flute, clarinet and oboe", "light pizzicato strings", "moderate tempo around 92 BPM", "elegant, light, optimistic, observational"],
-      "negative_global_styles": ["sad", "tragic", "melancholic", "minor key", "single sustained note", "drone", "ambient pad", "pop", "electronic", "synthesizer", "drum kit", "vocals", "choir", "epic trailer percussion"],
+      "positive_global_styles": [
+        "BBC nature documentary orchestral score",
+        "lush cinematic chamber orchestra",
+        "warm major key",
+        "sense of wonder and gentle curiosity",
+        "flowing melodic strings",
+        "harp arpeggios",
+        "woodwind melodies on flute, clarinet and oboe",
+        "light pizzicato strings",
+        "moderate tempo around 92 BPM",
+        "elegant, light, optimistic, observational"
+      ],
+      "negative_global_styles": [
+        "sad",
+        "tragic",
+        "melancholic",
+        "minor key",
+        "single sustained note",
+        "drone",
+        "ambient pad",
+        "pop",
+        "electronic",
+        "synthesizer",
+        "drum kit",
+        "vocals",
+        "choir",
+        "epic trailer percussion"
+      ],
       "sections": [
-        { "section_name": "Opening, the elephant in the hall", "positive_local_styles": ["gentle opening", "solo flute melody over harp arpeggios", "soft strings enter after a few bars", "curious and warm", "light and airy"], "negative_local_styles": ["loud", "dark"], "duration_ms": 15150, "lines": [] },
-        { "section_name": "Walking together through the corridor", "positive_local_styles": ["walking tempo", "playful pizzicato strings like soft footsteps", "clarinet answers the flute", "the melody develops", "warm and slightly whimsical"], "negative_local_styles": ["sad", "slow"], "duration_ms": 16000, "lines": [] },
-        { "section_name": "Time-lapse, the years pass", "positive_local_styles": ["momentum builds", "flowing string ostinato", "french horns join softly", "seasons passing", "sweeping and lively", "steady crescendo"], "negative_local_styles": ["static", "sad"], "duration_ms": 15130, "lines": [] },
-        { "section_name": "At the door", "positive_local_styles": ["thoughtful intimate texture", "cello melody with soft harp", "still warm and hopeful", "gentle pulse continues"], "negative_local_styles": ["sad", "tragic", "minor key", "silence"], "duration_ms": 11190, "lines": [] },
-        { "section_name": "Waiting, fullest point", "positive_local_styles": ["fullest orchestral point of the piece", "rich strings and woodwinds", "broad lyrical melody", "time-lapse energy", "majestic yet gentle", "keeps playing at full strength to the very end, no fade out, no ending"], "negative_local_styles": ["fade out", "final cadence", "sad"], "duration_ms": 16000, "lines": [] }
+        {
+          "section_name": "Opening, the elephant in the hall",
+          "positive_local_styles": [
+            "gentle opening",
+            "solo flute melody over harp arpeggios",
+            "soft strings enter after a few bars",
+            "curious and warm",
+            "light and airy"
+          ],
+          "negative_local_styles": [
+            "loud",
+            "dark"
+          ],
+          "duration_ms": 15150,
+          "lines": []
+        },
+        {
+          "section_name": "Walking together through the corridor",
+          "positive_local_styles": [
+            "walking tempo",
+            "playful pizzicato strings like soft footsteps",
+            "clarinet answers the flute",
+            "the melody develops",
+            "warm and slightly whimsical"
+          ],
+          "negative_local_styles": [
+            "sad",
+            "slow"
+          ],
+          "duration_ms": 16000,
+          "lines": []
+        },
+        {
+          "section_name": "Time-lapse, the years pass",
+          "positive_local_styles": [
+            "momentum builds",
+            "flowing string ostinato",
+            "french horns join softly",
+            "seasons passing",
+            "sweeping and lively",
+            "steady crescendo"
+          ],
+          "negative_local_styles": [
+            "static",
+            "sad"
+          ],
+          "duration_ms": 15130,
+          "lines": []
+        },
+        {
+          "section_name": "At the door",
+          "positive_local_styles": [
+            "thoughtful intimate texture",
+            "cello melody with soft harp",
+            "still warm and hopeful",
+            "gentle pulse continues"
+          ],
+          "negative_local_styles": [
+            "sad",
+            "tragic",
+            "minor key",
+            "silence"
+          ],
+          "duration_ms": 11190,
+          "lines": []
+        },
+        {
+          "section_name": "Waiting, fullest point",
+          "positive_local_styles": [
+            "fullest orchestral point of the piece",
+            "rich strings and woodwinds",
+            "broad lyrical melody",
+            "time-lapse energy",
+            "majestic yet gentle",
+            "keeps playing at full strength to the very end, no fade out, no ending"
+          ],
+          "negative_local_styles": [
+            "fade out",
+            "final cadence",
+            "sad"
+          ],
+          "duration_ms": 16000,
+          "lines": []
+        }
       ]
     }
   },
@@ -18,11 +123,126 @@
     "note": "Szene 8 ab 2 s bis Filmende: kurze warme Phrase, klingt in die Endcard aus",
     "start": 100.47,
     "composition_plan": {
-      "positive_global_styles": ["BBC nature documentary orchestral score", "warm major key", "tender, quiet, hopeful", "soft strings and harp"],
-      "negative_global_styles": ["sad", "tragic", "minor key", "drone", "pop", "electronic", "percussion", "vocals"],
+      "positive_global_styles": [
+        "BBC nature documentary orchestral score",
+        "warm major key",
+        "tender, quiet, hopeful",
+        "soft strings and harp"
+      ],
+      "negative_global_styles": [
+        "sad",
+        "tragic",
+        "minor key",
+        "drone",
+        "pop",
+        "electronic",
+        "percussion",
+        "vocals"
+      ],
       "sections": [
-        { "section_name": "A door opens", "positive_local_styles": ["a short gentle rising melody on solo flute with harp", "soft strings underneath", "resolves into a warm major chord"], "negative_local_styles": ["loud"], "duration_ms": 6000, "lines": [] },
-        { "section_name": "Ring out", "positive_local_styles": ["the warm major chord rings out softly", "quiet natural decay"], "negative_local_styles": ["new melody"], "duration_ms": 4000, "lines": [] }
+        {
+          "section_name": "A door opens",
+          "positive_local_styles": [
+            "a short gentle rising melody on solo flute with harp",
+            "soft strings underneath",
+            "resolves into a warm major chord"
+          ],
+          "negative_local_styles": [
+            "loud"
+          ],
+          "duration_ms": 6000,
+          "lines": []
+        },
+        {
+          "section_name": "Ring out",
+          "positive_local_styles": [
+            "the warm major chord rings out softly",
+            "quiet natural decay"
+          ],
+          "negative_local_styles": [
+            "new melody"
+          ],
+          "duration_ms": 4000,
+          "lines": []
+        }
+      ]
+    }
+  },
+  "M3": {
+    "note": "Szenen 6 und 7 (ab Ausblenden von M1 bis 2 s in Szene 8, dort setzt M2 ein)",
+    "start": 75.466,
+    "composition_plan": {
+      "positive_global_styles": [
+        "BBC nature documentary orchestral score",
+        "quiet, reflective, intimate",
+        "warm, not sad",
+        "soft piano",
+        "muted strings",
+        "gentle harp",
+        "slow tempo around 70 BPM",
+        "sparse and observational"
+      ],
+      "negative_global_styles": [
+        "tragic",
+        "melancholic",
+        "minor key lament",
+        "single sustained note",
+        "drone",
+        "horror",
+        "suspense thriller",
+        "pop",
+        "electronic",
+        "drums",
+        "vocals",
+        "choir"
+      ],
+      "sections": [
+        {
+          "section_name": "The patient stands up",
+          "positive_local_styles": [
+            "soft entrance",
+            "quiet piano figure over muted strings",
+            "a hint of tension and unease, unresolved harmony",
+            "still warm and gentle"
+          ],
+          "negative_local_styles": [
+            "loud",
+            "dramatic",
+            "sad"
+          ],
+          "duration_ms": 10000,
+          "lines": []
+        },
+        {
+          "section_name": "The sentence",
+          "positive_local_styles": [
+            "calm thoughtful pulse",
+            "piano and soft strings continue",
+            "quiet enough to sit under a narrator",
+            "slowly opening toward a warmer harmony"
+          ],
+          "negative_local_styles": [
+            "loud",
+            "new themes",
+            "dramatic swell"
+          ],
+          "duration_ms": 13000,
+          "lines": []
+        },
+        {
+          "section_name": "Into the step",
+          "positive_local_styles": [
+            "gentle lift toward a warm major harmony",
+            "harp joins softly",
+            "prepares a hopeful flute phrase"
+          ],
+          "negative_local_styles": [
+            "final cadence",
+            "fade out"
+          ],
+          "duration_ms": 4500,
+          "lines": []
+        }
       ]
     }
   }

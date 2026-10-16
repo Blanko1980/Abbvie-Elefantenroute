@@ -94,3 +94,13 @@ Grundlage: `Feedback_Elefantenvideo_16_Okt.docx` plus deine Antworten auf die dr
   - Danach spielt die Musik bis 1:14 und ist bei 1:15,5 ausgeblendet.
 - **Original:** `work/music/M1_a1.mp3` (nicht im Repo).
 - **Remotion:** Spur `music` (`src/components/Music.tsx`), gleiche Absenkungskurve wie in der Hörprobe; Daten in `data/timeline.json` unter `music`.
+
+## Musik in Szene 6 und 7 (16.10.2026)
+
+- **Anlass:** Laut Script lief von 1:15 bis 1:40 keine Musik. Du willst dort Musik.
+- **Neu: M3** (27,5 s), ruhig und nachdenklich.
+  - Szene 6: Klavier über leisen Streichern, leichte Spannung.
+  - Szene 7: ruhiger Puls unter den Sätzen.
+  - Am Ende öffnet es sich zu einem warmen Dur-Akkord und blendet ab 1:40 in M2 über.
+- **Prüfung per Gemini:** traurig 3 von 10, naturdokutypisch 9 von 10, keine Haltetöne.
+- **Pegel:** etwa 4 dB leiser als das Hauptstück, unter dem Sprecher zusätzlich abgesenkt.

@@ -3375,5 +3375,24 @@
     "id": "musik:schnitt",
     "ok": true,
     "note": "Schnitt prüfen"
+  },
+  {
+    "timestamp": "2026-10-16T18:27:25.699Z",
+    "phase": "8",
+    "type": "music",
+    "model": "music_v1",
+    "id": "M3",
+    "attempt": 1,
+    "ok": true,
+    "note": "27.5 s"
+  },
+  {
+    "timestamp": "2026-10-16T18:27:35.003Z",
+    "phase": "8",
+    "type": "text",
+    "model": "gemini-3-flash-preview",
+    "id": "musik:work/music/M3_a1.mp3",
+    "ok": true,
+    "note": "Musik prüfen"
   }
 ]

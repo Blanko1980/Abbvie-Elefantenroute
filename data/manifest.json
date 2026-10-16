@@ -4470,6 +4470,18 @@
       "status": "freigegeben",
       "file": "public/music/M2.mp3",
       "note": "Szene 8 bis Filmende"
+    },
+    {
+      "id": "M3",
+      "type": "music",
+      "attempt": 1,
+      "timestamp": "2026-10-16T18:27:25.735Z",
+      "model": "music_v1",
+      "refs": [],
+      "prompt": "{\"positive_global_styles\":[\"BBC nature documentary orchestral score\",\"quiet, reflective, intimate\",\"warm, not sad\",\"soft piano\",\"muted strings\",\"gentle harp\",\"slow tempo around 70 BPM\",\"sparse and observational\"],\"negative_global_styles\":[\"tragic\",\"melancholic\",\"minor key lament\",\"single sustained note\",\"drone\",\"horror\",\"suspense thriller\",\"pop\",\"electronic\",\"drums\",\"vocals\",\"choir\"],\"sections\":[{\"section_name\":\"The patient stands up\",\"positive_local_styles\":[\"soft entrance\",\"quiet piano figure over muted strings\",\"a hint of tension and unease, unresolved harmony\",\"still warm and gentle\"],\"negative_local_styles\":[\"loud\",\"dramatic\",\"sad\"],\"duration_ms\":10000,\"lines\":[]},{\"section_name\":\"The sentence\",\"positive_local_styles\":[\"calm thoughtful pulse\",\"piano and soft strings continue\",\"quiet enough to sit under a narrator\",\"slowly opening toward a warmer harmony\"],\"negative_local_styles\":[\"loud\",\"new themes\",\"dramatic swell\"],\"duration_ms\":13000,\"lines\":[]},{\"section_name\":\"Into the step\",\"positive_local_styles\":[\"gentle lift toward a warm major harmony\",\"harp joins softly\",\"prepares a hopeful flute phrase\"],\"negative_local_styles\":[\"final cadence\",\"fade out\"],\"duration_ms\":4500,\"lines\":[]}]}",
+      "status": "zur Freigabe",
+      "file": "public/music/M3.mp3",
+      "note": "Szenen 6 und 7, ruhig und nachdenklich"
     }
   ]
 }

@@ -701,6 +701,14 @@
         "fadeOut": 1.5
       },
       {
+        "id": "M3",
+        "file": "music/M3.mp3",
+        "start": 75.466,
+        "gainDb": -6.5,
+        "cutAt": 101.466,
+        "fadeOut": 1.5
+      },
+      {
         "id": "M2",
         "file": "music/M2.mp3",
         "start": 100.466,

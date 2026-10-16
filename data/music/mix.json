@@ -1,5 +1,5 @@
 {
-  "_note": "Pegel der Musik relativ zur Datei (dB), Ducking unter dem Sprecher. Zeiten werden in build-timeline aus den Szenen berechnet: start = Szenenbeginn + Versatz; cutScene = Ausblenden bis zum Beginn dieser Szene (fadeOut Sekunden).",
+  "_note": "Pegel der Musik relativ zur Datei (dB), Ducking unter dem Sprecher. Zeiten werden in build-timeline aus den Szenen berechnet: start = Szenenbeginn + Versatz; cutScene = Ausblenden bis zum Beginn dieser Szene (fadeOut Sekunden). cutOffset = Versatz zum Szenenbeginn von cutScene.",
   "duckDb": -9,
   "duckLead": 0.3,
   "duckTail": 0.4,
@@ -11,6 +11,15 @@
       "startOffset": 2.0,
       "gainDb": -8.5,
       "cutScene": "s6",
+      "fadeOut": 1.5
+    },
+    {
+      "id": "M3",
+      "startScene": "s6",
+      "startOffset": 0.0,
+      "gainDb": -6.5,
+      "cutScene": "s8",
+      "cutOffset": 3.0,
       "fadeOut": 1.5
     },
     {

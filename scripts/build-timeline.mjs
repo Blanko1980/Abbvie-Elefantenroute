@@ -103,7 +103,7 @@ const total = scenes[scenes.length - 1].end;
 const mix = JSON.parse(readFileSync("data/music/mix.json", "utf8"));
 const music = { duckDb: mix.duckDb, duckLead: mix.duckLead, duckTail: mix.duckTail, duckRamp: mix.duckRamp,
   cues: mix.cues.map((c) => ({ id: c.id, file: `music/${c.id}.mp3`, start: r3(S[c.startScene].start + c.startOffset), gainDb: c.gainDb,
-    cutAt: c.cutScene ? S[c.cutScene].start : null, fadeOut: c.fadeOut ?? 0 })) };
+    cutAt: c.cutScene ? r3(S[c.cutScene].start + (c.cutOffset ?? 0)) : null, fadeOut: c.fadeOut ?? 0 })) };
 const timeline = {
   version: 1, fps: FPS, width: 1920, height: 1080, durationSeconds: r3(total), durationInFrames: Math.round(total * FPS),
   note: "Erzeugt von scripts/build-timeline.mjs. Zeiten in Sekunden ab Filmbeginn. Die Spur ambience bleibt vorerst leer.",
