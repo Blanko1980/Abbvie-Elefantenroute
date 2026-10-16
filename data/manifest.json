@@ -2706,10 +2706,10 @@
       },
       "prompt": "Der Elefant ist immer da.",
       "refs": [],
-      "status": "freigegeben",
+      "status": "abgelehnt",
       "file": "public/voice/s7-1.mp3",
       "duration": 2.115918,
-      "note": "Sprechertext Fassung 2, freigegeben am 13.10.2026"
+      "note": "ersetzt: zu meditativ (Feedback 16.10.2026)"
     },
     {
       "id": "s7-2",
@@ -2728,10 +2728,10 @@
       },
       "prompt": "Er begleitet jeden von uns.",
       "refs": [],
-      "status": "freigegeben",
+      "status": "abgelehnt",
       "file": "public/voice/s7-2.mp3",
       "duration": 2.35102,
-      "note": "Sprechertext Fassung 2, freigegeben am 13.10.2026"
+      "note": "ersetzt: zu meditativ (Feedback 16.10.2026)"
     },
     {
       "id": "s7-3",
@@ -2750,10 +2750,10 @@
       },
       "prompt": "Jeden Tag.",
       "refs": [],
-      "status": "freigegeben",
+      "status": "abgelehnt",
       "file": "public/voice/s7-3.mp3",
       "duration": 1.28,
-      "note": "Sprechertext Fassung 2, freigegeben am 13.10.2026"
+      "note": "ersetzt: zu meditativ (Feedback 16.10.2026)"
     },
     {
       "id": "s8-1",
@@ -2772,10 +2772,10 @@
       },
       "prompt": "Man muss den Entscheidungselefanten bewusst wahrnehmen.",
       "refs": [],
-      "status": "freigegeben",
+      "status": "abgelehnt",
       "file": "public/voice/s8-1.mp3",
       "duration": 3.422041,
-      "note": "Sprechertext Fassung 2, freigegeben am 13.10.2026"
+      "note": "ersetzt: zu meditativ (Feedback 16.10.2026)"
     },
     {
       "id": "s8-2",
@@ -3658,6 +3658,98 @@
       "file": "public/clips/V07b.mp4",
       "videoUri": "https://generativelanguage.googleapis.com/v1beta/files/f5icjkecie7d:download?alt=media",
       "note": "Fortsetzung von V07a, feste Kamera, Push in Remotion"
+    },
+    {
+      "id": "s7-1",
+      "type": "speech",
+      "attempt": 3,
+      "timestamp": "2026-10-16T16:02:06.102Z",
+      "model": "eleven_multilingual_v2",
+      "voice": "Thomas Schendel - Authoritative and Calm",
+      "voice_id": "Fghah4fztZORbiKfIGAs",
+      "settings": {
+        "stability": 0.9,
+        "similarity_boost": 0.8,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 1.04
+      },
+      "previousText": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten. Er verharrt.",
+      "prompt": "Der Elefant ist immer da.",
+      "refs": [],
+      "status": "zur Freigabe",
+      "file": "public/voice/s7-1.mp3",
+      "duration": 2.089796,
+      "note": "sachlicher (Feedback 16.10.2026), Variante sachlich-b"
+    },
+    {
+      "id": "s7-2",
+      "type": "speech",
+      "attempt": 3,
+      "timestamp": "2026-10-16T16:02:06.170Z",
+      "model": "eleven_multilingual_v2",
+      "voice": "Thomas Schendel - Authoritative and Calm",
+      "voice_id": "Fghah4fztZORbiKfIGAs",
+      "settings": {
+        "stability": 0.9,
+        "similarity_boost": 0.8,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 1.04
+      },
+      "previousText": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten. Er verharrt.",
+      "prompt": "Er begleitet jeden von uns.",
+      "refs": [],
+      "status": "zur Freigabe",
+      "file": "public/voice/s7-2.mp3",
+      "duration": 2.168163,
+      "note": "sachlicher (Feedback 16.10.2026), Variante sachlich-b"
+    },
+    {
+      "id": "s7-3",
+      "type": "speech",
+      "attempt": 3,
+      "timestamp": "2026-10-16T16:02:06.235Z",
+      "model": "eleven_multilingual_v2",
+      "voice": "Thomas Schendel - Authoritative and Calm",
+      "voice_id": "Fghah4fztZORbiKfIGAs",
+      "settings": {
+        "stability": 0.9,
+        "similarity_boost": 0.8,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 1.04
+      },
+      "previousText": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten. Er verharrt.",
+      "prompt": "Jeden Tag.",
+      "refs": [],
+      "status": "zur Freigabe",
+      "file": "public/voice/s7-3.mp3",
+      "duration": 1.38449,
+      "note": "sachlicher (Feedback 16.10.2026), Variante sachlich-b"
+    },
+    {
+      "id": "s8-1",
+      "type": "speech",
+      "attempt": 2,
+      "timestamp": "2026-10-16T16:02:06.322Z",
+      "model": "eleven_multilingual_v2",
+      "voice": "Thomas Schendel - Authoritative and Calm",
+      "voice_id": "Fghah4fztZORbiKfIGAs",
+      "settings": {
+        "stability": 0.9,
+        "similarity_boost": 0.8,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 1.04
+      },
+      "previousText": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten. Er verharrt.",
+      "prompt": "Man muss den Entscheidungselefanten bewusst wahrnehmen.",
+      "refs": [],
+      "status": "zur Freigabe",
+      "file": "public/voice/s8-1.mp3",
+      "duration": 2.821224,
+      "note": "sachlicher (Feedback 16.10.2026), Variante sachlich-b"
     }
   ]
 }

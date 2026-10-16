@@ -2266,5 +2266,86 @@
     "attempt": 3,
     "ok": true,
     "note": "8s 720p"
+  },
+  {
+    "timestamp": "2026-10-16T16:01:14.726Z",
+    "phase": "7",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s7-1:sachlich-a",
+    "ok": true,
+    "note": "25 Zeichen, Variante"
+  },
+  {
+    "timestamp": "2026-10-16T16:01:16.229Z",
+    "phase": "7",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s7-2:sachlich-a",
+    "ok": true,
+    "note": "27 Zeichen, Variante"
+  },
+  {
+    "timestamp": "2026-10-16T16:01:17.839Z",
+    "phase": "7",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s7-3:sachlich-a",
+    "ok": true,
+    "note": "10 Zeichen, Variante"
+  },
+  {
+    "timestamp": "2026-10-16T16:01:19.011Z",
+    "phase": "7",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s8-1:sachlich-a",
+    "ok": true,
+    "note": "55 Zeichen, Variante"
+  },
+  {
+    "timestamp": "2026-10-16T16:01:21.055Z",
+    "phase": "7",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s7-1:sachlich-b",
+    "ok": true,
+    "note": "25 Zeichen, Variante"
+  },
+  {
+    "timestamp": "2026-10-16T16:01:22.708Z",
+    "phase": "7",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s7-2:sachlich-b",
+    "ok": true,
+    "note": "27 Zeichen, Variante"
+  },
+  {
+    "timestamp": "2026-10-16T16:01:24.187Z",
+    "phase": "7",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s7-3:sachlich-b",
+    "ok": true,
+    "note": "10 Zeichen, Variante"
+  },
+  {
+    "timestamp": "2026-10-16T16:01:25.723Z",
+    "phase": "7",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s8-1:sachlich-b",
+    "ok": true,
+    "note": "55 Zeichen, Variante"
+  },
+  {
+    "timestamp": "2026-10-16T16:01:50.243Z",
+    "phase": "7",
+    "type": "text",
+    "model": "gemini-3-flash-preview",
+    "id": "compare:s7",
+    "ok": true,
+    "note": "Sprecher-Varianten vergleichen"
   }
 ]

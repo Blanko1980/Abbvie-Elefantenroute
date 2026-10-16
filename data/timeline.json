@@ -3,8 +3,8 @@
   "fps": 24,
   "width": 1920,
   "height": 1080,
-  "durationSeconds": 145.086,
-  "durationInFrames": 3482,
+  "durationSeconds": 112.277,
+  "durationInFrames": 2695,
   "note": "Erzeugt von scripts/build-timeline.mjs. Zeiten in Sekunden ab Filmbeginn. Audiospuren music und ambience bleiben vorerst leer.",
   "audioTracks": {
     "voice": "voice",
@@ -115,10 +115,10 @@
       "id": "s3",
       "name": "Trampelpfad",
       "start": 35.151,
-      "end": 53.151,
-      "duration": 18,
+      "end": 50.151,
+      "duration": 15,
       "scriptStart": 32,
-      "scriptDuration": 18,
+      "scriptDuration": 15,
       "deviationPercent": 0,
       "flag": false,
       "shots": [
@@ -178,24 +178,13 @@
           "src": "clips/V03g.mp4"
         },
         {
-          "id": "V03d",
-          "type": "clip",
-          "clip": {
-            "from": 0,
-            "to": 3
-          },
-          "start": 46.151,
-          "duration": 3,
-          "src": "clips/V03d.mp4"
-        },
-        {
           "id": "V03h",
           "type": "clip",
           "clip": {
             "from": 0,
             "to": 2
           },
-          "start": 49.151,
+          "start": 46.151,
           "duration": 2,
           "src": "clips/V03h.mp4"
         },
@@ -206,7 +195,7 @@
             "from": 0,
             "to": 2
           },
-          "start": 51.151,
+          "start": 48.151,
           "duration": 2,
           "src": "clips/V03e.mp4"
         }
@@ -215,23 +204,23 @@
     {
       "id": "s4",
       "name": "Respekt",
-      "start": 53.151,
-      "end": 68.086,
-      "duration": 14.935,
+      "start": 50.151,
+      "end": 61.277,
+      "duration": 11.126,
       "scriptStart": 50,
-      "scriptDuration": 14,
-      "deviationPercent": 6.7,
+      "scriptDuration": 11,
+      "deviationPercent": 1.1,
       "flag": false,
       "shots": [
         {
           "id": "V2",
           "type": "clip",
           "clip": {
-            "from": 0.5,
+            "from": 3,
             "to": 5.2
           },
-          "start": 53.151,
-          "duration": 4.7,
+          "start": 50.151,
+          "duration": 2.2,
           "src": "clips/V2.mp4"
         },
         {
@@ -239,7 +228,7 @@
           "type": "clip",
           "clip": {
             "from": 0,
-            "to": 10.235
+            "to": 8.926
           },
           "move": {
             "kind": "push",
@@ -247,8 +236,8 @@
             "to": 1.1,
             "origin": "74% 50%"
           },
-          "start": 57.851,
-          "duration": 10.235,
+          "start": 52.351,
+          "duration": 8.926,
           "src": "clips/V04b.mp4"
         }
       ]
@@ -256,8 +245,8 @@
     {
       "id": "s5",
       "name": "Warten",
-      "start": 68.086,
-      "end": 84.086,
+      "start": 61.277,
+      "end": 77.277,
       "duration": 16,
       "scriptStart": 64,
       "scriptDuration": 16,
@@ -271,7 +260,7 @@
             "from": 0,
             "to": 8
           },
-          "start": 68.086,
+          "start": 61.277,
           "duration": 8,
           "src": "clips/V3.mp4"
         },
@@ -283,7 +272,7 @@
             "to": 8
           },
           "crossfadeIn": 1,
-          "start": 75.086,
+          "start": 68.277,
           "duration": 8,
           "src": "clips/V4.mp4"
         },
@@ -295,7 +284,7 @@
             "to": 2
           },
           "crossfadeIn": 1,
-          "start": 82.086,
+          "start": 75.277,
           "duration": 2,
           "src": "clips/V05c.mp4"
         }
@@ -304,8 +293,8 @@
     {
       "id": "s6",
       "name": "Die Patientin",
-      "start": 84.086,
-      "end": 94.086,
+      "start": 77.277,
+      "end": 87.277,
       "duration": 10,
       "scriptStart": 80,
       "scriptDuration": 10,
@@ -319,7 +308,7 @@
             "from": 0,
             "to": 2
           },
-          "start": 84.086,
+          "start": 77.277,
           "duration": 2,
           "src": "clips/V06a.mp4"
         },
@@ -330,7 +319,7 @@
             "from": 0.5,
             "to": 3.5
           },
-          "start": 86.086,
+          "start": 79.277,
           "duration": 3,
           "src": "clips/V5.mp4"
         },
@@ -341,7 +330,7 @@
             "from": 0,
             "to": 2
           },
-          "start": 89.086,
+          "start": 82.277,
           "duration": 2,
           "src": "clips/V06c.mp4"
         },
@@ -352,7 +341,7 @@
             "from": 0,
             "to": 3
           },
-          "start": 91.086,
+          "start": 84.277,
           "duration": 3,
           "src": "clips/V06d.mp4"
         }
@@ -361,8 +350,8 @@
     {
       "id": "s7",
       "name": "Der Satz",
-      "start": 94.086,
-      "end": 107.086,
+      "start": 87.277,
+      "end": 100.277,
       "duration": 13,
       "scriptStart": 90,
       "scriptDuration": 13,
@@ -376,7 +365,7 @@
             "from": 0,
             "to": 8
           },
-          "start": 94.086,
+          "start": 87.277,
           "duration": 8,
           "src": "clips/V07a.mp4"
         },
@@ -393,7 +382,7 @@
             "to": 1.06,
             "ease": "out"
           },
-          "start": 102.086,
+          "start": 95.277,
           "duration": 5,
           "src": "clips/V07b.mp4"
         }
@@ -402,25 +391,14 @@
     {
       "id": "s8",
       "name": "Der Schritt",
-      "start": 107.086,
-      "end": 119.086,
-      "duration": 12,
+      "start": 100.277,
+      "end": 108.277,
+      "duration": 8,
       "scriptStart": 103,
-      "scriptDuration": 12,
+      "scriptDuration": 8,
       "deviationPercent": 0,
       "flag": false,
       "shots": [
-        {
-          "id": "V08a",
-          "type": "clip",
-          "clip": {
-            "from": 0,
-            "to": 4
-          },
-          "start": 107.086,
-          "duration": 4,
-          "src": "clips/V08a.mp4"
-        },
         {
           "id": "V1",
           "type": "clip",
@@ -428,10 +406,9 @@
             "from": 3,
             "to": 6
           },
-          "grade": "warm-like-08c",
-          "start": 111.086,
+          "start": 100.277,
           "duration": 3,
-          "src": "clips/V1-warm.mp4"
+          "src": "clips/V1.mp4"
         },
         {
           "id": "V08d",
@@ -440,7 +417,7 @@
             "from": 0,
             "to": 5
           },
-          "start": 114.086,
+          "start": 103.277,
           "duration": 5,
           "src": "clips/V08d.mp4"
         }
@@ -449,39 +426,19 @@
     {
       "id": "end",
       "name": "Endcard",
-      "start": 119.086,
-      "end": 131.086,
-      "duration": 12,
+      "start": 108.277,
+      "end": 112.277,
+      "duration": 4,
       "scriptStart": 115,
-      "scriptDuration": 12,
+      "scriptDuration": 4,
       "deviationPercent": 0,
       "flag": false,
       "shots": [
         {
           "id": "End",
           "type": "endcard",
-          "start": 119.086,
-          "duration": 12,
-          "src": null
-        }
-      ]
-    },
-    {
-      "id": "coda",
-      "name": "Coda",
-      "start": 131.086,
-      "end": 145.086,
-      "duration": 14,
-      "scriptStart": 127,
-      "scriptDuration": 14,
-      "deviationPercent": 0,
-      "flag": false,
-      "shots": [
-        {
-          "id": "Coda",
-          "type": "coda",
-          "start": 131.086,
-          "duration": 14,
+          "start": 108.277,
+          "duration": 4,
           "src": null
         }
       ]
@@ -589,45 +546,45 @@
       "scene": "s4",
       "text": "Neue Wege verunsichern den Elefanten.",
       "file": "voice/s4-1.mp3",
-      "start": 59.151,
-      "speechStart": 59.151,
-      "end": 61.542,
+      "start": 52.751,
+      "speechStart": 52.751,
+      "end": 55.142,
       "duration": 2.769,
-      "scriptAt": 56,
-      "offsetToScript": 3.151
+      "scriptAt": 52.6,
+      "offsetToScript": 0.151
     },
     {
       "id": "s4-2",
       "scene": "s4",
       "text": "Ob er sie aus Gewohnheit oder Vorsicht meidet, ist nicht immer bekannt.",
       "file": "voice/s4-2.mp3",
-      "start": 63.151,
-      "speechStart": 63.151,
-      "end": 67.086,
+      "start": 56.342,
+      "speechStart": 56.342,
+      "end": 60.277,
       "duration": 4.362,
-      "scriptAt": 60,
-      "offsetToScript": 3.151
+      "scriptAt": null,
+      "offsetToScript": null
     },
     {
       "id": "s5-1",
       "scene": "s5",
       "text": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten.",
       "file": "voice/s5-1.mp3",
-      "start": 68.99,
-      "speechStart": 69.086,
-      "end": 73.052,
+      "start": 62.181,
+      "speechStart": 62.277,
+      "end": 66.243,
       "duration": 4.833,
       "scriptAt": 65,
-      "offsetToScript": 4.086
+      "offsetToScript": -2.723
     },
     {
       "id": "s5-2",
       "scene": "s5",
       "text": "Er verharrt.",
       "file": "voice/s5-2.mp3",
-      "start": 73.652,
-      "speechStart": 73.652,
-      "end": 74.421,
+      "start": 66.843,
+      "speechStart": 66.843,
+      "end": 67.612,
       "duration": 1.515,
       "scriptAt": null,
       "offsetToScript": null
@@ -637,9 +594,9 @@
       "scene": "s5",
       "text": "Zwar zeigt er weiter Interesse an neuen Wegen.",
       "file": "voice/s5-3.mp3",
-      "start": 75.021,
-      "speechStart": 75.021,
-      "end": 77.751,
+      "start": 68.212,
+      "speechStart": 68.212,
+      "end": 70.942,
       "duration": 3.344,
       "scriptAt": null,
       "offsetToScript": null
@@ -649,9 +606,9 @@
       "scene": "s5",
       "text": "Aber ohne guten Grund, beschreitet er sie nicht.",
       "file": "voice/s5-4.mp3",
-      "start": 78.351,
-      "speechStart": 78.351,
-      "end": 80.92,
+      "start": 71.542,
+      "speechStart": 71.542,
+      "end": 74.111,
       "duration": 3.004,
       "scriptAt": null,
       "offsetToScript": null
@@ -661,22 +618,22 @@
       "scene": "s7",
       "text": "Der Elefant ist immer da.",
       "file": "voice/s7-1.mp3",
-      "start": 94.988,
-      "speechStart": 95.086,
-      "end": 96.572,
-      "duration": 2.116,
+      "start": 88.277,
+      "speechStart": 88.277,
+      "end": 89.822,
+      "duration": 2.09,
       "scriptAt": 91,
-      "offsetToScript": 4.086
+      "offsetToScript": -2.723
     },
     {
       "id": "s7-2",
       "scene": "s7",
       "text": "Er begleitet jeden von uns.",
       "file": "voice/s7-2.mp3",
-      "start": 98.072,
-      "speechStart": 98.072,
-      "end": 99.721,
-      "duration": 2.351,
+      "start": 91.322,
+      "speechStart": 91.322,
+      "end": 92.891,
+      "duration": 2.168,
       "scriptAt": null,
       "offsetToScript": null
     },
@@ -685,46 +642,46 @@
       "scene": "s7",
       "text": "Jeden Tag.",
       "file": "voice/s7-3.mp3",
-      "start": 101.221,
-      "speechStart": 101.221,
-      "end": 102.041,
-      "duration": 1.28,
+      "start": 94.391,
+      "speechStart": 94.391,
+      "end": 95.159,
+      "duration": 1.384,
       "scriptAt": null,
       "offsetToScript": null
     },
     {
       "id": "s8-1",
-      "scene": "s8",
+      "scene": "s7",
       "text": "Man muss den Entscheidungselefanten bewusst wahrnehmen.",
       "file": "voice/s8-1.mp3",
-      "start": 107.602,
-      "speechStart": 107.686,
-      "end": 110.44,
-      "duration": 3.422,
-      "scriptAt": 103.6,
-      "offsetToScript": 4.086
+      "start": 96.659,
+      "speechStart": 96.659,
+      "end": 99.111,
+      "duration": 2.821,
+      "scriptAt": null,
+      "offsetToScript": null
     },
     {
       "id": "s8-2",
       "scene": "s8",
       "text": "Dann öffnen sich neue Wege.",
       "file": "voice/s8-2.mp3",
-      "start": 114.586,
-      "speechStart": 114.586,
-      "end": 116.357,
+      "start": 103.777,
+      "speechStart": 103.777,
+      "end": 105.548,
       "duration": 2.168,
-      "scriptAt": 110.5,
-      "offsetToScript": 4.086
+      "scriptAt": 106.5,
+      "offsetToScript": -2.723
     }
   ],
   "overlays": [],
   "endcard": {
     "scene": "end",
     "line1": "LASST UNS ÜBER ELEFANTEN REDEN.",
-    "line2": "Welcher Elefant bestimmt Ihre Entscheidung?",
+    "line2": null,
     "line1At": 0,
-    "line2At": 6,
-    "note": "Zeile 1 sofort ohne Überblendung, Zeile 2 ab 6 s darunter, beide bis zum Ende (Entscheidung 13.10.2026)"
+    "line2At": null,
+    "note": "Nur Zeile 1, 4 s, danach Ende; Zeile 2 und Coda entfallen (Entscheidung 16.10.2026)"
   },
   "coda": {
     "scene": "coda",

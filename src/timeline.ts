@@ -33,7 +33,7 @@ export type Timeline = {
   scenes: Scene[];
   voice: VoiceCue[];
   overlays: Overlay[];
-  endcard: { line1: string; line2: string; line1At: number; line2At: number };
+  endcard: { line1: string; line2: string | null; line1At: number; line2At: number | null };
   coda: { cardDuration: number; fade: number; cards: { title: string; body: string }[] };
 };
 

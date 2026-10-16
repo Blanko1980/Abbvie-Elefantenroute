@@ -14,8 +14,8 @@ for (const [i, line] of cfg.lines.entries()) {
   const same = cfg.lines.filter((l) => l.scene === line.scene);
   const j = same.findIndex((l) => l.id === line.id);
   const body = {
-    text: line.text, model_id: cfg.model, voice_settings: cfg.settings,
-    previous_text: same.slice(0, j).map((l) => l.text).join(" ") || undefined,
+    text: line.text, model_id: cfg.model, voice_settings: { ...cfg.settings, ...line.settings },
+    previous_text: [line.previousText, ...same.slice(0, j).map((l) => l.text)].filter(Boolean).join(" ") || undefined,
     next_text: same.slice(j + 1).map((l) => l.text).join(" ") || undefined,
   };
   const res = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${cfg.voice.voice_id}?output_format=mp3_44100_128`, {

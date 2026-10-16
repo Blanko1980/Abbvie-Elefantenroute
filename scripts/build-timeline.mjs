@@ -17,15 +17,16 @@ const C = (id, from, dur, extra = {}) => ({ id, type: "clip", clip: { from }, du
 const SHOTS = {
   s1: [{ id: "00", type: "black", dur: 2 }, C("V01a", 0, 4), C("V01b1", 0, 2), C("V01b2", 0, 2), C("V01c", 0, "rest")],
   s2: [C("V02a", 0, 14), C("V02b", 0, "rest")],
-  s3: [C("V03a", 0, 2), C("V03b", 0, 3), C("V03f", 0, 2), C("V03c", 0, 2), C("V03g", 0, 2), C("V03d", 0, 3), C("V03h", 0, 2), C("V03e", 0, "rest")],
-  s4: [{ id: "V2", type: "clip", clip: { from: 0.5, to: 5.2 } }, C("V04b", 0, "rest", { move: { kind: "push", from: 1.0, to: 1.1, origin: "74% 50%" } })],
+  s3: [C("V03a", 0, 2), C("V03b", 0, 3), C("V03f", 0, 2), C("V03c", 0, 2), C("V03g", 0, 2), C("V03h", 0, 2), C("V03e", 0, "rest")],
+  s4: [{ id: "V2", type: "clip", clip: { from: 3.0, to: 5.2 } }, C("V04b", 0, "rest", { move: { kind: "push", from: 1.0, to: 1.1, origin: "74% 50%" } })],
   s5: [{ id: "V3", type: "clip", clip: { from: 0, to: 8 } }, { id: "V4", type: "clip", clip: { from: 0, to: 8 }, crossfadeIn: 1 }, C("V05c", 0, "rest", { crossfadeIn: 1 })],
   s6: [C("V06a", 0, 2), { id: "V5", type: "clip", clip: { from: 0.5, to: 3.5 } }, C("V06c", 0, 2), C("V06d", 0, "rest")],
   // V07b setzt am letzten Bild von V07a an (Veo-Verlängerung scheiterte serverseitig); erstes Bild übersprungen.
   // V07b setzt am letzten Bild von V07a an (Veo-Verlängerung scheiterte serverseitig); erstes Bild übersprungen.
   // V07b hat eine feste Kamera, die Fahrt aus V07a läuft in Remotion mit Tempo weiter.
   s7: [C("V07a", 0, 8), C("V07b", 1 / 24, "rest", { move: { kind: "push", from: 1.0, to: 1.06, ease: "out" } })],
-  s8: [C("V08a", 0, 4), { id: "V1", type: "clip", clip: { from: 3.0, to: 6.0 }, grade: "warm-like-08c", file: "clips/V1-warm.mp4" }, C("V08d", 0, "rest")],
+  // 16.10.2026: 08a gestrichen, V1 ungegradet, V08d an die Lichtstimmung von V07a angeglichen (scripts/grade-clip.py)
+  s8: [{ id: "V1", type: "clip", clip: { from: 3.0, to: 6.0 } }, C("V08d", 0, "rest")],
   end: [{ id: "End", type: "endcard", dur: "rest" }],
   coda: [{ id: "Coda", type: "coda", dur: "rest" }],
 };
@@ -102,7 +103,7 @@ const timeline = {
   note: "Erzeugt von scripts/build-timeline.mjs. Zeiten in Sekunden ab Filmbeginn. Audiospuren music und ambience bleiben vorerst leer.",
   audioTracks: { voice: "voice", music: null, ambience: null },
   scenes, voice, overlays,
-  endcard: { scene: "end", line1: "LASST UNS ÜBER ELEFANTEN REDEN.", line2: "Welcher Elefant bestimmt Ihre Entscheidung?", line1At: 0, line2At: 6, note: "Zeile 1 sofort ohne Überblendung, Zeile 2 ab 6 s darunter, beide bis zum Ende (Entscheidung 13.10.2026)" },
+  endcard: { scene: "end", line1: "LASST UNS ÜBER ELEFANTEN REDEN.", line2: null, line1At: 0, line2At: null, note: "Nur Zeile 1, 4 s, danach Ende; Zeile 2 und Coda entfallen (Entscheidung 16.10.2026)" },
   coda: { scene: "coda", cardDuration: 3.5, fade: 0.3, cards: [
     { title: "Die Frage.", body: "„Was ist der größte Elefant in Ihrer Therapieentscheidung?“ auf Kongress, digital, Social, Print und Mikrosite." },
     { title: "Das Sammeln.", body: "Antworten anonym und kuratiert, am Kongress analog (Wand, Sticker), online eher als Auswahl denn als Freitext." },

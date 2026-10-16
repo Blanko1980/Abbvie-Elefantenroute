@@ -2,7 +2,7 @@
 
 Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen (Modell- und Stimmenlisten) sind nicht mitgezählt. Erzeugt aus `data/api-calls.json`.
 
-**Summe:** 106 Bild, 69 Clip, 49 Sprache, 5 Text (Prüfaufrufe)
+**Summe:** 106 Bild, 69 Clip, 57 Sprache, 6 Text (Prüfaufrufe)
 
 | Phase | Bild | Clip | Sprache | Text |
 | --- | ---: | ---: | ---: | ---: |
@@ -12,6 +12,7 @@ Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen
 | 3 | 69 | 4 | 0 | 0 |
 | 4 | 0 | 0 | 31 | 2 |
 | 6 | 2 | 58 | 0 | 0 |
+| 7 | 0 | 0 | 8 | 1 |
 
 ## Einzelaufrufe
 
@@ -246,3 +247,12 @@ Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen
 | 2026-10-14 12:29 | 6 | Bild | gemini-3-pro-image | 06a | 4 | ok | 2752x1536 |
 | 2026-10-14 12:30 | 6 | Clip | veo-3.1-generate-preview | V06a | 2 | ok | 4s 720p |
 | 2026-10-14 12:30 | 6 | Clip | veo-3.1-generate-preview | V07b | 3 | ok | 8s 720p |
+| 2026-10-16 16:01 | 7 | Sprache | eleven_multilingual_v2 | s7-1:sachlich-a | – | ok | 25 Zeichen, Variante |
+| 2026-10-16 16:01 | 7 | Sprache | eleven_multilingual_v2 | s7-2:sachlich-a | – | ok | 27 Zeichen, Variante |
+| 2026-10-16 16:01 | 7 | Sprache | eleven_multilingual_v2 | s7-3:sachlich-a | – | ok | 10 Zeichen, Variante |
+| 2026-10-16 16:01 | 7 | Sprache | eleven_multilingual_v2 | s8-1:sachlich-a | – | ok | 55 Zeichen, Variante |
+| 2026-10-16 16:01 | 7 | Sprache | eleven_multilingual_v2 | s7-1:sachlich-b | – | ok | 25 Zeichen, Variante |
+| 2026-10-16 16:01 | 7 | Sprache | eleven_multilingual_v2 | s7-2:sachlich-b | – | ok | 27 Zeichen, Variante |
+| 2026-10-16 16:01 | 7 | Sprache | eleven_multilingual_v2 | s7-3:sachlich-b | – | ok | 10 Zeichen, Variante |
+| 2026-10-16 16:01 | 7 | Sprache | eleven_multilingual_v2 | s8-1:sachlich-b | – | ok | 55 Zeichen, Variante |
+| 2026-10-16 16:01 | 7 | Text (Prüfung) | gemini-3-flash-preview | compare:s7 | – | ok | Sprecher-Varianten vergleichen |

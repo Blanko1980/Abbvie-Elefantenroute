@@ -8,7 +8,7 @@
   "settings": {
     "stability": 0.55,
     "similarity_boost": 0.8,
-    "style": 0.0,
+    "style": 0,
     "use_speaker_boost": true,
     "speed": 0.92
   },
@@ -18,35 +18,35 @@
       "name": "Der Elefant",
       "scriptStart": 0,
       "scriptDur": 14,
-      "tail": 1.0
+      "tail": 1
     },
     {
       "id": "s2",
       "name": "Gedächtnis",
       "scriptStart": 14,
       "scriptDur": 18,
-      "tail": 1.0
+      "tail": 1
     },
     {
       "id": "s3",
       "name": "Trampelpfad",
       "scriptStart": 32,
-      "scriptDur": 18,
-      "tail": 8.0
+      "scriptDur": 15,
+      "tail": 5
     },
     {
       "id": "s4",
       "name": "Respekt",
       "scriptStart": 50,
-      "scriptDur": 14,
-      "tail": 1.0
+      "scriptDur": 11,
+      "tail": 1
     },
     {
       "id": "s5",
       "name": "Warten",
       "scriptStart": 64,
       "scriptDur": 16,
-      "tail": 2.0
+      "tail": 2
     },
     {
       "id": "s6",
@@ -66,21 +66,14 @@
       "id": "s8",
       "name": "Der Schritt",
       "scriptStart": 103,
-      "scriptDur": 12,
+      "scriptDur": 8,
       "tail": 0.5
     },
     {
       "id": "end",
       "name": "Endcard",
       "scriptStart": 115,
-      "scriptDur": 12,
-      "tail": 0
-    },
-    {
-      "id": "coda",
-      "name": "Coda",
-      "scriptStart": 127,
-      "scriptDur": 14,
+      "scriptDur": 4,
       "tail": 0
     }
   ],
@@ -144,14 +137,14 @@
     {
       "id": "s4-1",
       "scene": "s4",
-      "at": 56,
+      "at": 52.6,
       "minGap": 0,
       "text": "Neue Wege verunsichern den Elefanten."
     },
     {
       "id": "s4-2",
       "scene": "s4",
-      "at": 60,
+      "at": null,
       "minGap": 1.2,
       "text": "Ob er sie aus Gewohnheit oder Vorsicht meidet, ist nicht immer bekannt."
     },
@@ -188,36 +181,60 @@
       "scene": "s7",
       "at": 91,
       "minGap": 0,
-      "text": "Der Elefant ist immer da."
+      "text": "Der Elefant ist immer da.",
+      "settings": {
+        "stability": 0.9,
+        "style": 0,
+        "speed": 1.04
+      },
+      "previousText": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten. Er verharrt."
     },
     {
       "id": "s7-2",
       "scene": "s7",
       "at": null,
       "minGap": 1.5,
-      "text": "Er begleitet jeden von uns."
+      "text": "Er begleitet jeden von uns.",
+      "settings": {
+        "stability": 0.9,
+        "style": 0,
+        "speed": 1.04
+      },
+      "previousText": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten. Er verharrt."
     },
     {
       "id": "s7-3",
       "scene": "s7",
       "at": null,
       "minGap": 1.5,
-      "text": "Jeden Tag."
+      "text": "Jeden Tag.",
+      "settings": {
+        "stability": 0.9,
+        "style": 0,
+        "speed": 1.04
+      },
+      "previousText": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten. Er verharrt."
     },
     {
       "id": "s8-1",
-      "scene": "s8",
-      "at": 103.6,
-      "minGap": 0,
-      "text": "Man muss den Entscheidungselefanten bewusst wahrnehmen."
+      "scene": "s7",
+      "at": null,
+      "minGap": 1.5,
+      "text": "Man muss den Entscheidungselefanten bewusst wahrnehmen.",
+      "settings": {
+        "stability": 0.9,
+        "style": 0,
+        "speed": 1.04
+      },
+      "previousText": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten. Er verharrt."
     },
     {
       "id": "s8-2",
       "scene": "s8",
-      "at": 110.5,
-      "minGap": 1.0,
+      "at": 106.5,
+      "minGap": 0,
       "text": "Dann öffnen sich neue Wege."
     }
   ],
-  "_version": "Fassung 2 nach Feedback vom 13.10.2026 (review/sprechertext-feedback-v1-rueckmeldung.docx)"
+  "_version": "Fassung 2, Pacing nach Feedback vom 16.10.2026 (Szenen gekürzt, Satz s8-1 in Szene 7)"
 }

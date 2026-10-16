@@ -1,0 +1,9 @@
+{
+  "ids": ["s7-1", "s7-2", "s7-3", "s8-1"],
+  "variants": {
+    "sachlich-a": { "settings": { "stability": 0.75, "style": 0.0, "speed": 1.0 },
+      "previousText": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten." },
+    "sachlich-b": { "settings": { "stability": 0.9, "style": 0.0, "speed": 1.04 },
+      "previousText": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten. Er verharrt." }
+  }
+}
