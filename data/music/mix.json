@@ -1,0 +1,20 @@
+{
+  "_note": "Pegel der Musik relativ zur Datei (dB), Ducking unter dem Sprecher. cutAt = harter Abbruch (Szene 6 beginnt).",
+  "duckDb": -9,
+  "duckLead": 0.3,
+  "duckTail": 0.4,
+  "duckRamp": 0.4,
+  "cues": [
+    {
+      "id": "M1",
+      "start": 2.0,
+      "gainDb": -8.5,
+      "cutAt": 75.466
+    },
+    {
+      "id": "M2",
+      "start": 100.466,
+      "gainDb": -8.5
+    }
+  ]
+}

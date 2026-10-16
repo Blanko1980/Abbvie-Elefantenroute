@@ -66,3 +66,24 @@ Grundlage: `Feedback_Elefantenvideo_16_Okt.docx` plus deine Antworten auf die dr
   - Dazu Gemini als zweites Ohr. Gemini allein war bei Betonung nicht zuverlässig, im Blindvergleich bevorzugte es oft einfach die zweite Aufnahme.
 - **Hörprobe:** `review/voice/betonung-vorher-nachher.mp3`, je Satz erst alt, dann neu, am Ende die Alternative für s8-1.
 - **Zeitleiste:** neu berechnet, 1:50,5 statt 1:50,3. `review/voice/sprecher-timeline.mp3` ist aktualisiert. Das Video ist noch nicht neu gerendert (deine Vorgabe).
+
+## Musik (16.10.2026, noch nicht im Video)
+
+- **Erzeugt:** ElevenLabs `music_v1` mit Kompositionsplan (`data/music/plan.json`, `scripts/gen-music.mjs`), instrumental. Die Abschnitte sind auf die Szenenlängen abgestimmt.
+- **M1, Hauptstück (0:02 bis 1:15,5):**
+  - Szene 1: Harfe und Flöte.
+  - Szene 2: Pizzicato-Gehen, Klarinette antwortet.
+  - Szene 3: Streicher-Ostinato, Hörner, Steigerung.
+  - Szene 4: Cello, ruhiger, aber warm.
+  - Szene 5: vollster Punkt.
+  - Harter Abbruch, als Szene 6 beginnt.
+- **M2, Szene 8 (ab 1:40,5):** kurze aufsteigende Flötenphrase mit Harfe, endet in einem warmen Dur-Akkord, der in die Endcard ausklingt.
+- **Prüfung per Gemini:**
+  - beide Stücke in Dur, „naturdokutypisch“ 10 von 10, „traurig“ 1 von 10, keine Haltetöne;
+  - Sprecher in der Mischung 10 von 10 verständlich.
+- **Mischung (`data/music/mix.json`, `scripts/music-mix.py`):**
+  - Musik 4 dB unter dem Sprecher.
+  - Unter jedem Satz 9 dB leiser, mit Rampen von 0,4 s.
+  - Gesamtpegel −20 LUFS.
+- **Hörprobe:** `review/music/mix-sprecher-musik.mp3` (Sprecher und Musik im Filmtiming).
+- **Offen:** Der harte Abbruch bei 1:15 steht so im Script. Ohne Bild kann er wie ein Fehler wirken. Die Alternative wäre eine kurze Blende von 1 bis 1,5 s.

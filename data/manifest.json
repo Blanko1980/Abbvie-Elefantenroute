@@ -3677,7 +3677,7 @@
       "previousText": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten. Er verharrt.",
       "prompt": "Der Elefant ist immer da.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/voice/s7-1.mp3",
       "duration": 2.089796,
       "note": "sachlicher (Feedback 16.10.2026), Variante sachlich-b"
@@ -3723,7 +3723,7 @@
       "previousText": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten. Er verharrt.",
       "prompt": "Jeden Tag.",
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/voice/s7-3.mp3",
       "duration": 1.38449,
       "note": "sachlicher (Feedback 16.10.2026), Variante sachlich-b"
@@ -4322,7 +4322,7 @@
       "previousText": null,
       "seed": 11,
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/voice/s3-1.mp3",
       "duration": 3.369796,
       "note": "Betonung nach Feedback 16.10.2026, Variante komma"
@@ -4346,7 +4346,7 @@
       "previousText": null,
       "seed": 11,
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/voice/s4-1.mp3",
       "duration": 3.291429,
       "note": "Betonung nach Feedback 16.10.2026, Variante caps"
@@ -4370,7 +4370,7 @@
       "previousText": "Junge Entscheidungselefanten sind neugierig und probieren neue Wege aus. Der Entscheidungselefant wird älter.",
       "seed": 37,
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/voice/s5-1.mp3",
       "duration": 5.32898,
       "note": "Betonung nach Feedback 16.10.2026, Variante gegeben-c"
@@ -4394,7 +4394,7 @@
       "previousText": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten. Der Elefant ist immer da. Nicht nur bei manchen.",
       "seed": 11,
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/voice/s7-2.mp3",
       "duration": 2.220408,
       "note": "Betonung nach Feedback 16.10.2026, Variante kontrast"
@@ -4418,10 +4418,58 @@
       "previousText": "Der Elefant ist immer da. Er begleitet jeden von uns. Jeden Tag. Den Entscheidungselefanten bewusst zu kennen, reicht nicht.",
       "seed": 23,
       "refs": [],
-      "status": "zur Freigabe",
+      "status": "abgelehnt",
       "file": "public/voice/s8-1.mp3",
       "duration": 2.76898,
-      "note": "Betonung nach Feedback 16.10.2026, Variante gegeben-b"
+      "note": "Betonung nach Feedback 16.10.2026, Variante gegeben-b; ersetzt durch Variante gegeben-c (deine Wahl)"
+    },
+    {
+      "id": "s8-1",
+      "type": "speech",
+      "attempt": 4,
+      "timestamp": "2026-10-16T16:52:27.181Z",
+      "model": "eleven_multilingual_v2",
+      "voice": "Thomas Schendel - Authoritative and Calm",
+      "voice_id": "Fghah4fztZORbiKfIGAs",
+      "settings": {
+        "stability": 0.9,
+        "similarity_boost": 0.8,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 1.04
+      },
+      "prompt": "Man muss den Entscheidungselefanten bewusst wahrnehmen.",
+      "previousText": "Der Elefant ist immer da. Er begleitet jeden von uns. Jeden Tag. Den Entscheidungselefanten bewusst zu kennen, reicht nicht.",
+      "seed": 37,
+      "refs": [],
+      "status": "freigegeben",
+      "file": "public/voice/s8-1.mp3",
+      "duration": 2.925714,
+      "note": "Betonung, Variante gegeben-c (deine Wahl)"
+    },
+    {
+      "id": "M1",
+      "type": "music",
+      "attempt": 1,
+      "timestamp": "2026-10-16T16:53:20.623Z",
+      "model": "music_v1",
+      "refs": [],
+      "prompt": "{\"positive_global_styles\":[\"BBC nature documentary orchestral score\",\"lush cinematic chamber orchestra\",\"warm major key\",\"sense of wonder and gentle curiosity\",\"flowing melodic strings\",\"harp arpeggios\",\"woodwind melodies on flute, clarinet and oboe\",\"light pizzicato strings\",\"moderate tempo around 92 BPM\",\"elegant, light, optimistic, observational\"],\"negative_global_styles\":[\"sad\",\"tragic\",\"melancholic\",\"minor key\",\"single sustained note\",\"drone\",\"ambient pad\",\"pop\",\"electronic\",\"synthesizer\",\"drum kit\",\"vocals\",\"choir\",\"epic trailer percussion\"],\"sections\":[{\"section_name\":\"Opening, the elephant in the hall\",\"positive_local_styles\":[\"gentle opening\",\"solo flute melody over harp arpeggios\",\"soft strings enter after a few bars\",\"curious and warm\",\"light and airy\"],\"negative_local_styles\":[\"loud\",\"dark\"],\"duration_ms\":15150,\"lines\":[]},{\"section_name\":\"Walking together through the corridor\",\"positive_local_styles\":[\"walking tempo\",\"playful pizzicato strings like soft footsteps\",\"clarinet answers the flute\",\"the melody develops\",\"warm and slightly whimsical\"],\"negative_local_styles\":[\"sad\",\"slow\"],\"duration_ms\":16000,\"lines\":[]},{\"section_name\":\"Time-lapse, the years pass\",\"positive_local_styles\":[\"momentum builds\",\"flowing string ostinato\",\"french horns join softly\",\"seasons passing\",\"sweeping and lively\",\"steady crescendo\"],\"negative_local_styles\":[\"static\",\"sad\"],\"duration_ms\":15130,\"lines\":[]},{\"section_name\":\"At the door\",\"positive_local_styles\":[\"thoughtful intimate texture\",\"cello melody with soft harp\",\"still warm and hopeful\",\"gentle pulse continues\"],\"negative_local_styles\":[\"sad\",\"tragic\",\"minor key\",\"silence\"],\"duration_ms\":11190,\"lines\":[]},{\"section_name\":\"Waiting, fullest point\",\"positive_local_styles\":[\"fullest orchestral point of the piece\",\"rich strings and woodwinds\",\"broad lyrical melody\",\"time-lapse energy\",\"majestic yet gentle\",\"keeps playing at full strength to the very end, no fade out, no ending\"],\"negative_local_styles\":[\"fade out\",\"final cadence\",\"sad\"],\"duration_ms\":16000,\"lines\":[]}]}",
+      "status": "zur Freigabe",
+      "file": "public/music/M1.mp3",
+      "note": "Hauptstück Szenen 1 bis 5, Abbruch bei Szene 6"
+    },
+    {
+      "id": "M2",
+      "type": "music",
+      "attempt": 1,
+      "timestamp": "2026-10-16T16:53:24.558Z",
+      "model": "music_v1",
+      "refs": [],
+      "prompt": "{\"positive_global_styles\":[\"BBC nature documentary orchestral score\",\"warm major key\",\"tender, quiet, hopeful\",\"soft strings and harp\"],\"negative_global_styles\":[\"sad\",\"tragic\",\"minor key\",\"drone\",\"pop\",\"electronic\",\"percussion\",\"vocals\"],\"sections\":[{\"section_name\":\"A door opens\",\"positive_local_styles\":[\"a short gentle rising melody on solo flute with harp\",\"soft strings underneath\",\"resolves into a warm major chord\"],\"negative_local_styles\":[\"loud\"],\"duration_ms\":6000,\"lines\":[]},{\"section_name\":\"Ring out\",\"positive_local_styles\":[\"the warm major chord rings out softly\",\"quiet natural decay\"],\"negative_local_styles\":[\"new melody\"],\"duration_ms\":4000,\"lines\":[]}]}",
+      "status": "zur Freigabe",
+      "file": "public/music/M2.mp3",
+      "note": "Szene 8 bis Filmende"
     }
   ]
 }

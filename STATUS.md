@@ -1,6 +1,6 @@
 # Status
 
-Stand: 16.10.2026, Pacing nach Feedback eingearbeitet. **Rohschnitt `review/rohschnitt-animiert-720p.mp4` (1:50,3) wartet auf Freigabe.** `renders/elefant-v1-1080p.mp4` ist noch die alte Fassung mit Standbildern.
+Stand: 16.10.2026. Sprecherspur mit Betonungskorrektur freigegeben. **Musik (ElevenLabs) erzeugt, Hörprobe `review/music/mix-sprecher-musik.mp3` wartet auf Freigabe.** Danach Musik in Remotion (Spur `music`) und finales Rendering.
 
 ## Fertig
 
@@ -15,7 +15,8 @@ Stand: 16.10.2026, Pacing nach Feedback eingearbeitet. **Rohschnitt `review/rohs
 
 ## Offen, braucht Entscheidung
 
-1. Freigabe des Rohschnitts nach dem Pacing-Feedback (`review/phase7-notiz.md`) und der sachlicheren Sprecherfassung in Szene 7 (`review/voice/szene7-vorher-nachher.mp3`). Danach finales 1080p neu rendern.
+1. Freigabe der Musik (M1, M2) und der Mischung. Harter Abbruch bei 1:15 lassen oder kurze Blende?
+2. Danach: Musik mit Ducking in Remotion einbauen, Rohschnitt 720p, nach Freigabe finales 1080p.
 
 ## Später, nicht jetzt
 
@@ -44,6 +45,8 @@ Stand: 16.10.2026, Pacing nach Feedback eingearbeitet. **Rohschnitt `review/rohs
 3. **Jahreszeit:** Sommergrün vor den Fenstern, außer im Zeitraffer in Szene 3.
 4. **Wanduhr:** rund, ohne Ziffern, hinter dem Tresen.
 5. **Patientin statt Patient:** junge Frau, wach und genervt, nicht erschöpft.
+13. **Sprecher-Betonung** (16.10.2026): s3-1, s4-1, s5-1, s7-2, s8-1 neu, freigegeben. In `data/voice/narration.json` steht je Satz `ttsText` (an ElevenLabs gesendet), `previousText` und `seed`.
+14. **Musik:** Statt Suno wird ElevenLabs `music_v1` verwendet (deine Anfrage vom 16.10.2026).
 12. **Pacing und kleiner Elefant** (16.10.2026): siehe `SCRIPT.md` und `review/phase7-notiz.md`. Die Coda entfällt.
 11. **Alle Einstellungen animiert** (13.10.2026): jede Einstellung ist ein Veo-Clip, Vorgaben in `data/shots/phase6-clips.json`, Notiz `review/phase6-notiz.md`.
 10. **Keine Einblendungen:** Die Gedanken-Einblendungen in Szene 2 und Szene 4 entfallen im finalen Film. Die Komponente `Overlay` bleibt im Code; die Liste in `scripts/build-timeline.mjs` wird per Filter geleert und kann bei Bedarf wieder aktiviert werden.
@@ -102,3 +105,5 @@ Stand: 16.10.2026, Pacing nach Feedback eingearbeitet. **Rohschnitt `review/rohs
 - `python3 scripts/grade-clip.py <ziel.mp4> <referenz.mp4> <ausgabe.mp4> [stärke]` gleicht die Lichtstimmung eines Clips lokal an einen Referenzclip an.
 - `python3 scripts/shrink-elephant.py <mit_elefant.jpg> <leerer_raum.jpg> <x0,y0,x1,y1> <faktor> <ausgabe.jpg> [schwelle]` verkleinert den Elefanten über die Differenz zum leeren Raum; danach Angleichung per Bildbearbeitung.
 - `node scripts/voice-variants.mjs <varianten.json>` erzeugt Sprecher-Varianten zum Vergleichen, `node scripts/compare-voice.mjs <a.mp3> <b.mp3> ...` vergleicht sie per Gemini.
+- `node scripts/gen-music.mjs data/music/plan.json <ID>` erzeugt Musik (ElevenLabs, Kompositionsplan); `python3 scripts/music-mix.py <ausgabe.mp3>` mischt Sprecher und Musik mit Ducking (`data/music/mix.json`); `node scripts/check-music.mjs <mp3> "<Soll>"` prüft per Gemini.
+- `node scripts/voice-emphasis.mjs <betonung.json>` erzeugt Betonungsvarianten; `node scripts/align-words.mjs` und `python3 scripts/stress-measure.py` messen die Betonung je Wort; `python3 scripts/voice-mixdown.py <mp3>` baut die reine Sprecherspur.

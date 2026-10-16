@@ -103,9 +103,9 @@
   },
   "s8-1": {
     "file": "public/voice/s8-1.mp3",
-    "total": 2.769,
+    "total": 2.926,
     "speechStart": 0.0,
-    "speechEnd": 2.452
+    "speechEnd": 2.508
   },
   "s8-2": {
     "file": "public/voice/s8-2.mp3",

@@ -2,7 +2,7 @@
 
 Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen (Modell- und Stimmenlisten) sind nicht mitgezählt. Erzeugt aus `data/api-calls.json`.
 
-**Summe:** 125 Bild, 77 Clip, 85 Sprache, 1 Musik, 53 Text (Prüfaufrufe)
+**Summe:** 125 Bild, 77 Clip, 85 Sprache, 3 Musik, 56 Text (Prüfaufrufe)
 
 | Phase | Bild | Clip | Sprache | Musik | Text |
 | --- | ---: | ---: | ---: | ---: | ---: |
@@ -13,7 +13,7 @@ Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen
 | 4 | 0 | 0 | 31 | 0 | 2 |
 | 6 | 2 | 66 | 0 | 0 | 0 |
 | 7 | 19 | 0 | 8 | 0 | 1 |
-| 8 | 0 | 0 | 28 | 1 | 47 |
+| 8 | 0 | 0 | 28 | 3 | 50 |
 
 ## Einzelaufrufe
 
@@ -360,3 +360,8 @@ Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen
 | 2026-10-16 16:43 | 8 | Text (Prüfung) | gemini-3-flash-preview | ab:s8-1 | – | ok | A/B Betonung |
 | 2026-10-16 16:43 | 8 | Text (Prüfung) | gemini-3-flash-preview | ab:s8-1 | – | ok | A/B Betonung |
 | 2026-10-16 16:44 | 8 | Musik | music_v1 | musik-test | – | ok | 10 s Test |
+| 2026-10-16 16:53 | 8 | Musik | music_v1 | M1 | 1 | ok | 73.47 s |
+| 2026-10-16 16:53 | 8 | Musik | music_v1 | M2 | 1 | ok | 10 s |
+| 2026-10-16 16:53 | 8 | Text (Prüfung) | gemini-3-flash-preview | musik:work/music/M1_a1.mp3 | – | ok | Musik prüfen |
+| 2026-10-16 16:53 | 8 | Text (Prüfung) | gemini-3-flash-preview | musik:work/music/M2_a1.mp3 | – | ok | Musik prüfen |
+| 2026-10-16 16:54 | 8 | Text (Prüfung) | gemini-3-flash-preview | mix:check | – | ok | Mischung prüfen |
