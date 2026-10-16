@@ -49,3 +49,20 @@ Grundlage: `Feedback_Elefantenvideo_16_Okt.docx` plus deine Antworten auf die dr
 - 8 Clips mit zusammen 50 s.
 - 8 Sprachaufrufe für zwei Varianten zu je 4 Sätzen.
 - 1 Prüfaufruf (Text).
+
+## Betonung nach Feedback (16.10.2026, Sprecherspur noch nicht im Video)
+
+| Satz | Problem | Lösung |
+| --- | --- | --- |
+| s3-1 „Mit der Zeit wird aus Erinnerung Gewohnheit.“ | klang wie „derzeit“ | Komma nach „Zeit“ (nur im Text an ElevenLabs), kleine Zäsur |
+| s4-1 „Neue Wege verunsichern den Elefanten.“ | Betonung auf „Elefanten“ | „VERUNSICHERN“ in Großbuchstaben |
+| s5-1 „… des ausgewachsenen Entscheidungselefanten.“ | Betonung auf „Entscheidungselefanten“ | Vorkontext, in dem der Entscheidungselefant schon genannt ist („Junge Entscheidungselefanten …“), dadurch Betonung auf „ausgewachsenen“ |
+| s7-2 „Er begleitet jeden von uns.“ | Betonung auf „von uns“ | „JEDEN“ plus Kontrast im Vorkontext |
+| s8-1 „Man muss den Entscheidungselefanten bewusst wahrnehmen.“ | Betonung nicht auf „wahrnehmen“ | Vorkontext „… zu kennen, reicht nicht.“; Alternative am Ende der Hörprobe |
+
+- **Prüfung:**
+  - Wortgrenzen per Forced Alignment (`scripts/align-words.mjs`).
+  - Je Wort Tonhöhenspitze, Lautheit und Dauer gemessen (`scripts/stress-measure.py`).
+  - Dazu Gemini als zweites Ohr. Gemini allein war bei Betonung nicht zuverlässig, im Blindvergleich bevorzugte es oft einfach die zweite Aufnahme.
+- **Hörprobe:** `review/voice/betonung-vorher-nachher.mp3`, je Satz erst alt, dann neu, am Ende die Alternative für s8-1.
+- **Zeitleiste:** neu berechnet, 1:50,5 statt 1:50,3. `review/voice/sprecher-timeline.mp3` ist aktualisiert. Das Video ist noch nicht neu gerendert (deine Vorgabe).

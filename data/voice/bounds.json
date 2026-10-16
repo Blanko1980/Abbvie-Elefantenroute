@@ -37,9 +37,9 @@
   },
   "s3-1": {
     "file": "public/voice/s3-1.mp3",
-    "total": 2.691,
+    "total": 3.37,
     "speechStart": 0.0,
-    "speechEnd": 2.412
+    "speechEnd": 2.838
   },
   "s3-2": {
     "file": "public/voice/s3-2.mp3",
@@ -49,9 +49,9 @@
   },
   "s4-1": {
     "file": "public/voice/s4-1.mp3",
-    "total": 2.769,
+    "total": 3.291,
     "speechStart": 0.0,
-    "speechEnd": 2.391
+    "speechEnd": 2.452
   },
   "s4-2": {
     "file": "public/voice/s4-2.mp3",
@@ -61,9 +61,9 @@
   },
   "s5-1": {
     "file": "public/voice/s5-1.mp3",
-    "total": 4.833,
-    "speechStart": 0.096,
-    "speechEnd": 4.062
+    "total": 5.329,
+    "speechStart": 0.1,
+    "speechEnd": 4.634
   },
   "s5-2": {
     "file": "public/voice/s5-2.mp3",
@@ -91,9 +91,9 @@
   },
   "s7-2": {
     "file": "public/voice/s7-2.mp3",
-    "total": 2.168,
+    "total": 2.22,
     "speechStart": 0.0,
-    "speechEnd": 1.569
+    "speechEnd": 1.755
   },
   "s7-3": {
     "file": "public/voice/s7-3.mp3",
@@ -103,7 +103,7 @@
   },
   "s8-1": {
     "file": "public/voice/s8-1.mp3",
-    "total": 2.821,
+    "total": 2.769,
     "speechStart": 0.0,
     "speechEnd": 2.452
   },

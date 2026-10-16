@@ -1,5 +1,5 @@
 {
-  "_note": "Sprechertext laut SCRIPT.md. at = Zielstart in Sekunden ab Filmbeginn laut Script (Regie-Details); minGap = Mindestpause nach dem Vorsatz in Sekunden.",
+  "_note": "Sprechertext laut SCRIPT.md. at = Zielstart in Sekunden ab Filmbeginn laut Script (Regie-Details); minGap = Mindestpause nach dem Vorsatz in Sekunden. ttsText = an ElevenLabs gesendeter Text (Schreibweise für die Betonung), text = Text laut Script.",
   "voice": {
     "name": "Thomas Schendel - Authoritative and Calm",
     "voice_id": "Fghah4fztZORbiKfIGAs"
@@ -125,7 +125,9 @@
       "scene": "s3",
       "at": 36,
       "minGap": 0,
-      "text": "Mit der Zeit wird aus Erinnerung Gewohnheit."
+      "text": "Mit der Zeit wird aus Erinnerung Gewohnheit.",
+      "ttsText": "Mit der Zeit, wird aus Erinnerung Gewohnheit.",
+      "seed": 11
     },
     {
       "id": "s3-2",
@@ -139,7 +141,9 @@
       "scene": "s4",
       "at": 52.6,
       "minGap": 0,
-      "text": "Neue Wege verunsichern den Elefanten."
+      "text": "Neue Wege verunsichern den Elefanten.",
+      "ttsText": "Neue Wege VERUNSICHERN den Elefanten.",
+      "seed": 11
     },
     {
       "id": "s4-2",
@@ -153,7 +157,10 @@
       "scene": "s5",
       "at": 65,
       "minGap": 0,
-      "text": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten."
+      "text": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten.",
+      "ttsText": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten.",
+      "previousText": "Junge Entscheidungselefanten sind neugierig und probieren neue Wege aus. Der Entscheidungselefant wird älter.",
+      "seed": 37
     },
     {
       "id": "s5-2",
@@ -200,7 +207,9 @@
         "style": 0,
         "speed": 1.04
       },
-      "previousText": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten. Er verharrt."
+      "previousText": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten. Der Elefant ist immer da. Nicht nur bei manchen.",
+      "ttsText": "Er begleitet JEDEN von uns.",
+      "seed": 11
     },
     {
       "id": "s7-3",
@@ -226,7 +235,9 @@
         "style": 0,
         "speed": 1.04
       },
-      "previousText": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten. Er verharrt."
+      "previousText": "Der Elefant ist immer da. Er begleitet jeden von uns. Jeden Tag. Den Entscheidungselefanten bewusst zu kennen, reicht nicht.",
+      "ttsText": "Man muss den Entscheidungselefanten bewusst wahrnehmen.",
+      "seed": 23
     },
     {
       "id": "s8-2",
@@ -236,5 +247,5 @@
       "text": "Dann öffnen sich neue Wege."
     }
   ],
-  "_version": "Fassung 2, Pacing nach Feedback vom 16.10.2026 (Szenen gekürzt, Satz s8-1 in Szene 7)"
+  "_version": "Fassung 2, Pacing 16.10.2026, Betonung korrigiert (s3-1, s4-1, s5-1, s7-2, s8-1)"
 }

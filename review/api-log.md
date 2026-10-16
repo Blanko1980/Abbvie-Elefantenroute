@@ -2,17 +2,18 @@
 
 Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen (Modell- und Stimmenlisten) sind nicht mitgezählt. Erzeugt aus `data/api-calls.json`.
 
-**Summe:** 125 Bild, 77 Clip, 57 Sprache, 6 Text (Prüfaufrufe)
+**Summe:** 125 Bild, 77 Clip, 85 Sprache, 1 Musik, 53 Text (Prüfaufrufe)
 
-| Phase | Bild | Clip | Sprache | Text |
-| --- | ---: | ---: | ---: | ---: |
-| 0 | 1 | 0 | 1 | 0 |
-| 1 | 22 | 0 | 0 | 0 |
-| 2 | 12 | 7 | 17 | 3 |
-| 3 | 69 | 4 | 0 | 0 |
-| 4 | 0 | 0 | 31 | 2 |
-| 6 | 2 | 66 | 0 | 0 |
-| 7 | 19 | 0 | 8 | 1 |
+| Phase | Bild | Clip | Sprache | Musik | Text |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| 0 | 1 | 0 | 1 | 0 | 0 |
+| 1 | 22 | 0 | 0 | 0 | 0 |
+| 2 | 12 | 7 | 17 | 0 | 3 |
+| 3 | 69 | 4 | 0 | 0 | 0 |
+| 4 | 0 | 0 | 31 | 0 | 2 |
+| 6 | 2 | 66 | 0 | 0 | 0 |
+| 7 | 19 | 0 | 8 | 0 | 1 |
+| 8 | 0 | 0 | 28 | 1 | 47 |
 
 ## Einzelaufrufe
 
@@ -283,3 +284,79 @@ Zählt alle kostenpflichtigen Aufrufe, auch fehlgeschlagene. Kostenlose Abfragen
 | 2026-10-16 16:11 | 6 | Clip | veo-3.1-generate-preview | V01c | 2 | ok | 6s 720p |
 | 2026-10-16 16:14 | 6 | Clip | veo-3.1-generate-preview | V02a | 5 | ok | 8s 720p |
 | 2026-10-16 16:15 | 6 | Clip | veo-3.1-generate-preview | V02a2 | 1 | ok | 8s 720p |
+| 2026-10-16 16:37 | 8 | Sprache | eleven_multilingual_v2 | s3-1:komma | – | ok | 45 Zeichen, Betonungsvariante |
+| 2026-10-16 16:37 | 8 | Sprache | eleven_multilingual_v2 | s3-1:komma-b | – | ok | 45 Zeichen, Betonungsvariante |
+| 2026-10-16 16:37 | 8 | Sprache | eleven_multilingual_v2 | s3-1:caps | – | ok | 44 Zeichen, Betonungsvariante |
+| 2026-10-16 16:37 | 8 | Sprache | eleven_multilingual_v2 | s3-1:pause | – | ok | 46 Zeichen, Betonungsvariante |
+| 2026-10-16 16:37 | 8 | Text (Prüfung) | gemini-3-flash-preview | betonung:s3-1 | – | ok | Betonung prüfen |
+| 2026-10-16 16:37 | 8 | Sprache | eleven_multilingual_v2 | s4-1:caps | – | ok | 37 Zeichen, Betonungsvariante |
+| 2026-10-16 16:37 | 8 | Sprache | eleven_multilingual_v2 | s4-1:caps-b | – | ok | 37 Zeichen, Betonungsvariante |
+| 2026-10-16 16:37 | 8 | Sprache | eleven_multilingual_v2 | s4-1:kontrast | – | ok | 37 Zeichen, Betonungsvariante |
+| 2026-10-16 16:38 | 8 | Sprache | eleven_multilingual_v2 | s4-1:caps-kontrast | – | ok | 37 Zeichen, Betonungsvariante |
+| 2026-10-16 16:38 | 8 | Text (Prüfung) | gemini-3-flash-preview | betonung:s4-1 | – | ok | Betonung prüfen |
+| 2026-10-16 16:38 | 8 | Sprache | eleven_multilingual_v2 | s5-1:caps | – | ok | 82 Zeichen, Betonungsvariante |
+| 2026-10-16 16:38 | 8 | Sprache | eleven_multilingual_v2 | s5-1:caps-b | – | ok | 82 Zeichen, Betonungsvariante |
+| 2026-10-16 16:38 | 8 | Sprache | eleven_multilingual_v2 | s5-1:kontrast | – | ok | 82 Zeichen, Betonungsvariante |
+| 2026-10-16 16:38 | 8 | Sprache | eleven_multilingual_v2 | s5-1:caps-kontrast | – | ok | 82 Zeichen, Betonungsvariante |
+| 2026-10-16 16:38 | 8 | Text (Prüfung) | gemini-3-flash-preview | betonung:s5-1 | – | ok | Betonung prüfen |
+| 2026-10-16 16:38 | 8 | Sprache | eleven_multilingual_v2 | s7-2:caps | – | ok | 27 Zeichen, Betonungsvariante |
+| 2026-10-16 16:38 | 8 | Sprache | eleven_multilingual_v2 | s7-2:caps-b | – | ok | 27 Zeichen, Betonungsvariante |
+| 2026-10-16 16:38 | 8 | Sprache | eleven_multilingual_v2 | s7-2:caps-c | – | ok | 27 Zeichen, Betonungsvariante |
+| 2026-10-16 16:38 | 8 | Sprache | eleven_multilingual_v2 | s7-2:kontrast | – | ok | 27 Zeichen, Betonungsvariante |
+| 2026-10-16 16:38 | 8 | Text (Prüfung) | gemini-3-flash-preview | betonung:s7-2 | – | ok | Betonung prüfen |
+| 2026-10-16 16:38 | 8 | Sprache | eleven_multilingual_v2 | s8-1:caps | – | ok | 55 Zeichen, Betonungsvariante |
+| 2026-10-16 16:38 | 8 | Sprache | eleven_multilingual_v2 | s8-1:caps-b | – | ok | 55 Zeichen, Betonungsvariante |
+| 2026-10-16 16:38 | 8 | Sprache | eleven_multilingual_v2 | s8-1:caps-c | – | ok | 55 Zeichen, Betonungsvariante |
+| 2026-10-16 16:38 | 8 | Sprache | eleven_multilingual_v2 | s8-1:kontrast | – | ok | 55 Zeichen, Betonungsvariante |
+| 2026-10-16 16:38 | 8 | Text (Prüfung) | gemini-3-flash-preview | betonung:s8-1 | – | ok | Betonung prüfen |
+| 2026-10-16 16:39 | 8 | Text (Prüfung) | gemini-3-flash-preview | blind:s3-1 | – | ok | Blindvergleich Betonung |
+| 2026-10-16 16:39 | 8 | Text (Prüfung) | gemini-3-flash-preview | blind:s4-1 | – | ok | Blindvergleich Betonung |
+| 2026-10-16 16:39 | 8 | Text (Prüfung) | gemini-3-flash-preview | blind:s5-1 | – | ok | Blindvergleich Betonung |
+| 2026-10-16 16:39 | 8 | Text (Prüfung) | gemini-3-flash-preview | blind:s7-2 | – | ok | Blindvergleich Betonung |
+| 2026-10-16 16:40 | 8 | Text (Prüfung) | gemini-3-flash-preview | blind:s8-1 | – | ok | Blindvergleich Betonung |
+| 2026-10-16 16:41 | 8 | Text (Prüfung) | forced-alignment | align:public/voice/s3-1.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:41 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s3-1/komma.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:41 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s3-1/komma-b.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:41 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s3-1/caps.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:41 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s3-1/pause.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:41 | 8 | Text (Prüfung) | forced-alignment | align:public/voice/s4-1.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:41 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s4-1/caps.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:41 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s4-1/caps-b.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:41 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s4-1/kontrast.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:41 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s4-1/caps-kontrast.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:41 | 8 | Text (Prüfung) | forced-alignment | align:public/voice/s5-1.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:41 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s5-1/caps.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:41 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s5-1/caps-b.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:41 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s5-1/kontrast.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:41 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s5-1/caps-kontrast.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:41 | 8 | Text (Prüfung) | forced-alignment | align:public/voice/s7-2.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:41 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s7-2/caps.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:41 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s7-2/caps-b.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:41 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s7-2/caps-c.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:41 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s7-2/kontrast.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:41 | 8 | Text (Prüfung) | forced-alignment | align:public/voice/s8-1.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:41 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s8-1/caps.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:41 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s8-1/caps-b.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:41 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s8-1/caps-c.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:41 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s8-1/kontrast.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:42 | 8 | Sprache | eleven_multilingual_v2 | s5-1:gegeben-a | – | ok | 82 Zeichen, Betonungsvariante |
+| 2026-10-16 16:42 | 8 | Sprache | eleven_multilingual_v2 | s5-1:gegeben-b | – | ok | 82 Zeichen, Betonungsvariante |
+| 2026-10-16 16:42 | 8 | Sprache | eleven_multilingual_v2 | s5-1:gegeben-c | – | ok | 82 Zeichen, Betonungsvariante |
+| 2026-10-16 16:42 | 8 | Sprache | eleven_multilingual_v2 | s5-1:gegeben-caps | – | ok | 82 Zeichen, Betonungsvariante |
+| 2026-10-16 16:42 | 8 | Text (Prüfung) | gemini-3-flash-preview | betonung:s5-1 | – | ok | Betonung prüfen |
+| 2026-10-16 16:42 | 8 | Sprache | eleven_multilingual_v2 | s8-1:gegeben-a | – | ok | 55 Zeichen, Betonungsvariante |
+| 2026-10-16 16:42 | 8 | Sprache | eleven_multilingual_v2 | s8-1:gegeben-b | – | ok | 55 Zeichen, Betonungsvariante |
+| 2026-10-16 16:42 | 8 | Sprache | eleven_multilingual_v2 | s8-1:gegeben-c | – | ok | 55 Zeichen, Betonungsvariante |
+| 2026-10-16 16:42 | 8 | Sprache | eleven_multilingual_v2 | s8-1:gegeben-caps | – | ok | 55 Zeichen, Betonungsvariante |
+| 2026-10-16 16:42 | 8 | Text (Prüfung) | gemini-3-flash-preview | betonung:s8-1 | – | ok | Betonung prüfen |
+| 2026-10-16 16:42 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s5-1/gegeben-a.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:42 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s5-1/gegeben-b.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:42 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s5-1/gegeben-c.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:42 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s5-1/gegeben-caps.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:42 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s8-1/gegeben-a.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:42 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s8-1/gegeben-b.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:42 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s8-1/gegeben-c.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:42 | 8 | Text (Prüfung) | forced-alignment | align:work/voice-emph/s8-1/gegeben-caps.mp3 | – | ok | Wortgrenzen |
+| 2026-10-16 16:43 | 8 | Text (Prüfung) | gemini-3-flash-preview | ab:s8-1 | – | ok | A/B Betonung |
+| 2026-10-16 16:43 | 8 | Text (Prüfung) | gemini-3-flash-preview | ab:s8-1 | – | ok | A/B Betonung |
+| 2026-10-16 16:44 | 8 | Musik | music_v1 | musik-test | – | ok | 10 s Test |

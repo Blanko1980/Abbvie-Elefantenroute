@@ -2617,5 +2617,689 @@
     "attempt": 1,
     "ok": true,
     "note": "8s 720p"
+  },
+  {
+    "timestamp": "2026-10-16T16:37:41.303Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s3-1:komma",
+    "ok": true,
+    "note": "45 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:37:42.791Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s3-1:komma-b",
+    "ok": true,
+    "note": "45 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:37:43.912Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s3-1:caps",
+    "ok": true,
+    "note": "44 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:37:45.383Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s3-1:pause",
+    "ok": true,
+    "note": "46 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:37:55.182Z",
+    "phase": "8",
+    "type": "text",
+    "model": "gemini-3-flash-preview",
+    "id": "betonung:s3-1",
+    "ok": true,
+    "note": "Betonung prüfen"
+  },
+  {
+    "timestamp": "2026-10-16T16:37:56.644Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s4-1:caps",
+    "ok": true,
+    "note": "37 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:37:58.028Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s4-1:caps-b",
+    "ok": true,
+    "note": "37 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:37:59.663Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s4-1:kontrast",
+    "ok": true,
+    "note": "37 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:38:01.285Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s4-1:caps-kontrast",
+    "ok": true,
+    "note": "37 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:38:11.659Z",
+    "phase": "8",
+    "type": "text",
+    "model": "gemini-3-flash-preview",
+    "id": "betonung:s4-1",
+    "ok": true,
+    "note": "Betonung prüfen"
+  },
+  {
+    "timestamp": "2026-10-16T16:38:13.024Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s5-1:caps",
+    "ok": true,
+    "note": "82 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:38:14.320Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s5-1:caps-b",
+    "ok": true,
+    "note": "82 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:38:16.508Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s5-1:kontrast",
+    "ok": true,
+    "note": "82 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:38:18.659Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s5-1:caps-kontrast",
+    "ok": true,
+    "note": "82 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:38:26.087Z",
+    "phase": "8",
+    "type": "text",
+    "model": "gemini-3-flash-preview",
+    "id": "betonung:s5-1",
+    "ok": true,
+    "note": "Betonung prüfen"
+  },
+  {
+    "timestamp": "2026-10-16T16:38:27.700Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s7-2:caps",
+    "ok": true,
+    "note": "27 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:38:29.352Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s7-2:caps-b",
+    "ok": true,
+    "note": "27 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:38:31.015Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s7-2:caps-c",
+    "ok": true,
+    "note": "27 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:38:32.607Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s7-2:kontrast",
+    "ok": true,
+    "note": "27 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:38:39.243Z",
+    "phase": "8",
+    "type": "text",
+    "model": "gemini-3-flash-preview",
+    "id": "betonung:s7-2",
+    "ok": true,
+    "note": "Betonung prüfen"
+  },
+  {
+    "timestamp": "2026-10-16T16:38:40.946Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s8-1:caps",
+    "ok": true,
+    "note": "55 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:38:42.510Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s8-1:caps-b",
+    "ok": true,
+    "note": "55 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:38:43.747Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s8-1:caps-c",
+    "ok": true,
+    "note": "55 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:38:45.309Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s8-1:kontrast",
+    "ok": true,
+    "note": "55 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:38:53.296Z",
+    "phase": "8",
+    "type": "text",
+    "model": "gemini-3-flash-preview",
+    "id": "betonung:s8-1",
+    "ok": true,
+    "note": "Betonung prüfen"
+  },
+  {
+    "timestamp": "2026-10-16T16:39:21.656Z",
+    "phase": "8",
+    "type": "text",
+    "model": "gemini-3-flash-preview",
+    "id": "blind:s3-1",
+    "ok": true,
+    "note": "Blindvergleich Betonung"
+  },
+  {
+    "timestamp": "2026-10-16T16:39:26.939Z",
+    "phase": "8",
+    "type": "text",
+    "model": "gemini-3-flash-preview",
+    "id": "blind:s4-1",
+    "ok": true,
+    "note": "Blindvergleich Betonung"
+  },
+  {
+    "timestamp": "2026-10-16T16:39:42.691Z",
+    "phase": "8",
+    "type": "text",
+    "model": "gemini-3-flash-preview",
+    "id": "blind:s5-1",
+    "ok": true,
+    "note": "Blindvergleich Betonung"
+  },
+  {
+    "timestamp": "2026-10-16T16:39:51.435Z",
+    "phase": "8",
+    "type": "text",
+    "model": "gemini-3-flash-preview",
+    "id": "blind:s7-2",
+    "ok": true,
+    "note": "Blindvergleich Betonung"
+  },
+  {
+    "timestamp": "2026-10-16T16:40:00.386Z",
+    "phase": "8",
+    "type": "text",
+    "model": "gemini-3-flash-preview",
+    "id": "blind:s8-1",
+    "ok": true,
+    "note": "Blindvergleich Betonung"
+  },
+  {
+    "timestamp": "2026-10-16T16:41:12.476Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:public/voice/s3-1.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:41:13.121Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s3-1/komma.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:41:13.651Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s3-1/komma-b.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:41:14.162Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s3-1/caps.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:41:14.783Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s3-1/pause.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:41:15.322Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:public/voice/s4-1.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:41:15.816Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s4-1/caps.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:41:16.380Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s4-1/caps-b.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:41:16.917Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s4-1/kontrast.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:41:17.619Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s4-1/caps-kontrast.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:41:18.111Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:public/voice/s5-1.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:41:18.704Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s5-1/caps.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:41:19.278Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s5-1/caps-b.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:41:19.850Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s5-1/kontrast.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:41:20.449Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s5-1/caps-kontrast.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:41:21.016Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:public/voice/s7-2.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:41:21.511Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s7-2/caps.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:41:22.048Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s7-2/caps-b.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:41:22.503Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s7-2/caps-c.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:41:23.005Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s7-2/kontrast.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:41:23.485Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:public/voice/s8-1.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:41:24.043Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s8-1/caps.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:41:24.563Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s8-1/caps-b.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:41:25.066Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s8-1/caps-c.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:41:25.617Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s8-1/kontrast.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:42:17.918Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s5-1:gegeben-a",
+    "ok": true,
+    "note": "82 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:42:20.056Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s5-1:gegeben-b",
+    "ok": true,
+    "note": "82 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:42:22.580Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s5-1:gegeben-c",
+    "ok": true,
+    "note": "82 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:42:24.715Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s5-1:gegeben-caps",
+    "ok": true,
+    "note": "82 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:42:33.948Z",
+    "phase": "8",
+    "type": "text",
+    "model": "gemini-3-flash-preview",
+    "id": "betonung:s5-1",
+    "ok": true,
+    "note": "Betonung prüfen"
+  },
+  {
+    "timestamp": "2026-10-16T16:42:35.467Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s8-1:gegeben-a",
+    "ok": true,
+    "note": "55 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:42:36.995Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s8-1:gegeben-b",
+    "ok": true,
+    "note": "55 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:42:38.500Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s8-1:gegeben-c",
+    "ok": true,
+    "note": "55 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:42:40.044Z",
+    "phase": "8",
+    "type": "speech",
+    "model": "eleven_multilingual_v2",
+    "id": "s8-1:gegeben-caps",
+    "ok": true,
+    "note": "55 Zeichen, Betonungsvariante"
+  },
+  {
+    "timestamp": "2026-10-16T16:42:48.537Z",
+    "phase": "8",
+    "type": "text",
+    "model": "gemini-3-flash-preview",
+    "id": "betonung:s8-1",
+    "ok": true,
+    "note": "Betonung prüfen"
+  },
+  {
+    "timestamp": "2026-10-16T16:42:49.215Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s5-1/gegeben-a.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:42:49.773Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s5-1/gegeben-b.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:42:50.317Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s5-1/gegeben-c.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:42:50.873Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s5-1/gegeben-caps.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:42:51.427Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s8-1/gegeben-a.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:42:51.926Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s8-1/gegeben-b.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:42:52.444Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s8-1/gegeben-c.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:42:52.976Z",
+    "phase": "8",
+    "type": "text",
+    "model": "forced-alignment",
+    "id": "align:work/voice-emph/s8-1/gegeben-caps.mp3",
+    "ok": true,
+    "note": "Wortgrenzen"
+  },
+  {
+    "timestamp": "2026-10-16T16:43:12.787Z",
+    "phase": "8",
+    "type": "text",
+    "model": "gemini-3-flash-preview",
+    "id": "ab:s8-1",
+    "ok": true,
+    "note": "A/B Betonung"
+  },
+  {
+    "timestamp": "2026-10-16T16:43:16.756Z",
+    "phase": "8",
+    "type": "text",
+    "model": "gemini-3-flash-preview",
+    "id": "ab:s8-1",
+    "ok": true,
+    "note": "A/B Betonung"
+  },
+  {
+    "timestamp": "2026-10-16T16:44:52.393Z",
+    "phase": "8",
+    "type": "music",
+    "model": "music_v1",
+    "id": "musik-test",
+    "ok": true,
+    "note": "10 s Test"
   }
 ]

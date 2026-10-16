@@ -3,8 +3,8 @@
   "fps": 24,
   "width": 1920,
   "height": 1080,
-  "durationSeconds": 110.277,
-  "durationInFrames": 2647,
+  "durationSeconds": 110.466,
+  "durationInFrames": 2651,
   "note": "Erzeugt von scripts/build-timeline.mjs. Zeiten in Sekunden ab Filmbeginn. Audiospuren music und ambience bleiben vorerst leer.",
   "audioTracks": {
     "voice": "voice",
@@ -126,11 +126,11 @@
       "id": "s3",
       "name": "Trampelpfad",
       "start": 33.151,
-      "end": 48.151,
-      "duration": 15,
+      "end": 48.279,
+      "duration": 15.128,
       "scriptStart": 32,
       "scriptDuration": 15,
-      "deviationPercent": 0,
+      "deviationPercent": 0.9,
       "flag": false,
       "shots": [
         {
@@ -138,10 +138,10 @@
           "type": "clip",
           "clip": {
             "from": 0,
-            "to": 2
+            "to": 2.017
           },
           "start": 33.151,
-          "duration": 2,
+          "duration": 2.017,
           "src": "clips/V03a.mp4"
         },
         {
@@ -149,10 +149,10 @@
           "type": "clip",
           "clip": {
             "from": 0,
-            "to": 3
+            "to": 3.026
           },
-          "start": 35.151,
-          "duration": 3,
+          "start": 35.168,
+          "duration": 3.026,
           "src": "clips/V03b.mp4"
         },
         {
@@ -160,10 +160,10 @@
           "type": "clip",
           "clip": {
             "from": 0,
-            "to": 2
+            "to": 2.017
           },
-          "start": 38.151,
-          "duration": 2,
+          "start": 38.194,
+          "duration": 2.017,
           "src": "clips/V03f.mp4"
         },
         {
@@ -171,10 +171,10 @@
           "type": "clip",
           "clip": {
             "from": 0,
-            "to": 2
+            "to": 2.017
           },
-          "start": 40.151,
-          "duration": 2,
+          "start": 40.211,
+          "duration": 2.017,
           "src": "clips/V03c.mp4"
         },
         {
@@ -182,10 +182,10 @@
           "type": "clip",
           "clip": {
             "from": 0,
-            "to": 2
+            "to": 2.017
           },
-          "start": 42.151,
-          "duration": 2,
+          "start": 42.228,
+          "duration": 2.017,
           "src": "clips/V03g.mp4"
         },
         {
@@ -193,10 +193,10 @@
           "type": "clip",
           "clip": {
             "from": 0,
-            "to": 2
+            "to": 2.017
           },
-          "start": 44.151,
-          "duration": 2,
+          "start": 44.245,
+          "duration": 2.017,
           "src": "clips/V03h.mp4"
         },
         {
@@ -204,10 +204,10 @@
           "type": "clip",
           "clip": {
             "from": 0,
-            "to": 2
+            "to": 2.017
           },
-          "start": 46.151,
-          "duration": 2,
+          "start": 46.262,
+          "duration": 2.017,
           "src": "clips/V03e.mp4"
         }
       ]
@@ -215,12 +215,12 @@
     {
       "id": "s4",
       "name": "Respekt",
-      "start": 48.151,
-      "end": 59.277,
-      "duration": 11.126,
+      "start": 48.279,
+      "end": 59.466,
+      "duration": 11.187,
       "scriptStart": 50,
       "scriptDuration": 11,
-      "deviationPercent": 1.1,
+      "deviationPercent": 1.7,
       "flag": false,
       "shots": [
         {
@@ -230,7 +230,7 @@
             "from": 3,
             "to": 5.2
           },
-          "start": 48.151,
+          "start": 48.279,
           "duration": 2.2,
           "src": "clips/V2.mp4"
         },
@@ -239,7 +239,7 @@
           "type": "clip",
           "clip": {
             "from": 0,
-            "to": 8.926
+            "to": 8.987
           },
           "move": {
             "kind": "push",
@@ -247,8 +247,8 @@
             "to": 1.1,
             "origin": "74% 50%"
           },
-          "start": 50.351,
-          "duration": 8.926,
+          "start": 50.479,
+          "duration": 8.987,
           "src": "clips/V04b.mp4"
         }
       ]
@@ -256,8 +256,8 @@
     {
       "id": "s5",
       "name": "Warten",
-      "start": 59.277,
-      "end": 75.277,
+      "start": 59.466,
+      "end": 75.466,
       "duration": 16,
       "scriptStart": 64,
       "scriptDuration": 16,
@@ -271,7 +271,7 @@
             "from": 0,
             "to": 8
           },
-          "start": 59.277,
+          "start": 59.466,
           "duration": 8,
           "src": "clips/V3.mp4"
         },
@@ -283,7 +283,7 @@
             "to": 8
           },
           "crossfadeIn": 1,
-          "start": 66.277,
+          "start": 66.466,
           "duration": 8,
           "src": "clips/V4.mp4"
         },
@@ -295,7 +295,7 @@
             "to": 2
           },
           "crossfadeIn": 1,
-          "start": 73.277,
+          "start": 73.466,
           "duration": 2,
           "src": "clips/V05c.mp4"
         }
@@ -304,8 +304,8 @@
     {
       "id": "s6",
       "name": "Die Patientin",
-      "start": 75.277,
-      "end": 85.277,
+      "start": 75.466,
+      "end": 85.466,
       "duration": 10,
       "scriptStart": 80,
       "scriptDuration": 10,
@@ -319,7 +319,7 @@
             "from": 0,
             "to": 2
           },
-          "start": 75.277,
+          "start": 75.466,
           "duration": 2,
           "src": "clips/V06a.mp4"
         },
@@ -330,7 +330,7 @@
             "from": 0.5,
             "to": 3.5
           },
-          "start": 77.277,
+          "start": 77.466,
           "duration": 3,
           "src": "clips/V5.mp4"
         },
@@ -341,7 +341,7 @@
             "from": 0,
             "to": 2
           },
-          "start": 80.277,
+          "start": 80.466,
           "duration": 2,
           "src": "clips/V06c.mp4"
         },
@@ -352,7 +352,7 @@
             "from": 0,
             "to": 3
           },
-          "start": 82.277,
+          "start": 82.466,
           "duration": 3,
           "src": "clips/V06d.mp4"
         }
@@ -361,8 +361,8 @@
     {
       "id": "s7",
       "name": "Der Satz",
-      "start": 85.277,
-      "end": 98.277,
+      "start": 85.466,
+      "end": 98.466,
       "duration": 13,
       "scriptStart": 90,
       "scriptDuration": 13,
@@ -376,7 +376,7 @@
             "from": 0,
             "to": 8
           },
-          "start": 85.277,
+          "start": 85.466,
           "duration": 8,
           "src": "clips/V07a.mp4"
         },
@@ -393,7 +393,7 @@
             "to": 1.06,
             "ease": "out"
           },
-          "start": 93.277,
+          "start": 93.466,
           "duration": 5,
           "src": "clips/V07b.mp4"
         }
@@ -402,8 +402,8 @@
     {
       "id": "s8",
       "name": "Der Schritt",
-      "start": 98.277,
-      "end": 106.277,
+      "start": 98.466,
+      "end": 106.466,
       "duration": 8,
       "scriptStart": 103,
       "scriptDuration": 8,
@@ -417,7 +417,7 @@
             "from": 3,
             "to": 6
           },
-          "start": 98.277,
+          "start": 98.466,
           "duration": 3,
           "src": "clips/V1.mp4"
         },
@@ -428,7 +428,7 @@
             "from": 0,
             "to": 5
           },
-          "start": 101.277,
+          "start": 101.466,
           "duration": 5,
           "src": "clips/V08d.mp4"
         }
@@ -437,8 +437,8 @@
     {
       "id": "end",
       "name": "Endcard",
-      "start": 106.277,
-      "end": 110.277,
+      "start": 106.466,
+      "end": 110.466,
       "duration": 4,
       "scriptStart": 115,
       "scriptDuration": 4,
@@ -448,7 +448,7 @@
         {
           "id": "End",
           "type": "endcard",
-          "start": 106.277,
+          "start": 106.466,
           "duration": 4,
           "src": null
         }
@@ -535,8 +535,8 @@
       "file": "voice/s3-1.mp3",
       "start": 37.151,
       "speechStart": 37.151,
-      "end": 39.563,
-      "duration": 2.691,
+      "end": 39.989,
+      "duration": 3.37,
       "scriptAt": 36,
       "offsetToScript": 1.151
     },
@@ -545,9 +545,9 @@
       "scene": "s3",
       "text": "Und Gewohnheit verstellt den Blick auf Neues.",
       "file": "voice/s3-2.mp3",
-      "start": 40.263,
-      "speechStart": 40.263,
-      "end": 42.853,
+      "start": 40.689,
+      "speechStart": 40.689,
+      "end": 43.279,
       "duration": 2.952,
       "scriptAt": null,
       "offsetToScript": null
@@ -557,21 +557,21 @@
       "scene": "s4",
       "text": "Neue Wege verunsichern den Elefanten.",
       "file": "voice/s4-1.mp3",
-      "start": 50.751,
-      "speechStart": 50.751,
-      "end": 53.142,
-      "duration": 2.769,
+      "start": 50.879,
+      "speechStart": 50.879,
+      "end": 53.331,
+      "duration": 3.291,
       "scriptAt": 52.6,
-      "offsetToScript": -1.849
+      "offsetToScript": -1.721
     },
     {
       "id": "s4-2",
       "scene": "s4",
       "text": "Ob er sie aus Gewohnheit oder Vorsicht meidet, ist nicht immer bekannt.",
       "file": "voice/s4-2.mp3",
-      "start": 54.342,
-      "speechStart": 54.342,
-      "end": 58.277,
+      "start": 54.531,
+      "speechStart": 54.531,
+      "end": 58.466,
       "duration": 4.362,
       "scriptAt": null,
       "offsetToScript": null
@@ -581,21 +581,21 @@
       "scene": "s5",
       "text": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten.",
       "file": "voice/s5-1.mp3",
-      "start": 60.181,
-      "speechStart": 60.277,
-      "end": 64.243,
-      "duration": 4.833,
+      "start": 60.366,
+      "speechStart": 60.466,
+      "end": 65,
+      "duration": 5.329,
       "scriptAt": 65,
-      "offsetToScript": -4.723
+      "offsetToScript": -4.534
     },
     {
       "id": "s5-2",
       "scene": "s5",
       "text": "Er verharrt.",
       "file": "voice/s5-2.mp3",
-      "start": 64.843,
-      "speechStart": 64.843,
-      "end": 65.612,
+      "start": 65.6,
+      "speechStart": 65.6,
+      "end": 66.369,
       "duration": 1.515,
       "scriptAt": null,
       "offsetToScript": null
@@ -605,9 +605,9 @@
       "scene": "s5",
       "text": "Zwar zeigt er weiter Interesse an neuen Wegen.",
       "file": "voice/s5-3.mp3",
-      "start": 66.212,
-      "speechStart": 66.212,
-      "end": 68.942,
+      "start": 66.969,
+      "speechStart": 66.969,
+      "end": 69.699,
       "duration": 3.344,
       "scriptAt": null,
       "offsetToScript": null
@@ -617,9 +617,9 @@
       "scene": "s5",
       "text": "Aber ohne guten Grund, beschreitet er sie nicht.",
       "file": "voice/s5-4.mp3",
-      "start": 69.542,
-      "speechStart": 69.542,
-      "end": 72.111,
+      "start": 70.299,
+      "speechStart": 70.299,
+      "end": 72.868,
       "duration": 3.004,
       "scriptAt": null,
       "offsetToScript": null
@@ -629,22 +629,22 @@
       "scene": "s7",
       "text": "Der Elefant ist immer da.",
       "file": "voice/s7-1.mp3",
-      "start": 86.277,
-      "speechStart": 86.277,
-      "end": 87.822,
+      "start": 86.466,
+      "speechStart": 86.466,
+      "end": 88.011,
       "duration": 2.09,
       "scriptAt": 91,
-      "offsetToScript": -4.723
+      "offsetToScript": -4.534
     },
     {
       "id": "s7-2",
       "scene": "s7",
       "text": "Er begleitet jeden von uns.",
       "file": "voice/s7-2.mp3",
-      "start": 89.322,
-      "speechStart": 89.322,
-      "end": 90.891,
-      "duration": 2.168,
+      "start": 89.511,
+      "speechStart": 89.511,
+      "end": 91.266,
+      "duration": 2.22,
       "scriptAt": null,
       "offsetToScript": null
     },
@@ -653,9 +653,9 @@
       "scene": "s7",
       "text": "Jeden Tag.",
       "file": "voice/s7-3.mp3",
-      "start": 92.391,
-      "speechStart": 92.391,
-      "end": 93.159,
+      "start": 92.766,
+      "speechStart": 92.766,
+      "end": 93.534,
       "duration": 1.384,
       "scriptAt": null,
       "offsetToScript": null
@@ -665,10 +665,10 @@
       "scene": "s7",
       "text": "Man muss den Entscheidungselefanten bewusst wahrnehmen.",
       "file": "voice/s8-1.mp3",
-      "start": 94.659,
-      "speechStart": 94.659,
-      "end": 97.111,
-      "duration": 2.821,
+      "start": 95.034,
+      "speechStart": 95.034,
+      "end": 97.486,
+      "duration": 2.769,
       "scriptAt": null,
       "offsetToScript": null
     },
@@ -677,12 +677,12 @@
       "scene": "s8",
       "text": "Dann öffnen sich neue Wege.",
       "file": "voice/s8-2.mp3",
-      "start": 101.777,
-      "speechStart": 101.777,
-      "end": 103.548,
+      "start": 101.966,
+      "speechStart": 101.966,
+      "end": 103.737,
       "duration": 2.168,
       "scriptAt": 106.5,
-      "offsetToScript": -4.723
+      "offsetToScript": -4.534
     }
   ],
   "overlays": [],

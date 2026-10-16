@@ -1,0 +1,37 @@
+{
+  "s3-1": { "target": "„Mit der Zeit“ muss klar als drei Wörter hörbar sein (nicht wie „derzeit“), mit leichter Betonung auf „Zeit“ und einer winzigen Zäsur danach.",
+    "variants": [
+      { "name": "komma", "text": "Mit der Zeit, wird aus Erinnerung Gewohnheit.", "seed": 11 },
+      { "name": "komma-b", "text": "Mit der Zeit, wird aus Erinnerung Gewohnheit.", "seed": 23 },
+      { "name": "caps", "text": "Mit der ZEIT wird aus Erinnerung Gewohnheit.", "seed": 11 },
+      { "name": "pause", "text": "Mit der Zeit … wird aus Erinnerung Gewohnheit.", "seed": 11 }
+    ] },
+  "s4-1": { "target": "Hauptbetonung auf „verunsichern“, nicht auf „Elefanten“; Satzende geht nach unten.",
+    "variants": [
+      { "name": "caps", "text": "Neue Wege VERUNSICHERN den Elefanten.", "seed": 11 },
+      { "name": "caps-b", "text": "Neue Wege VERUNSICHERN den Elefanten.", "seed": 23 },
+      { "name": "kontrast", "text": "Neue Wege verunsichern den Elefanten.", "previousText": "Bekannte Wege geben dem Elefanten Sicherheit.", "seed": 11 },
+      { "name": "caps-kontrast", "text": "Neue Wege VERUNSICHERN den Elefanten.", "previousText": "Bekannte Wege geben dem Elefanten Sicherheit.", "seed": 11 }
+    ] },
+  "s5-1": { "target": "Hauptbetonung auf „ausgewachsenen“, nicht auf „Entscheidungselefanten“; sachlich, Satzende geht nach unten.",
+    "variants": [
+      { "name": "caps", "text": "Besonders interessant ist das Verhalten des AUSGEWACHSENEN Entscheidungselefanten.", "seed": 11 },
+      { "name": "caps-b", "text": "Besonders interessant ist das Verhalten des AUSGEWACHSENEN Entscheidungselefanten.", "seed": 23 },
+      { "name": "kontrast", "text": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten.", "previousText": "Junge Entscheidungselefanten sind noch neugierig.", "seed": 11 },
+      { "name": "caps-kontrast", "text": "Besonders interessant ist das Verhalten des AUSGEWACHSENEN Entscheidungselefanten.", "previousText": "Junge Entscheidungselefanten sind noch neugierig.", "seed": 11 }
+    ] },
+  "s7-2": { "target": "Hauptbetonung auf „jeden“, nicht auf „von uns“; sachlich, nicht meditativ.",
+    "variants": [
+      { "name": "caps", "text": "Er begleitet JEDEN von uns.", "seed": 11 },
+      { "name": "caps-b", "text": "Er begleitet JEDEN von uns.", "seed": 23 },
+      { "name": "caps-c", "text": "Er begleitet JEDEN von uns.", "seed": 37 },
+      { "name": "kontrast", "text": "Er begleitet JEDEN von uns.", "previousText": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten. Der Elefant ist immer da. Nicht nur bei manchen.", "seed": 11 }
+    ] },
+  "s8-1": { "target": "Hauptbetonung auf „wahrnehmen“; sachlich, Satzende geht nach unten.",
+    "variants": [
+      { "name": "caps", "text": "Man muss den Entscheidungselefanten bewusst WAHRNEHMEN.", "seed": 11 },
+      { "name": "caps-b", "text": "Man muss den Entscheidungselefanten bewusst WAHRNEHMEN.", "seed": 23 },
+      { "name": "caps-c", "text": "Man muss den Entscheidungselefanten bewusst WAHRNEHMEN.", "seed": 37 },
+      { "name": "kontrast", "text": "Man muss den Entscheidungselefanten bewusst WAHRNEHMEN.", "previousText": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten. Der Elefant ist immer da. Er begleitet jeden von uns. Jeden Tag. Übersehen hilft nicht.", "seed": 11 }
+    ] }
+}

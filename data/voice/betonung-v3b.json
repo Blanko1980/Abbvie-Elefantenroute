@@ -1,0 +1,16 @@
+{
+  "s5-1": { "target": "Hauptbetonung auf „ausgewachsenen“, nicht auf „Entscheidungselefanten“; sachlich, Satzende geht nach unten.",
+    "variants": [
+      { "name": "gegeben-a", "text": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten.", "previousText": "Junge Entscheidungselefanten sind neugierig und probieren neue Wege aus. Der Entscheidungselefant wird älter.", "seed": 11 },
+      { "name": "gegeben-b", "text": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten.", "previousText": "Junge Entscheidungselefanten sind neugierig und probieren neue Wege aus. Der Entscheidungselefant wird älter.", "seed": 23 },
+      { "name": "gegeben-c", "text": "Besonders interessant ist das Verhalten des ausgewachsenen Entscheidungselefanten.", "previousText": "Junge Entscheidungselefanten sind neugierig und probieren neue Wege aus. Der Entscheidungselefant wird älter.", "seed": 37 },
+      { "name": "gegeben-caps", "text": "Besonders interessant ist das Verhalten des AUSGEWACHSENEN Entscheidungselefanten.", "previousText": "Junge Entscheidungselefanten sind neugierig und probieren neue Wege aus. Der Entscheidungselefant wird älter.", "seed": 23 }
+    ] },
+  "s8-1": { "target": "Hauptbetonung auf „wahrnehmen“, nicht auf „Entscheidungselefanten“ und nicht auf „bewusst“; sachlich, Satzende geht nach unten.",
+    "variants": [
+      { "name": "gegeben-a", "text": "Man muss den Entscheidungselefanten bewusst wahrnehmen.", "previousText": "Der Elefant ist immer da. Er begleitet jeden von uns. Jeden Tag. Den Entscheidungselefanten bewusst zu kennen, reicht nicht.", "seed": 11 },
+      { "name": "gegeben-b", "text": "Man muss den Entscheidungselefanten bewusst wahrnehmen.", "previousText": "Der Elefant ist immer da. Er begleitet jeden von uns. Jeden Tag. Den Entscheidungselefanten bewusst zu kennen, reicht nicht.", "seed": 23 },
+      { "name": "gegeben-c", "text": "Man muss den Entscheidungselefanten bewusst wahrnehmen.", "previousText": "Der Elefant ist immer da. Er begleitet jeden von uns. Jeden Tag. Den Entscheidungselefanten bewusst zu kennen, reicht nicht.", "seed": 37 },
+      { "name": "gegeben-caps", "text": "Man muss den Entscheidungselefanten bewusst WAHRNEHMEN.", "previousText": "Der Elefant ist immer da. Er begleitet jeden von uns. Jeden Tag. Den Entscheidungselefanten bewusst zu kennen, reicht nicht.", "seed": 23 }
+    ] }
+}
