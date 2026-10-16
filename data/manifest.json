@@ -926,12 +926,12 @@
       "aspectRatio": "16:9",
       "imageSize": "2K",
       "prompt": "Reference images, in order: image 1 = room layout reference only: keep walls, windows, doors and furniture in the same places, but follow the lighting described in the text; image 2 = the look of the morning scene: light, colors, the elephant's appearance and integration; image 3 = the elephant: identical animal, skin, mud on the legs and tusks, and how it sits in the room light; image 4 = the same elephant in side view.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nInterior of a modern dermatology clinic: a bright reception hall with a long white reception counter with light oak details; a waiting area along a floor-to-ceiling glass front with a row of six simple upholstered chairs; a long corridor with light grey linoleum flooring; on the left wall of the corridor the door to the doctor's consulting room; at the far end of the corridor on the right a second plain white door with a small unreadable sign; on the corridor wall a generic framed guideline-style poster (unreadable, no logo, no text) and a wall monitor showing an abstract line chart (no numbers, no text).\n\nOne adult African savanna elephant, realistic wrinkled grey skin, large ears, both tusks, calm and healthy, anatomically correct with four legs, standing indoors on the floor, casting a soft shadow. Not a cartoon, no human expression. Elephant size: natural size, shoulder height about 3 meters, fits the room with space to walk around it.\n\nShot: Shot 01b1, medium-wide shot in the reception hall (camera position CAM-A, closer than the establishing shot): the elephant stands calmly in the middle of the hall in three-quarter view, filling the center of the frame, breathing, ears relaxed. A medical assistant in light-blue clinic clothes, carrying a stack of patient files, walks past on the left side of the elephant, from right to left, without looking at it, simply stepping around it like around a piece of furniture. Light oak plank floor, the glass front and chairs softly out of focus behind. Large leafy potted plants (a fiddle-leaf fig and a monstera) stand by the glass front. The elephant is physically in the room and lit by the same light: the bright glass front behind it gives a soft bright rim along its back and ears, the side facing the camera is in soft shade, its shadow falls across the floor, dark contact shadows under its feet; matte dusty skin with dried mud on the lower legs. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere; posters and screens show only abstract shapes and lines, no text, no numbers, no logos.\n\nLight: soft bright morning light through the glass front, clean and warm.",
-      "status": "freigegeben",
-      "file": "public/stills/01b1.jpg",
+      "status": "abgelehnt",
+      "file": null,
       "width": 2752,
       "height": 1536,
       "retouch": "Lokal ohne API: Farbstich per Kanalabgleich an 01a korrigiert (scripts/color-match.mjs).",
-      "note": "Qualitätscheck ok nach Farbkorrektur; Ausschnitt wie 01a, Halbtotale entsteht in Remotion per Ausschnitt"
+      "note": "Qualitätscheck ok nach Farbkorrektur; Ausschnitt wie 01a, Halbtotale entsteht in Remotion per Ausschnitt (ersetzt)"
     },
     {
       "id": "03f",
@@ -991,12 +991,12 @@
       "aspectRatio": "16:9",
       "imageSize": "4K",
       "prompt": "Reference images, in order: image 1 = the master image to be edited; image 2 = the patient, identical face, hair, age and the same dark grey sweater.\n\nEdit image 1. Same room, same camera, same framing, same light, same elephant. Only change: the patient sitting on chair 1 in the background now wears blue jeans and white sneakers with her dark grey sweater, her sleeves pulled over her hands, one hand reaching under the chair as if scratching; and add two large leafy potted plants (a fiddle-leaf fig and a monstera) standing by the glass front at the left and right ends of the chair row, and a coffee cup on the reception counter. Nothing else changes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
-      "status": "freigegeben",
-      "file": "public/stills/01a.jpg",
+      "status": "abgelehnt",
+      "file": null,
       "width": 5504,
       "height": 3072,
       "retouch": "Lokal ohne API: Farbstich per Kanalabgleich an das bisherige 01a korrigiert (scripts/color-match.mjs); Phantom-Arm mit Hand zwischen den Elefantenbeinen aus dem bisherigen 01a überdeckt (scripts/retouch-clock.mjs).",
-      "note": "Phase 3: Jeans, Pflanzen, Becher; Farbstich und Phantom-Arm lokal korrigiert"
+      "note": "Phase 3: Jeans, Pflanzen, Becher; Farbstich und Phantom-Arm lokal korrigiert (ersetzt)"
     },
     {
       "id": "06d",
@@ -1210,11 +1210,11 @@
       "aspectRatio": "16:9",
       "imageSize": "2K",
       "prompt": "Reference images, in order: image 1 = the master image to be edited.\n\nEdit image 1. Same room, same light, same elephant, same people, same plants. Only change the camera: it has moved several meters further back, so we now see a wider view of the whole reception hall: more of the tall window wall on the left, the full reception counter on the right with a medical assistant behind it working at a screen, the round wall clock above it, and more floor in the foreground. The elephant stands in the middle of the hall, now smaller in the frame. The patient still sits small on chair 1 at the far left end of the chair row, easy to overlook, not highlighted. Add two other waiting patients sitting further right in the chair row, looking at their phones. Nobody looks at the elephant.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
-      "status": "freigegeben",
-      "file": "public/stills/01c.jpg",
+      "status": "abgelehnt",
+      "file": null,
       "width": 2752,
       "height": 1536,
-      "note": "Qualitätscheck ok; Ausschnitt kaum weiter als 01a, Elefant etwas kleiner",
+      "note": "Qualitätscheck ok; Ausschnitt kaum weiter als 01a, Elefant etwas kleiner (ersetzt)",
       "retouch": "Lichtangleichung an 01a (scripts/color-balance.mjs)."
     },
     {
@@ -1297,12 +1297,12 @@
       "aspectRatio": "16:9",
       "imageSize": "2K",
       "prompt": "Reference images, in order: image 1 = the master image to be edited.\n\nEdit image 1. Same room, same camera, same framing, same light, same elephant in the same pose. Only change the passers-by: the medical assistant is gone; instead two other people walk past on the RIGHT side of the elephant without looking at it: an older patient with a light jacket and a younger man; the young man casually sets down a coffee cup on the small side table next to the elephant as he passes. Nothing else changes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
-      "status": "freigegeben",
-      "file": "public/stills/01b2.jpg",
+      "status": "abgelehnt",
+      "file": null,
       "width": 2752,
       "height": 1536,
       "retouch": "Lokal ohne API: Farbstich per Kanalabgleich an 01b1 korrigiert.",
-      "note": "Qualitätscheck ok nach Farbkorrektur; Passanten rechts, Becher wird abgestellt"
+      "note": "Qualitätscheck ok nach Farbkorrektur; Passanten rechts, Becher wird abgestellt (ersetzt)"
     },
     {
       "id": "03d",
@@ -1362,11 +1362,11 @@
       "aspectRatio": "21:9",
       "imageSize": "2K",
       "prompt": "Reference images, in order: image 1 = room layout reference only: keep walls, windows, doors and furniture in the same places, but follow the lighting described in the text; image 2 = the look of the morning scene: light, colors, the elephant's appearance and integration; image 3 = the doctor, identical face, hair, age and clothes; image 4 = the doctor in three-quarter profile; image 5 = the elephant: identical animal, skin, mud on the legs and tusks, and how it sits in the room light; image 6 = the same elephant in side view.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.\n\nInterior of a modern dermatology clinic: a bright reception hall with a long white reception counter with light oak details; a waiting area along a floor-to-ceiling glass front with a row of six simple upholstered chairs; a long corridor with light grey linoleum flooring; on the left wall of the corridor the door to the doctor's consulting room; at the far end of the corridor on the right a second plain white door with a small unreadable sign; on the corridor wall a generic framed guideline-style poster (unreadable, no logo, no text) and a wall monitor showing an abstract line chart (no numbers, no text).\n\nOne adult African savanna elephant, realistic wrinkled grey skin, large ears, both tusks, calm and healthy, anatomically correct with four legs, standing indoors on the floor, casting a soft shadow. Not a cartoon, no human expression. Elephant size: natural size, shoulder height about 3 meters, fits the room with space to walk around it.\n\nA man in his mid-50s, short grey-brown hair, kind calm face, white doctor's coat over a light blue shirt, holding a tablet. Same person as in the reference image.\n\nShot: Shot 02a, very wide 21:9 shot in pure side view (camera position CAM-B): the camera looks straight at the corridor's left wall; in the right third of the frame the light wooden door of the doctor's consulting room is set into this wall. Light grey linoleum floor, white wall with a light oak handrail, a tall green plant in a pot near the door, soft morning light from the windows behind the camera casting soft shadows on the wall. Doctor and elephant both face RIGHT and walk to the right, toward the door, in profile: the doctor walks in front, tablet in hand, calm, slightly nodding as if listening. The elephant walks directly BEHIND him (to the left of him in the frame), following him closely, its head right behind the doctor's back, the trunk curved forward so that the trunk tip is right next to the doctor's ear, as if whispering. The elephant is not in front of him and does not face him. The elephant at natural size just fits under the ceiling. No posters, no monitors in this view. The elephant is lit by the same soft morning light as the doctor; matte dusty skin, dark contact shadows under its feet. A real photograph taken on location, not a composite, not a 3D rendering. All door signs are blank, no lettering anywhere; posters and screens show only abstract shapes and lines, no text, no numbers, no logos.\n\nLight: soft bright morning light through the glass front, clean and warm.",
-      "status": "freigegeben",
-      "file": "public/stills/02a.jpg",
+      "status": "abgelehnt",
+      "file": null,
       "width": 3168,
       "height": 1344,
-      "note": "Qualitätscheck ok; Profil, Elefant folgt, Rüssel am Ohr"
+      "note": "Qualitätscheck ok; Profil, Elefant folgt, Rüssel am Ohr (ersetzt)"
     },
     {
       "id": "03b",
@@ -1541,11 +1541,11 @@
       "aspectRatio": "16:9",
       "imageSize": "2K",
       "prompt": "Reference images, in order: image 1 = the master image to be edited.\n\nEdit image 1. Same corridor, same side view, same light, same elephant and doctor; frame the right part of the scene around the light wooden door of the consulting room. A few seconds later: the doctor is just stepping through the open door into his consulting room, only his back and one arm still visible in the doorway. The elephant has stopped in front of the door, calm, and lets the tip of its trunk brush gently along the door frame. The trunk does NOT touch the doctor; there is clear space between the trunk and the doctor. Nothing else changes.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
-      "status": "freigegeben",
-      "file": "public/stills/02b.jpg",
+      "status": "abgelehnt",
+      "file": null,
       "width": 2752,
       "height": 1536,
-      "note": "Qualitätscheck ok; Rüsselspitze nah am Arzt, aber ohne Berührung"
+      "note": "Qualitätscheck ok; Rüsselspitze nah am Arzt, aber ohne Berührung (ersetzt)"
     },
     {
       "id": "03d",
@@ -2840,9 +2840,9 @@
       "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
       "durationSeconds": 8,
       "resolution": "720p",
-      "status": "zur Freigabe",
-      "file": "public/clips/V02a.mp4",
-      "note": "bester von 3 Versuchen; Arzt dreht sich bei 2,5 s kurz um"
+      "status": "abgelehnt",
+      "file": null,
+      "note": "bester von 3 Versuchen; Arzt dreht sich bei 2,5 s kurz um (ersetzt)"
     },
     {
       "id": "V07a",
@@ -2900,9 +2900,9 @@
       "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
       "durationSeconds": 6,
       "resolution": "720p",
-      "status": "zur Freigabe",
-      "file": "public/clips/V01a.mp4",
-      "note": "Animation aller Einstellungen, geprüft"
+      "status": "abgelehnt",
+      "file": null,
+      "note": "Animation aller Einstellungen, geprüft (ersetzt)"
     },
     {
       "id": "V01c",
@@ -2920,9 +2920,9 @@
       "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
       "durationSeconds": 6,
       "resolution": "720p",
-      "status": "zur Freigabe",
-      "file": "public/clips/V01c.mp4",
-      "note": "Animation aller Einstellungen, geprüft"
+      "status": "abgelehnt",
+      "file": null,
+      "note": "Animation aller Einstellungen, geprüft (ersetzt)"
     },
     {
       "id": "V01b1",
@@ -2942,9 +2942,9 @@
       "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
       "durationSeconds": 4,
       "resolution": "720p",
-      "status": "zur Freigabe",
-      "file": "public/clips/V01b1.mp4",
-      "note": "Animation aller Einstellungen, geprüft"
+      "status": "abgelehnt",
+      "file": null,
+      "note": "Animation aller Einstellungen, geprüft (ersetzt)"
     },
     {
       "id": "V01b2",
@@ -2964,9 +2964,9 @@
       "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
       "durationSeconds": 4,
       "resolution": "720p",
-      "status": "zur Freigabe",
-      "file": "public/clips/V01b2.mp4",
-      "note": "Animation aller Einstellungen, geprüft"
+      "status": "abgelehnt",
+      "file": null,
+      "note": "Animation aller Einstellungen, geprüft (ersetzt)"
     },
     {
       "id": "V02b",
@@ -2984,9 +2984,9 @@
       "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
       "durationSeconds": 6,
       "resolution": "720p",
-      "status": "zur Freigabe",
-      "file": "public/clips/V02b.mp4",
-      "note": "Animation aller Einstellungen, geprüft"
+      "status": "abgelehnt",
+      "file": null,
+      "note": "Animation aller Einstellungen, geprüft (ersetzt)"
     },
     {
       "id": "V03b",
@@ -3750,6 +3750,558 @@
       "file": "public/voice/s8-1.mp3",
       "duration": 2.821224,
       "note": "sachlicher (Feedback 16.10.2026), Variante sachlich-b"
+    },
+    {
+      "id": "02b",
+      "type": "image",
+      "attempt": 3,
+      "round": 7,
+      "timestamp": "2026-10-16T16:03:50.316Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "02b",
+        "R3a"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited; image 2 = the elephant's skin, tusks and ears (only for its look, not its size).\n\nEdit image 1. Replace the big elephant with the same African elephant, now exactly as tall as the doctor: the top of its back at the height of the doctor's head, with both tusks, large ears and deeply wrinkled grey skin, the exact proportions of an adult bull. It stands in front of the open door of the consulting room, its trunk briefly touching the door frame, while the doctor disappears through the door. It stands on the floor with natural weight, casts a soft contact shadow and sits in the same light as the room; a real animal photographed on location, not a toy, not a cartoon, not a baby elephant, not a composite. Where the large elephant was, show the room behind it exactly as it would look (windows, chairs, plants, floor, people). Everything else stays exactly the same: camera, framing, light, colors, all people and their positions. No text anywhere.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "abgelehnt",
+      "file": null,
+      "width": 2752,
+      "height": 1536,
+      "note": "Größe nicht geändert oder falscher Raum"
+    },
+    {
+      "id": "01b2",
+      "type": "image",
+      "attempt": 2,
+      "round": 7,
+      "timestamp": "2026-10-16T16:03:51.297Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "01b2",
+        "R3a"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited; image 2 = the elephant's skin, tusks and ears (only for its look, not its size).\n\nEdit image 1. Replace the big elephant with a fully grown adult African elephant in miniature, with both tusks, large ears, deeply wrinkled grey skin and the exact proportions of an adult bull, but only the size of a pony: shoulder height about 1.3 m, clearly smaller than the adults in the room, its back at about the chest height of a standing adult. It stands calmly at the same spot in the middle of the hall; the two men walk past it to the counter without looking at it. It stands on the floor with natural weight, casts a soft contact shadow and sits in the same light as the room; a real animal photographed on location, not a toy, not a cartoon, not a baby elephant, not a composite. Where the large elephant was, show the room behind it exactly as it would look (windows, chairs, plants, floor, people). Everything else stays exactly the same: camera, framing, light, colors, all people and their positions. No text anywhere.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "abgelehnt",
+      "file": null,
+      "width": 2752,
+      "height": 1536,
+      "note": "Größe nicht geändert oder falscher Raum"
+    },
+    {
+      "id": "01b1",
+      "type": "image",
+      "attempt": 2,
+      "round": 7,
+      "timestamp": "2026-10-16T16:03:51.667Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "01b1",
+        "R3a"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited; image 2 = the elephant's skin, tusks and ears (only for its look, not its size).\n\nEdit image 1. Replace the big elephant with a fully grown adult African elephant in miniature, with both tusks, large ears, deeply wrinkled grey skin and the exact proportions of an adult bull, but only the size of a German shepherd dog: shoulder height about 60 cm, its back at about the knee-to-hip height of the adults in the room. It stands calmly at the same spot in the middle of the hall; the nurse walks past it without looking at it. It stands on the floor with natural weight, casts a soft contact shadow and sits in the same light as the room; a real animal photographed on location, not a toy, not a cartoon, not a baby elephant, not a composite. Where the large elephant was, show the room behind it exactly as it would look (windows, chairs, plants, floor, people). Everything else stays exactly the same: camera, framing, light, colors, all people and their positions. No text anywhere.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "abgelehnt",
+      "file": null,
+      "width": 2752,
+      "height": 1536,
+      "note": "Größe nicht geändert oder falscher Raum"
+    },
+    {
+      "id": "01a",
+      "type": "image",
+      "attempt": 3,
+      "round": 7,
+      "timestamp": "2026-10-16T16:03:51.688Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "01a",
+        "R3a"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited; image 2 = the elephant's skin, tusks and ears (only for its look, not its size).\n\nEdit image 1. Replace the big elephant with a fully grown adult African elephant in miniature, with both tusks, large ears, deeply wrinkled grey skin and the exact proportions of an adult bull, but only the size of a German shepherd dog: shoulder height about 60 cm, its back at about the knee-to-hip height of the adults in the room. It stands calmly at the same spot in the middle of the hall, facing the same direction, breathing, small in the large bright room. It stands on the floor with natural weight, casts a soft contact shadow and sits in the same light as the room; a real animal photographed on location, not a toy, not a cartoon, not a baby elephant, not a composite. Where the large elephant was, show the room behind it exactly as it would look (windows, chairs, plants, floor, people). Everything else stays exactly the same: camera, framing, light, colors, all people and their positions. No text anywhere.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "abgelehnt",
+      "file": null,
+      "width": 2752,
+      "height": 1536,
+      "note": "Größe nicht geändert oder falscher Raum"
+    },
+    {
+      "id": "02a",
+      "type": "image",
+      "attempt": 4,
+      "round": 7,
+      "timestamp": "2026-10-16T16:03:51.779Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "02a",
+        "R3a"
+      ],
+      "aspectRatio": "21:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited; image 2 = the elephant's skin, tusks and ears (only for its look, not its size).\n\nEdit image 1. Replace the big elephant with a fully grown adult African elephant in miniature, with both tusks, large ears, deeply wrinkled grey skin and the exact proportions of an adult bull, but only the size of a pony: shoulder height about 1.3 m, clearly smaller than the adults in the room, its back at about the chest height of a standing adult. It walks right behind the doctor through the corridor, in step with him, its trunk raised and curved forward close to his ear as if whispering; the doctor walks on calmly looking at his tablet. It stands on the floor with natural weight, casts a soft contact shadow and sits in the same light as the room; a real animal photographed on location, not a toy, not a cartoon, not a baby elephant, not a composite. Where the large elephant was, show the room behind it exactly as it would look (windows, chairs, plants, floor, people). Everything else stays exactly the same: camera, framing, light, colors, all people and their positions. No text anywhere.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zur Freigabe",
+      "file": "public/stills/02a.jpg",
+      "width": 3168,
+      "height": 1344,
+      "note": "Runde 7: Elefant in Ponygröße, Rüssel am Ohr"
+    },
+    {
+      "id": "01c",
+      "type": "image",
+      "attempt": 3,
+      "round": 7,
+      "timestamp": "2026-10-16T16:03:52.208Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "01c",
+        "R3a"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited; image 2 = the elephant's skin, tusks and ears (only for its look, not its size).\n\nEdit image 1. Replace the big elephant with a fully grown adult African elephant in miniature, with both tusks, large ears, deeply wrinkled grey skin and the exact proportions of an adult bull, but only the size of a pony: shoulder height about 1.3 m, clearly smaller than the adults in the room, its back at about the chest height of a standing adult. It stands calmly at the same spot in the middle of the hall, between the waiting chairs and the counter. It stands on the floor with natural weight, casts a soft contact shadow and sits in the same light as the room; a real animal photographed on location, not a toy, not a cartoon, not a baby elephant, not a composite. Where the large elephant was, show the room behind it exactly as it would look (windows, chairs, plants, floor, people). Everything else stays exactly the same: camera, framing, light, colors, all people and their positions. No text anywhere.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "abgelehnt",
+      "file": null,
+      "width": 2752,
+      "height": 1536,
+      "note": "Größe nicht geändert oder falscher Raum"
+    },
+    {
+      "id": "01c-leer",
+      "type": "image",
+      "attempt": 1,
+      "round": 1,
+      "timestamp": "2026-10-16T16:04:59.385Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "01c"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited.\n\nEdit image 1. Remove the elephant completely. Show the room exactly as it would look without it: the floor, its light and shadows, the windows, chairs, plants and everything that was hidden behind the elephant. No elephant, no shadow of an elephant. Everything else stays exactly the same: camera, framing, light, colors, all people and their positions and poses. No text anywhere.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zu prüfen",
+      "file": null,
+      "width": 2752,
+      "height": 1536
+    },
+    {
+      "id": "01b2-leer",
+      "type": "image",
+      "attempt": 1,
+      "round": 1,
+      "timestamp": "2026-10-16T16:05:00.037Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "01b2"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited.\n\nEdit image 1. Remove the elephant completely. Show the room exactly as it would look without it: the floor, its light and shadows, the windows, chairs, plants and everything that was hidden behind the elephant. No elephant, no shadow of an elephant. Everything else stays exactly the same: camera, framing, light, colors, all people and their positions and poses. No text anywhere.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zu prüfen",
+      "file": null,
+      "width": 2752,
+      "height": 1536
+    },
+    {
+      "id": "01b1-leer",
+      "type": "image",
+      "attempt": 1,
+      "round": 1,
+      "timestamp": "2026-10-16T16:05:00.538Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "01b1"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited.\n\nEdit image 1. Remove the elephant completely. Show the room exactly as it would look without it: the floor, its light and shadows, the windows, chairs, plants and everything that was hidden behind the elephant. No elephant, no shadow of an elephant. Everything else stays exactly the same: camera, framing, light, colors, all people and their positions and poses. No text anywhere.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zu prüfen",
+      "file": null,
+      "width": 2752,
+      "height": 1536
+    },
+    {
+      "id": "02b-leer",
+      "type": "image",
+      "attempt": 1,
+      "round": 1,
+      "timestamp": "2026-10-16T16:05:01.031Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "02b"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited.\n\nEdit image 1. Remove the elephant completely. Show the room exactly as it would look without it: the floor, its light and shadows, the windows, chairs, plants and everything that was hidden behind the elephant. No elephant, no shadow of an elephant. Everything else stays exactly the same: camera, framing, light, colors, all people and their positions and poses. No text anywhere.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zu prüfen",
+      "file": null,
+      "width": 2752,
+      "height": 1536
+    },
+    {
+      "id": "01a-leer",
+      "type": "image",
+      "attempt": 1,
+      "round": 1,
+      "timestamp": "2026-10-16T16:05:01.317Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "01a"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited.\n\nEdit image 1. Remove the elephant completely. Show the room exactly as it would look without it: the floor, its light and shadows, the windows, chairs, plants and everything that was hidden behind the elephant. No elephant, no shadow of an elephant. Everything else stays exactly the same: camera, framing, light, colors, all people and their positions and poses. No text anywhere.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zu prüfen",
+      "file": null,
+      "width": 2752,
+      "height": 1536
+    },
+    {
+      "id": "01c",
+      "type": "image",
+      "attempt": 4,
+      "round": 8,
+      "timestamp": "2026-10-16T16:06:10.372Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/candidates/01c-leer_a1.jpg",
+        "R3a",
+        "R3b"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited: the empty room; image 2 = the elephant's look: skin, tusks, ears (only its look, not its size); image 3 = the same elephant in side view (only its look, not its size).\n\nEdit image 1. Add a fully grown adult African elephant in miniature: an adult bull with both long tusks, large ears, deeply wrinkled grey skin with a little mud on the legs, and the exact body proportions of an adult elephant (not a calf, not a baby elephant, no oversized head, no cute features). It is the size of a pony: its shoulder height is about 1.3 m, clearly smaller than the adults in the room, its back at about the chest height of a standing adult. It stands calmly in the middle of the hall on the wooden floor in front of the waiting chairs, facing the camera slightly turned to the right. It stands on the floor with natural weight and casts a soft contact shadow toward the camera, lit by the same backlight from the windows as the rest of the room, with a soft rim light on its back. A real animal photographed on location, not a toy, not a cartoon, not a composite. Everything else stays exactly the same: camera, framing, light, colors, all people and their positions. No text anywhere.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zur Freigabe",
+      "file": "public/stills/01c.jpg",
+      "width": 2752,
+      "height": 1536,
+      "note": "Feedback 16.10.: kleinerer Elefant (Größenverlauf Szene 1/2)"
+    },
+    {
+      "id": "01b2",
+      "type": "image",
+      "attempt": 3,
+      "round": 8,
+      "timestamp": "2026-10-16T16:06:10.755Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/candidates/01b2-leer_a1.jpg",
+        "R3a",
+        "R3b"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited: the empty room; image 2 = the elephant's look: skin, tusks, ears (only its look, not its size); image 3 = the same elephant in side view (only its look, not its size).\n\nEdit image 1. Add a fully grown adult African elephant in miniature: an adult bull with both long tusks, large ears, deeply wrinkled grey skin with a little mud on the legs, and the exact body proportions of an adult elephant (not a calf, not a baby elephant, no oversized head, no cute features). It is the size of a pony: its shoulder height is about 1.3 m, clearly smaller than the adults in the room, its back at about the chest height of a standing adult. It stands calmly in the middle of the hall on the wooden floor, left of the two men at the counter, facing right; the men walk past it without looking at it. It stands on the floor with natural weight and casts a soft contact shadow toward the camera, lit by the same backlight from the windows as the rest of the room, with a soft rim light on its back. A real animal photographed on location, not a toy, not a cartoon, not a composite. Everything else stays exactly the same: camera, framing, light, colors, all people and their positions. No text anywhere.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zu prüfen",
+      "file": null,
+      "width": 2752,
+      "height": 1536
+    },
+    {
+      "id": "02b",
+      "type": "image",
+      "attempt": 4,
+      "round": 8,
+      "timestamp": "2026-10-16T16:06:11.772Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/candidates/02b-leer_a1.jpg",
+        "R3a",
+        "R3b"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited: the empty room; image 2 = the elephant's look: skin, tusks, ears (only its look, not its size); image 3 = the same elephant in side view (only its look, not its size).\n\nEdit image 1. Add a fully grown adult African elephant in miniature: an adult bull with both long tusks, large ears, deeply wrinkled grey skin with a little mud on the legs, and the exact body proportions of an adult elephant (not a calf, not a baby elephant, no oversized head, no cute features). It is exactly as tall as the doctor: the top of its back is at the height of the doctor's head. It stands in the corridor right in front of the open wooden door of the consulting room, facing right toward the door, its trunk raised and briefly touching the door frame, while the doctor disappears through the door. It stands on the floor with natural weight and casts a soft contact shadow toward the camera, lit by the same backlight from the windows as the rest of the room, with a soft rim light on its back. A real animal photographed on location, not a toy, not a cartoon, not a composite. Everything else stays exactly the same: camera, framing, light, colors, all people and their positions. No text anywhere.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zur Freigabe",
+      "file": "public/stills/02b.jpg",
+      "width": 2752,
+      "height": 1536,
+      "note": "Feedback 16.10.: kleinerer Elefant (Größenverlauf Szene 1/2)"
+    },
+    {
+      "id": "01b1",
+      "type": "image",
+      "attempt": 3,
+      "round": 8,
+      "timestamp": "2026-10-16T16:06:12.917Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/candidates/01b1-leer_a1.jpg",
+        "R3a",
+        "R3b"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited: the empty room; image 2 = the elephant's look: skin, tusks, ears (only its look, not its size); image 3 = the same elephant in side view (only its look, not its size).\n\nEdit image 1. Add a fully grown adult African elephant in miniature: an adult bull with both long tusks, large ears, deeply wrinkled grey skin with a little mud on the legs, and the exact body proportions of an adult elephant (not a calf, not a baby elephant, no oversized head, no cute features). It is only the size of a German shepherd dog: its shoulder height is about 60 cm, its back reaches just about the knee of the adults in the room. It stands calmly in the middle of the hall on the wooden floor, a little to the right of the walking nurse, facing right; the nurse walks past it without looking at it. It stands on the floor with natural weight and casts a soft contact shadow toward the camera, lit by the same backlight from the windows as the rest of the room, with a soft rim light on its back. A real animal photographed on location, not a toy, not a cartoon, not a composite. Everything else stays exactly the same: camera, framing, light, colors, all people and their positions. No text anywhere.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zu prüfen",
+      "file": null,
+      "width": 2752,
+      "height": 1536
+    },
+    {
+      "id": "01a",
+      "type": "image",
+      "attempt": 4,
+      "round": 8,
+      "timestamp": "2026-10-16T16:06:13.779Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/candidates/01a-leer_a1.jpg",
+        "R3a",
+        "R3b"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited: the empty room; image 2 = the elephant's look: skin, tusks, ears (only its look, not its size); image 3 = the same elephant in side view (only its look, not its size).\n\nEdit image 1. Add a fully grown adult African elephant in miniature: an adult bull with both long tusks, large ears, deeply wrinkled grey skin with a little mud on the legs, and the exact body proportions of an adult elephant (not a calf, not a baby elephant, no oversized head, no cute features). It is only the size of a German shepherd dog: its shoulder height is about 60 cm, its back reaches just about the knee of the adults in the room. It stands calmly in the middle of the hall on the wooden floor, between the waiting chairs and the reception counter, facing right, breathing; small in the large bright room. It stands on the floor with natural weight and casts a soft contact shadow toward the camera, lit by the same backlight from the windows as the rest of the room, with a soft rim light on its back. A real animal photographed on location, not a toy, not a cartoon, not a composite. Everything else stays exactly the same: camera, framing, light, colors, all people and their positions. No text anywhere.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zu prüfen",
+      "file": null,
+      "width": 2752,
+      "height": 1536
+    },
+    {
+      "id": "01b1",
+      "type": "image",
+      "attempt": 4,
+      "round": 9,
+      "timestamp": "2026-10-16T16:08:48.413Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/composite/01b1.jpg"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited.\n\nEdit image 1. Edit image 1. Keep the small elephant at exactly this size and exactly this position; do not make it bigger, do not move it, do not change the room or the people. Only make it sit naturally in the photo: matching backlight and soft rim light on its back, a natural soft contact shadow on the wooden floor toward the camera, clean natural edges, and remove any leftover fragments, halos or rectangular patches around it. It is a real miniature adult elephant photographed on location, not a toy. Everything else stays exactly the same: camera, framing, light, colors, all people and their positions. No text anywhere.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zur Freigabe",
+      "file": "public/stills/01b1.jpg",
+      "width": 2752,
+      "height": 1536,
+      "note": "Feedback 16.10.: kleinerer Elefant (Größenverlauf Szene 1/2)"
+    },
+    {
+      "id": "01a",
+      "type": "image",
+      "attempt": 5,
+      "round": 9,
+      "timestamp": "2026-10-16T16:08:48.975Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/composite/01a.jpg"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited.\n\nEdit image 1. Edit image 1. Keep the small elephant at exactly this size and exactly this position; do not make it bigger, do not move it, do not change the room or the people. Only make it sit naturally in the photo: matching backlight and soft rim light on its back, a natural soft contact shadow on the wooden floor toward the camera, clean natural edges, and remove any leftover fragments, halos or rectangular patches around it. It is a real miniature adult elephant photographed on location, not a toy. Everything else stays exactly the same: camera, framing, light, colors, all people and their positions. No text anywhere.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zur Freigabe",
+      "file": "public/stills/01a.jpg",
+      "width": 2752,
+      "height": 1536,
+      "note": "Feedback 16.10.: kleinerer Elefant (Größenverlauf Szene 1/2)"
+    },
+    {
+      "id": "01b2",
+      "type": "image",
+      "attempt": 4,
+      "round": 9,
+      "timestamp": "2026-10-16T16:08:49.951Z",
+      "model": "gemini-3-pro-image",
+      "refs": [
+        "work/composite/01b2.jpg"
+      ],
+      "aspectRatio": "16:9",
+      "imageSize": "2K",
+      "prompt": "Reference images, in order: image 1 = the master image to be edited.\n\nEdit image 1. Edit image 1. Keep the small elephant at exactly this size and exactly this position; do not make it bigger, do not move it, do not change the room or the people. Only make it sit naturally in the photo: matching backlight and soft rim light on its back, a natural soft contact shadow on the wooden floor toward the camera, clean natural edges, and remove any leftover fragments, halos or rectangular patches around it. It is a real miniature adult elephant photographed on location, not a toy. Everything else stays exactly the same: camera, framing, light, colors, all people and their positions. No text anywhere.\n\nPhotorealistic documentary photograph, shot on a 200mm telephoto lens, shallow depth of field, locked-off tripod composition, natural daylight through large windows, muted natural color grading with warm whites and light oak wood, calm and observational mood, high resolution, fine film grain. No text, no logos, no signage, no watermark, no captions, no readable writing anywhere in the image.",
+      "status": "zur Freigabe",
+      "file": "public/stills/01b2.jpg",
+      "width": 2752,
+      "height": 1536,
+      "note": "Feedback 16.10.: kleinerer Elefant (Größenverlauf Szene 1/2)"
+    },
+    {
+      "id": "V02a",
+      "type": "clip",
+      "attempt": 4,
+      "round": 2,
+      "timestamp": "2026-10-16T16:09:47.520Z",
+      "model": "veo-3.1-generate-preview",
+      "refs": [
+        "02a"
+      ],
+      "crop": {
+        "left": 390,
+        "top": 0,
+        "width": 2389,
+        "height": 1344
+      },
+      "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Side-on tracking shot: the camera dollies to the right parallel to the corridor wall at exactly their walking speed, so both stay in the same place in the frame, seen in profile. The camera never turns. A doctor in a white coat with a tablet walks calmly along a bright clinic corridor toward the right. Closely behind him walks a miniature adult African elephant with tusks, a real animal with natural, unhurried behaviour, at first the size of a pony, its trunk curved forward close to his ear as if whispering; the trunk tip stays at his ear and is never raised up. With every step the elephant grows a little bigger, smoothly and continuously, until at the end its back is at the height of the doctor's shoulders. The doctor keeps his eyes on his tablet, never looks at the elephant and never stops walking; once he nods slightly. Open, empty corridor, nothing passes between the camera and them. Soft daylight.",
+      "extendPrompt": null,
+      "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
+      "durationSeconds": 8,
+      "resolution": "720p",
+      "status": "abgelehnt",
+      "file": null,
+      "videoUri": "https://generativelanguage.googleapis.com/v1beta/files/uf7xb77zaqww:download?alt=media",
+      "note": "Türrahmen wischt 1,5 s durchs Vorderbild"
+    },
+    {
+      "id": "V01a",
+      "type": "clip",
+      "attempt": 2,
+      "round": 2,
+      "timestamp": "2026-10-16T16:09:47.534Z",
+      "model": "veo-3.1-generate-preview",
+      "refs": [
+        "01a"
+      ],
+      "crop": null,
+      "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot with an extremely slow, barely noticeable push-in. A bright clinic reception hall in the morning, backlit by tall windows. In the middle of the hall stands a miniature adult African elephant with tusks, a real animal with natural, unhurried behaviour, only the size of a dog; it breathes slowly, its ears move gently, its trunk sways a little, it shifts its weight. In the background a nurse in light scrubs walks on to the right without looking at it; a young woman sits quietly on a chair by the window. The elephant stays small and keeps its size and position the whole time. The wall clock stays unchanged.",
+      "extendPrompt": null,
+      "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
+      "durationSeconds": 6,
+      "resolution": "720p",
+      "status": "zur Freigabe",
+      "file": "public/clips/V01a.mp4",
+      "videoUri": "https://generativelanguage.googleapis.com/v1beta/files/32s1qc5jj9mg:download?alt=media",
+      "note": "Feedback 16.10.: kleinerer Elefant"
+    },
+    {
+      "id": "V01b1",
+      "type": "clip",
+      "attempt": 2,
+      "round": 2,
+      "timestamp": "2026-10-16T16:09:47.545Z",
+      "model": "veo-3.1-generate-preview",
+      "refs": [
+        "01b1"
+      ],
+      "crop": {
+        "scale": 1.25
+      },
+      "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement. Morning, bright reception hall. A nurse in light blue scrubs carrying a stack of files walks past the small elephant at a normal pace, without looking at it. The elephant is a miniature adult African elephant with tusks, a real animal with natural, unhurried behaviour, only the size of a dog; it stands still and breathes, its ears move gently, its trunk sways slightly. It stays small and keeps its size the whole time.",
+      "extendPrompt": null,
+      "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
+      "durationSeconds": 4,
+      "resolution": "720p",
+      "status": "zur Freigabe",
+      "file": "public/clips/V01b1.mp4",
+      "videoUri": "https://generativelanguage.googleapis.com/v1beta/files/4o95op160isq:download?alt=media",
+      "note": "Feedback 16.10.: kleinerer Elefant"
+    },
+    {
+      "id": "V01b2",
+      "type": "clip",
+      "attempt": 2,
+      "round": 2,
+      "timestamp": "2026-10-16T16:10:39.318Z",
+      "model": "veo-3.1-generate-preview",
+      "refs": [
+        "01b2"
+      ],
+      "crop": {
+        "scale": 1.25
+      },
+      "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement. Morning, bright reception hall. Two men walk past the elephant to the reception counter on the right without looking at it; the younger man puts a coffee cup down on the counter in passing. The elephant is a miniature adult African elephant with tusks, a real animal with natural, unhurried behaviour, the size of a pony, smaller than the men; it stands still and breathes, its ears move gently, its trunk sways slightly. It keeps its size the whole time.",
+      "extendPrompt": null,
+      "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
+      "durationSeconds": 4,
+      "resolution": "720p",
+      "status": "zur Freigabe",
+      "file": "public/clips/V01b2.mp4",
+      "videoUri": "https://generativelanguage.googleapis.com/v1beta/files/gc67p7axnz6e:download?alt=media",
+      "note": "Feedback 16.10.: kleinerer Elefant"
+    },
+    {
+      "id": "V01c",
+      "type": "clip",
+      "attempt": 2,
+      "round": 2,
+      "timestamp": "2026-10-16T16:10:39.768Z",
+      "model": "veo-3.1-generate-preview",
+      "refs": [
+        "01c"
+      ],
+      "crop": null,
+      "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod wide shot, no camera movement, no focus change. Morning, bright reception hall with waiting chairs along the window. The receptionist works quietly behind the counter, two waiting patients look at their phones. On the leftmost chair a young woman sits still with her sleeves pulled over her hands. In the middle stands a miniature adult African elephant with tusks, a real animal with natural, unhurried behaviour, the size of a pony; it breathes, its ears move gently, its trunk sways slightly. It keeps its size the whole time. The wall clock stays unchanged.",
+      "extendPrompt": null,
+      "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
+      "durationSeconds": 6,
+      "resolution": "720p",
+      "status": "zur Freigabe",
+      "file": "public/clips/V01c.mp4",
+      "videoUri": "https://generativelanguage.googleapis.com/v1beta/files/il2v6un6p3sa:download?alt=media",
+      "note": "Feedback 16.10.: kleinerer Elefant"
+    },
+    {
+      "id": "V02b",
+      "type": "clip",
+      "attempt": 2,
+      "round": 2,
+      "timestamp": "2026-10-16T16:10:59.670Z",
+      "model": "veo-3.1-generate-preview",
+      "refs": [
+        "02b"
+      ],
+      "crop": null,
+      "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement. Bright clinic corridor. The doctor in a white coat steps through the open wooden door on the right into his consulting room and disappears. The elephant, as tall as the doctor, stops in front of the door; its trunk briefly brushes along the door frame, then it stands still and breathes. It keeps its size.",
+      "extendPrompt": null,
+      "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
+      "durationSeconds": 6,
+      "resolution": "720p",
+      "status": "zur Freigabe",
+      "file": "public/clips/V02b.mp4",
+      "videoUri": "https://generativelanguage.googleapis.com/v1beta/files/23wyb9wxax68:download?alt=media",
+      "note": "Feedback 16.10.: kleinerer Elefant"
+    },
+    {
+      "id": "V02a",
+      "type": "clip",
+      "attempt": 5,
+      "round": 2,
+      "timestamp": "2026-10-16T16:13:12.592Z",
+      "model": "veo-3.1-generate-preview",
+      "refs": [
+        "02a"
+      ],
+      "crop": {
+        "left": 390,
+        "top": 0,
+        "width": 2389,
+        "height": 1344
+      },
+      "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Side-on tracking shot: the camera dollies to the right parallel to the corridor wall at exactly their walking speed, so both stay in the same place in the frame, seen in profile. The camera never turns. A doctor in a white coat with a tablet walks calmly along a bright clinic corridor toward the right. Closely behind him walks a miniature adult African elephant with tusks, a real animal with natural, unhurried behaviour, at first the size of a pony, its trunk curved forward close to his ear as if whispering; the trunk tip stays at his ear and is never raised up. With every step the elephant grows a little bigger, smoothly and continuously, until at the end its back is at the height of the doctor's shoulders. The doctor keeps his eyes on his tablet, never looks at the elephant and never stops walking; once he nods slightly. The camera moves inside the open corridor: at no moment does anything pass between the camera and them, no door frames, no pillars, no walls, no furniture in the foreground; the view of both stays completely free. Soft daylight.",
+      "extendPrompt": null,
+      "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change, foreground objects, door frame in foreground, pillar in foreground, wipe, occlusion, looking at camera",
+      "durationSeconds": 8,
+      "resolution": "720p",
+      "status": "zur Freigabe",
+      "file": "public/clips/V02a.mp4",
+      "videoUri": "https://generativelanguage.googleapis.com/v1beta/files/evs3dat53plx:download?alt=media",
+      "note": "genutzt ab 4,2 s (davor Wandecke im Vorderbild)"
+    },
+    {
+      "id": "V02a2",
+      "type": "clip",
+      "attempt": 1,
+      "round": 1,
+      "timestamp": "2026-10-16T16:14:45.086Z",
+      "model": "veo-3.1-generate-preview",
+      "refs": [
+        "V02a",
+        "02b"
+      ],
+      "crop": null,
+      "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Continuation of the same side-on tracking shot to the right. The doctor in a white coat keeps walking calmly with his tablet, the elephant follows closely behind him, its trunk tip close to his ear. With every step the elephant grows a little more, smoothly and continuously, until it is as tall as the doctor. At the end the doctor reaches the open wooden door of his consulting room on the right and steps through it; the elephant stops in front of the door and raises its trunk to the door frame. Natural, realistic walking, real elephant gait, soft daylight.",
+      "extendPrompt": null,
+      "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
+      "durationSeconds": 8,
+      "resolution": "720p",
+      "status": "zur Freigabe",
+      "file": "public/clips/V02a2.mp4",
+      "videoUri": "https://generativelanguage.googleapis.com/v1beta/files/5sv5o5bhh1y0:download?alt=media",
+      "note": "Wachstum bis Arztgröße, endet auf 02b"
     }
   ]
 }

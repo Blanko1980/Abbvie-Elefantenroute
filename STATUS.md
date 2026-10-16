@@ -1,6 +1,6 @@
 # Status
 
-Stand: 14.10.2026, Nacharbeit „alle Einstellungen animiert“. **Rohschnitt `review/rohschnitt-animiert-720p.mp4` komplett (V07b erzeugt, 06a neu), wartet auf Freigabe.** `renders/elefant-v1-1080p.mp4` ist noch die Fassung mit Standbildern.
+Stand: 16.10.2026, Pacing nach Feedback eingearbeitet. **Rohschnitt `review/rohschnitt-animiert-720p.mp4` (1:50,3) wartet auf Freigabe.** `renders/elefant-v1-1080p.mp4` ist noch die alte Fassung mit Standbildern.
 
 ## Fertig
 
@@ -15,8 +15,7 @@ Stand: 14.10.2026, Nacharbeit „alle Einstellungen animiert“. **Rohschnitt `r
 
 ## Offen, braucht Entscheidung
 
-1. Freigabe des animierten Rohschnitts (Abweichungen bei 02a und 04b bleiben, deine Entscheidung). Danach finales 1080p neu rendern.
-2. Coda-Karten mit 0,3 s Blende oder mit harten Schnitten? (derzeit Blende)
+1. Freigabe des Rohschnitts nach dem Pacing-Feedback (`review/phase7-notiz.md`) und der sachlicheren Sprecherfassung in Szene 7 (`review/voice/szene7-vorher-nachher.mp3`). Danach finales 1080p neu rendern.
 
 ## Später, nicht jetzt
 
@@ -45,6 +44,7 @@ Stand: 14.10.2026, Nacharbeit „alle Einstellungen animiert“. **Rohschnitt `r
 3. **Jahreszeit:** Sommergrün vor den Fenstern, außer im Zeitraffer in Szene 3.
 4. **Wanduhr:** rund, ohne Ziffern, hinter dem Tresen.
 5. **Patientin statt Patient:** junge Frau, wach und genervt, nicht erschöpft.
+12. **Pacing und kleiner Elefant** (16.10.2026): siehe `SCRIPT.md` und `review/phase7-notiz.md`. Die Coda entfällt.
 11. **Alle Einstellungen animiert** (13.10.2026): jede Einstellung ist ein Veo-Clip, Vorgaben in `data/shots/phase6-clips.json`, Notiz `review/phase6-notiz.md`.
 10. **Keine Einblendungen:** Die Gedanken-Einblendungen in Szene 2 und Szene 4 entfallen im finalen Film. Die Komponente `Overlay` bleibt im Code; die Liste in `scripts/build-timeline.mjs` wird per Filter geleert und kann bei Bedarf wieder aktiviert werden.
 6. **Sprecher:** männlich, Naturdoku-Stil, Stimme Thomas Schendel (ElevenLabs, Voice-ID `Fghah4fztZORbiKfIGAs`, Stimmbibliothek).
@@ -99,3 +99,6 @@ Stand: 14.10.2026, Nacharbeit „alle Einstellungen animiert“. **Rohschnitt `r
 - `node scripts/gen-narration.mjs [Satz-ID ...]` erzeugt den Sprechertext aus `data/voice/narration.json`; `python3 scripts/speech-bounds.py` misst die Sprechgrenzen; `node scripts/build-timeline.mjs` baut `data/timeline.json`; `node scripts/check-narration.mjs <mp3>` prüft die Sprecherspur per Gemini.
 - `node scripts/gen-voice.mjs <config.json> <voiceKey>` erzeugt eine Sprecherprobe; `node scripts/check-voice.mjs <mp3>` prüft sie per Gemini.
 - Testrendering: `npx remotion render src/index.ts Preflight out/test.mp4 --scale=0.6666666666666666` (Browser ist in `remotion.config.ts` gesetzt)
+- `python3 scripts/grade-clip.py <ziel.mp4> <referenz.mp4> <ausgabe.mp4> [stärke]` gleicht die Lichtstimmung eines Clips lokal an einen Referenzclip an.
+- `python3 scripts/shrink-elephant.py <mit_elefant.jpg> <leerer_raum.jpg> <x0,y0,x1,y1> <faktor> <ausgabe.jpg> [schwelle]` verkleinert den Elefanten über die Differenz zum leeren Raum; danach Angleichung per Bildbearbeitung.
+- `node scripts/voice-variants.mjs <varianten.json>` erzeugt Sprecher-Varianten zum Vergleichen, `node scripts/compare-voice.mjs <a.mp3> <b.mp3> ...` vergleicht sie per Gemini.

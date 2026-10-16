@@ -16,7 +16,8 @@ const r3 = (x) => Math.round(x * 1000) / 1000;
 const C = (id, from, dur, extra = {}) => ({ id, type: "clip", clip: { from }, dur, ...extra });
 const SHOTS = {
   s1: [{ id: "00", type: "black", dur: 2 }, C("V01a", 0, 4), C("V01b1", 0, 2), C("V01b2", 0, 2), C("V01c", 0, "rest")],
-  s2: [C("V02a", 0, 14), C("V02b", 0, "rest")],
+  // 16.10.2026: Elefant wächst von Pony- auf Arztgröße. V02a ab 4,2 s (davor Wandecke im Vorderbild), V02a2 setzt am letzten Bild an und endet auf 02b.
+  s2: [{ id: "V02a", type: "clip", clip: { from: 4.2, to: 8.0 } }, { id: "V02a2", type: "clip", clip: { from: 1 / 24, to: 8.0 } }, C("V02b", 0, "rest")],
   s3: [C("V03a", 0, 2), C("V03b", 0, 3), C("V03f", 0, 2), C("V03c", 0, 2), C("V03g", 0, 2), C("V03h", 0, 2), C("V03e", 0, "rest")],
   s4: [{ id: "V2", type: "clip", clip: { from: 3.0, to: 5.2 } }, C("V04b", 0, "rest", { move: { kind: "push", from: 1.0, to: 1.1, origin: "74% 50%" } })],
   s5: [{ id: "V3", type: "clip", clip: { from: 0, to: 8 } }, { id: "V4", type: "clip", clip: { from: 0, to: 8 }, crossfadeIn: 1 }, C("V05c", 0, "rest", { crossfadeIn: 1 })],

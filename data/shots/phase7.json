@@ -1,0 +1,171 @@
+{
+  "01a": {
+    "phase": "7",
+    "round": 9,
+    "model": "gemini-3-pro-image",
+    "aspectRatio": "16:9",
+    "imageSize": "2K",
+    "refs": [
+      {
+        "id": "work/composite/01a.jpg",
+        "role": "the master image to be edited"
+      }
+    ],
+    "edit": "Edit image 1. Keep the small elephant at exactly this size and exactly this position; do not make it bigger, do not move it, do not change the room or the people. Only make it sit naturally in the photo: matching backlight and soft rim light on its back, a natural soft contact shadow on the wooden floor toward the camera, clean natural edges, and remove any leftover fragments, halos or rectangular patches around it. It is a real miniature adult elephant photographed on location, not a toy. Everything else stays exactly the same: camera, framing, light, colors, all people and their positions. No text anywhere."
+  },
+  "01b1": {
+    "phase": "7",
+    "round": 9,
+    "model": "gemini-3-pro-image",
+    "aspectRatio": "16:9",
+    "imageSize": "2K",
+    "refs": [
+      {
+        "id": "work/composite/01b1.jpg",
+        "role": "the master image to be edited"
+      }
+    ],
+    "edit": "Edit image 1. Keep the small elephant at exactly this size and exactly this position; do not make it bigger, do not move it, do not change the room or the people. Only make it sit naturally in the photo: matching backlight and soft rim light on its back, a natural soft contact shadow on the wooden floor toward the camera, clean natural edges, and remove any leftover fragments, halos or rectangular patches around it. It is a real miniature adult elephant photographed on location, not a toy. Everything else stays exactly the same: camera, framing, light, colors, all people and their positions. No text anywhere."
+  },
+  "01b2": {
+    "phase": "7",
+    "round": 9,
+    "model": "gemini-3-pro-image",
+    "aspectRatio": "16:9",
+    "imageSize": "2K",
+    "refs": [
+      {
+        "id": "work/composite/01b2.jpg",
+        "role": "the master image to be edited"
+      }
+    ],
+    "edit": "Edit image 1. Keep the small elephant at exactly this size and exactly this position; do not make it bigger, do not move it, do not change the room or the people. Only make it sit naturally in the photo: matching backlight and soft rim light on its back, a natural soft contact shadow on the wooden floor toward the camera, clean natural edges, and remove any leftover fragments, halos or rectangular patches around it. It is a real miniature adult elephant photographed on location, not a toy. Everything else stays exactly the same: camera, framing, light, colors, all people and their positions. No text anywhere."
+  },
+  "01c": {
+    "phase": "7",
+    "round": 8,
+    "model": "gemini-3-pro-image",
+    "aspectRatio": "16:9",
+    "imageSize": "2K",
+    "refs": [
+      {
+        "id": "work/candidates/01c-leer_a1.jpg",
+        "role": "the master image to be edited: the empty room"
+      },
+      {
+        "id": "R3a",
+        "role": "the elephant's look: skin, tusks, ears (only its look, not its size)"
+      },
+      {
+        "id": "R3b",
+        "role": "the same elephant in side view (only its look, not its size)"
+      }
+    ],
+    "edit": "Add a fully grown adult African elephant in miniature: an adult bull with both long tusks, large ears, deeply wrinkled grey skin with a little mud on the legs, and the exact body proportions of an adult elephant (not a calf, not a baby elephant, no oversized head, no cute features). It is the size of a pony: its shoulder height is about 1.3 m, clearly smaller than the adults in the room, its back at about the chest height of a standing adult. It stands calmly in the middle of the hall on the wooden floor in front of the waiting chairs, facing the camera slightly turned to the right. It stands on the floor with natural weight and casts a soft contact shadow toward the camera, lit by the same backlight from the windows as the rest of the room, with a soft rim light on its back. A real animal photographed on location, not a toy, not a cartoon, not a composite. Everything else stays exactly the same: camera, framing, light, colors, all people and their positions. No text anywhere."
+  },
+  "02a": {
+    "phase": "7",
+    "round": 7,
+    "model": "gemini-3-pro-image",
+    "aspectRatio": "21:9",
+    "imageSize": "2K",
+    "refs": [
+      {
+        "id": "02a",
+        "role": "the master image to be edited"
+      },
+      {
+        "id": "R3a",
+        "role": "the elephant's skin, tusks and ears (only for its look, not its size)"
+      }
+    ],
+    "edit": "Replace the big elephant with a fully grown adult African elephant in miniature, with both tusks, large ears, deeply wrinkled grey skin and the exact proportions of an adult bull, but only the size of a pony: shoulder height about 1.3 m, clearly smaller than the adults in the room, its back at about the chest height of a standing adult. It walks right behind the doctor through the corridor, in step with him, its trunk raised and curved forward close to his ear as if whispering; the doctor walks on calmly looking at his tablet. It stands on the floor with natural weight, casts a soft contact shadow and sits in the same light as the room; a real animal photographed on location, not a toy, not a cartoon, not a baby elephant, not a composite. Where the large elephant was, show the room behind it exactly as it would look (windows, chairs, plants, floor, people). Everything else stays exactly the same: camera, framing, light, colors, all people and their positions. No text anywhere."
+  },
+  "02b": {
+    "phase": "7",
+    "round": 8,
+    "model": "gemini-3-pro-image",
+    "aspectRatio": "16:9",
+    "imageSize": "2K",
+    "refs": [
+      {
+        "id": "work/candidates/02b-leer_a1.jpg",
+        "role": "the master image to be edited: the empty room"
+      },
+      {
+        "id": "R3a",
+        "role": "the elephant's look: skin, tusks, ears (only its look, not its size)"
+      },
+      {
+        "id": "R3b",
+        "role": "the same elephant in side view (only its look, not its size)"
+      }
+    ],
+    "edit": "Add a fully grown adult African elephant in miniature: an adult bull with both long tusks, large ears, deeply wrinkled grey skin with a little mud on the legs, and the exact body proportions of an adult elephant (not a calf, not a baby elephant, no oversized head, no cute features). It is exactly as tall as the doctor: the top of its back is at the height of the doctor's head. It stands in the corridor right in front of the open wooden door of the consulting room, facing right toward the door, its trunk raised and briefly touching the door frame, while the doctor disappears through the door. It stands on the floor with natural weight and casts a soft contact shadow toward the camera, lit by the same backlight from the windows as the rest of the room, with a soft rim light on its back. A real animal photographed on location, not a toy, not a cartoon, not a composite. Everything else stays exactly the same: camera, framing, light, colors, all people and their positions. No text anywhere."
+  },
+  "01a-leer": {
+    "phase": "7",
+    "model": "gemini-3-pro-image",
+    "aspectRatio": "16:9",
+    "imageSize": "2K",
+    "refs": [
+      {
+        "id": "01a",
+        "role": "the master image to be edited"
+      }
+    ],
+    "edit": "Remove the elephant completely. Show the room exactly as it would look without it: the floor, its light and shadows, the windows, chairs, plants and everything that was hidden behind the elephant. No elephant, no shadow of an elephant. Everything else stays exactly the same: camera, framing, light, colors, all people and their positions and poses. No text anywhere."
+  },
+  "01b1-leer": {
+    "phase": "7",
+    "model": "gemini-3-pro-image",
+    "aspectRatio": "16:9",
+    "imageSize": "2K",
+    "refs": [
+      {
+        "id": "01b1",
+        "role": "the master image to be edited"
+      }
+    ],
+    "edit": "Remove the elephant completely. Show the room exactly as it would look without it: the floor, its light and shadows, the windows, chairs, plants and everything that was hidden behind the elephant. No elephant, no shadow of an elephant. Everything else stays exactly the same: camera, framing, light, colors, all people and their positions and poses. No text anywhere."
+  },
+  "01b2-leer": {
+    "phase": "7",
+    "model": "gemini-3-pro-image",
+    "aspectRatio": "16:9",
+    "imageSize": "2K",
+    "refs": [
+      {
+        "id": "01b2",
+        "role": "the master image to be edited"
+      }
+    ],
+    "edit": "Remove the elephant completely. Show the room exactly as it would look without it: the floor, its light and shadows, the windows, chairs, plants and everything that was hidden behind the elephant. No elephant, no shadow of an elephant. Everything else stays exactly the same: camera, framing, light, colors, all people and their positions and poses. No text anywhere."
+  },
+  "01c-leer": {
+    "phase": "7",
+    "model": "gemini-3-pro-image",
+    "aspectRatio": "16:9",
+    "imageSize": "2K",
+    "refs": [
+      {
+        "id": "01c",
+        "role": "the master image to be edited"
+      }
+    ],
+    "edit": "Remove the elephant completely. Show the room exactly as it would look without it: the floor, its light and shadows, the windows, chairs, plants and everything that was hidden behind the elephant. No elephant, no shadow of an elephant. Everything else stays exactly the same: camera, framing, light, colors, all people and their positions and poses. No text anywhere."
+  },
+  "02b-leer": {
+    "phase": "7",
+    "model": "gemini-3-pro-image",
+    "aspectRatio": "16:9",
+    "imageSize": "2K",
+    "refs": [
+      {
+        "id": "02b",
+        "role": "the master image to be edited"
+      }
+    ],
+    "edit": "Remove the elephant completely. Show the room exactly as it would look without it: the floor, its light and shadows, the windows, chairs, plants and everything that was hidden behind the elephant. No elephant, no shadow of an elephant. Everything else stays exactly the same: camera, framing, light, colors, all people and their positions and poses. No text anywhere."
+  }
+}

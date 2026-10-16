@@ -6,8 +6,9 @@
     "durationSeconds": 6,
     "resolution": "720p",
     "aspectRatio": "16:9",
-    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot with an extremely slow, barely noticeable push-in. A bright clinic reception hall in the morning, backlit by tall windows. A huge African elephant stands calmly in the middle of the hall and breathes slowly: its ears move gently, its trunk sways a little, it shifts its weight from one foot to another. In the background a nurse in light scrubs walks on to the right without looking at it; a young woman sits quietly on a chair by the window. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position. The wall clock stays unchanged.",
-    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change"
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot with an extremely slow, barely noticeable push-in. A bright clinic reception hall in the morning, backlit by tall windows. In the middle of the hall stands a miniature adult African elephant with tusks, a real animal with natural, unhurried behaviour, only the size of a dog; it breathes slowly, its ears move gently, its trunk sways a little, it shifts its weight. In the background a nurse in light scrubs walks on to the right without looking at it; a young woman sits quietly on a chair by the window. The elephant stays small and keeps its size and position the whole time. The wall clock stays unchanged.",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
+    "round": 2
   },
   "V01b1": {
     "phase": "6",
@@ -16,11 +17,12 @@
     "durationSeconds": 4,
     "resolution": "720p",
     "aspectRatio": "16:9",
-    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement. Morning, bright reception hall. A nurse in light blue scrubs carrying a stack of files walks past the elephant from left to right at a normal pace, without looking at it, as if it were a piece of furniture. The elephant stands still and breathes, its ears move gently, its trunk sways slightly. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position. ",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement. Morning, bright reception hall. A nurse in light blue scrubs carrying a stack of files walks past the small elephant at a normal pace, without looking at it. The elephant is a miniature adult African elephant with tusks, a real animal with natural, unhurried behaviour, only the size of a dog; it stands still and breathes, its ears move gently, its trunk sways slightly. It stays small and keeps its size the whole time.",
     "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
     "crop": {
       "scale": 1.25
-    }
+    },
+    "round": 2
   },
   "V01b2": {
     "phase": "6",
@@ -29,11 +31,12 @@
     "durationSeconds": 4,
     "resolution": "720p",
     "aspectRatio": "16:9",
-    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement. Morning, bright reception hall. Two men walk past the elephant to the reception counter on the right without looking at it; the younger man puts a coffee cup down on the counter in passing. The elephant stands still and breathes, its ears move gently, its trunk sways slightly. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position. ",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement. Morning, bright reception hall. Two men walk past the elephant to the reception counter on the right without looking at it; the younger man puts a coffee cup down on the counter in passing. The elephant is a miniature adult African elephant with tusks, a real animal with natural, unhurried behaviour, the size of a pony, smaller than the men; it stands still and breathes, its ears move gently, its trunk sways slightly. It keeps its size the whole time.",
     "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
     "crop": {
       "scale": 1.25
-    }
+    },
+    "round": 2
   },
   "V01c": {
     "phase": "6",
@@ -42,8 +45,9 @@
     "durationSeconds": 6,
     "resolution": "720p",
     "aspectRatio": "16:9",
-    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod wide shot, no camera movement, no focus change. Morning, bright reception hall with waiting chairs along the window. The receptionist works quietly behind the counter, two waiting patients look at their phones. On the leftmost chair a young woman sits still with her sleeves pulled over her hands. The elephant in the middle stands calmly and breathes, its ears move gently, its trunk sways slightly. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position. The wall clock stays unchanged.",
-    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change"
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod wide shot, no camera movement, no focus change. Morning, bright reception hall with waiting chairs along the window. The receptionist works quietly behind the counter, two waiting patients look at their phones. On the leftmost chair a young woman sits still with her sleeves pulled over her hands. In the middle stands a miniature adult African elephant with tusks, a real animal with natural, unhurried behaviour, the size of a pony; it breathes, its ears move gently, its trunk sways slightly. It keeps its size the whole time. The wall clock stays unchanged.",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
+    "round": 2
   },
   "V02a": {
     "phase": "6",
@@ -52,17 +56,15 @@
     "durationSeconds": 8,
     "resolution": "720p",
     "aspectRatio": "16:9",
-    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Side-on tracking shot: the camera dollies to the right parallel to the corridor wall at exactly their walking speed, so both stay in the same place in the frame, seen in profile. The camera never turns. A doctor in a white coat with a tablet walks calmly along a bright clinic corridor toward the right. A huge African elephant walks closely behind him, its trunk curved forward close to his ear as if whispering to him, the trunk tip stays at his ear and is never raised up. The doctor keeps his eyes on his tablet or ahead, never looks at the elephant and never stops walking; once he nods slightly. Open, empty corridor: nothing passes between the camera and them, no pillars or counters in the foreground. Natural, realistic walking, real elephant gait, soft daylight. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position. ",
-    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Side-on tracking shot: the camera dollies to the right parallel to the corridor wall at exactly their walking speed, so both stay in the same place in the frame, seen in profile. The camera never turns. A doctor in a white coat with a tablet walks calmly along a bright clinic corridor toward the right. Closely behind him walks a miniature adult African elephant with tusks, a real animal with natural, unhurried behaviour, at first the size of a pony, its trunk curved forward close to his ear as if whispering; the trunk tip stays at his ear and is never raised up. With every step the elephant grows a little bigger, smoothly and continuously, until at the end its back is at the height of the doctor's shoulders. The doctor keeps his eyes on his tablet, never looks at the elephant and never stops walking; once he nods slightly. The camera moves inside the open corridor: at no moment does anything pass between the camera and them, no door frames, no pillars, no walls, no furniture in the foreground; the view of both stays completely free. Soft daylight.",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change, foreground objects, door frame in foreground, pillar in foreground, wipe, occlusion, looking at camera",
     "region": {
       "left": 390,
       "top": 0,
       "width": 2389,
       "height": 1344
     },
-    "extend": {
-      "prompt": "The camera keeps dollying to the right parallel to the wall at their walking speed, seen in profile. The doctor keeps walking calmly and looks at his tablet, never at the elephant. The elephant follows closely behind him, its trunk tip close to his ear, never raised up. Same corridor, same soft daylight. Natural, realistic movement."
-    }
+    "round": 2
   },
   "V02b": {
     "phase": "6",
@@ -71,8 +73,9 @@
     "durationSeconds": 6,
     "resolution": "720p",
     "aspectRatio": "16:9",
-    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement. Bright clinic corridor. The doctor in a white coat steps through the open wooden door on the right into his consulting room and disappears. The elephant stops in front of the door; its trunk briefly brushes along the door frame, then it stands still and breathes. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position. ",
-    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change"
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Locked-off tripod shot, no camera movement. Bright clinic corridor. The doctor in a white coat steps through the open wooden door on the right into his consulting room and disappears. The elephant, as tall as the doctor, stops in front of the door; its trunk briefly brushes along the door frame, then it stands still and breathes. It keeps its size.",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
+    "round": 2
   },
   "V03a": {
     "phase": "6",
@@ -254,5 +257,19 @@
     "aspectRatio": "16:9",
     "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Continuation of the same shot. Locked-off tripod shot, no camera movement at all, the framing stays exactly the same. Evening, cool light in a lived-in clinic waiting area. On the left the doctor in a white coat stands still and keeps looking at the elephant; in the middle the huge elephant stands motionless, only its breathing is visible, its ears stay relaxed against its body; on the right the young woman stands still with her hands lowered. In the background a woman in a trench coat picks up her bag. Everyone stays in place. The elephant is a real, calm African elephant with natural, unhurried animal behaviour and keeps its size and position.",
     "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change"
+  },
+  "V02a2": {
+    "phase": "6",
+    "model": "veo-3.1-generate-preview",
+    "start": "V02a",
+    "durationSeconds": 8,
+    "resolution": "720p",
+    "aspectRatio": "16:9",
+    "prompt": "Calm BBC nature documentary style, telephoto lens look, shallow depth of field, photorealistic, natural light. Continuation of the same side-on tracking shot to the right. The doctor in a white coat keeps walking calmly with his tablet, the elephant follows closely behind him, its trunk tip close to his ear. With every step the elephant grows a little more, smoothly and continuously, until it is as tall as the doctor. At the end the doctor reaches the open wooden door of his consulting room on the right and steps through it; the elephant stops in front of the door and raises its trunk to the door frame. Natural, realistic walking, real elephant gait, soft daylight.",
+    "negativePrompt": "text, captions, subtitles, letters, numbers, logos, watermark, cartoon, 3D render look, camera shake, handheld, fast motion, morphing, warping, distorted anatomy, extra limbs, extra people, extra animals, elephant changing size, flicker, sudden lighting change",
+    "extend": null,
+    "round": 1,
+    "startFile": "work/frames/V02a_last.jpg",
+    "end": "02b"
   }
 }
