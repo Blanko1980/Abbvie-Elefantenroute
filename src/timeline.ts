@@ -21,8 +21,11 @@ export type Shot = {
 };
 
 export type Scene = { id: string; name: string; start: number; end: number; duration: number; shots: Shot[] };
-export type VoiceCue = { id: string; file: string; start: number; text: string };
+export type VoiceCue = { id: string; file: string; start: number; speechStart: number; end: number; text: string };
 export type Overlay = { scene: string; text: string; start: number; fadeIn: number; visible: number; fadeOut: number };
+
+export type MusicCue = { id: string; file: string; start: number; gainDb: number; cutAt: number | null; fadeOut: number };
+export type MusicMix = { duckDb: number; duckLead: number; duckTail: number; duckRamp: number; cues: MusicCue[] };
 
 export type Timeline = {
   fps: number;
@@ -30,9 +33,11 @@ export type Timeline = {
   height: number;
   durationInFrames: number;
   audioTracks: { voice: string; music: string | null; ambience: string | null };
+  durationSeconds: number;
   scenes: Scene[];
   voice: VoiceCue[];
   overlays: Overlay[];
+  music: MusicMix;
   endcard: { line1: string; line2: string | null; line1At: number; line2At: number | null };
   coda: { cardDuration: number; fade: number; cards: { title: string; body: string }[] };
 };

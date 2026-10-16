@@ -1,6 +1,6 @@
 """Mischt Sprecher und Musik im Filmtiming (Hörprobe ohne Video) und schreibt die Musikspur-Daten für Remotion.
 
-Musik: data/music/plan.json (Startzeit je Stück) und public/music/<ID>.mp3. Pegel und Ducking aus data/music/mix.json.
+Musik: Einsätze, Pegel und Ducking aus data/timeline.json (Feld music, erzeugt aus data/music/mix.json).
 python3 scripts/music-mix.py <ausgabe.mp3>
 """
 import json, subprocess, sys
@@ -8,8 +8,7 @@ import numpy as np
 
 SR = 44100
 t = json.load(open("data/timeline.json"))
-plan = json.load(open("data/music/plan.json"))
-mix = json.load(open("data/music/mix.json"))
+mix = t["music"]
 total = t["durationSeconds"]
 n = int(total * SR)
 
@@ -36,13 +35,13 @@ for v in t["voice"]:
 
 music = np.zeros((n, 2), np.float32)
 for cue in mix["cues"]:
-    m = load(f"public/music/{cue['id']}.mp3") * db(cue["gainDb"])
+    m = load(f"public/{cue['file']}") * db(cue["gainDb"])
     a = int(cue["start"] * SR)
     end = cue.get("cutAt")
     b = min(n, a + len(m), int(end * SR) if end else n)
     seg = m[: b - a].copy()
-    if end:  # harter Abbruch, nur 60 ms Blende gegen Knacken
-        k = min(len(seg), int(0.06 * SR))
+    if end:  # Ausblenden bis zum Abbruch
+        k = min(len(seg), max(int(cue.get("fadeOut", 0) * SR), int(0.06 * SR)))
         seg[-k:] *= np.linspace(1, 0, k)[:, None]
     music[a:b] += seg
 music *= env[:, None]

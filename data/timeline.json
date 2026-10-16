@@ -5,10 +5,10 @@
   "height": 1080,
   "durationSeconds": 110.466,
   "durationInFrames": 2651,
-  "note": "Erzeugt von scripts/build-timeline.mjs. Zeiten in Sekunden ab Filmbeginn. Audiospuren music und ambience bleiben vorerst leer.",
+  "note": "Erzeugt von scripts/build-timeline.mjs. Zeiten in Sekunden ab Filmbeginn. Die Spur ambience bleibt vorerst leer.",
   "audioTracks": {
     "voice": "voice",
-    "music": null,
+    "music": "music",
     "ambience": null
   },
   "scenes": [
@@ -686,6 +686,30 @@
     }
   ],
   "overlays": [],
+  "music": {
+    "duckDb": -9,
+    "duckLead": 0.3,
+    "duckTail": 0.4,
+    "duckRamp": 0.4,
+    "cues": [
+      {
+        "id": "M1",
+        "file": "music/M1.mp3",
+        "start": 2,
+        "gainDb": -8.5,
+        "cutAt": 75.466,
+        "fadeOut": 1.5
+      },
+      {
+        "id": "M2",
+        "file": "music/M2.mp3",
+        "start": 100.466,
+        "gainDb": -8.5,
+        "cutAt": null,
+        "fadeOut": 0
+      }
+    ]
+  },
   "endcard": {
     "scene": "end",
     "line1": "LASST UNS ÜBER ELEFANTEN REDEN.",

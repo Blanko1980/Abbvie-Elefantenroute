@@ -4455,9 +4455,9 @@
       "model": "music_v1",
       "refs": [],
       "prompt": "{\"positive_global_styles\":[\"BBC nature documentary orchestral score\",\"lush cinematic chamber orchestra\",\"warm major key\",\"sense of wonder and gentle curiosity\",\"flowing melodic strings\",\"harp arpeggios\",\"woodwind melodies on flute, clarinet and oboe\",\"light pizzicato strings\",\"moderate tempo around 92 BPM\",\"elegant, light, optimistic, observational\"],\"negative_global_styles\":[\"sad\",\"tragic\",\"melancholic\",\"minor key\",\"single sustained note\",\"drone\",\"ambient pad\",\"pop\",\"electronic\",\"synthesizer\",\"drum kit\",\"vocals\",\"choir\",\"epic trailer percussion\"],\"sections\":[{\"section_name\":\"Opening, the elephant in the hall\",\"positive_local_styles\":[\"gentle opening\",\"solo flute melody over harp arpeggios\",\"soft strings enter after a few bars\",\"curious and warm\",\"light and airy\"],\"negative_local_styles\":[\"loud\",\"dark\"],\"duration_ms\":15150,\"lines\":[]},{\"section_name\":\"Walking together through the corridor\",\"positive_local_styles\":[\"walking tempo\",\"playful pizzicato strings like soft footsteps\",\"clarinet answers the flute\",\"the melody develops\",\"warm and slightly whimsical\"],\"negative_local_styles\":[\"sad\",\"slow\"],\"duration_ms\":16000,\"lines\":[]},{\"section_name\":\"Time-lapse, the years pass\",\"positive_local_styles\":[\"momentum builds\",\"flowing string ostinato\",\"french horns join softly\",\"seasons passing\",\"sweeping and lively\",\"steady crescendo\"],\"negative_local_styles\":[\"static\",\"sad\"],\"duration_ms\":15130,\"lines\":[]},{\"section_name\":\"At the door\",\"positive_local_styles\":[\"thoughtful intimate texture\",\"cello melody with soft harp\",\"still warm and hopeful\",\"gentle pulse continues\"],\"negative_local_styles\":[\"sad\",\"tragic\",\"minor key\",\"silence\"],\"duration_ms\":11190,\"lines\":[]},{\"section_name\":\"Waiting, fullest point\",\"positive_local_styles\":[\"fullest orchestral point of the piece\",\"rich strings and woodwinds\",\"broad lyrical melody\",\"time-lapse energy\",\"majestic yet gentle\",\"keeps playing at full strength to the very end, no fade out, no ending\"],\"negative_local_styles\":[\"fade out\",\"final cadence\",\"sad\"],\"duration_ms\":16000,\"lines\":[]}]}",
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/music/M1.mp3",
-      "note": "Hauptstück Szenen 1 bis 5, Abbruch bei Szene 6"
+      "note": "Hauptstück Szenen 1 bis 5, Abbruch bei Szene 6; um zwei Takte verlängert (scripts/extend-music.py), Ausblenden vor Szene 6"
     },
     {
       "id": "M2",
@@ -4467,7 +4467,7 @@
       "model": "music_v1",
       "refs": [],
       "prompt": "{\"positive_global_styles\":[\"BBC nature documentary orchestral score\",\"warm major key\",\"tender, quiet, hopeful\",\"soft strings and harp\"],\"negative_global_styles\":[\"sad\",\"tragic\",\"minor key\",\"drone\",\"pop\",\"electronic\",\"percussion\",\"vocals\"],\"sections\":[{\"section_name\":\"A door opens\",\"positive_local_styles\":[\"a short gentle rising melody on solo flute with harp\",\"soft strings underneath\",\"resolves into a warm major chord\"],\"negative_local_styles\":[\"loud\"],\"duration_ms\":6000,\"lines\":[]},{\"section_name\":\"Ring out\",\"positive_local_styles\":[\"the warm major chord rings out softly\",\"quiet natural decay\"],\"negative_local_styles\":[\"new melody\"],\"duration_ms\":4000,\"lines\":[]}]}",
-      "status": "zur Freigabe",
+      "status": "freigegeben",
       "file": "public/music/M2.mp3",
       "note": "Szene 8 bis Filmende"
     }

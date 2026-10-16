@@ -99,11 +99,16 @@ for (const sc of scenes) for (const sh of sc.shots) if (sh.type === "still") {
   sh.width = m.width; sh.height = m.height;
 }
 const total = scenes[scenes.length - 1].end;
+// Musik: Einsätze aus data/music/mix.json, Zeiten aus den Szenen
+const mix = JSON.parse(readFileSync("data/music/mix.json", "utf8"));
+const music = { duckDb: mix.duckDb, duckLead: mix.duckLead, duckTail: mix.duckTail, duckRamp: mix.duckRamp,
+  cues: mix.cues.map((c) => ({ id: c.id, file: `music/${c.id}.mp3`, start: r3(S[c.startScene].start + c.startOffset), gainDb: c.gainDb,
+    cutAt: c.cutScene ? S[c.cutScene].start : null, fadeOut: c.fadeOut ?? 0 })) };
 const timeline = {
   version: 1, fps: FPS, width: 1920, height: 1080, durationSeconds: r3(total), durationInFrames: Math.round(total * FPS),
-  note: "Erzeugt von scripts/build-timeline.mjs. Zeiten in Sekunden ab Filmbeginn. Audiospuren music und ambience bleiben vorerst leer.",
-  audioTracks: { voice: "voice", music: null, ambience: null },
-  scenes, voice, overlays,
+  note: "Erzeugt von scripts/build-timeline.mjs. Zeiten in Sekunden ab Filmbeginn. Die Spur ambience bleibt vorerst leer.",
+  audioTracks: { voice: "voice", music: "music", ambience: null },
+  scenes, voice, overlays, music,
   endcard: { scene: "end", line1: "LASST UNS ÜBER ELEFANTEN REDEN.", line2: null, line1At: 0, line2At: null, note: "Nur Zeile 1, 4 s, danach Ende; Zeile 2 und Coda entfallen (Entscheidung 16.10.2026)" },
   coda: { scene: "coda", cardDuration: 3.5, fade: 0.3, cards: [
     { title: "Die Frage.", body: "„Was ist der größte Elefant in Ihrer Therapieentscheidung?“ auf Kongress, digital, Social, Print und Mikrosite." },

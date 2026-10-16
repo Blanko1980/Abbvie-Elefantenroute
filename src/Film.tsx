@@ -5,6 +5,7 @@ import { Clip } from "./components/Clip";
 import { Overlay } from "./components/Overlay";
 import { Endcard } from "./components/Endcard";
 import { Coda } from "./components/Coda";
+import { MusicTrack } from "./components/Music";
 
 // Überblendung am Anfang einer Einstellung (nur Szene 5)
 const FadeIn: React.FC<{ seconds?: number; children: React.ReactNode }> = ({ seconds, children }) => {
@@ -57,7 +58,7 @@ export const Film: React.FC = () => (
         </Sequence>
       ))}
     </Sequence>
-    <AudioTrack name="music" src={timeline.audioTracks.music} />
+    <MusicTrack />
     <AudioTrack name="ambience" src={timeline.audioTracks.ambience} />
   </AbsoluteFill>
 );

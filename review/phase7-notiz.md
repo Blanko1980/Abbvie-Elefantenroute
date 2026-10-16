@@ -86,4 +86,11 @@ Grundlage: `Feedback_Elefantenvideo_16_Okt.docx` plus deine Antworten auf die dr
   - Unter jedem Satz 9 dB leiser, mit Rampen von 0,4 s.
   - Gesamtpegel −20 LUFS.
 - **Hörprobe:** `review/music/mix-sprecher-musik.mp3` (Sprecher und Musik im Filmtiming).
-- **Offen:** Der harte Abbruch bei 1:15 steht so im Script. Ohne Bild kann er wie ein Fehler wirken. Die Alternative wäre eine kurze Blende von 1 bis 1,5 s.
+- **Entscheidung:** Ausblenden bei 1:15 statt hartem Abbruch.
+- **Verlängerung von M1:** Das Stück endete von sich aus schon bei etwa 1:11,5, danach waren 4 s Stille.
+  - Mit `scripts/extend-music.py` um zwei Takte (5,22 s bei 92 BPM) verlängert.
+  - Schnitt bei 63,45 s im Stück, also 1:05,5 im Film, unter dem Sprecher.
+  - Gewählt ist der Punkt mit dem kleinsten Klangsprung (auf Median-Niveau der Musik).
+  - Danach spielt die Musik bis 1:14 und ist bei 1:15,5 ausgeblendet.
+- **Original:** `work/music/M1_a1.mp3` (nicht im Repo).
+- **Remotion:** Spur `music` (`src/components/Music.tsx`), gleiche Absenkungskurve wie in der Hörprobe; Daten in `data/timeline.json` unter `music`.

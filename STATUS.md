@@ -1,6 +1,6 @@
 # Status
 
-Stand: 16.10.2026. Sprecherspur mit Betonungskorrektur freigegeben. **Musik (ElevenLabs) erzeugt, Hörprobe `review/music/mix-sprecher-musik.mp3` wartet auf Freigabe.** Danach Musik in Remotion (Spur `music`) und finales Rendering.
+Stand: 16.10.2026. Sprecher und Musik freigegeben und eingebaut. **Finaler Film `renders/elefant-v1-1080p.mp4` (1:50,5) mit Musik gerendert.** Offen: nur noch Raumton und Parallax (später).
 
 ## Fertig
 
@@ -15,12 +15,11 @@ Stand: 16.10.2026. Sprecherspur mit Betonungskorrektur freigegeben. **Musik (Ele
 
 ## Offen, braucht Entscheidung
 
-1. Freigabe der Musik (M1, M2) und der Mischung. Harter Abbruch bei 1:15 lassen oder kurze Blende?
-2. Danach: Musik mit Ducking in Remotion einbauen, Rohschnitt 720p, nach Freigabe finales 1080p.
+1. Abnahme des finalen Films.
 
 ## Später, nicht jetzt
 
-- Musik (vermutlich Suno) in die leere Spur `music`, Raumton in `ambience`.
+- Raumton in die leere Spur `ambience`.
 - Tiefenkarten-Parallax.
 
 ## Rendern
@@ -107,3 +106,4 @@ Stand: 16.10.2026. Sprecherspur mit Betonungskorrektur freigegeben. **Musik (Ele
 - `node scripts/voice-variants.mjs <varianten.json>` erzeugt Sprecher-Varianten zum Vergleichen, `node scripts/compare-voice.mjs <a.mp3> <b.mp3> ...` vergleicht sie per Gemini.
 - `node scripts/gen-music.mjs data/music/plan.json <ID>` erzeugt Musik (ElevenLabs, Kompositionsplan); `python3 scripts/music-mix.py <ausgabe.mp3>` mischt Sprecher und Musik mit Ducking (`data/music/mix.json`); `node scripts/check-music.mjs <mp3> "<Soll>"` prüft per Gemini.
 - `node scripts/voice-emphasis.mjs <betonung.json>` erzeugt Betonungsvarianten; `node scripts/align-words.mjs` und `python3 scripts/stress-measure.py` messen die Betonung je Wort; `python3 scripts/voice-mixdown.py <mp3>` baut die reine Sprecherspur.
+- `python3 scripts/extend-music.py <ein.mp3> <aus.mp3> <länge_s> <von_s> <bis_s>` verlängert Musik um ganze Takte mit unauffälligem Schnitt.
