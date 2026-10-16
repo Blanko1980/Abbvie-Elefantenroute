@@ -9,15 +9,15 @@ const out = process.argv[2];
 
 // Kurzbeschreibung der Bilder (aus Shotliste und Phase 3)
 const SHOT_DESC = {
-  "00": "Schwarz", "01a": "Totale Empfangshalle, Elefant mittig", "01b1": "MFA geht am Elefanten vorbei", "01b2": "Passanten rechts, Becher wird abgestellt",
-  "01c": "Ganzer Raum, Patientin klein auf Stuhl 1", "02a": "Arzt geht durch den Flur, Rüssel am Ohr (Schwenk)", "02b": "Arzt verschwindet im Sprechzimmer",
-  "03a": "Zeitraffer Flur, Sommer", "03b": "Herbst", "03f": "Elefant am Poster", "03c": "Winter", "03g": "Flanke am Monitor", "03d": "Frühling", "03h": "Tür 2 im Schatten", "03e": "Sommer, Jahre später, ausgetretener Weg",
-  "V2": "Arzt geht zur Tür, Rüssel bremst ihn (Clip)", "04b": "Hand an der Klinke, Rüssel auf der Schulter",
-  "V3": "Zeitraffer Wartebereich, Wartende gehen (Clip)", "V4": "Dämmerung, letzter Wartender geht (Clip)", "05c": "Patientin allein im Abendlicht",
-  "06a": "Patientin steht auf", "V5": "Arzt und Elefant kommen herein (Clip)", "06c": "Arzt, Elefantenflanke schiebt sich ins Bild", "06d": "Patientin kratzt sich am Unterarm",
-  "07a": "Dreier-Totale: Arzt, Elefant, Patientin (langsamer Push)",
-  "08a": "Arzt dreht sich weg, sieht den Elefanten an", "V1": "Elefant tritt zur Seite (Clip)", "08d": "Arzt und Patientin sehen sich an",
-  "End": "Endcard (weiß)", "Coda": "Textkarten (schwarz)",
+  "00": "Schwarz", "V01a": "Totale Empfangshalle, kleiner Elefant mittig", "V01b1": "MFA geht am kleinen Elefanten vorbei", "V01b2": "Passanten an der Theke, Elefant ponygroß",
+  "V01c": "Ganzer Raum, Patientin klein auf Stuhl 1", "V02a": "Arzt geht durch den Flur, Rüssel am Ohr", "V02a2": "Elefant wächst beim Gehen bis zur Arztgröße",
+  "V02b": "Arzt verschwindet im Sprechzimmer", "V03a": "Zeitraffer Flur, Sommer", "V03b": "Herbst", "V03f": "Elefant am Poster", "V03c": "Winter",
+  "V03g": "Flanke am Monitor", "V03h": "Tür 2 im Schatten", "V03e": "Sommer, Jahre später, ausgetretener Weg",
+  "V2": "Arzt an der Tür, Rüssel bremst ihn", "V04b": "Hand an der Klinke, Rüssel auf der Schulter",
+  "V3": "Zeitraffer Wartebereich, Wartende gehen", "V4": "Dämmerung, letzter Wartender geht", "V05c": "Patientin allein im Abendlicht",
+  "V06a": "Patientin steht vom Jackenstuhl auf", "V5": "Arzt und Elefant kommen herein", "V06c": "Arzt, Elefantenflanke schiebt sich ins Bild", "V06d": "Patientin kratzt sich am Unterarm",
+  "V07a": "Dreier-Totale: Arzt, Elefant, Patientin (langsamer Push)", "V07b": "Dreier-Totale, Fortsetzung",
+  "V1": "Elefant tritt zur Seite", "V08d": "Arzt und Patientin sehen sich an", "End": "Endcard (weiß)",
 };
 
 const fmt = (s) => { const m = Math.floor(s / 60); const r = s - m * 60; return `${m}:${r.toFixed(1).padStart(4, "0").replace(".", ",")}`; };
@@ -37,7 +37,7 @@ const cell = (text, w, opts = {}) => new TableCell({
 const header = (labels) => new TableRow({ tableHeader: true, children: labels.map((l, i) => cell(l, W[i], { bold: true, fill: "E8E8E8" })) });
 
 // Sprechertabelle: alle Szenen in Reihenfolge, Szenen ohne Sprecher als eigene Zeile
-const rows = [header(["Beginn", "Ende", "Bild (Szene)", "Sprechertext (aktuell)", "Feedback / neuer Text"])];
+const rows = [header(["Beginn", "Ende", "Bild (Szene)", "Sprechertext (aktuell)", "Kommentar (z. B. Betonung, Tempo, Pause)"])];
 for (const sc of t.scenes) {
   const lines = t.voice.filter((v) => v.scene === sc.id);
   const label = sc.id === "end" ? "Endcard" : sc.id === "coda" ? "Coda (nur intern)" : `Szene ${sc.id.replace("s", "")} · ${sc.name}`;
@@ -54,19 +54,19 @@ for (const sc of t.scenes) {
   }
   for (const v of lines) {
     const sh = shotAt(v.speechStart);
-    rows.push(new TableRow({ children: [cell(fmt(v.speechStart), W[0]), cell(fmt(v.end), W[1]), cell(`${sh ? SHOT_DESC[sh.id] ?? sh.id : ""} (${sh?.id ?? ""})`, W[2], { size: 18 }), cell(v.text, W[3], { size: 22 }), cell("", W[4])] }));
+    rows.push(new TableRow({ children: [cell(fmt(v.speechStart), W[0]), cell(fmt(v.end), W[1]), cell(`${sh ? SHOT_DESC[sh.id] ?? sh.id : ""} (${sh?.id ?? ""})`, W[2], { size: 18 }), cell(`${v.text}\n(${v.id})`, W[3], { size: 22 }), cell("", W[4])] }));
   }
 }
 
 // Texte im Bild
 const W2 = [1300, 1300, 3200, 4600, 4200];
-const rows2 = [header(["Beginn", "Ende", "Wo", "Text im Bild (aktuell)", "Feedback / neuer Text"])];
+const rows2 = [header(["Beginn", "Ende", "Wo", "Text im Bild (aktuell)", "Kommentar"])];
 for (const o of t.overlays) rows2.push(new TableRow({ children: [cell(fmt(o.start), W2[0]), cell(fmt(o.start + o.fadeIn + o.visible + o.fadeOut), W2[1]), cell(`Einblendung ${o.scene === "s2" ? "Szene 2" : "Szene 4"}`, W2[2], { size: 18 }), cell(o.text, W2[3], { size: 22 }), cell("", W2[4])] }));
 const end = t.scenes.find((s) => s.id === "end");
 rows2.push(new TableRow({ children: [cell(fmt(end.start), W2[0]), cell(fmt(end.end), W2[1]), cell("Endcard, Zeile 1 (sofort)", W2[2], { size: 18 }), cell(t.endcard.line1, W2[3], { size: 22 }), cell("", W2[4])] }));
-rows2.push(new TableRow({ children: [cell(fmt(end.start + t.endcard.line2At), W2[0]), cell(fmt(end.end), W2[1]), cell("Endcard, Zeile 2", W2[2], { size: 18 }), cell(t.endcard.line2, W2[3], { size: 22 }), cell("", W2[4])] }));
+if (t.endcard.line2) rows2.push(new TableRow({ children: [cell(fmt(end.start + t.endcard.line2At), W2[0]), cell(fmt(end.end), W2[1]), cell("Endcard, Zeile 2", W2[2], { size: 18 }), cell(t.endcard.line2, W2[3], { size: 22 }), cell("", W2[4])] }));
 const coda = t.scenes.find((s) => s.id === "coda");
-t.coda.cards.forEach((c, i) => {
+if (coda) t.coda.cards.forEach((c, i) => {
   const s = coda.start + i * t.coda.cardDuration;
   rows2.push(new TableRow({ children: [cell(fmt(s), W2[0]), cell(fmt(s + t.coda.cardDuration), W2[1]), cell(`Coda, Karte ${i + 1}`, W2[2], { size: 18 }), cell(`${c.title}\n${c.body}`, W2[3], { size: 22 }), cell("", W2[4])] }));
 });
@@ -80,8 +80,8 @@ const doc = new Document({
     properties: { page: { size: { width: 11906, height: 16838, orientation: PageOrientation.LANDSCAPE }, margin: { top: 1000, bottom: 1000, left: 1100, right: 1100 } } },
     children: [
       new Paragraph({ heading: HeadingLevel.HEADING_1, children: [new TextRun({ text: "Sprecherspur mit Zeitstempeln", font: FONT })] }),
-      p(`Stand: ${new Date().toLocaleDateString("de-DE")} · Sprecher: Thomas Schendel · Filmlänge ${fmt(t.durationSeconds)} (Rohschnitt review/rohschnitt-720p.mp4)`, { size: 20, color: "555555" }),
-      p("So geht das Feedback: Trage in der rechten Spalte den neuen Text oder deinen Kommentar ein. Leere Felder bedeuten: bleibt so. Wenn ein Satz an einer anderen Stelle beginnen soll, schreib die gewünschte Zeit dazu. Neue Sätze kannst du als eigene Zeile ergänzen.", { size: 20 }),
+      p(`Stand: ${new Date().toLocaleDateString("de-DE")} · Sprecher: Thomas Schendel · Filmlänge ${fmt(t.durationSeconds)} (Rohschnitt review/rohschnitt-animiert-720p.mp4, Hörfassung review/voice/sprecher-timeline.mp3)`, { size: 20, color: "555555" }),
+      p("So geht das Feedback: Schreib in die rechte Spalte, was an diesem Satz nicht stimmt, zum Beispiel welches Wort betont werden soll (gern das Wort unterstreichen oder in Großbuchstaben schreiben), wo eine Pause fehlt oder zu lang ist, ob der Satz am Ende nach unten gehen soll. Leere Felder bedeuten: bleibt so. Die Kennung in Klammern (z. B. s7-2) ist nur für mich.", { size: 20 }),
       p("Zeitstempel: Minute:Sekunde,Zehntel ab Filmbeginn, wie im Rohschnitt. „Beginn“ ist der Sprecheinsatz, „Ende“ das Ende des Satzes.", { size: 20, color: "555555" }),
       new Paragraph({ heading: HeadingLevel.HEADING_2, children: [new TextRun({ text: "1. Sprechertext", font: FONT })] }),
       new Table({ width: { size: TABLE_W, type: WidthType.DXA }, columnWidths: W, rows }),
